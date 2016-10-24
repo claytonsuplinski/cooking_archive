@@ -1,0 +1,109 @@
+{
+	"recipes": [
+		{
+			"name": "Bacon",
+			"ingredients": [
+				"Bacon",
+				"1 frying pan",
+				"1 disposable metal or glass container"
+			],
+			"steps": [
+				"Lay bacon flat on the frying pan without preheating.",
+				"Cook bacon on low heat.",
+				"Flip bacon every 7-8 minutes until both sides are browned and crispy enough.",
+				"Pour leftover grease into a metal or glass container."
+			]
+		},
+		{
+			"name": "Fried Egg",
+			"ingredients": [
+				"1/2 teaspoon butter",
+				"1 egg",
+				"1 frying pan",
+				"Salt and pepper (optional)"
+			],
+			"steps": [
+				"Preheat frying pan over medium heat.",
+				"Crack the egg in a separate bowl.",
+				"Pour egg into frying pan and cook for 2-3 minutes on one side.",
+				"While the egg is cooking add salt, pepper, or other seasonings as desired.",
+				"Flip and cook for an additional 2 minutes."
+			]
+		},
+		{
+			"name": "Grilled Cheese",
+			"ingredients": [
+				"4 slices white bread",
+				"3 tablespoons butter",
+				"2 slices of cheese",
+				"1 frying pan"
+			],
+			"steps": [
+				"Preheat frying pan over medium heat.",
+				"Butter one side of bread and place butter-side-down onto skillet.",
+				"Add 1 slice of cheese on top of the bread.",
+				"Butter one side of second slice of bread and place butter-side-up on top of the sandwich.",
+				"Grill until lightly browned and flip.",
+				"Continue grilling until cheese is melted and other side is lightly browned."
+			]
+		},
+		{
+			"name": "Kielbasa with Peppers and Potatoes",
+			"ingredients": [
+				"1 tablespoon vegetable oil",
+				"1 (16 oz) package kielbasa sausage, diced",
+				"6 medium red potatoes, diced",
+				"1 red bell pepper, sliced",
+				"1 yellow bell pepper, sliced",
+				"1 large saucepan"
+			],
+			"steps": [
+				"Heat the oil in the saucepan over medium heat.",
+				"Place kielbasa and potatoes in the saucepan.",
+				"Cover and cook for 25 minutes, stirring occasionally until potatoes are tender.",
+				"Mix in the peppers and continue cooking 5 minutes, until peppers are tender."
+			]
+		},
+		{
+			"name": "Scallops",
+			"ingredients": [
+				"16 oz scallops",
+				"1 tablespoon butter",
+				"Salt and pepper",
+				"1 frying pan"
+			],
+			"steps": [
+				"Pat scallops dry with paper towel and sprinkle generously with salt and pepper.",
+				"Heat butter in pan over medium-high heat.",
+				"Place scallops in pan spaced about an inch apart.",
+				"Cook scallops for 3 minutes on each side, or until golden brown on both sides."
+			]
+		},
+		{
+			"name": "Spicy Garlic Lime Chicken",
+			"ingredients": [
+				"3-4 boneless, skinless chicken breast filets",
+				"3/4 teaspoon salt",
+				"1/4 teaspoon black pepper",
+				"1/4 teaspoon cayenne pepper",
+				"1/8 teaspoon paprika",
+				"2 and 1/4 teaspoons garlic powder",
+				"1/8 teaspoon onion powder",
+				"1/4 teaspoon thyme",
+				"1/4 teaspoon parsley",
+				"2 tablespoons butter",
+				"1 tablespoon vegetable or olive oil",
+				"3 tablespoons lime juice",
+				"1 large frying pan"
+			],
+			"steps": [
+				"In a small bowl, mix together salt, black pepper, cayenne pepper, paprika, 1/4 teaspoon garlic powder, onion powder, thyme, and parsley.",
+				"Sprinkle mixture on both sides of chicken breasts.",
+				"Heat butter and oil in a frying pan over medium heat.",
+				"Cook chicken until golden brown, about 6-7 minutes on each side.",
+				"Sprinkle with 2 teaspoons of garlic powder and lime juice.",
+				"Cook 5 minutes, stirring frequently to evenly coat the sauce."
+			]
+		}
+	]
+}
