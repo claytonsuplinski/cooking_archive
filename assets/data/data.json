@@ -1,6 +1,24 @@
 {
 	"recipes": [
 		{
+			"name": "Asparagus and Tomatoes",
+			"ingredients": [
+				"1 lb trimmed asparagus",
+				"2/3 cup water",
+				"1/4 cup olive oil",
+				"1/2 cup grated parmesian cheese",
+				"10 grape tomatoes, halved",
+				"1 large saucepan"
+			],
+			"steps": [
+				"Put asparagus and water in the saucepan over medium heat and cover.",
+				"Cook asparagus until tender, about 10 minutes.",
+				"Drain and reduce heat to low.",
+				"Add olive oil, cheese, and tomatoes and replace lid.",
+				"Let cook for about another two minutes until cheese melts."
+			]
+		},
+		{
 			"name": "Bacon",
 			"ingredients": [
 				"Bacon",
