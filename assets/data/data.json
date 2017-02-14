@@ -33,6 +33,108 @@
 			]
 		},
 		{
+			"name": "Baked Garlic Parmesan Chicken",
+			"ingredients": [
+				"2 tablespoons olive oil",
+				"1 clove garlic, minced",
+				"1 cup dry bread crumbs",
+				"2/3 cup grated parmesan cheese",
+				"1/4 teaspoon black pepper",
+				"6 skinless, boneless chicken breast halves",
+				"9x13 inch baking dish"
+			],
+			"steps": [
+				"Preheat oven to 350 degrees.",
+				"Lightly grease the baking dish (coat bottom with about 1/2 tablespoon of butter).",
+				"In a bowl, blend olive oil and garlic.",
+				"In a separate bowl, blend bread crumbs, parmesan cheese, and pepper.",
+				"Coat each piece of chicken in the oil mixture, then the bread crumb mixture.",
+				"Place chicken on baking dish and cook in oven for about 30 minutes."
+			]
+		},
+		{
+			"name": "Baked Spaghetti",
+			"ingredients": [
+				"1 (16 oz) package spaghetti",
+				"1 lb ground beef",
+				"1 onion, chopped",
+				"1 green pepper, chopped",
+				"1 (24 oz) jar spaghetti sauce",
+				"1/2 teaspoon salt",
+				"2 eggs",
+				"1/3 cup Parmesan cheese",
+				"5 tablespoons melted butter",
+				"2 cups small curd cottage cheese",
+				"4 cups shredded mozzarella cheese",
+				"9x13 baking dish"
+			],
+			"steps": [
+				"Cook spaghetti according to directions on box.",
+				"Brown the beef along with the onions and peppers.",
+				"After draining the grease, mix in the spaghetti sauce and salt.",
+				"Whisk eggs, parmesan cheese, and butter in a bowl and mix in with the spaghetti.",
+				"Lightly grease bottom of baking dish and place half of spaghetti in the dish.",
+				"Top with half the cottage cheese, mozzarella cheese, and meat sauce. Repeat the layers.",
+				"Bake in oven preheated to 350 degrees for 1 hour.",
+				"Let sit for a few minutes before serving."
+			]
+		},
+		{
+			"name": "Beef Enchiladas",
+			"ingredients": [
+				"1.5 lbs ground beef",
+				"10 (10 inch) flour tortillas",
+				"2 cups shredded cheddar cheese",
+				"1 (3.8 oz) can black olives",
+				"1 small onion, chopped",
+				"1 (1.5 oz) package enchilada sauce mix",
+				"1 can diced tomatoes and green chiles",
+				"1 chopped green pepper",
+				"1 chopped serrano pepper",
+				"1/2 pint sour cream (optional)",
+				"9x13 inch baking dish"
+			],
+			"steps": [
+				"Make the enchilada sauce according to the directions (use the can of diced tomatoes instead of tomato sauce).",
+				"In a large pot over medium-high heat, brown the beef and cook with it the onions, green peppers, and serrano peppers.",
+				"Lightly grease the bottom of the baking dish so the enchiladas don't stick.",
+				"Pour 1/4 cup of the enchilada sauce in the bottom of the baking dish.",
+				"Put an equal amount of the beef mixture in each tortilla, along with a little bit of cheese and olives.",
+				"Tightly roll the tortillas and place seam-side down in the pan.",
+				"Pour remaining sauce over the enchiladas.",
+				"Sprinkle with remaining cheese and black olives.",
+				"Bake in oven at 350 degrees for 20 minutes.",
+				"Let stand for about 5 minutes, or else enchiladas will probably stick to the pan.",
+				"When ready to serve, add sour cream on top of the enchiladas (optional)."
+			]
+		},
+		{
+			"name": "Egg Scrambler",
+			"ingredients": [
+				"6 eggs",
+				"1 large potato",
+				"1 small onion",
+				"1/2 teaspoon garlic powder",
+				"1 green pepper",
+				"2 tomatoes",
+				"1/2 teaspoon salt",
+				"1/2 teaspoon pepper",
+				"1/4 teaspoon cayenne pepper",
+				"1/4 cup pepper jack cheese",
+				"1 large pot",
+				"1 medium pot"
+			],
+			"steps": [
+				"Boil potato in salted water for about 20 minutes, or until tender.",
+				"Saute onions and green peppers in lightly oiled large pot over medium-high heat, about 5-10 minutes.",
+				"Reduce heat to medium and pour in eggs.",
+				"Cook until the bottom has set, about 2 minutes.",
+				"Stir in chopped potatoes and tomatoes, salt, pepper, and cayenne pepper. (Optional: cook some sausage or bacon separately, chop up, and add to this step)",
+				"Cook until all the eggs have set, maybe about 10 minutes or so.",
+				"Just before serving, sprinkle cheese over the top."
+			]
+		},
+		{
 			"name": "Fried Egg",
 			"ingredients": [
 				"1/2 teaspoon butter",
@@ -46,6 +148,81 @@
 				"Pour egg into frying pan and cook for 2-3 minutes on one side.",
 				"While the egg is cooking add salt, pepper, or other seasonings as desired.",
 				"Flip and cook for an additional 2 minutes."
+			]
+		},
+		{
+			"name": "French Toast Casserole",
+			"ingredients": [
+				"12 slices of white bread",
+				"1 (21 oz) can of apple pie filling",
+				"4 eggs",
+				"1.5 cups milk",
+				"4 tablespoons white sugar",
+				"1/4 teaspoon salt",
+				"1 teaspoon vanilla extract",
+				"1 tablespoon butter",
+				"1 teaspoon ground cinnamon",
+				"9x13 baking dish"
+			],
+			"steps": [
+				"Lightly butter the bottom of the pan.",
+				"Tear the 12 slices of bread and evenly spread them in the pan.",
+				"In a separate bowl, whisk the eggs, milk, 2 tablespoons sugar, salt, and vanilla.",
+				"Pour the egg mixture over the bread.",
+				"Dot the bread with butter and let stand for about 10 minutes.",
+				"Sprinkle 2 tablespoons sugar and cinnamon over the top.",
+				"Bake at 350 degrees for 50 minutes.",
+				"When done, let stand for 5 minutes before serving."
+			]
+		},
+		{
+			"name": "Fried Potatoes",
+			"ingredients": [
+				"1 1/2 tablespoons vegetable oil",
+				"3 potatoes, cut into pieces",
+				"1 green pepper (optional)",
+				"1 large frying pan"
+			],
+			"steps": [
+				"Heat oil over medium-high heat.",
+				"Cook potatoes in oil until golden brown, about 5 minutes.",
+				"Stir in optional green pepper and cook for about another 1-2 minutes."
+			]
+		},
+		{
+			"name": "Fried Red Potatoes",
+			"ingredients": [
+				"6 medium red potatoes, cut into chunks",
+				"2 tablespoons vegetable oil",
+				"1/2 teaspoon parsley flakes (per batch)",
+				"1/4 teaspoon garlic powder (per batch)",
+				"1/4 teaspoon onion powder (per batch)",
+				"1/4 teaspoon paprika (per batch)"
+			],
+			"steps": [
+				"Heat oil over medium heat.",
+				"Cook potatoes for 10 minutes, stirring occasionally.",
+				"Stir in seasonings and cook for about 5 more minutes."
+			]
+		},
+		{
+			"name": "Green Bean Casserole",
+			"ingredients": [
+				"1 tablespoon vegetable oil",
+				"1/3 cup chopped onion",
+				"2 (14.5 oz) cans green beans, drained",
+				"1 (10 oz) can condensed cream of chicken soup",
+				"1/4 cup milk",
+				"1/3 cup cheddar or pepper jack cheese",
+				"1/2 cup La Choy Chow Mein noodles"
+			],
+			"steps": [
+				"Heat oil over medium-high heat.",
+				"Add onion and cook for about 3 minutes.",
+				"Add green beans and cook for about 2 minutes.",
+				"Stir in soup and milk, cook for about 2 minutes.",
+				"Add cheese, cook for about 2 minutes.",
+				"Remove from heat and add Chow Mein noodles just before serving."
 			]
 		},
 		{
@@ -80,6 +257,55 @@
 				"Place kielbasa and potatoes in the saucepan.",
 				"Cover and cook for 25 minutes, stirring occasionally until potatoes are tender.",
 				"Mix in the peppers and continue cooking 5 minutes, until peppers are tender."
+			]
+		},
+		{
+			"name": "Pulled Pork",
+			"ingredients": [
+				"2 lbs pork tenderloin",
+				"1 can beef broth",
+				"1 bottle barbecue sauce",
+				"8 hamburger buns, lightly toasted",
+				"1 crock pot"
+			],
+			"steps": [
+				"Put the pork tenderloin in the crock pot and pour the beef broth over it.",
+				"Add a little water if necessary to cover most of the pork.",
+				"Cook on low for about 6-7 hours.",
+				"Remove pork from crock pot, shred with a fork and knife, and mix in the barbecue sauce."
+			]
+		},
+		{
+			"name": "Ranch Beef and Noodles",
+			"ingredients": [
+				"1/2 cup grated parmesian cheese",
+				"3/4 cup milk",
+				"1 (8 oz) container sour cream",
+				"1 (12 oz) package wide egg noodles",
+				"1 (1 oz) packet Ranch Salad Dressing & Seasoning Mix",
+				"1 lb cooked ground beef",
+				"1/2 lb green onions or green peppers"
+			],
+			"steps": [
+				"Cook noodles and drain",
+				"In a bowl, mix sour cream, milk, and seasoning mix until smooth.",
+				"Cook the beef over medium heat until nicely browned.",
+				"Drain the grease from the beef.",
+				"Add the onions or peppers and cook until vegetables are tender.",
+				"Remove beef and vegetables from stove, mix together with noodles and sauce."
+			]
+		},
+		{
+			"name": "Sauteed Onions",
+			"ingredients": [
+				"1 chopped onion",
+				"1 tablespoon oil or butter",
+				"1 frying pan"
+			],
+			"steps": [
+				"Heat the oil or butter over medium-high heat.",
+				"Add the onions and cook for about 7-10 minutes.",
+				"As they cook, push the onions around the pan to evenly cook them."
 			]
 		},
 		{
@@ -121,6 +347,27 @@
 				"Cook chicken until golden brown, about 6-7 minutes on each side.",
 				"Sprinkle with 2 teaspoons of garlic powder and lime juice.",
 				"Cook 5 minutes, stirring frequently to evenly coat the sauce."
+			]
+		},
+		{
+			"name": "Stuffed Peppers",
+			"ingredients": [
+				"1 lb ground beef",
+				"2 (8 oz) cans tomato sauce",
+				"2 cups rice",
+				"6 large green peppers",
+				"1 cup parmesan, cheddar, or pepper jack cheese",
+				"1/2 teaspoon garlic powder"
+			],
+			"steps": [
+				"Remove stems and seeds from green peppers and slice in half lengthwise.",
+				"Cook rice according to directions on package.",
+				"Brown the beef over medium heat.",
+				"In a bowl, mix the beef, rice, 1 can of tomato sauce, and garlic powder.",
+				"Put an equal amount of mixture in each pepper.",
+				"Pour remaining can of tomato sauce over the peppers.",
+				"Preheat oven to 350 degrees and bake for 1 hour.",
+				"With about 10 minutes to go, cover the peppers with cheese."
 			]
 		}
 	]
