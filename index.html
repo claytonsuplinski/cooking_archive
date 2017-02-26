@@ -50,7 +50,7 @@ function item_to_html(a){
 			'<div class="item">'+
 				'<table>'+
 					'<tr>'+
-						'<td class="title" '+(a.name.length > 30 ? 'style="font-size:1vw;"' : '')+'>'+a.name.toUpperCase()+'</div>'+
+						'<td class="title" style="font-size:'+(1.5 - Math.max(0, (a.name.length - 20) / 40))+'vw;">'+a.name.toUpperCase()+'</div>'+
 					'</tr>'+
 					'<tr><td class="img" style="background-image:url('+get_image(a.name)+');"></td></tr>'+
 				'</table>'+

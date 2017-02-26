@@ -80,6 +80,29 @@
 			]
 		},
 		{
+			"name": "Beef and Sausage Stir-Fry",
+			"ingredients": [
+				"2 tablespoons vegetable oil",
+				"1 lb sliced angus stir-fry beef",
+				"1 (14 oz) package kielbasa sausage, sliced",
+				"12 oz broccoli",
+				"12 oz sliced carrots",
+				"1 bell pepper, sliced",
+				"1 onion, chopped",
+				"1/4 teaspoon garlic powder",
+				"6 tablespoons soy sauce",
+				"1 large pot or wok"
+			],
+			"steps": [
+				"Heat oil over medium-high heat.",
+				"Cook and stir meat until browned, about 8-10 minutes.",
+				"Drain some of the grease, but not all.",
+				"Stir in broccoli, carrots, peppers, onions, and garlic powder.",
+				"Cook for about 10 minutes, stirring frequently to evenly distribute the vegetables and meat.",
+				"Pour soy sauce over the top and stir to evenly coat, cooking for another 5-10 minutes."
+			]
+		},
+		{
 			"name": "Beef Enchiladas",
 			"ingredients": [
 				"1.5 lbs ground beef",

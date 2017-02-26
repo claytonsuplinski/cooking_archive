@@ -193,9 +193,9 @@ td.steps .number{
 	.button{
 		width:90%;
 		padding:10px;
-		margin:5px;
-		font-size:16px;
-		border:2px solid #6E2852;
+		margin:6px 5px;
+		font-size:20px;
+		border:1px solid #6E2852;
 	}
 	
 	.button-2{
@@ -207,13 +207,22 @@ td.steps .number{
 	}
 	
 	.item .title{
-		padding:8px;
-		font-size:20px !important;
+		padding:15px;
+		font-size:22px !important;
 		white-space:normal;
 	}
 	
 	#ingredients-title{
 		font-size:26px !important;
 		padding-top:12px !important;
+	}
+	
+	td.steps .step{
+		line-height:2;
+	}
+	
+	td.steps .number{
+		padding: 5px 15px;
+		margin : 5px 15px;
 	}
 }
