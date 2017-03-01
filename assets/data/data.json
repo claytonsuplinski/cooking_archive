@@ -132,6 +132,49 @@
 			]
 		},
 		{
+			"name": "Beef Stroganoff",
+			"ingredients": [
+				"1.5 lbs sirloin tip, cut into thin slices",
+				"1 onion, chopped",
+				"1 (8 oz) container sour cream",
+				"1/2 teaspoon paprika",
+				"1/2 teaspoon garlic powder",
+				"1/4 teaspoon pepper",
+				"1 package wide egg noodles",
+				"1 large pot"
+			],
+			"steps": [
+				"Cook the noodles according to the directions on the container.",
+				"Heat the skillet over medium heat and add the beef and onions.",
+				"Cook until the beef is browned and the onions are tender.",
+				"Drain the grease and stir in the sour cream.",
+				"Add the paprika, garlic powder, and pepper.",
+				"Cook for a few minutes until the sour cream is warm throughout, but not boiling."
+			]
+		},
+		{
+			"name": "Cashew Broccoli",
+			"ingredients": [
+				"1.5 lbs broccoli",
+				"2 tablespoons butter",
+				"1 tablespoon brown sugar",
+				"3 tablespoons soy sauce",
+				"1/4 teaspoon pepper",
+				"1/2 teaspoon garlic powder",
+				"1/3 cup chopped cashews",
+				"1 large pot"
+			],
+			"steps": [
+				"Place broccoli in a large pot with about 1 inch of water in the bottom.",
+				"Bring to a boil and cook for about 7 minutes.",
+				"Drain broccoli and remove from heat.",
+				"Melt the butter in the microwave or on the stove.",
+				"Mix the sugar, soy sauce, pepper, and garlic powder into the butter.",
+				"Remove the butter from heat and mix in the cashews.",
+				"Mix the butter and cashews with the broccoli."
+			]
+		},
+		{
 			"name": "Egg Scrambler",
 			"ingredients": [
 				"6 eggs",
