@@ -326,6 +326,63 @@
 			]
 		},
 		{
+			"name": "Manicotti Italian Casserole",
+			"ingredients": [
+				"1 (16 oz) box of rigatoni pasta",
+				"1 lb ground beef",
+				"1 lb italian sausage",
+				"1 green pepper, chopped",
+				"1 small onion, chopped",
+				"1 (24 oz) jar spaghetti sauce",
+				"4 cups mozzarella cheese",
+				"About 50 slices of pepperoni",
+				"1 large pot",
+				"9x13 baking dish"
+			],
+			"steps": [
+				"Cook pasta according to directions on the box.",
+				"Once cooked, transfer the pasta to a lightly greased 9x13 baking dish.",
+				"Cook the beef, sausage, peppers, and onions over medium heat until the meat is browned.",
+				"After the meat and vegetables are done cooking, use a slotted spoon to transfer to the baking dish.",
+				"Stir spaghetti sauce into the meat and pasta, mixing everything together evenly.",
+				"Sprinkle half the cheese over the top, followed by the pepperoni, followed by the remaining cheese.",
+				"Bake at 350 degrees for about 20 minutes.",
+				"Let cool for about 5 minutes before serving."
+			]
+		},
+		{
+			"name": "Pesto Chicken Penne Casserole",
+			"ingredients": [
+				"3 cubed chicken breasts (or 6 cups)",
+				"1/2 cup bread crumbs",
+				"1/2 cup parmesan cheese",
+				"2 tablespoons vegetable oil",
+				"1 (16 oz) box penne pasta",
+				"2 cups shredded Italian blend cheese",
+				"3 cups spinach",
+				"1 (15 oz) can crushed tomatoes",
+				"1 (15 oz) jar Alfredo sauce",
+				"1 (6.5 oz) jar pesto sauce",
+				"1.5 cups milk",
+				"1 large frying pan",
+				"1 large pot",
+				"9x13 baking dish"
+			],
+			"steps": [
+				"Cook the pasta according to the directions on the box.",
+				"If the chicken is frozen, defrost in the microwave for a few minutes before dicing.",
+				"Heat 1 tablespoon of oil over medium-high heat.",
+				"Add the chicken and cook covered for about 4 minutes.",
+				"Flip the pieces of chicken, reduce heat to low, and cook covered for another 15 minutes.",
+				"Let chicken sit for a few minutes before moving the pieces to the lightly greased baking dish.",
+				"Mix the Italian cheese, spinach, tomatoes, alfredo sauce, pesto sauce, and milk in the baking dish.",
+				"Stir the pasta into the baking dish.",
+				"Mix the bread crumbs, parmesan cheese, and 1 tablespoon vegetable oil in a separate bowl and sprinkle over the top of the baking dish.",
+				"Cook in oven at 350 degrees for 40 minutes.",
+				"Let sit for about 5 minutes before serving."
+			]
+		},
+		{
 			"name": "Pulled Pork",
 			"ingredients": [
 				"2 lbs pork tenderloin",
