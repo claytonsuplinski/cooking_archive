@@ -83,6 +83,7 @@ td.steps hr{
 td.steps .step{
 	padding:1vw 0.5vw;
 	color:#EDEF94;
+	line-height:2;
 }
 
 td.steps .number{
@@ -215,10 +216,6 @@ td.steps .number{
 	#ingredients-title{
 		font-size:26px !important;
 		padding-top:12px !important;
-	}
-	
-	td.steps .step{
-		line-height:2;
 	}
 	
 	td.steps .number{
