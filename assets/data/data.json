@@ -405,6 +405,30 @@
 			]
 		},
 		{
+			"name": "Hamburger Potato Casserole",
+			"ingredients": [
+				"1.5 lbs ground beef",
+				"3 potatoes, thinly sliced or diced",
+				"1 (10.75 oz) can condensed cream of chicken soup",
+				"1 small onion, diced",
+				"1 green pepper, diced",
+				"1 cup milk",
+				"1 tablespoon salt",
+				"1 tablespoon pepper",
+				"1 tablespoon garlic powder",
+				"1 tablespoon paprika",
+				"2 cups shredded cheddar cheese"
+			],
+			"steps": [
+				"Over medium heat, brown the beef along with the onions and green peppers.",
+				"Put the cooked beef mixture in a lightly greased 9x13 baking dish.",
+				"Add potatoes, cream of chicken soup, milk, and seasonings into the baking dish and stir together.",
+				"Bake at 350 degrees for 1 hour and 10 minutes.",
+				"Top the casserole with cheddar cheese and cook for another 20 minutes.",
+				"Let sit for about 5 minutes before serving."
+			]
+		},
+		{
 			"name": "Kielbasa with Peppers and Potatoes",
 			"ingredients": [
 				"1 tablespoon vegetable oil",
