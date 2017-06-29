@@ -55,6 +55,27 @@
 			]
 		},
 		{
+			"name": "Baked Beef Ravioli",
+			"ingredients": [
+				"1 lb ground beef",
+				"1 (25 oz) package frozen cheese or beef ravioli",
+				"1 (24 oz) jar spaghetti sauce",
+				"1 green pepper, diced",
+				"1 tablespoon onion powder",
+				"1 tablespoon basil",
+				"1 tablespoon garlic powder",
+				"2 cups shredded mozzarella cheese",
+				"2 cups shredded Monterey Jack cheese"
+			],
+			"steps": [
+				"Brown beef and green peppers over medium-high heat.",
+				"In a lightly greased 9x13 baking dish, mix together spaghetti sauce, frozen ravioli, beef mixture, and seasonings.",
+				"Top the casserole with both cheeses and cover with aluminum foil.",
+				"Bake at 450 degrees for 30 minutes.",
+				"Let sit for 5 minutes before serving."
+			]
+		},
+		{
 			"name": "Baked Garlic Parmesan Chicken",
 			"ingredients": [
 				"2 tablespoons olive oil",
@@ -151,6 +172,31 @@
 				"Bake in oven at 350 degrees for 20 minutes.",
 				"Let stand for about 5 minutes, or else enchiladas will probably stick to the pan.",
 				"When ready to serve, add sour cream on top of the enchiladas (optional)."
+			]
+		},
+		{
+			"name": "Beef Nacho Casserole",
+			"ingredients": [
+				"1.5 lbs ground beef",
+				"1.5 cups chunky salsa",
+				"1 green pepper, diced",
+				"1 (10 oz) can of corn, drained",
+				"1 (10 oz) can of refried beans",
+				"1 teaspoon cumin",
+				"1 teaspoon paprika",
+				"1 teaspoon onion powder",
+				"2 cups crushed tortilla chips",
+				"2 cups colby cheese",
+				"2 jalepenos, diced (optional)"
+			],
+			"steps": [
+				"Brown beef and peppers over medium-high heat.",
+				"Lightly grease a 9x13 baking dish and pour in the salsa, corn, refried beans, and seasonings.",
+				"Add cooked beef and peppers to the baking dish and stir together evenly.",
+				"Crumble tortilla chips to cover the top of the casserole.",
+				"Sprinkle cheese on top of the tortilla chip layer.",
+				"Bake for 20 minutes at 350 degrees.",
+				"Let sit for about 5 minutes before serving."
 			]
 		},
 		{
@@ -468,6 +514,24 @@
 				"Sprinkle half the cheese over the top, followed by the pepperoni, followed by the remaining cheese.",
 				"Bake at 350 degrees for about 20 minutes.",
 				"Let cool for about 5 minutes before serving."
+			]
+		},
+		{
+			"name": "Pepperoncini Beef",
+			"ingredients": [
+				"1 (3 lb) beef chuck or rump roast",
+				"1 tablespoon garlic powder",
+				"1 (16 oz) jar sliced pepperoncini",
+				"8-12 buns",
+				"16-20 sliced provolone cheese"
+			],
+			"steps": [
+				"Make small cuts in roast and place in slow cooker.",
+				"Sprinkle garlic powder over roast.",
+				"Pour entire jar of pepperoncini, including liquid, over the meat.",
+				"Cover and cook on low for 5 hours.",
+				"Take roast out of slow cooker, shred into small pieces, and put back into crock pot for 2 more hours.",
+				"When making the sandwiches, place meat in buns, top with cheese, and cook in microwave for a few seconds to melt the cheese."
 			]
 		},
 		{
