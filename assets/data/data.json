@@ -317,6 +317,111 @@
 			]
 		},
 		{
+			"name": "Cheeseburger Meatloaf",
+			"ingredients": [
+				"2 lbs ground beef",
+				"3/4 cup bread crumbs",
+				"1 small onion, diced",
+				"2 eggs, beaten",
+				"1.5 teaspoons black pepper",
+				"2 cups shredded cheddar cheese"
+			],
+			"steps": [
+				"In a large bowl, combine beef, bread crumbs, onion, eggs, seasonings, and mix together well.",
+				"Place mixture into a lightly greased 9x13 baking dish.",
+				"Shape the beef into two layers, with cheese between and on top.",
+				"Bake at 350 degrees for 1 hour."
+			]
+		},
+		{
+			"name": "Cheesy Chicken Potatoes",
+			"ingredients": [
+				"3 chicken breasts",
+				"1 green pepper, chopped",
+				"1/2 lb velveeta cheese",
+				"1 lb potatoes, thinly sliced",
+				"1 teaspoon paprika",
+				"1 (10.75 oz) can condensed cream of chicken soup",
+				"1 tablespoon Worcestershire sauce",
+				"1/4 cup parsley"
+			],
+			"steps": [
+				"Place peppers in slow cooker, top with potatoes, then chicken.",
+				"Sprinkle paprika and pour soup over chicken. Also pour one can of water over the chicken.",
+				"Cook on low for 6 to 8 hours.",
+				"About 1 hour before serving, take chicken out, shred, and return to slow cooker.",
+				"About 15 mins before serving, add velveeta cheese.",
+				"Stir every few minutes until cheese is evenly mixed in."
+			]
+		},
+		{
+			"name": "Chicken Fajita Casserole",
+			"ingredients": [
+				"16 oz ziti pasta",
+				"1 tablespoon vegetable oil",
+				"1 onion, sliced",
+				"1 green pepper, chopped",
+				"2 chicken breasts, cubed",
+				"1 (16 oz) jar salsa",
+				"16 oz cream cheese",
+				"1 teaspoon garlic powder",
+				"1 teaspoon paprika",
+				"1 teaspoon cumin",
+				"1 teaspoon salt",
+				"1 (15 oz) can black beans, drained",
+				"1 (15 oz) can corn, drained",
+				"16 oz shredded cheddar cheese"
+			],
+			"steps": [
+				"Cook pasta according to directions on package.",
+				"Heat oil over medium heat, add onions and peppers.",
+				"Cook until vegetables are soft, about 5-7 minutes.",
+				"Add chicken and cook until no longer pink, about 10 minutes.",
+				"Combine salsa, cream cheese, and seasonings in a saucepan over low heat.",
+				"Cook until cream cheese is melted, about 10 minutes.",
+				"Combine pasta, chicken, salsa mixture, black beans, corn, and onion mixture in a lightly greased baking dish.",
+				"Mix half the shredded cheese into the casserole.",
+				"Bake at 350 degrees for 20 minutes.",
+				"Remove from oven, top with remaining cheese.",
+				"Bake for another 10 minutes."
+			]
+		},
+		{
+			"name": "Cilantro Lime Chicken Tacos",
+			"ingredients": [
+				"3 tablespoons cilantro",
+				"1 (16 oz) jar salsa",
+				"1 lime, juiced",
+				"3 lbs skinless, boneless chicken breasts",
+				"1 green pepper, diced",
+				"1 small onion, diced",
+				"10-12 tortillas",
+				"2 cups shredded cheese of your choice"
+			],
+			"steps": [
+				"Place chicken in slow cooker and pour salsa, lime juice, and cilantro over the top.",
+				"Stir together and cook on low for 6 hours.",
+				"About one hour before serving, shred the chicken and put back into slow cooker along with the green pepper and onion.",
+				"Let cook for one more hour on low.",
+				"When done cooking, place chicken mixture in tortillas and top with cheese."
+			]
+		},
+		{
+			"name": "Cilantro Lime Rice",
+			"ingredients": [
+				"1 cup rice",
+				"1 teaspoon salt",
+				"1/2 cup cilantro",
+				"2 tablespoons lime juice",
+				"1 tablespoon olive oil",
+				"1 teaspoon garlic powder"
+			],
+			"steps": [
+				"Cook rice according to directions on box.",
+				"Mix rest of ingredients into cooked rice."
+			]
+		},
+		{
 			"name": "Egg Scrambler",
 			"ingredients": [
 				"6 eggs",
@@ -411,6 +516,23 @@
 				"Heat oil over medium heat.",
 				"Cook potatoes for 10 minutes, stirring occasionally.",
 				"Stir in seasonings and cook for about 5 more minutes."
+			]
+		},
+		{
+			"name": "Garlic Parmesan Zucchini",
+			"ingredients": [
+				"1 tablespoon vegetable oil",
+				"1 tablespoon garlic powder",
+				"4 medium-sized zucchinis, sliced",
+				"1/2 teaspoon salt",
+				"1/2 teaspoon pepper",
+				"1 cup grated Parmesan cheese"
+			],
+			"steps": [
+				"Heat oil over medium heat.",
+				"Add zucchini slices and sprinkle garlic powder, salt, and pepper on them.",
+				"Cook the zucchini for about 2-3 minutes on each side, or until soft.",
+				"After zucchini are done cooking, sprinkle Parmesan cheese on them."
 			]
 		},
 		{
@@ -631,6 +753,47 @@
 			]
 		},
 		{
+			"name": "Red, White, and Blue Fruit Salad",
+			"ingredients": [
+				"1 (16 oz) bag of frozen strawberries",
+				"1 (12 oz) bag of frozen blueberries",
+				"1 (8 oz) block of cream cheese",
+				"8 oz cool whip",
+				"1/2 cup sugar"
+			],
+			"steps": [
+				"Heat the cream cheese in the microwave for about 40 seconds to soften it up.",
+				"Beat the cream cheese in a large bowl, slowly adding sugar and stirring until smooth.",
+				"Slowly stir in the cool whip and stir until smooth.",
+				"Add strawberries and blueberries and mix together evenly."
+			]
+		},
+		{
+			"name": "Sausage and Tortellini Skillet",
+			"ingredients": [
+				"1 (14 oz) kielbasa or smoked sausage, sliced",
+				"3 teaspoons garlic powder",
+				"1 medium onion, diced",
+				"1 green pepper, diced",
+				"1 (19 oz) package cheese tortellini",
+				"1 teaspoon basil",
+				"1 (24 oz) jar marinara sauce",
+				"2 cups shredded mozzarella cheese"
+			],
+			"steps": [
+				"Cook tortellini according to directions on package.",
+				"Move tortellini to a lightly greased 9x13 baking dish.",
+				"Heat skillet over medium-high heat and add sausage.",
+				"Cook for about 2-3 minutes and add green peppers and onions.",
+				"Cook until vegetables are soft and sausage is browned.",
+				"Move sausage and vegetables to baking dish and stir together.",
+				"Add marinara sauce, garlic powder, basil, and 1/2 cup of cheese to baking dish and stir together.",
+				"Top with remaining cheese.",
+				"Cook at 350 degrees for 10 minutes.",
+				"Let sit for 5 minutes before serving."
+			]
+		},
+		{
 			"name": "Sauteed Onions",
 			"ingredients": [
 				"1 chopped onion",
@@ -778,6 +941,29 @@
 				"Pour remaining can of tomato sauce over the peppers.",
 				"Preheat oven to 350 degrees and bake for 1 hour.",
 				"With about 10 minutes to go, cover the peppers with cheese."
+			]
+		},
+		{
+			"name": "Tater Tot Casserole",
+			"ingredients": [
+				"1 (32 oz) package frozen tater tots",
+				"1 lb ground beef",
+				"1 small onion, diced",
+				"3 teaspoons Worcestershire sauce",
+				"1 teaspoon garlic powder",
+				"1 teaspoon black pepper",
+				"1 (10.75 oz) can condensed cream of chicken soup",
+				"1 can of corn",
+				"1/2 cup milk",
+				"2 cups shredded cheddar cheese"
+			],
+			"steps": [
+				"Brown the beef along with the onions over medium-high heat.",
+				"Lightly grease a 9x13 baking dish and place the beef and onions in the dish with a slotted spoon.",
+				"Pour Worcestershire sauce, garlic powder, black pepper, cream of chicken soup, corn, milk, 1/2 cup cheddar cheese, and tater tots in the baking dish and stir together.",
+				"Sprinkle the rest of the cheese over the top of the casserole.",
+				"Bake at 350 degrees for 35 minutes.",
+				"Let sit for 5 minutes before serving."
 			]
 		}
 	]
