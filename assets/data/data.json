@@ -123,6 +123,34 @@
 			]
 		},
 		{
+			"name": "Baked Ziti with Sausage",
+			"ingredients": [
+				"1 (16 oz) package ziti pasta",
+				"1 lb Italian sausage",
+				"1 (15 oz) container cottage cheese or ricotta cheese",
+				"1 egg",
+				"1 onion, chopped",
+				"1 green pepper, chopped",
+				"2 teaspoons garlic powder",
+				"1 teaspoon oregano",
+				"1 teaspoon basil",
+				"1/2 teaspoon salt",
+				"1/2 teaspoon pepper",
+				"1 (26 oz) jar spaghetti sauce",
+				"4 oz shredded Italian cheese",
+				"9x13 baking dish"
+			],
+			"steps": [
+				"Cook pasta according to directions on package.",
+				"Cook sausage, green pepper, and onions over medium heat until sausage is brown, about 10 minutes.",
+				"In a lightly greased 9x13 baking dish, stir together cottage cheese, egg, seasonings, spaghetti sauce, and half the Italian cheese.",
+				"Once done cooking, mix sausage and vegetables into the baking dish.",
+				"Sprinkle remaining Italian cheese over the top of the casserole.",
+				"Bake at 350 degrees for 30 minutes.",
+				"Let sit for a few minutes before serving."
+			]
+		},
+		{
 			"name": "Beef and Sausage Stir-Fry",
 			"ingredients": [
 				"2 tablespoons vegetable oil",
@@ -314,6 +342,30 @@
 				"Mix the sugar, soy sauce, pepper, and garlic powder into the butter.",
 				"Remove the butter from heat and mix in the cashews.",
 				"Mix the butter and cashews with the broccoli."
+			]
+		},
+		{
+			"name": "Cheddar Baked Chicken",
+			"ingredients": [
+				"1 cup all-purpose flour",
+				"2 teaspoons salt",
+				"2 teaspoons pepper",
+				"2 teaspoons garlic powder",
+				"2 eggs",
+				"2 tablespoons milk",
+				"2 cups shredded cheddar cheese",
+				"1/2 cup Italian bread crumbs",
+				"5 boneless chicken breasts, halved",
+				"2 tablespoons butter, melted"
+			],
+			"steps": [
+				"In a bowl, mix flour and seasonings.",
+				"In another bowl, beat together egg and milk.",
+				"In a third bowl, mix cheese and bread crumbs.",
+				"Dunk the chicken pieces in the flour mixture, then the egg mixture, then the cheese mixture.",
+				"Place the coated chicken pieces in a lightly greased baking dish.",
+				"Pour melted butter over the chicken pieces.",
+				"Bake at 350 degrees for 35 minutes."
 			]
 		},
 		{
@@ -597,6 +649,24 @@
 			]
 		},
 		{
+			"name": "Hash Brown Casserole",
+			"ingredients": [
+				"1 (2 lb) package frozen hash brown potatoes, thawed",
+				"1/2 cup melted butter",
+				"1 (10.75 oz) can condensed cream of chicken soup",
+				"1 (8 oz) container sour cream",
+				"1 small onion, chopped",
+				"2 cups shredded cheddar cheese",
+				"1 teaspoon salt",
+				"1 teaspoon pepper"
+			],
+			"steps": [
+				"In a lightly greased 9x13 baking dish, mix together hash browns, melted butter, cream of chicken soup, sour cream, onion, cheese, and seasonings.",
+				"Bake at 350 degrees for 40 minutes.",
+				"Let sit for about 5 minutes before serving."
+			]
+		},
+		{
 			"name": "Kielbasa with Peppers and Potatoes",
 			"ingredients": [
 				"1 tablespoon vegetable oil",
@@ -636,6 +706,22 @@
 				"Sprinkle half the cheese over the top, followed by the pepperoni, followed by the remaining cheese.",
 				"Bake at 350 degrees for about 20 minutes.",
 				"Let cool for about 5 minutes before serving."
+			]
+		},
+		{
+			"name": "Mashed Potatoes with Skins",
+			"ingredients": [
+				"2 lbs unpeeled potatoes, cubed",
+				"1/2 cup butter",
+				"1 cup milk",
+				"2 tablespoons sour cream (optional)",
+				"Salt and pepper to taste"
+			],
+			"steps": [
+				"Bring a pot of water to a boil and cook potatoes until tender, about 15 minutes.",
+				"Drain potatoes and transfer to a bowl.",
+				"Add butter and mash with a potato masher or electric mixer until potatoes start becoming smooth.",
+				"Add milk, seasonings, and sour cream. Mix to desired texture."
 			]
 		},
 		{
@@ -686,6 +772,21 @@
 				"Mix the bread crumbs, parmesan cheese, and 1 tablespoon vegetable oil in a separate bowl and sprinkle over the top of the baking dish.",
 				"Cook in oven at 350 degrees for 40 minutes.",
 				"Let sit for about 5 minutes before serving."
+			]
+		},
+		{
+			"name": "Pesto Tomatoes",
+			"ingredients": [
+				"6 tomatoes",
+				"1/2 cup pesto",
+				"1 cup grated Parmesan cheese"
+			],
+			"steps": [
+				"Slice tomatoes in half along the stems and remove stems.",
+				"Place tomatoes, flat side up, in a lightly greased 9x13 baking dish.",
+				"Evenly distribute pesto on each tomato.",
+				"Sprinkle cheese on top of each tomato.",
+				"Bake at 350 degrees for 15-20 minutes, until cheese is melted and slightly browned."
 			]
 		},
 		{
@@ -941,6 +1042,25 @@
 				"Pour remaining can of tomato sauce over the peppers.",
 				"Preheat oven to 350 degrees and bake for 1 hour.",
 				"With about 10 minutes to go, cover the peppers with cheese."
+			]
+		},
+		{
+			"name": "Sweet and Sour Sausage",
+			"ingredients": [
+				"1 (14 oz) package smoked sausage, sliced",
+				"1 green pepper, chopped",
+				"1 small onion, chopped",
+				"3 jalepenos or serranos, chopped",
+				"1 cup sweet and sour sauce",
+				"1 cup pineapple, drained if from a can",
+				"3 cups rice"
+			],
+			"steps": [
+				"Cook rice according to directions on package.",
+				"Cook sausage, peppers, and onions over medium-high heat for about 10 minutes, or until sausage is slightly browned.",
+				"Add pineapple to sausage and vegetables and cook for another 5 minutes.",
+				"Mix rice, sausage, and vegetables together in a serving container.",
+				"Mix in sweet and sour sauce."
 			]
 		},
 		{
