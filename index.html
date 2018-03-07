@@ -1,7 +1,11 @@
 <html>
 <head>
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+	<meta name="author" content="Clayton Suplinski">
+	<meta name="description" content="A collection of cooking recipes.">
+
+	<title>Cooking Archive</title>
+	
 	<meta http-equiv="X-UA-Compatible" content="IE=8">
 
 	<link href="https://fonts.googleapis.com/css?family=Biryani:900" rel="stylesheet">
@@ -15,93 +19,14 @@
 	<link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
-<div class="header">
-	<div class="button" onclick="random_show();" >RANDOM RECIPE</div>
-</div>
+<div class="header"></div>
 <div id="content"></div>
 </body>
 
 <script src="./assets/lib/jquery.min.js"></script>
 
-<script>
-var ARCH = {};
+<script src="./assets/js/Config.js"></script>
+<script src="./assets/js/Content.js"></script>
+<script src="./assets/js/Hashlink.js"></script>
 
-$.ajax({
-	url: './assets/data/data.json',
-	dataType: 'json',
-	success: function(data){
-		data.recipes.sort( function(a, b){ return a.name.toLowerCase() > b.name.toLowerCase(); });
-		ARCH.data = data;
-		
-		$(".header").append(
-			'<div class="button button-sm" onclick="all_shows();">'+ data.recipes.length +  ' recipe'+(data.recipes.length != 1 ? 's' : '')+'</div>'
-		);
-		
-		display_all();
-	}
-});
-
-function get_image(name){
-	return './assets/img/'+name.toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()\']/g, "").replace(/ /g, '')+'.jpg';
-};
-
-function item_to_html(a){
-	return '<div class="container">'+
-		'<a onclick="display_item('+ARCH.data.recipes.indexOf(a)+');">'+
-			'<div class="item">'+
-				'<table>'+
-					'<tr>'+
-						'<td class="title" style="font-size:'+(1.5 - Math.max(0, (a.name.length - 20) / 40))+'vw;">'+a.name.toUpperCase()+'</div>'+
-					'</tr>'+
-					'<tr><td class="img" style="background-image:url('+get_image(a.name)+');"></td></tr>'+
-				'</table>'+
-			'</div>'+
-		'</a>'+
-	'</div>';
-};
-
-function display_shows(shows){
-	shows.sort(function(a, b){ return a.name.toLowerCase() > b.name.toLowerCase(); });
-	$("#content").html('');
-	$("#content").html( shows.map(function(a){ return item_to_html(a); }).join('') );
-};
-
-function display_all(){
-	display_shows( ARCH.data.recipes );
-};
-
-function all_shows(){
-	display_shows( ARCH.data.recipes );
-};
-
-function random_show(){
-	display_item(Math.floor(Math.random()*ARCH.data.recipes.length));
-};
-
-function display_item(idx){
-	var a= ARCH.data.recipes[idx];
-	
-	$("#content").html(
-		'<div class="container container-solo">'+
-			'<a>'+
-				'<div class="item">'+
-					'<table>'+
-						'<tr>'+
-							'<td class="title">'+a.name.toUpperCase()+'</div>'+
-						'</tr>'+
-						'<tr><td class="img" style="background-image:url('+get_image(a.name)+');"></td></tr>'+
-						'<tr><td class="ingredients">'+
-							'<div id="ingredients-title">INGREDIENTS<hr></div>'+
-							a.ingredients.map(function(i){ return '<div class="col-xs-12 col-md-6 col-lg-4"><div class="ingredient">'+i+'<hr></div></div>'; }).join('') + 
-						'</td></tr>'+
-						'<tr><td class="steps">'+
-							a.steps.map(function(s, i){ return '<hr><div class="step"><span class="number">'+(i+1)+'</span>'+s+'</div>'; }).join('')+'<hr>'+
-						'</td></tr>'+
-					'</table>'+
-				'</div>'+
-			'</a>'+
-		'</div>'
-	);
-};
-</script>
 </html>

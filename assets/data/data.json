@@ -323,6 +323,33 @@
 			]
 		},
 		{
+			"name": "Buffalo Chicken Mac and Cheese",
+			"ingredients": [
+				"1 lb boneless, skinless chicken breast",
+				"2 cups chicken broth",
+				"0.5 cups buffalo wing sauce",
+				"1 teaspoon garlic powder",
+				"0.5 teaspoons onion powder",
+				"0.25 teaspoons salt",
+				"16 oz shell pasta",
+				"3 tablespoons butter",
+				"2 tablespoons flour",
+				"2.5 cups milk",
+				"2 cups shredded cheddar cheese"
+			],
+			"steps": [
+				"Add chicken, broth, buffalo sauce, and seasonings to slow cooker.",
+				"Cook on low for 6-8 hours.",
+				"Shred chicken and add pasta to slow cooker with 45 mins remaining, turn slow cooker up to high.",
+				"Add water as needed to cover the pasta in the slow cooker.",
+				"In a saucepan, melt butter over medium high heat.",
+				"Whisk in flour, then slowly pour in milk while whisking until smooth.",
+				"Bring to a simmer for about 5 minutes or until sauce starts to thicken.",
+				"Remove from heat and whisk in cheese until melted and smooth.",
+				"Add and stir in cheese sauce to slow cooker."
+			]
+		},
+		{
 			"name": "Cajun Chicken Lasagna",
 			"ingredients": [
 				"1 (16 oz) package lasagna noodles",
@@ -443,6 +470,20 @@
 				"About 1 hour before serving, take chicken out, shred, and return to slow cooker.",
 				"About 15 mins before serving, add velveeta cheese.",
 				"Stir every few minutes until cheese is evenly mixed in."
+			]
+		},
+		{
+			"name": "Cheesy Ham and Hash Brown Casserole",
+			"ingredients": [
+				"1 (32 oz) package frozen hash browns",
+				"8 oz cooked, diced ham",
+				"2 (10.75 oz) cans condensed cream of potato soup",
+				"1 (16 oz) container sour cream",
+				"2 cups shredded cheddar cheese"
+			],
+			"steps": [
+				"In a lightly-greased 9x13 baking dish, mix together hash browns, ham, cream of potato soup, sour cream, and cheddar cheese.",
+				"Bake for 1 hour at 375 degrees. Let sit for about 5 minutes before serving."
 			]
 		},
 		{
@@ -989,6 +1030,21 @@
 			]
 		},
 		{
+			"name": "Sausage with Potatoes and Sauerkraut",
+			"ingredients": [
+				"1 (14 oz) package smoked sausage",
+				"1 lb potatoes, diced",
+				"1 cup sauerkraut, rinsed and drained",
+				"2 tablespoons whole-grain mustard"
+			],
+			"steps": [
+				"Cook sausage in a large skillet over medium-high heat for about 3 minutes.",
+				"Add potatoes to the skillet, cook for about 5 minutes uncovered and 5 minutes covered.",
+				"Add sauerkraut and mustard to the skillet and mix together.",
+				"Cook for an additional 10 minutes or until sausage is browned and potatoes are tender."
+			]
+		},
+		{
 			"name": "Sauteed Onions",
 			"ingredients": [
 				"1 chopped onion",
@@ -1245,6 +1301,28 @@
 				"Sprinkle the rest of the cheese over the top of the casserole.",
 				"Bake at 350 degrees for 35 minutes.",
 				"Let sit for 5 minutes before serving."
+			]
+		},
+		{
+			"name": "Zucchini Casserole",
+			"ingredients": [
+				"5 medium zucchinis, sliced",
+				"1 (10.75 oz) can condensed cream of chicken soup",
+				"1 cup sour cream",
+				"1 small onion, chopped",
+				"1 (10.75 oz) can of carrots",
+				"1 (6 oz) package stuffing mix",
+				"1/2 cup butter, melted",
+				"1 lb ground beef"
+			],
+			"steps": [
+				"Brown the beef on the stove over medium-high heat.",
+				"Remove beef and place in a lightly-greased 9x13 baking dish.",
+				"Sautee the sliced zucchini with the leftover grease from the beef.",
+				"Remove zucchini from stove and place in baking dish.",
+				"Mix cream of chicken soup, sour cream, carrots, and onion into baking dish.",
+				"Pour stuffing mix, then melted butter on top of the stuffing, and mix it all together in the baking dish.",
+				"Bake for 20 minutes at 350 degrees. Let sit for about 5 minutes before serving."
 			]
 		}
 	]
