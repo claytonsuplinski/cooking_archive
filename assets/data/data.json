@@ -138,6 +138,24 @@
 			]
 		},
 		{
+			"name": "Baked Tilapia",
+			"ingredients": [
+				"4 tilapia fillets",
+				"3 tablespoons melted butter",
+				"3 tablespoons lemon juice",
+				"2 tablespoons garlic powder",
+				"1 teaspoon salt",
+				"1 teaspoon basil",
+				"1 teaspoon paprika"
+			],
+			"steps": [
+				"Mix butter, lemon juice, garlic powder, and salt in a bowl.",
+				"Place tilapia in a lightly-greased 9x13 baking dish.",
+				"Pour butter mixture on the tilapia and sprinkle with paprika and basil.",
+				"Bake at 425 degrees for 15 minutes."
+			]
+		},
+		{
 			"name": "Baked Ziti with Sausage",
 			"ingredients": [
 				"1 (16 oz) package ziti pasta",
@@ -519,6 +537,25 @@
 			]
 		},
 		{
+			"name": "Chicken Salad",
+			"ingredients": [
+				"9 oz chicken deli meat",
+				"1 cup crushed almonds",
+				"0.5 cups mayo",
+				"1 small onion, chopped",
+				"1.5 tablespoons relish",
+				"2 teaspoons mustard",
+				"1 teaspoon lemon juice",
+				"1 teaspoon garlic powder",
+				"1 teaspoon paprika",
+				"1 teaspoon salt",
+				"1 teaspoon pepper"
+			],
+			"steps": [
+				"Mix all the ingredients together in a large container."
+			]
+		},
+		{
 			"name": "Cilantro Lime Chicken Tacos",
 			"ingredients": [
 				"3 tablespoons cilantro",
@@ -621,6 +658,27 @@
 			]
 		},
 		{
+			"name": "Fried Corn with Smoked Sausage",
+			"ingredients": [
+				"1 lb smoked sausage, diced",
+				"1 onion, chopped",
+				"1 green pepper, chopped",
+				"1 (15 oz) can of diced tomatoes",
+				"1 (15 oz) can of corn",
+				"1 teaspoon salt",
+				"1 teaspoon pepper",
+				"1 teaspoon garlic powder",
+				"1 teaspoon paprika"
+			],
+			"steps": [
+				"Cook smoked sausage in a large pot over medium-high heat.",
+				"After about a minute of cooking the sausage, add the green pepper and onion.",
+				"About 5 minutes later, add the corn and tomatoes, reduce heat to medium, and cover.",
+				"After about 5 minutes, stir in salt, pepper, garlic powder, and paprika.",
+				"Cook for another 5 minutes covered."
+			]
+		},
+		{
 			"name": "Fried Potatoes",
 			"ingredients": [
 				"1 1/2 tablespoons vegetable oil",
@@ -665,6 +723,23 @@
 				"Add zucchini slices and sprinkle garlic powder, salt, and pepper on them.",
 				"Cook the zucchini for about 2-3 minutes on each side, or until soft.",
 				"After zucchini are done cooking, sprinkle Parmesan cheese on them."
+			]
+		},
+		{
+			"name": "German Pork Chops",
+			"ingredients": [
+				"8 center cut pork chops",
+				"2 lbs sauerkraut, drained",
+				"1 large red apple, diced",
+				"1 onion",
+				"1 cup cinnamon",
+				"1 tbsp stone ground mustard"
+			],
+			"steps": [
+				"Mix sauerkraut, apple, onion, cinnamon, and mustard in a bowl.",
+				"Place pork chops in a lightly greased 9x13 baking dish.",
+				"Cover pork chops with the sauerkraut mixture.",
+				"Bake at 350 degrees for 45 minutes."
 			]
 		},
 		{
@@ -744,6 +819,24 @@
 				"In a lightly greased 9x13 baking dish, mix together hash browns, melted butter, cream of chicken soup, sour cream, onion, cheese, and seasonings.",
 				"Bake at 350 degrees for 40 minutes.",
 				"Let sit for about 5 minutes before serving."
+			]
+		},
+		{
+			"name": "Honey Garlic Carrots",
+			"ingredients": [
+				"1 tablespoon butter",
+				"2 (16 oz) packages baby carrots",
+				"3 tablespoons honey",
+				"2 tablespoons garlic powder",
+				"1 teaspoon salt",
+				"1 teaspoon pepper",
+				"1/3 cup water"
+			],
+			"steps": [
+				"Melt butter in a large skillet over medium heat.",
+				"Stir in carrots, honey, garlic powder, salt, and pepper.",
+				"Pour in water, cover, and bring to a boil.",
+				"Cook for about 10 minutes, or until carrots are tender."
 			]
 		},
 		{
@@ -920,7 +1013,7 @@
 				"1 green pepper, chopped",
 				"1 package pepperoni",
 				"1 (16 oz) container pizza sauce",
-				"4 tablespoons milk",
+				"1/4 cups milk",
 				"2 cups shredded mozzarella cheese"
 			],
 			"steps": [
@@ -1119,6 +1212,22 @@
 			]
 		},
 		{
+			"name": "Simple Pasta Salad",
+			"ingredients": [
+				"1 (16 oz) package rotini pasta",
+				"1 (16 oz) bottle Italian salad dressing",
+				"1 cucumber, chopped",
+				"1 (15 oz) can of diced tomatoes",
+				"1 small onion, chopped",
+				"1 teaspoon basil",
+				"1 teaspoon garlic powder"
+			],
+			"steps": [
+				"Cook pasta according to directions.",
+				"Mix together all the ingredients in a large container."
+			]
+		},
+		{
 			"name": "Smothered Burritos",
 			"ingredients": [
 				"1 lb ground beef",
@@ -1143,11 +1252,11 @@
 				"Cook ground beef over medium-high heat until browned.",
 				"Add onions and peppers, cook until onions are translucent.",
 				"Drain grease and season with garlic powder, cumin, salt, and pepper.",
-				"Stir in diced tomatoes with chiles, refried beans, and chili with beans.",
-				"Reduce heat to low and continue cooking until the meat and beans are warm.",
+				"In a separate pot, stir together diced tomatoes with chiles, refried beans, and chili with beans.",
+				"Cook beans on medium-low until warm.",
 				"In a separate bowl, combine the enchilada sauce, tomato soup, and one can of water.",
-				"When finished cooking the beef, scoop some of the mixture into a tortilla.",
-				"Wrap the burrito, top with lettuce, then the sauce, then the cheese.",
+				"When finished cooking the beef and beans, mix together in a separate container.",
+				"Scoop some of the meat and bean mixture into a tortilla, wrap the burrito, top with lettuce, then the sauce, then the cheese.",
 				"Heat in microwave for about 1 minute and add sour cream if desired."
 			]
 		},
@@ -1217,6 +1326,22 @@
 				"Pour remaining can of tomato sauce over the peppers.",
 				"Preheat oven to 350 degrees and bake for 1 hour.",
 				"With about 10 minutes to go, cover the peppers with cheese."
+			]
+		},
+		{
+			"name": "Summer Style Chicken",
+			"ingredients": [
+				"4 boneless, skinless chicken breast halves",
+				"1 (14.5 oz) can stewed tomatoes",
+				"1 yellow squash, thinly sliced",
+				"1 medium zucchini, thinly sliced",
+				"2 cups shredded mozzarella cheese"
+			],
+			"steps": [
+				"Place chicken in a lightly greased baking dish.",
+				"Place tomatoes, zucchini, and squash on top of and around the chicken.",
+				"Sprinkle cheese over the top.",
+				"Bake for 45 minutes at 375 degrees."
 			]
 		},
 		{
