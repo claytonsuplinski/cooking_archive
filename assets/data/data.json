@@ -38,6 +38,23 @@
 			]
 		},
 		{
+			"name": "Artichoke Pasta Salad",
+			"ingredients": [
+				"1 (16 oz) package bow tie pasta",
+				"13 oz marinated artichoke hearts, drained and chopped",
+				"1/4 cup chopped walnuts",
+				"3 tablespoons olive oil",
+				"1 cup lemon juice",
+				"1 tablespoon basil",
+				"1 tablespoon salt",
+				"1 tablespoon pepper"
+			],
+			"steps": [
+				"Cook the pasta according to directions on the package.",
+				"Mix all the ingredients together in the serving container."
+			]
+		},
+		{
 			"name": "Asparagus and Tomatoes",
 			"ingredients": [
 				"1 lb trimmed asparagus",
@@ -780,6 +797,25 @@
 			]
 		},
 		{
+			"name": "Ham, Cheese, and Broccoli Casserole",
+			"ingredients": [
+				"1 (16 oz) package of pasta",
+				"1 bag of broccoli",
+				"1 green pepper, diced",
+				"1 package of precooked ham, diced",
+				"1 cup Miracle Whip",
+				"0.5 cups milk",
+				"2 cups shredded cheddar cheese",
+				"1 cup bread crumbs"
+			],
+			"steps": [
+				"Cook pasta according to directions on the package.",
+				"Mix together pasta, broccoli, green pepper, ham, Miracle Whip, milk, and 1 cup cheese in a lightly greased baking dish.",
+				"Top with bread crumbs and remaining cheese.",
+				"Bake at 350 degrees for 30 minutes."
+			]
+		},
+		{
 			"name": "Hamburger Potato Casserole",
 			"ingredients": [
 				"1.5 lbs ground beef",
@@ -837,6 +873,34 @@
 				"Stir in carrots, honey, garlic powder, salt, and pepper.",
 				"Pour in water, cover, and bring to a boil.",
 				"Cook for about 10 minutes, or until carrots are tender."
+			]
+		},
+		{
+			"name": "Jambalaya",
+			"ingredients": [
+				"1 tablespoon olive oil",
+				"1 tablespoon salt",
+				"1 tablespoon pepper",
+				"1 tablespoon paprika",
+				"1 tablespoon garlic powder",
+				"2 stalks of celery, diced",
+				"1 lb boneless, skinless chicken breasts",
+				"1 green pepper",
+				"1 onion",
+				"1 (16 oz) can of diced tomatoes",
+				"2 teaspoons Worcestershire sauce",
+				"1.5 cups rice",
+				"2 cups chicken broth",
+				"10 oz andouille sausage, sliced"
+			],
+			"steps": [
+				"Heat one tablespoon of olive oil in a frying pan over medium heat.",
+				"Cook diced chicken in the frying pan with olive oil.",
+				"In a large pot, cook the sliced sausage over medium heat.",
+				"Add celery, onion, and green pepper to the pot with the sausage.",
+				"After cooking for about 5 minutes, add tomatoes, seasonings, Worcestershire sauce, and chicken to the large pot.",
+				"After cooking for about 10 minutes, add rice and chicken broth to the large pot.",
+				"Cook for about 20 minutes, or until the rice has absorbed most of the liquid."
 			]
 		},
 		{
@@ -916,6 +980,35 @@
 				"Sprinkle remaining mozzarella cheese on top.",
 				"Bake at 350 degrees for 35 minutes.",
 				"Let sit for 5 minutes before serving."
+			]
+		},
+		{
+			"name": "Nachos",
+			"ingredients": [
+				"1 large bag of tortilla chips",
+				"1 (16 oz) can beef broth",
+				"1 tablespoon salt",
+				"1 tablespoon pepper",
+				"1 tablespoon garlic powder",
+				"3 lbs boneless roast beef chuck or round roast",
+				"1 (4.5 oz) can of mild green chiles",
+				"1 (29 oz) can pinto beans",
+				"2 cups shredded cheddar cheese",
+				"1 container pickled jalapenos",
+				"1 onion, diced",
+				"4 roma tomatoes, sliced into wedges",
+				"1 can of sliced black olives",
+				"16 oz sour cream",
+				"1 tablespoon paprika"
+			],
+			"steps": [
+				"Place beef roast, salt, pepper, garlic powder, and beef broth in slow cooker on low for 6-7 hours.",
+				"Take beef roast out of slow cooker and shred.",
+				"Return the beef roast to slow cooker with chiles, onions, and pinto beans.",
+				"Stir mixture together in slow cooker and let cook for another hour.",
+				"Plate chips, beef mixture, black olives, jalapenos, and shredded cheese.",
+				"Microwave for 30 seconds.",
+				"Finish topping nachos with tomatoes, sour cream, and paprika."
 			]
 		},
 		{
@@ -1081,6 +1174,20 @@
 				"Beat the cream cheese in a large bowl, slowly adding sugar and stirring until smooth.",
 				"Slowly stir in the cool whip and stir until smooth.",
 				"Add strawberries and blueberries and mix together evenly."
+			]
+		},
+		{
+			"name": "Roasted Brussels Sprouts",
+			"ingredients": [
+				"1.5 lbs Brussels sprouts, trimmed and halved",
+				"3 tablespoons olive oil",
+				"1 tablespoon salt",
+				"1 tablespoon pepper"
+			],
+			"steps": [
+				"Coat Brussels sprouts with olive oil and place on a baking sheet.",
+				"Cover Brussels sprouts with salt and pepper.",
+				"Cook at 425 degrees for 30 minutes (or 475 for 15 minutes for crispier texture)."
 			]
 		},
 		{
