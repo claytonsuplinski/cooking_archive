@@ -4,6 +4,10 @@ ARCH.hashlink.check_url = function(){
 	this.value = decodeURI( location.hash.substring(1) );
 };
 
+ARCH.hashlink.get_url = function( value ){
+	return String( window.location ).split('#')[ 0 ] + '#' + encodeURI( value );
+};
+
 ARCH.hashlink.write = function(){
 	var output = encodeURI( this.value );
 

@@ -6,7 +6,8 @@ ARCH.content.get_image = function(name){
 
 ARCH.content.item_to_html = function(a){
 	return '<div class="container">'+
-		'<a onclick="ARCH.hashlink.update(\''+a.name+'\');">'+
+		// '<a onclick="ARCH.hashlink.update(\''+a.name+'\');">'+
+		'<a href="' + ARCH.hashlink.get_url( a.name ) + '">'+
 			'<div class="item">'+
 				'<table>'+
 					'<tr>'+
