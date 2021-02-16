@@ -33,26 +33,8 @@ ARCH.hashlink.start = function(){
 	ARCH.hashlink.check_url();
 
 	document.title = ARCH.config.document_title + (ARCH.hashlink.value ? ' - ' + ARCH.hashlink.value : '');
-
-	$.ajax({
-		url: './assets/data/data.json',
-		dataType: 'json',
-		success: function(data){
-			data.recipes.sort( function(a, b){ return a.name.toLowerCase() > b.name.toLowerCase(); });
-			ARCH.data = data;
-			
-			$(".header").html(
-				'<div class="button" onclick="ARCH.content.random_recipe();" >RANDOM RECIPE</div>' +
-				'<div class="button button-sm" onclick="ARCH.hashlink.clear();">'+ data.recipes.length +  ' recipe'+(data.recipes.length != 1 ? 's' : '')+'</div>'
-			);
-			
-			var value_index = ARCH.data.recipes.map(function(a){ return a.name; }).indexOf( ARCH.hashlink.value );
-			( value_index == -1 ?
-				ARCH.content.draw_all() :
-				ARCH.content.draw_item( value_index )
-			)
-		}
-	});
+	
+	ARCH.content.load();
 };
 
 window.onhashchange = ARCH.hashlink.start;

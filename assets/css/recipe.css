@@ -1,0 +1,109 @@
+.container.recipe{
+	width:90%;
+	max-width:800px;
+	padding-bottom:30px;
+}
+
+.container.recipe .item .title{
+	font-size:14px;
+}
+
+td.ingredients{
+	background:#4a4511;
+	color:#EFE79A;
+	padding:10px 20px;
+	text-align:left;
+}
+
+.recipe-section-title{
+	width:100%;
+	margin-top:3px;
+	font-size:20px;
+	text-align:center;
+	color:#E6DF9B;
+}
+
+.recipe-section-title hr{
+	width:30%;
+	border-color:rgba(255,255,255,0.2);
+	margin:10px auto 15px;
+}
+
+td.ingredients .ingredient{
+	display:inline-block;
+	width:50%;
+	font-size:12px;
+	text-align:left;
+	padding:0 5px;
+}
+
+td.ingredients .ingredient .bullet{
+	margin:0 5px;
+}
+
+td.ingredients .ingredient hr{
+	width:70%;
+	border-color:rgba(255,255,255,0.1);
+	margin:5px auto;
+}
+
+td.ingredients .ingredient .ingredient-text{
+	width:100%;
+	display:inline-block;
+	padding:3px 0;
+	cursor:pointer;
+}
+
+td.steps .step:hover,
+td.ingredients .ingredient .ingredient-text:hover{
+	color:#FBFF49;
+	background:rgba(255,255,255,0.1);
+}
+
+td.steps .step.completed,
+td.ingredients .ingredient.completed .ingredient-text{
+	opacity:0.3;
+	text-decoration:line-through;
+	background:#000;
+}
+
+td.steps .step.completed:hover
+td.ingredients .ingredient.completed .ingredient-text:hover{
+	opacity:0.5;
+}
+
+td.steps{
+	text-align:left;
+	background:#353005;
+	padding-top:10px;
+	padding-bottom:15px;
+}
+
+td.steps > hr{
+	width:15%;
+	margin:5px 0;
+	margin-left:4%;
+	border-color:rgba(255, 255, 255, 0.1);
+}
+
+td.steps .step{
+	padding:5px 15px;
+	color:#EDEF94;
+	line-height:2;
+	font-size:14px;
+	cursor:pointer;
+}
+
+td.steps .number{
+	background-color:rgba(0, 0, 0, 0.5);
+	border-radius:100px;
+	padding:4px 10px;
+	margin:0 15px;
+	font-size:12px;
+}
+
+@media (max-width: 400px){
+	td.ingredients .ingredient{
+		width:100%;
+	}	
+}

@@ -1,26 +1,19 @@
 {
 	"recipes": [
 		{
-			"name"        : "Almond-Crusted Tilapia",
-			"dish"        : "main",
-			"cuisines"    : [ "seafood" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 15 }
-			},
-			"servings"    : 6,
-			"ingredients" : [
-				{ "val" : 2   ,                             "name" : "Eggs"            },
-				{ "val" : 1   , "units" : "teaspoon"      , "name" : "Garlic Powder"   },
-				{ "val" : 1   , "units" : "teaspoon"      , "name" : "Pepper"          },
-				{ "val" : 1   , "units" : "cup"           , "name" : "Almonds"         , "style" : "ground" },
-				{ "val" : 1   , "units" : "cup"           , "name" : "Parmesan Cheese" },
-				{ "val" : 6   , "units" : "(4 oz) fillets", "name" : "Tilapia"         },
-				{ "val" : 0.25, "units" : "cup"           , "name" : "Flour"           },
-				{ "val" : 4   , "units" : "tablespoon"    , "name" : "Butter"          }
+			"name": "Almond-Crusted Tilapia",
+			"ingredients": [
+				"2 eggs",
+				"1 teaspoon garlic powder",
+				"1 teaspoon pepper",
+				"1 cup ground almonds",
+				"1 cup parmesan cheese",
+				"6 (4 oz) tilapia fillets",
+				"1/4 cup all-purpose flour",
+				"4 tablespoons butter",
+				"1 large skillet"
 			],
-			"steps"       : [
+			"steps": [
 				"Beat the eggs with the garlic powder and pepper until blended.",
 				"Stir together ground almonds and parmesan cheese in a separate bowl.",
 				"Dip the tilapia fillets in flour, then the egg, and then the almond mixture.",
@@ -30,15 +23,8 @@
 			]
 		},
 		{
-			"name"        : "Artichoke Chicken",
-			"dish"        : "main",
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 40 }
-			},
-			"servings"    : 4,
-			"ingredients" : [
+			"name": "Artichoke Chicken",
+			"ingredients": [
 				"1 (15 oz) can artichoke hearts, drained and chopped",
 				"3/4 cup Parmesan cheese",
 				"3/4 cup mayonnaise",
@@ -52,14 +38,8 @@
 			]
 		},
 		{
-			"name"        : "Artichoke Pasta Salad",
-			"dish"        : "side",
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 15 }
-			},
-			"ingredients" : [
+			"name": "Artichoke Pasta Salad",
+			"ingredients": [
 				"1 (16 oz) package bow tie pasta",
 				"13 oz marinated artichoke hearts, drained and chopped",
 				"1/4 cup chopped walnuts",
@@ -75,14 +55,8 @@
 			]
 		},
 		{
-			"name"        : "Asparagus and Tomatoes",
-			"dish"        : "side",
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 30 }
-			},
-			"ingredients" : [
+			"name": "Asparagus and Tomatoes",
+			"ingredients": [
 				"1 lb trimmed asparagus",
 				"2/3 cup water",
 				"1/4 cup olive oil",
@@ -99,14 +73,7 @@
 			]
 		},
 		{
-			"name"        : "Bacon",
-			"dish"        : "ingredient",
-			"cuisines"    : [ "american" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 5 },
-				"cook" : { "val" : 20 }
-			},
+			"name": "Bacon",
 			"ingredients": [
 				"Bacon",
 				"1 frying pan",
@@ -120,15 +87,8 @@
 			]
 		},
 		{
-			"name"        : "Baked Beef Ravioli",
-			"dish"        : "main",
-			"cuisines"    : [ "italian" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 30 }
-			},
-			"ingredients" : [
+			"name": "Baked Beef Ravioli",
+			"ingredients": [
 				"1 lb ground beef",
 				"1 (25 oz) package frozen cheese or beef ravioli",
 				"1 (24 oz) jar spaghetti sauce",
@@ -148,16 +108,8 @@
 			]
 		},
 		{
-			"name"        : "Baked Garlic Parmesan Chicken",
-			"dish"        : "main",
-			"cuisines"    : [ "italian" ],
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 30 }
-			},
-			"servings"    : 6,
-			"ingredients" : [
+			"name": "Baked Garlic Parmesan Chicken",
+			"ingredients": [
 				"2 tablespoons olive oil",
 				"1 clove garlic, minced",
 				"1 cup dry bread crumbs",
@@ -176,14 +128,7 @@
 			]
 		},
 		{
-			"name"        : "Baked Spaghetti",
-			"dish"        : "main",
-			"cuisines"    : [ "italian" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 25 },
-				"cook" : { "val" : 85 }
-			},
+			"name": "Baked Spaghetti",
 			"ingredients": [
 				"1 (16 oz) package spaghetti",
 				"1 lb ground beef",
@@ -211,16 +156,8 @@
 			]
 		},
 		{
-			"name"        : "Baked Tilapia",
-			"dish"        : "main",
-			"cuisines"    : [ "seafood" ],
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 15 }
-			},
-			"servings"    : 4,
-			"ingredients" : [
+			"name": "Baked Tilapia",
+			"ingredients": [
 				"4 tilapia fillets",
 				"3 tablespoons melted butter",
 				"3 tablespoons lemon juice",
@@ -237,14 +174,7 @@
 			]
 		},
 		{
-			"name"        : "Baked Ziti with Sausage",
-			"dish"        : "main",
-			"cuisines"    : [ "italian" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 70 }
-			},
+			"name": "Baked Ziti with Sausage",
 			"ingredients": [
 				"1 (16 oz) package ziti pasta",
 				"1 lb Italian sausage",
@@ -258,7 +188,8 @@
 				"1/2 teaspoon salt",
 				"1/2 teaspoon pepper",
 				"1 (26 oz) jar spaghetti sauce",
-				"2 cups shredded Italian cheese"
+				"2 cups shredded Italian cheese",
+				"9x13 baking dish"
 			],
 			"steps": [
 				"Cook pasta according to directions on package.",
@@ -271,16 +202,8 @@
 			]
 		},
 		{
-			"name"        : "Beef and Bean Chimichangas",
-			"dish"        : "main",
-			"cuisines"    : [ "mexican" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" : 50 }
-			},
-			"servings"    : 10,
-			"ingredients" : [
+			"name": "Beef and Bean Chimichangas",
+			"ingredients": [
 				"1.5 lbs ground beef",
 				"1 small onion, chopped",
 				"1 green pepper, chopped",
@@ -304,13 +227,6 @@
 		},
 		{
 			"name": "Beef and Sausage Stir-Fry",
-			"dish"        : "main",
-			"cuisines"    : [ "chinese" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 30 }
-			},
 			"ingredients": [
 				"2 tablespoons vegetable oil",
 				"1 lb sliced angus stir-fry beef",
@@ -333,15 +249,7 @@
 			]
 		},
 		{
-			"name"        : "Beef Enchiladas",
-			"dish"        : "main",
-			"cuisines"    : [ "mexican" ],
-			"cookware"    : [ "stove", "oven" ],
-			"servings"    : 10,
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" : 40 }
-			},
+			"name": "Beef Enchiladas",
 			"ingredients": [
 				"1.5 lbs ground beef",
 				"10 (10 inch) flour tortillas",
@@ -368,14 +276,7 @@
 			]
 		},
 		{
-			"name"        : "Beef Nacho Casserole",
-			"dish"        : "main",
-			"cuisines"    : [ "mexican" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 35 },
-				"cook" : { "val" : 20 }
-			},
+			"name": "Beef Nacho Casserole",
 			"ingredients": [
 				"1.5 lbs ground beef",
 				"1.5 cups chunky salsa",
@@ -400,14 +301,7 @@
 			]
 		},
 		{
-			"name"        : "Beef Stroganoff",
-			"dish"        : "main",
-			"cuisines"    : [ "russian" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 45 }
-			},
+			"name": "Beef Stroganoff",
 			"ingredients": [
 				"1.5 lbs sirloin tip, cut into thin slices",
 				"1 onion, chopped",
@@ -428,13 +322,7 @@
 			]
 		},
 		{
-			"name"        : "Black Beans",
-			"dish"        : "side",
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 20 }
-			},
+			"name": "Black Beans",
 			"ingredients": [
 				"1 (30 oz) can black beans",
 				"1 small onion, chopped",
@@ -449,15 +337,8 @@
 			]
 		},
 		{
-			"name"        : "Bruschetta Chicken Bake",
-			"dish"        : "main",
-			"cuisines"    : [ "italian" ],
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 30 }
-			},
-			"ingredients" : [
+			"name": "Bruschetta Chicken Bake",
+			"ingredients": [
 				"4 chicken breasts, diced",
 				"1 teaspoon salt",
 				"1 (15 oz) can diced tomatoes",
@@ -476,15 +357,8 @@
 			]
 		},
 		{
-			"name"        : "Buffalo Chicken Mac and Cheese",
-			"dish"        : "main",
-			"cuisines"    : [ "american" ],
-			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" :  8, "units" : "hour" }
-			},
-			"ingredients" : [
+			"name": "Buffalo Chicken Mac and Cheese",
+			"ingredients": [
 				"1 lb boneless, skinless chicken breast",
 				"16 oz chicken broth",
 				"0.5 cups buffalo wing sauce",
@@ -507,15 +381,8 @@
 			]
 		},
 		{
-			"name"        : "Cajun Chicken Lasagna",
-			"dish"        : "main",
-			"cuisines"    : [ "american" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" : 90 }
-			},
-			"ingredients" : [
+			"name": "Cajun Chicken Lasagna",
+			"ingredients": [
 				"1 (16 oz) package lasagna noodles",
 				"1 lb andouille sausage, chopped",
 				"1 lb skinless, boneless chicken breast, chopped",
@@ -533,7 +400,9 @@
 				"1 (16 oz) container alfredo sauce",
 				"2 cups mozzarella cheese",
 				"1/2 cup parmesan cheese",
-				"1 tablespoon butter"
+				"1 tablespoon butter",
+				"1 large pot",
+				"9x13 baking dish"
 			],
 			"steps": [
 				"Cook pasta according to directions on container.",
@@ -551,21 +420,16 @@
 			]
 		},
 		{
-			"name"        : "Cashew Broccoli",
-			"dish"        : "side",
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" :   5 },
-				"cook" : { "val" :  25 }
-			},
-			"ingredients" : [
+			"name": "Cashew Broccoli",
+			"ingredients": [
 				"1.5 lbs broccoli",
 				"2 tablespoons butter",
 				"1 tablespoon brown sugar",
 				"3 tablespoons soy sauce",
 				"1/4 teaspoon pepper",
 				"1/2 teaspoon garlic powder",
-				"1/3 cup chopped cashews"
+				"1/3 cup chopped cashews",
+				"1 large pot"
 			],
 			"steps": [
 				"Place broccoli in a large pot with about 1 inch of water in the bottom.",
@@ -578,14 +442,8 @@
 			]
 		},
 		{
-			"name"        : "Cheddar Baked Chicken",
-			"dish"        : "main",
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 35 }
-			},
-			"ingredients" : [
+			"name": "Cheddar Baked Chicken",
+			"ingredients": [
 				"1 cup all-purpose flour",
 				"2 teaspoons salt",
 				"2 teaspoons pepper",
@@ -608,15 +466,8 @@
 			]
 		},
 		{
-			"name"        : "Cheeseburger Meatloaf",
-			"dish"        : "main",
-			"cuisines"    : [ "american" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 60 }
-			},
-			"ingredients" : [
+			"name": "Cheeseburger Meatloaf",
+			"ingredients": [
 				"2 lbs ground beef",
 				"3/4 cup bread crumbs",
 				"1 small onion, diced",
@@ -632,15 +483,8 @@
 			]
 		},
 		{
-			"name"        : "Cheesy Chicken Potatoes",
-			"dish"        : "main",
-			"cuisines"    : [ "comfort" ],
-			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" :  8, "unit" : "hour" }
-			},
-			"ingredients" : [
+			"name": "Cheesy Chicken Potatoes",
+			"ingredients": [
 				"3 chicken breasts",
 				"1 green pepper, chopped",
 				"1/2 lb velveeta cheese",
@@ -660,15 +504,8 @@
 			]
 		},
 		{
-			"name"        : "Cheesy Ham and Hash Brown Casserole",
-			"dish"        : "main",
-			"cuisines"    : [ "comfort", "breakfast" ],
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 40 }
-			},
-			"ingredients" : [
+			"name": "Cheesy Ham and Hash Brown Casserole",
+			"ingredients": [
 				"1 (32 oz) package frozen hash browns",
 				"8 oz cooked, diced ham",
 				"2 (10.75 oz) cans condensed cream of potato soup",
@@ -682,15 +519,8 @@
 			]
 		},
 		{
-			"name"        : "Chicken Alfredo Casserole",
-			"dish"        : "main",
-			"cuisines"    : [ "italian" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 50 }
-			},
-			"ingredients" : [
+			"name": "Chicken Alfredo Casserole",
+			"ingredients": [
 				"1 lb cooked chicken, diced",
 				"1 (16 oz) package of pasta",
 				"1 (16 oz) jar of alfredo sauce",
@@ -712,15 +542,8 @@
 			]
 		},
 		{
-			"name"        : "Chicken Cacciatore",
-			"dish"        : "main",
-			"cuisines"    : [ "italian" ],
-			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 55 },
-				"cook" : { "val" :  8, "units" : "hour" }
-			},
-			"ingredients" : [
+			"name": "Chicken Cacciatore",
+			"ingredients": [
 				"3 lbs boneless, skinless chicken breast",
 				"1 (28 oz) jar spaghetti sauce",
 				"1 (6 oz) can tomato paste",
@@ -740,15 +563,8 @@
 			]
 		},
 		{
-			"name"        : "Chicken Chili",
-			"dish"        : "main",
-			"cuisines"    : [ "comfort" ],
-			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 40 },
-				"cook" : { "val" :  7, "units" : "hour" }
-			},
-			"ingredients" : [
+			"name": "Chicken Chili",
+			"ingredients": [
 				"16 oz salsa",
 				"16 oz diced tomatoes with green chiles",
 				"30 oz pinto beans, drained",
@@ -768,15 +584,8 @@
 			]
 		},
 		{
-			"name"        : "Chicken Fajita Casserole",
-			"dish"        : "main",
-			"cuisines"    : [ "mexican" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 35 },
-				"cook" : { "val" : 70 }
-			},
-			"ingredients" : [
+			"name": "Chicken Fajita Casserole",
+			"ingredients": [
 				"16 oz ziti pasta",
 				"1 tablespoon vegetable oil",
 				"1 onion, sliced",
@@ -807,12 +616,8 @@
 			]
 		},
 		{
-			"name"        : "Chicken Salad",
-			"dish"        : "main",
-			"time"        : {
-				"prep" : { "val" : 15 }
-			},
-			"ingredients" : [
+			"name": "Chicken Salad",
+			"ingredients": [
 				"9 oz chicken deli meat",
 				"1 cup crushed almonds",
 				"0.5 cups mayo",
@@ -830,14 +635,7 @@
 			]
 		},
 		{
-			"name"        : "Cilantro Lime Chicken Tacos",
-			"dish"        : "main",
-			"cuisines"    : [ "mexican" ],
-			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" :  7, "units" : "hour" }
-			},
+			"name": "Cilantro Lime Chicken Tacos",
 			"ingredients": [
 				"3 tablespoons cilantro",
 				"1 (16 oz) jar salsa",
@@ -857,14 +655,8 @@
 			]
 		},
 		{
-			"name"        : "Cilantro Lime Rice",
-			"dish"        : "side",
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" :  5 },
-				"cook" : { "val" : 20 }
-			},
-			"ingredients" : [
+			"name": "Cilantro Lime Rice",
+			"ingredients": [
 				"1 cup rice",
 				"1 teaspoon salt",
 				"1/2 cup cilantro",
@@ -878,15 +670,8 @@
 			]
 		},
 		{
-			"name"        : "Egg Scrambler",
-			"dish"        : "main",
-			"cuisines"    : [ "breakfast" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 45 }
-			},
-			"ingredients" : [
+			"name": "Egg Scrambler",
+			"ingredients": [
 				"6 eggs",
 				"1 large potato",
 				"1 small onion",
@@ -896,7 +681,9 @@
 				"1/2 teaspoon salt",
 				"1/2 teaspoon pepper",
 				"1/4 teaspoon cayenne pepper",
-				"1/4 cup pepper jack cheese"
+				"1/4 cup pepper jack cheese",
+				"1 large pot",
+				"1 medium pot"
 			],
 			"steps": [
 				"Boil potato in salted water for about 20 minutes, or until tender.",
@@ -909,15 +696,24 @@
 			]
 		},
 		{
-			"name"        : "French Toast Casserole",
-			"dish"        : "main",
-			"cuisines"    : [ "breakfast" ],
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 50 }
-			},
-			"ingredients" : [
+			"name": "Fried Egg",
+			"ingredients": [
+				"1/2 teaspoon butter",
+				"1 egg",
+				"1 frying pan",
+				"Salt and pepper (optional)"
+			],
+			"steps": [
+				"Preheat frying pan over medium heat.",
+				"Crack the egg in a separate bowl.",
+				"Pour egg into frying pan and cook for 2-3 minutes on one side.",
+				"While the egg is cooking add salt, pepper, or other seasonings as desired.",
+				"Flip and cook for an additional 2 minutes."
+			]
+		},
+		{
+			"name": "French Toast Casserole",
+			"ingredients": [
 				"12 slices of white bread",
 				"1 (21 oz) can of apple pie filling",
 				"4 eggs",
@@ -941,14 +737,8 @@
 			]
 		},
 		{
-			"name"        : "Fried Corn with Smoked Sausage",
-			"dish"        : "main",
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 25 }
-			},
-			"ingredients" : [
+			"name": "Fried Corn with Smoked Sausage",
+			"ingredients": [
 				"1 lb smoked sausage, diced",
 				"1 onion, chopped",
 				"1 green pepper, chopped",
@@ -968,37 +758,8 @@
 			]
 		},
 		{
-			"name"        : "Fried Egg",
-			"dish"        : "ingredient",
-			"cuisines"    : [ "breakfast" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" :  5 },
-				"cook" : { "val" : 15 }
-			},
-			"servings"    : 1,
-			"ingredients" : [
-				"1/2 teaspoon butter",
-				"1 egg",
-				"Salt and pepper (optional)"
-			],
-			"steps": [
-				"Preheat frying pan over medium heat.",
-				"Crack the egg in a separate bowl.",
-				"Pour egg into frying pan and cook for 2-3 minutes on one side.",
-				"While the egg is cooking add salt, pepper, or other seasonings as desired.",
-				"Flip and cook for an additional 2 minutes."
-			]
-		},
-		{
-			"name"        : "Fried Potatoes",
-			"dish"        : "ingredient",
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 15 }
-			},
-			"ingredients" : [
+			"name": "Fried Potatoes",
+			"ingredients": [
 				"1 1/2 tablespoons vegetable oil",
 				"3 potatoes, cut into pieces",
 				"1 green pepper (optional)",
@@ -1011,14 +772,8 @@
 			]
 		},
 		{
-			"name"        : "Fried Red Potatoes",
-			"dish"        : "side",
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 15 }
-			},
-			"ingredients" : [
+			"name": "Fried Red Potatoes",
+			"ingredients": [
 				"6 medium red potatoes, cut into chunks",
 				"2 tablespoons vegetable oil",
 				"1/2 teaspoon parsley flakes (per batch)",
@@ -1033,14 +788,8 @@
 			]
 		},
 		{
-			"name"        : "Garlic Parmesan Zucchini",
-			"dish"        : "side",
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 15 }
-			},
-			"ingredients" : [
+			"name": "Garlic Parmesan Zucchini",
+			"ingredients": [
 				"1 tablespoon vegetable oil",
 				"1 tablespoon garlic powder",
 				"4 medium-sized zucchinis, sliced",
@@ -1056,16 +805,8 @@
 			]
 		},
 		{
-			"name"        : "German Pork Chops",
-			"dish"        : "main",
-			"cuisines"    : [ "german" ],
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 45 }
-			},
-			"servings"    : 8,
-			"ingredients" : [
+			"name": "German Pork Chops",
+			"ingredients": [
 				"8 center cut pork chops",
 				"2 lbs sauerkraut, drained",
 				"1 large red apple, diced",
@@ -1081,15 +822,8 @@
 			]
 		},
 		{
-			"name"        : "Green Bean Casserole",
-			"dish"        : "side",
-			"cuisines"    : [ "comfort" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 20 }
-			},
-			"ingredients" : [
+			"name": "Green Bean Casserole",
+			"ingredients": [
 				"1 tablespoon vegetable oil",
 				"1/3 cup chopped onion",
 				"2 (14.5 oz) cans green beans, drained",
@@ -1108,16 +842,8 @@
 			]
 		},
 		{
-			"name"        : "Grilled Cheese",
-			"dish"        : "main",
-			"cuisines"    : [ "american" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" :  5 },
-				"cook" : { "val" : 15 }
-			},
-			"servings"    : 2,
-			"ingredients" : [
+			"name": "Grilled Cheese",
+			"ingredients": [
 				"4 slices white bread",
 				"3 tablespoons butter",
 				"2 slices of cheese",
@@ -1133,15 +859,8 @@
 			]
 		},
 		{
-			"name"        : "Ham, Cheese, and Broccoli Casserole",
-			"dish"        : "main",
-			"cuisines"    : [ "comfort" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 50 }
-			},
-			"ingredients" : [
+			"name": "Ham, Cheese, and Broccoli Casserole",
+			"ingredients": [
 				"1 (16 oz) package of pasta",
 				"1 bag of broccoli",
 				"1 green pepper, diced",
@@ -1159,14 +878,7 @@
 			]
 		},
 		{
-			"name"        : "Hamburger Potato Casserole",
-			"dish"        : "main",
-			"cuisines"    : [ "comfort" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 40 },
-				"cook" : { "val" : 70 }
-			},
+			"name": "Hamburger Potato Casserole",
 			"ingredients": [
 				"1.5 lbs ground beef",
 				"3 potatoes, thinly sliced or diced",
@@ -1190,15 +902,8 @@
 			]
 		},
 		{
-			"name"        : "Hash Brown Casserole",
-			"dish"        : "side",
-			"cuisines"    : [ "breakfast", "comfort" ],
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 40 }
-			},
-			"ingredients" : [
+			"name": "Hash Brown Casserole",
+			"ingredients": [
 				"1 (2 lb) package frozen hash brown potatoes, thawed",
 				"1/2 cup melted butter",
 				"1 (10.75 oz) can condensed cream of chicken soup",
@@ -1215,14 +920,8 @@
 			]
 		},
 		{
-			"name"        : "Honey Garlic Carrots",
-			"dish"        : "side",
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" :  5 },
-				"cook" : { "val" : 25 }
-			},
-			"ingredients" : [
+			"name": "Honey Garlic Carrots",
+			"ingredients": [
 				"1 tablespoon butter",
 				"2 (16 oz) packages baby carrots",
 				"3 tablespoons honey",
@@ -1239,14 +938,7 @@
 			]
 		},
 		{
-			"name"        : "Jambalaya",
-			"dish"        : "main",
-			"cuisines"    : [ "american" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" : 60 }
-			},
+			"name": "Jambalaya",
 			"ingredients": [
 				"1 tablespoon olive oil",
 				"1 tablespoon salt",
@@ -1274,14 +966,8 @@
 			]
 		},
 		{
-			"name"        : "Kielbasa with Peppers and Potatoes",
-			"dish"        : "main",
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 40 },
-				"cook" : { "val" : 30 }
-			},
-			"ingredients" : [
+			"name": "Kielbasa with Peppers and Potatoes",
+			"ingredients": [
 				"1 tablespoon vegetable oil",
 				"1 (16 oz) package kielbasa sausage, diced",
 				"6 medium red potatoes, diced",
@@ -1297,15 +983,8 @@
 			]
 		},
 		{
-			"name"        : "Manicotti Italian Casserole",
-			"dish"        : "main",
-			"cuisines"    : [ "italian" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 40 },
-				"cook" : { "val" : 60 }
-			},
-			"ingredients" : [
+			"name": "Manicotti Italian Casserole",
+			"ingredients": [
 				"1 (16 oz) box of rigatoni pasta",
 				"1 lb ground beef",
 				"1 lb italian sausage",
@@ -1313,7 +992,9 @@
 				"1 small onion, chopped",
 				"1 (24 oz) jar spaghetti sauce",
 				"4 cups mozzarella cheese",
-				"About 50 slices of pepperoni"
+				"About 50 slices of pepperoni",
+				"1 large pot",
+				"9x13 baking dish"
 			],
 			"steps": [
 				"Cook pasta according to directions on the box.",
@@ -1327,15 +1008,8 @@
 			]
 		},
 		{
-			"name"        : "Mashed Potatoes with Skins",
-			"dish"        : "side",
-			"cuisines"    : [ "comfort" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 30 }
-			},
-			"ingredients" : [
+			"name": "Mashed Potatoes with Skins",
+			"ingredients": [
 				"2 lbs unpeeled potatoes, cubed",
 				"1/2 cup butter",
 				"1 cup milk",
@@ -1350,15 +1024,8 @@
 			]
 		},
 		{
-			"name"        : "Meatball Sub Casserole",
-			"dish"        : "main",
-			"cuisines"    : [ "italian" ],
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 35 }
-			},
-			"ingredients" : [
+			"name": "Meatball Sub Casserole",
+			"ingredients": [
 				"6 bagels",
 				"1 onion, diced",
 				"1 (24 oz) jar spaghetti sauce",
@@ -1378,16 +1045,8 @@
 			]
 		},
 		{
-			"name"        : "Nachos",
-			"dish"        : "main",
-			"cuisines"    : [ "mexican" ],
-			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 70 },
-				"cook" : { "val" :  8, "units" : "hour" }
-			},
-			"servings"    : 8,
-			"ingredients" : [
+			"name": "Nachos",
+			"ingredients": [
 				"1 large bag of tortilla chips",
 				"1 (16 oz) can beef broth",
 				"1 tablespoon salt",
@@ -1415,15 +1074,8 @@
 			]
 		},
 		{
-			"name"        : "Pasta Pomodoro",
-			"dish"        : "main",
-			"cuisines"    : [ "italian" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 70, "units" : "hour" }
-			},
-			"ingredients" : [
+			"name": "Pasta Pomodoro",
+			"ingredients": [
 				"1 (16 oz) package angel hair pasta",
 				"1/4 cup olive oil",
 				"1 small onion, chopped",
@@ -1442,15 +1094,8 @@
 			]
 		},
 		{
-			"name"        : "Pepperoncini Beef",
-			"dish"        : "main",
-			"cuisines"    : [ "comfort" ],
-			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 60 },
-				"cook" : { "val" :  7, "units" : "hour" }
-			},
-			"ingredients" : [
+			"name": "Pepperoncini Beef",
+			"ingredients": [
 				"1 (3 lb) beef chuck or rump roast",
 				"1 tablespoon garlic powder",
 				"1 (16 oz) jar sliced pepperoncini",
@@ -1467,15 +1112,8 @@
 			]
 		},
 		{
-			"name"        : "Pesto Chicken Penne Casserole",
-			"dish"        : "main",
-			"cuisines"    : [ "italian" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 60 }
-			},
-			"ingredients" : [
+			"name": "Pesto Chicken Penne Casserole",
+			"ingredients": [
 				"3 cubed chicken breasts (or 6 cups)",
 				"1/2 cup bread crumbs",
 				"1/2 cup parmesan cheese",
@@ -1486,7 +1124,10 @@
 				"1 (15 oz) can crushed tomatoes",
 				"1 (15 oz) jar Alfredo sauce",
 				"1 (6.5 oz) jar pesto sauce",
-				"1 cup milk"
+				"1 cup milk",
+				"1 large frying pan",
+				"1 large pot",
+				"9x13 baking dish"
 			],
 			"steps": [
 				"Cook the pasta according to the directions on the box.",
@@ -1502,15 +1143,8 @@
 			]
 		},
 		{
-			"name"        : "Pesto Tomatoes",
-			"dish"        : "side",
-			"cuisines"    : [ "italian" ],
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 20 }
-			},
-			"ingredients" : [
+			"name": "Pesto Tomatoes",
+			"ingredients": [
 				"6 tomatoes",
 				"1/2 cup pesto",
 				"1 cup grated Parmesan cheese"
@@ -1524,15 +1158,8 @@
 			]
 		},
 		{
-			"name"        : "Pizza Casserole",
-			"dish"        : "main",
-			"cuisines"    : [ "italian" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 60 }
-			},
-			"ingredients" : [
+			"name": "Pizza Casserole",
+			"ingredients": [
 				"1 (16 oz) package egg noodles",
 				"1 lb ground beef",
 				"1 small onion, chopped",
@@ -1554,15 +1181,8 @@
 			]
 		},
 		{
-			"name"        : "Pulled Pork",
-			"dish"        : "main",
-			"cuisines"    : [ "american", "comfort" ],
-			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" :  8, "units" : "hour" }
-			},
-			"ingredients" : [
+			"name": "Pulled Pork",
+			"ingredients": [
 				"3 lbs pork tenderloin",
 				"1 bottle barbeque sauce",
 				"1 teaspoon garlic powder",
@@ -1582,15 +1202,8 @@
 			]
 		},
 		{
-			"name"        : "Ranch Beef and Noodles",
-			"dish"        : "main",
-			"cuisines"    : [ "comfort" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 40 }
-			},
-			"ingredients" : [
+			"name": "Ranch Beef and Noodles",
+			"ingredients": [
 				"1/2 cup grated parmesian cheese",
 				"3/4 cup milk",
 				"1 (8 oz) container sour cream",
@@ -1609,13 +1222,8 @@
 			]
 		},
 		{
-			"name"        : "Red, White, and Blue Fruit Salad",
-			"dish"        : "side",
-			"cuisines"    : [ "american" ],
-			"time"        : {
-				"prep" : { "val" : 20 }
-			},
-			"ingredients" : [
+			"name": "Red, White, and Blue Fruit Salad",
+			"ingredients": [
 				"1 (16 oz) bag of frozen strawberries",
 				"1 (12 oz) bag of frozen blueberries",
 				"1 (8 oz) block of cream cheese",
@@ -1630,14 +1238,8 @@
 			]
 		},
 		{
-			"name"        : "Roasted Brussels Sprouts",
-			"dish"        : "side",
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 30 }
-			},
-			"ingredients" : [
+			"name": "Roasted Brussels Sprouts",
+			"ingredients": [
 				"1.5 lbs Brussels sprouts, trimmed and halved",
 				"3 tablespoons olive oil",
 				"1 tablespoon salt",
@@ -1650,15 +1252,8 @@
 			]
 		},
 		{
-			"name"        : "Sausage Alfredo",
-			"dish"        : "main",
-			"cuisines"    : [ "italian" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 40 }
-			},
-			"ingredients" : [
+			"name": "Sausage Alfredo",
+			"ingredients": [
 				"1 (14 oz) smoked sausage, sliced",
 				"16 oz pasta",
 				"1 jar alfredo sauce",
@@ -1671,15 +1266,8 @@
 			]
 		},
 		{
-			"name"        : "Sausage and Tortellini Skillet",
-			"dish"        : "main",
-			"cuisines"    : [ "italian" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 50 }
-			},
-			"ingredients" : [
+			"name": "Sausage and Tortellini Skillet",
+			"ingredients": [
 				"1 (14 oz) kielbasa or smoked sausage, sliced",
 				"3 teaspoons garlic powder",
 				"1 medium onion, diced",
@@ -1703,15 +1291,8 @@
 			]
 		},
 		{
-			"name"        : "Sausage with Potatoes and Sauerkraut",
-			"dish"        : "main",
-			"cuisines"    : [ "german" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 25 },
-				"cook" : { "val" : 30 }
-			},
-			"ingredients" : [
+			"name": "Sausage with Potatoes and Sauerkraut",
+			"ingredients": [
 				"1 (14 oz) package smoked sausage",
 				"1 lb potatoes, diced",
 				"1 cup sauerkraut, rinsed and drained",
@@ -1725,14 +1306,8 @@
 			]
 		},
 		{
-			"name"        : "Sauteed Onions",
-			"dish"        : "ingredient",
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 20 }
-			},
-			"ingredients" : [
+			"name": "Sauteed Onions",
+			"ingredients": [
 				"1 chopped onion",
 				"1 tablespoon oil or butter",
 				"1 frying pan"
@@ -1744,22 +1319,16 @@
 			]
 		},
 		{
-			"name"        : "Scalloped Potatoes",
-			"dish"        : "side",
-			"cuisines"    : [ "comfort" ],
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 45 }
-			},
-			"ingredients" : [
+			"name": "Scalloped Potatoes",
+			"ingredients": [
 				"3 pounds of potatoes, thinly sliced",
 				"1 small onion, thinly sliced",
 				"9 tablespoons all-purpose flour",
 				"3 tablespoons butter",
 				"Salt",
 				"Pepper",
-				"3 cups milk"
+				"3 cups milk",
+				"9x13 baking dish"
 			],
 			"steps": [
 				"Lightly grease the baking dish.",
@@ -1771,14 +1340,7 @@
 			]
 		},
 		{
-			"name"        : "Scallops",
-			"dish"        : "main",
-			"cuisines"    : [ "seafood" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" :  5 },
-				"cook" : { "val" : 20 }
-			},
+			"name": "Scallops",
 			"ingredients": [
 				"16 oz scallops",
 				"1 tablespoon butter",
@@ -1793,15 +1355,8 @@
 			]
 		},
 		{
-			"name"        : "Shepherd's Pie",
-			"dish"        : "main",
-			"cuisines"    : [ "comfort" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 40 },
-				"cook" : { "val" : 80 }
-			},
-			"ingredients" : [
+			"name": "Shepherd's Pie",
+			"ingredients": [
 				"3 lbs potatoes, cubed",
 				"1 cup milk",
 				"1 tablespoon butter",
@@ -1825,14 +1380,8 @@
 			]
 		},
 		{
-			"name"        : "Simple Pasta Salad",
-			"dish"        : "side",
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 20 }
-			},
-			"ingredients" : [
+			"name": "Simple Pasta Salad",
+			"ingredients": [
 				"1 (16 oz) package rotini pasta",
 				"1 (16 oz) bottle Italian salad dressing",
 				"1 cucumber, chopped",
@@ -1847,15 +1396,8 @@
 			]
 		},
 		{
-			"name"        : "Slow Cooker Green Bean Casserole",
-			"dish"        : "side",
-			"cuisines"    : [ "comfort" ],
-			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" :  6, "units" : "hour" }
-			},
-			"ingredients" : [
+			"name": "Slow Cooker Green Bean Casserole",
+			"ingredients": [
 				"32 oz frozen green beans",
 				"2 (10.75 oz) cans of cream of chicken soup",
 				"1 cup milk",
@@ -1870,16 +1412,8 @@
 			]
 		},
 		{
-			"name"        : "Smothered Burritos",
-			"dish"        : "main",
-			"cuisines"    : [ "mexican" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 50 },
-				"cook" : { "val" : 40 }
-			},
-			"servings"    : 10,
-			"ingredients" : [
+			"name": "Smothered Burritos",
+			"ingredients": [
 				"1 lb ground beef",
 				"1 small onion, chopped",
 				"1 green pepper, chopped",
@@ -1911,15 +1445,8 @@
 			]
 		},
 		{
-			"name"        : "Spicy Garlic Lime Chicken",
-			"dish"        : "main",
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 25 }
-			},
-			"servings"    : 4,
-			"ingredients" : [
+			"name": "Spicy Garlic Lime Chicken",
+			"ingredients": [
 				"3-4 boneless, skinless chicken breast filets",
 				"3/4 teaspoon salt",
 				"1/4 teaspoon black pepper",
@@ -1931,7 +1458,8 @@
 				"1/4 teaspoon parsley",
 				"2 tablespoons butter",
 				"1 tablespoon vegetable or olive oil",
-				"3 tablespoons lime juice"
+				"3 tablespoons lime juice",
+				"1 large frying pan"
 			],
 			"steps": [
 				"In a small bowl, mix together salt, black pepper, cayenne pepper, paprika, 1/4 teaspoon garlic powder, onion powder, thyme, and parsley.",
@@ -1943,15 +1471,8 @@
 			]
 		},
 		{
-			"name"        : "Spinach Chicken Parmesan",
-			"dish"        : "main",
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 40 },
-				"cook" : { "val" : 65 }
-			},
-			"servings"    : 6,
-			"ingredients" : [
+			"name": "Spinach Chicken Parmesan",
+			"ingredients": [
 				"6 skinless, boneless chicken breasts",
 				"1/3 cup parmesan cheese",
 				"1/4 teaspoon italian seasoning",
@@ -1971,16 +1492,8 @@
 			]
 		},
 		{
-			"name"        : "Stuffed Peppers",
-			"dish"        : "main",
-			"cuisines"    : [ "comfort" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" :  40 },
-				"cook" : { "val" : 100 }
-			},
-			"servings"    : 12,
-			"ingredients" : [
+			"name": "Stuffed Peppers",
+			"ingredients": [
 				"1 lb ground beef",
 				"2 (8 oz) cans tomato sauce",
 				"2 cups rice",
@@ -2000,14 +1513,8 @@
 			]
 		},
 		{
-			"name"        : "Summer Style Chicken",
-			"dish"        : "main",
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 45 }
-			},
-			"ingredients" : [
+			"name": "Summer Style Chicken",
+			"ingredients": [
 				"4 boneless, skinless chicken breast halves",
 				"1 (14.5 oz) can stewed tomatoes",
 				"1 yellow squash, thinly sliced",
@@ -2022,15 +1529,8 @@
 			]
 		},
 		{
-			"name"        : "Sweet and Sour Sausage",
-			"dish"        : "main",
-			"cuisines"    : [ "chinese" ],
-			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 35 },
-				"cook" : { "val" : 40 }
-			},
-			"ingredients" : [
+			"name": "Sweet and Sour Sausage",
+			"ingredients": [
 				"1 (14 oz) package smoked sausage, sliced",
 				"1 green pepper, chopped",
 				"1 small onion, chopped",
@@ -2048,16 +1548,8 @@
 			]
 		},
 		{
-			"name"        : "Swiss Chicken Casserole",
-			"dish"        : "main",
-			"cuisines"    : [ "swiss", "comfort" ],
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 50 }
-			},
-			"servings"    : 6,
-			"ingredients" : [
+			"name": "Swiss Chicken Casserole",
+			"ingredients": [
 				"6 skinless, boneless chicken breast halves",
 				"6 slices Swiss cheese",
 				"1 (10.75 oz) can condensed cream of chicken soup",
@@ -2074,15 +1566,8 @@
 			]
 		},
 		{
-			"name"        : "Taco Spaghetti Bake",
-			"dish"        : "main",
-			"cuisines"    : [ "mexican", "comfort" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 50 }
-			},
-			"ingredients" : [
+			"name": "Taco Spaghetti Bake",
+			"ingredients": [
 				"1 (16 oz) package spaghetti",
 				"1.5 lbs ground beef",
 				"1 tablespoon cumin",
@@ -2105,15 +1590,8 @@
 			]
 		},
 		{
-			"name"        : "Tater Tot Casserole",
-			"dish"        : "main",
-			"cuisines"    : [ "american", "comfort" ],
-			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 55 }
-			},
-			"ingredients" : [
+			"name": "Tater Tot Casserole",
+			"ingredients": [
 				"1 (32 oz) package frozen tater tots",
 				"1 lb ground beef",
 				"1 small onion, diced",
@@ -2135,14 +1613,8 @@
 			]
 		},
 		{
-			"name"        : "Zucchini Casserole",
-			"dish"        : "main",
-			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 50 }
-			},
-			"ingredients" : [
+			"name": "Zucchini Casserole",
+			"ingredients": [
 				"5 medium zucchinis, sliced",
 				"1 (10.75 oz) can condensed cream of chicken soup",
 				"1 cup sour cream",
