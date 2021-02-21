@@ -8,6 +8,10 @@ ARCH.content.views.recipe.draw = function(){
 	$("#content").html(
 		'<div class="container recipe">' +
 				'<div class="item">' +
+					ARCH.content.get_servings_html(        this.curr_recipe ) +
+					ARCH.content.get_prep_time_html(       this.curr_recipe ) +
+					ARCH.content.get_cook_time_html(       this.curr_recipe ) +
+					ARCH.content.get_recipe_cuisines_html( this.curr_recipe ) +
 					'<table>' +
 						'<tr>' +
 							'<td class="title">' + this.curr_recipe.name + '<hr></div>' +
@@ -15,7 +19,14 @@ ARCH.content.views.recipe.draw = function(){
 						'<tr><td class="img" style="background-image:url(' + ARCH.content.get_recipe_image( this.curr_recipe.name ) + ');"></td></tr>' +
 						'<tr><td class="ingredients">' +
 							'<div class="recipe-section-title">Ingredients<hr></div>' +
-							this.curr_recipe.ingredients.map(function( ingredient ){
+							this.curr_recipe.ingredients.map(function( ing ){
+								var ingredient = ing;
+								if( typeof( ing ) == 'object' ){
+									ingredient = ARCH.functions.number_to_fraction( ing.val ) + ' ' +
+										( ing.units ? ARCH.functions.format_units( ing.val, ing.units ) + ' of ' : '' ) +
+										'<span class="ingredient-name ' + ( ing.spicy ? 'spicy' : '' ) + '">' + ing.name + '</span>' + 
+										( ing.style ? ', ' + ing.style : '' );
+								}
 								return '<div class="ingredient">' +
 									'<span class="ingredient-text no-highlight" onclick="$( this ).parent().toggleClass(\'completed\');">' +
 										'<span class="bullet">&bull;</span>' + ingredient + 

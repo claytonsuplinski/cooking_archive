@@ -32,7 +32,7 @@ ARCH.content.load = function(){
 			
 			self.draw_header();
 			
-			var value_index = ARCH.data.recipes.map(function(a){ return a.name; }).indexOf( ARCH.hashlink.value );
+			var value_index = ARCH.data.recipes.map(function(a){ return a.name; }).indexOf( ARCH.hashlinks.params.recipe.value );
 			
 			if( value_index == -1 ) ARCH.content.views.main.draw();
 			else{
@@ -53,6 +53,33 @@ ARCH.content.get_recipe_image = function(name){
 
 ARCH.content.get_cuisine_image = function(name){
 	return './assets/img/cuisines/' + ARCH.functions.str_to_filename( name ) + '.jpg';
+};
+
+ARCH.content.get_prep_time_html = function( recipe ){
+	var prep_time = ARCH.functions.get_recipe_time({ recipe, key : 'prep', abbreviated : true });
+	if( !prep_time ) return '';
+	return '<div class="info-label time-label prep">Prep : ' + prep_time + '</div>';
+};
+
+ARCH.content.get_cook_time_html = function( recipe ){
+	var cook_time = ARCH.functions.get_recipe_time({ recipe, key : 'cook', abbreviated : true });
+	if( !cook_time ) return '';
+	return '<div class="info-label time-label cook">Cook : ' + cook_time + '</div>';
+};
+
+ARCH.content.get_servings_html = function( recipe ){
+	if( !recipe.servings ) return '';
+	return '<div class="info-label servings">Servings : ' + recipe.servings + '</div>';
+};
+
+ARCH.content.get_recipe_cuisines_html = function( recipe ){
+	if( !recipe.cuisines ) return '';
+	
+	return recipe.cuisines.map(function( cuisine, i ){
+		var style = 'background-image:url(' + ARCH.content.get_cuisine_image( cuisine ) + ');';
+		if( i ) style += 'left:' + ( 30 * i + 5 ) + 'px;';
+		return '<div class="info-label cuisine-icon" style="' + style + '"></div>';
+	}).join('');
 };
 
 ARCH.content.random_recipe = function(){

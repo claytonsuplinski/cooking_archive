@@ -1,7 +1,7 @@
 .container.recipe{
 	width:90%;
 	max-width:800px;
-	padding-bottom:30px;
+	padding-bottom:20px;
 }
 
 .container.recipe .item .title{
@@ -72,6 +72,19 @@ td.ingredients .ingredient.completed .ingredient-text:hover{
 	opacity:0.5;
 }
 
+td.ingredients .ingredient .ingredient-text .ingredient-name{
+	color:#F9ED73;
+	background:rgba(0, 0, 0, 0.2);
+	padding:2px 5px;
+	margin:0 1px;
+	border:1px solid rgba(255,255,255,0.2);
+	border-radius:5px;
+}
+
+td.ingredients .ingredient .ingredient-text .ingredient-name.spicy{
+	color:#ff8989;
+}
+
 td.steps{
 	text-align:left;
 	background:#353005;
@@ -100,6 +113,22 @@ td.steps .number{
 	padding:4px 10px;
 	margin:0 15px;
 	font-size:12px;
+}
+
+.recipe .item .info-label.servings,
+.recipe .item .time-label{
+	top:135px;
+	bottom:auto;
+}
+
+.recipe .item .time-label.prep{
+	top:110px;
+	bottom:auto;
+}
+
+.recipe .item .cuisine-icon{
+	top:45px;
+	bottom:auto;
 }
 
 @media (max-width: 400px){

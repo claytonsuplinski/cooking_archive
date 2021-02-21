@@ -1,40 +1,77 @@
 ARCH.content.views.main = {};
 
-ARCH.content.views.main.draw = function(){
-	var recipe_types = {};
-	
-	ARCH.data.recipes.forEach(function( recipe ){
-		var type = recipe.dish || 'unknown';
-		if( !recipe_types[ type ] ) recipe_types[ type ] = { recipes : [] };
-		recipe_types[ type ].recipes.push( recipe );
-	});
+ARCH.content.views.main.search = function(){
+	var self = this;
+	if( this.is_searching ){
+		clearTimeout( this.is_searching );
+		this.is_searching = false;
+	}
+	this.is_searching = setTimeout( function(){ self.draw_recipe_list({ query : $( "#search-bar input" ).val() }); }, 500 );
+};
 
-	$("#content").html(
-		// '<div id="search-bar"><input placeholder="&#xF002;   Filter recipes..."></input></div><br>' +
-		// [ 'dish', 'cookware', 'cuisine' ].map(function( category ){
-		// 	return ARCH.content.sub_categories[ category ].sort( (a,b) => ( b.count - a.count ) ).map(function( dish ){
-		// 		return '<div class="recipe-type-button">' +
-		// 			ARCH.functions.to_title_case( dish.name ) + ' <span class="num-recipes">' + dish.count + '</span>' +
-		// 		'</div>';
-		// 	}).join('');
-		// }).join('<br>') + '<br>' +
-		ARCH.data.recipes.map(function( recipe ){
-			var prep_time = ARCH.functions.get_recipe_time({ recipe, key : 'prep', abbreviated : true });
-			var cook_time = ARCH.functions.get_recipe_time({ recipe, key : 'cook', abbreviated : true });
+ARCH.content.views.main.get_recipe_list = function( criteria ){
+	var recipes = ARCH.data.recipes.slice();
+	
+	if( criteria.dish ) recipes = recipes.filter(function( r ){ return r.dish == criteria.dish; });
+	
+	if( criteria.cuisine ) recipes = recipes.filter(function( r ){
+		if( !r.cuisines ) return false;
+		return r.cuisines.includes( criteria.cuisine );
+	});
+	
+	if( criteria.cookware ) recipes = recipes.filter(function( r ){
+		if( !r.cookware ) return false;
+		return r.cookware.includes( criteria.cookware );
+	});
+	
+	if( criteria.query ){
+		var query = ARCH.functions.remove_punctuation( criteria.query.toLowerCase() );
+		var query_parts = query.split(' ');
+		recipes.forEach(function( recipe ){
+			recipe._query_score = 0;
+			
+			[
+				{ str : recipe.name                                    , weight : 10 },
+				{ str : recipe.ingredients.map( x => x.name ).join(' '), weight :  5 },
+				{ str : recipe.dish || ''                              , weight :  3 },
+				{ str : ( recipe.cuisines || [] ).join(' ')            , weight :  3 },
+				{ str : ( recipe.cookware || [] ).join(' ')            , weight :  3 },
+			].forEach(function( matching_string ){
+				var str       = ARCH.functions.remove_punctuation( matching_string.str.toLowerCase() );
+				var str_parts = str.split(' ');
+				
+				// Exact match of query
+				if( str.includes( query ) ) recipe._query_score += 5 * matching_string.weight;
+				
+				// Exact matches of parts of query
+				recipe._query_score += matching_string.weight * query_parts.filter( x => str_parts.includes( x ) ).length;
+			});
+		});
+		
+		recipes = recipes.filter( r => r._query_score ).sort( (a,b) => ( b._query_score - a._query_score ) );
+	}
+
+	return recipes;
+};
+
+ARCH.content.views.main.draw_recipe_list = function( p ){
+	var p = p || {};
+	
+	var criteria = {};
+	[ 'dish', 'cuisine', 'cookware' ].forEach(function( x ){ criteria[ x ] = ARCH.hashlinks.params[ x ].value; });
+	Object.assign( criteria, p );
+	
+	var recipe_list = this.get_recipe_list( criteria );
+
+	$("#recipe-list").html(
+		recipe_list.map(function( recipe ){
 			return '<div class="container">'+
-				'<a href="' + ARCH.hashlink.get_url( recipe.name ) + '">'+
+				'<a href="' + ARCH.hashlinks.get_url({ include : { recipe : recipe.name } }) + '">'+
 					'<div class="item selectable">'+
-						( recipe.servings ? '<div class="info-label servings">Servings : '    + recipe.servings + '</div>' : '' ) +
-						( prep_time       ? '<div class="info-label time-label prep">Prep : ' + prep_time       + '</div>' : '' ) +
-						( cook_time       ? '<div class="info-label time-label cook">Cook : ' + cook_time       + '</div>' : '' ) +
-						( recipe.cuisines ?
-							recipe.cuisines.map(function( cuisine, i ){
-								var style = 'background-image:url(' + ARCH.content.get_cuisine_image( cuisine ) + ');';
-								if( i ) style += 'left:' + ( 30 * i + 5 ) + 'px;';
-								return '<div class="info-label cuisine-icon" style="' + style + '"></div>';
-							}).join('')
-							: ''
-						) +
+						ARCH.content.get_servings_html(        recipe ) +
+						ARCH.content.get_prep_time_html(       recipe ) +
+						ARCH.content.get_cook_time_html(       recipe ) +
+						ARCH.content.get_recipe_cuisines_html( recipe ) +
 						'<table>'+
 							'<tr>'+
 								'<td class="title">' + recipe.name + '<hr></div>'+
@@ -44,6 +81,16 @@ ARCH.content.views.main.draw = function(){
 					'</div>'+
 				'</a>'+
 			'</div>';
-		}, this).join('')
+		}, this).join('') +
+		'<div id="num-drawn-recipes"><hr>' + recipe_list.length + ' recipe' + ( recipe_list.length == 1 ? '' : 's' ) + '</div>'
 	);
+};
+
+ARCH.content.views.main.draw = function( p ){
+	$("#content").html(
+		'<div id="search-bar"><input oninput="ARCH.content.views.main.search();" placeholder="&#xF002;   Filter recipes..."></input></div><br>' +
+		'<div id="recipe-list"></div>'
+	);
+	
+	this.draw_recipe_list( p );
 };

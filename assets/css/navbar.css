@@ -9,7 +9,8 @@
 	box-shadow:1px 1px 8px 2px rgba(0,0,0,0.75);
 }
 
-.header-navbar *{
+.header-navbar > *,
+.header-navbar .page-title{
 	font-family: 'Satisfy';
 }
 
@@ -60,19 +61,60 @@
 }
 
 .header-navbar .option:hover{
-	background:rgba(0,0,0,0.25);
-}
-
-.header-navbar .option.selected{
 	background:rgba(0,0,0,0.4);
-	color:#fff8af;
 }
 
 .header-navbar .option hr{
-	width:35px;
+	width:15px;
 	position:absolute;
 	bottom:-8px;
 	left:0;
 	right:0;
 	border-color:rgba(255,255,255,0.4);
+}
+
+.header-navbar .option .dropdown-options{
+	position:absolute;
+	background:#598a54;
+	width:150px;
+	left:0;
+	top:47px;
+	display:none;
+}
+
+.header-navbar .option:hover .dropdown-options{
+	display:block;
+}
+
+.header-navbar .option .dropdown-options .dropdown-option{
+	font-size:12px;
+	font-style:italic;
+	text-align:left;
+	padding:5px 10px;
+	margin:5px 0;
+	background:rgba(0,0,0,0.25);
+	color:#d9ffd6;
+}
+
+.header-navbar .option .dropdown-options .dropdown-option:hover{
+	background:rgba(0,0,0,0.4);
+}
+
+.header-navbar .option .dropdown-options .dropdown-option .num-recipes{
+	float:right;
+	background:rgba(0,0,0,0.3);
+	border:1px solid rgba(255,255,255,0.4);
+	border-radius:100px;
+	width:30px;
+	text-align:center;
+	margin-top:-1px;
+	font-size:12px;
+	font-style:normal;
+	color:rgba(255,255,255,0.85);
+}
+
+@media (max-width: 700px){
+	.header-navbar .option{
+		display:none;
+	}
 }

@@ -11,14 +11,14 @@
 			},
 			"servings"    : 6,
 			"ingredients" : [
-				{ "val" : 2   ,                             "name" : "Eggs"            },
-				{ "val" : 1   , "units" : "teaspoon"      , "name" : "Garlic Powder"   },
-				{ "val" : 1   , "units" : "teaspoon"      , "name" : "Pepper"          },
-				{ "val" : 1   , "units" : "cup"           , "name" : "Almonds"         , "style" : "ground" },
-				{ "val" : 1   , "units" : "cup"           , "name" : "Parmesan Cheese" },
 				{ "val" : 6   , "units" : "(4 oz) fillets", "name" : "Tilapia"         },
+				{ "val" : 1   , "units" : "cup"           , "name" : "Almonds"         , "style" : "ground" },
+				{ "val" : 2   ,                             "name" : "Eggs"            },
+				{ "val" : 4   , "units" : "tablespoon"    , "name" : "Butter"          },
 				{ "val" : 0.25, "units" : "cup"           , "name" : "Flour"           },
-				{ "val" : 4   , "units" : "tablespoon"    , "name" : "Butter"          }
+				{ "val" : 1   , "units" : "teaspoon"      , "name" : "Garlic Powder"   },
+				{ "val" : 1   , "units" : "teaspoon"      , "name" : "Black Pepper"    },
+				{ "val" : 1   , "units" : "cup"           , "name" : "Parmesan Cheese" , "style" : "shredded" }
 			],
 			"steps"       : [
 				"Beat the eggs with the garlic powder and pepper until blended.",
@@ -39,11 +39,11 @@
 			},
 			"servings"    : 4,
 			"ingredients" : [
-				"1 (15 oz) can artichoke hearts, drained and chopped",
-				"3/4 cup Parmesan cheese",
-				"3/4 cup mayonnaise",
-				"4 skinless, boneless chicken breasts",
-				"1 teaspoon garlic powder"
+				{ "val" : 4   ,                       "name" : "Chicken Breasts"  , "style" : "skinless and boneless" },
+				{ "val" : 15  , "units" : "oz"      , "name" : "Artichoke Hearts" , "style" : "drained and chopped" },
+				{ "val" : 0.75, "units" : "cup"     , "name" : "Mayonnaise"       },
+				{ "val" : 1   , "units" : "teaspoon", "name" : "Garlic Powder"    },
+				{ "val" : 0.75, "units" : "cup"     , "name" : "Parmesan Cheese"  }
 			],
 			"steps": [
 				"In a separate bowl, mix together artichoke hearts, Parmesan cheese, garlic powder, and mayo.",
@@ -59,15 +59,15 @@
 				"prep" : { "val" : 10 },
 				"cook" : { "val" : 15 }
 			},
-			"ingredients" : [
-				"1 (16 oz) package bow tie pasta",
-				"13 oz marinated artichoke hearts, drained and chopped",
-				"1/4 cup chopped walnuts",
-				"3 tablespoons olive oil",
-				"1 cup lemon juice",
-				"1 tablespoon basil",
-				"1 tablespoon salt",
-				"1 tablespoon pepper"
+			"ingredients" : [			
+				{ "val" : 16   , "units" : "oz"              , "name" : "Bow Tie Pasta"          },
+				{ "val" : 13   , "units" : "oz"              , "name" : "Artichoke Hearts"       , "style" : "drained and chopped" },
+				{ "val" :  0.25, "units" : "cup"             , "name" : "Walnuts"                , "style" : "chopped" },
+				{ "val" :  3   , "units" : "tablespoon"      , "name" : "Olive Oil"              },
+				{ "val" :  1   , "units" : "cup"             , "name" : "Lemon Juice"            },
+				{ "val" :  1   , "units" : "tablespoon"      , "name" : "Basil"                  },
+				{ "val" :  1   , "units" : "tablespoon"      , "name" : "Salt"                   },
+				{ "val" :  1   , "units" : "tablespoon"      , "name" : "Black Pepper"           }
 			],
 			"steps": [
 				"Cook the pasta according to directions on the package.",
@@ -83,12 +83,11 @@
 				"cook" : { "val" : 30 }
 			},
 			"ingredients" : [
-				"1 lb trimmed asparagus",
-				"2/3 cup water",
-				"1/4 cup olive oil",
-				"1/2 cup grated parmesan cheese",
-				"10 grape tomatoes, halved",
-				"1 large saucepan"
+				{ "val" :  1   , "units" : "lb" , "name" : "Asparagus"       , "style" : "trimmed" },
+				{ "val" : 10   ,                  "name" : "Grape Tomatoes"  , "style" : "halved" },
+				{ "val" :  0.25, "units" : "cup", "name" : "Olive Oil"       },
+				{ "val" :  0.66, "units" : "cup", "name" : "Water"           },
+				{ "val" :  0.5 , "units" : "cup", "name" : "Parmesan Cheese" , "style" : "shredded" }
 			],
 			"steps": [
 				"Put asparagus and water in the saucepan over medium heat and cover.",
@@ -108,9 +107,7 @@
 				"cook" : { "val" : 20 }
 			},
 			"ingredients": [
-				"Bacon",
-				"1 frying pan",
-				"1 disposable metal or glass container"
+				{ "val" : 1, "units" : "lb", "name" : "Bacon" }
 			],
 			"steps": [
 				"Lay bacon flat on the frying pan without preheating.",
@@ -129,15 +126,15 @@
 				"cook" : { "val" : 30 }
 			},
 			"ingredients" : [
-				"1 lb ground beef",
-				"1 (25 oz) package frozen cheese or beef ravioli",
-				"1 (24 oz) jar spaghetti sauce",
-				"1 green pepper, diced",
-				"1 tablespoon onion powder",
-				"1 tablespoon basil",
-				"1 tablespoon garlic powder",
-				"2 cups shredded mozzarella cheese",
-				"2 cups shredded Monterey Jack cheese"
+				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
+				{ "val" : 25   , "units" : "oz"         , "name" : "Frozen Ravioli"       },
+				{ "val" : 24   , "units" : "oz"         , "name" : "Marinara Sauce"       },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"                },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"         },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese"    , "style" : "shredded" },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Monterey Jack Cheese" , "style" : "shredded" }
 			],
 			"steps": [
 				"Brown beef and green peppers over medium-high heat.",
@@ -158,13 +155,12 @@
 			},
 			"servings"    : 6,
 			"ingredients" : [
-				"2 tablespoons olive oil",
-				"1 clove garlic, minced",
-				"1 cup dry bread crumbs",
-				"2/3 cup grated parmesan cheese",
-				"1/4 teaspoon black pepper",
-				"6 skinless, boneless chicken breast halves",
-				"9x13 inch baking dish"
+				{ "val" : 6   ,                         "name" : "Chicken Breasts"  , "style" : "halved, skinless, and boneless" },
+				{ "val" : 1   , "units" : "cup"       , "name" : "Bread Crumbs"    },
+				{ "val" : 2   , "units" : "tablespoon", "name" : "Olive Oil"       },
+				{ "val" : 1   , "units" : "tablespoon", "name" : "Garlic Powder"   },
+				{ "val" : 1   , "units" : "tablespoon", "name" : "Black Pepper"    },
+				{ "val" : 0.66, "units" : "cup"       , "name" : "Parmesan Cheese" , "style" : "shredded" }
 			],
 			"steps": [
 				"Preheat oven to 350 degrees.",
@@ -185,19 +181,18 @@
 				"cook" : { "val" : 85 }
 			},
 			"ingredients": [
-				"1 (16 oz) package spaghetti",
-				"1 lb ground beef",
-				"1 onion, chopped",
-				"1 green pepper, chopped",
-				"1 (24 oz) jar spaghetti sauce",
-				"1/2 teaspoon salt",
-				"1/2 teaspoon garlic powder",
-				"2 eggs",
-				"1/3 cup Parmesan cheese",
-				"5 tablespoons melted butter",
-				"2 cups small curd cottage cheese",
-				"4 cups shredded mozzarella cheese",
-				"9x13 baking dish"
+				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Spaghetti"            },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
+				{ "val" : 24   , "units" : "oz"         , "name" : "Marinara Sauce"       },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Cottage Cheese"       , "style" : "small curd" },
+				{ "val" :  2   ,                          "name" : "Egg"                  },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"               , "style" : "melted" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese"    , "style" : "shredded" },
+				{ "val" :  0.33, "units" : "cup"        , "name" : "Parmesan Cheese"      , "style" : "shredded" }
 			],
 			"steps": [
 				"Cook spaghetti according to directions on box.",
@@ -221,13 +216,13 @@
 			},
 			"servings"    : 4,
 			"ingredients" : [
-				"4 tilapia fillets",
-				"3 tablespoons melted butter",
-				"3 tablespoons lemon juice",
-				"2 tablespoons garlic powder",
-				"1 teaspoon salt",
-				"1 teaspoon basil",
-				"1 teaspoon paprika"
+				{ "val" : 6   , "units" : "(4 oz) fillets", "name" : "Tilapia"       },
+				{ "val" : 3   , "units" : "tablespoon"    , "name" : "Butter"        , "style" : "melted" },
+				{ "val" : 3   , "units" : "tablespoon"    , "name" : "Lemon Juice"   },
+				{ "val" : 1   , "units" : "tablespoon"    , "name" : "Garlic Powder" },
+				{ "val" : 1   , "units" : "tablespoon"    , "name" : "Basil"         },
+				{ "val" : 1   , "units" : "tablespoon"    , "name" : "Paprika"       },
+				{ "val" : 1   , "units" : "tablespoon"    , "name" : "Salt"          }
 			],
 			"steps": [
 				"Mix butter, lemon juice, garlic powder, and salt in a bowl.",
@@ -245,20 +240,20 @@
 				"prep" : { "val" : 30 },
 				"cook" : { "val" : 70 }
 			},
-			"ingredients": [
-				"1 (16 oz) package ziti pasta",
-				"1 lb Italian sausage",
-				"1 (15 oz) container cottage cheese",
-				"1 egg",
-				"1 onion, chopped",
-				"1 green pepper, chopped",
-				"2 teaspoons garlic powder",
-				"1 teaspoon oregano",
-				"1 teaspoon basil",
-				"1/2 teaspoon salt",
-				"1/2 teaspoon pepper",
-				"1 (26 oz) jar spaghetti sauce",
-				"2 cups shredded Italian cheese"
+			"ingredients": [			
+				{ "val" :  1   , "units" : "lb"         , "name" : "Italian Sausage" , "style" : "sliced" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Ziti"            },
+				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
+				{ "val" : 26   , "units" : "oz"         , "name" : "Marinara Sauce"       },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Cottage Cheese"  },
+				{ "val" :  1   ,                          "name" : "Egg"             },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"   },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"           },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Oregano"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"            },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"    },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Italian Cheese"  }
 			],
 			"steps": [
 				"Cook pasta according to directions on package.",
@@ -281,17 +276,17 @@
 			},
 			"servings"    : 10,
 			"ingredients" : [
-				"1.5 lbs ground beef",
-				"1 small onion, chopped",
-				"1 green pepper, chopped",
-				"1 can of corn, drained",
-				"1 (8 oz) jar taco sauce",
-				"2 teaspoons cumin",
-				"2 teaspoons garlic powder",
-				"1 (16 oz) can refried beans",
-				"10 tortillas",
-				"2 cups shredded Monterey Jack cheese",
-				"1 tablespoon butter, melted"
+				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"          },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
+				{ "val" : 10   ,                          "name" : "Tortillas"            },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Refried Beans"        },
+				{ "val" : 10.5 , "units" : "oz"         , "name" : "Corn"                 },
+				{ "val" :  8   , "units" : "oz"         , "name" : "Taco Sauce"           },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"               , "style" : "melted" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cumin"                },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Monterey Jack Cheese" , "style" : "shredded" }
 			],
 			"steps": [
 				"Brown beef and saute onions and green peppers over medium-high heat. Add seasonings to the beef mixture.",
@@ -311,17 +306,16 @@
 				"prep" : { "val" : 20 },
 				"cook" : { "val" : 30 }
 			},
-			"ingredients": [
-				"2 tablespoons vegetable oil",
-				"1 lb sliced angus stir-fry beef",
-				"1 (14 oz) package kielbasa sausage, sliced",
-				"12 oz broccoli",
-				"12 oz sliced carrots",
-				"1 bell pepper, sliced",
-				"1 onion, chopped",
-				"1/4 teaspoon garlic powder",
-				"6 tablespoons soy sauce",
-				"1 large pot or wok"
+			"ingredients": [			
+				{ "val" :  1   , "units" : "lb"         , "name" : "Angus Stir-Fry Beef"  , "style" : "sliced" },
+				{ "val" : 14   , "units" : "oz"         , "name" : "Kielbasa Sausage"     , "style" : "sliced" },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "sliced" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "sliced" },
+				{ "val" : 12   , "units" : "oz"         , "name" : "Broccoli"             },
+				{ "val" : 12   , "units" : "oz"         , "name" : "Carrots"              , "style" : "sliced" },
+				{ "val" :  6   , "units" : "tablespoon" , "name" : "Soy Sauce"            },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Vegetable Oil"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        }
 			],
 			"steps": [
 				"Heat oil over medium-high heat.",
