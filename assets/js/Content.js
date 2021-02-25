@@ -14,32 +14,61 @@ ARCH.content.get_grouped_values = function( key ){
 	return groups;
 };
 
+ARCH.content.list_uncategorized_ingredients = function(){
+	ARCH.data.recipes.forEach(function( recipe ){
+		recipe.ingredients.forEach(function( ingredient ){
+			try{
+				if( ARCH.content.views.recipe.get_ingredient_category( ingredient ) == '???' ){
+					console.log( recipe.name, ' : ', ingredient );
+				}
+			} catch(e){}
+		});
+	});
+};
+
+ARCH.content.load_ingredient_categories = function( callback ){
+	$.ajax({
+		url: './assets/data/ingredient_categories.json',
+		dataType: 'json',
+		success : function(data){
+			ARCH.ingredient_categories = data;
+			if( callback ) callback();
+		},
+		error   : function(){
+			console.log( 'Error loading ingredient categories' );
+			console.log( e );
+		}
+	});
+};
+
 ARCH.content.load = function(){
 	var self = this;
 
 	this.sub_categories = { dish : [], cuisine : [], cookware : [] };
 
-	$.ajax({
-		url: './assets/data/data.json',
-		dataType: 'json',
-		success: function(data){
-			data.recipes.sort( function(a, b){ return a.name.toLowerCase() > b.name.toLowerCase(); });
-			ARCH.data = data;
-			
-			self.sub_categories.dish     = self.get_grouped_values( 'dish' );
-			self.sub_categories.cuisine  = self.get_grouped_values( 'cuisines' );
-			self.sub_categories.cookware = self.get_grouped_values( 'cookware' );
-			
-			self.draw_header();
-			
-			var value_index = ARCH.data.recipes.map(function(a){ return a.name; }).indexOf( ARCH.hashlinks.params.recipe.value );
-			
-			if( value_index == -1 ) ARCH.content.views.main.draw();
-			else{
-				self.views.recipe.set( value_index );
-				self.views.recipe.draw();
+	this.load_ingredient_categories(function(){
+		$.ajax({
+			url: './assets/data/data.json',
+			dataType: 'json',
+			success: function(data){
+				data.recipes.sort( function(a, b){ return a.name.toLowerCase() > b.name.toLowerCase(); });
+				ARCH.data = data;
+				
+				self.sub_categories.dish     = self.get_grouped_values( 'dish' );
+				self.sub_categories.cuisine  = self.get_grouped_values( 'cuisines' );
+				self.sub_categories.cookware = self.get_grouped_values( 'cookware' );
+				
+				self.draw_header();
+				
+				var value_index = ARCH.data.recipes.map(function(a){ return a.name; }).indexOf( ARCH.hashlinks.params.recipe.value );
+				
+				if( value_index == -1 ) ARCH.content.views.main.draw();
+				else{
+					self.views.recipe.set( value_index );
+					self.views.recipe.draw();
+				}
 			}
-		}
+		});
 	});
 };
 

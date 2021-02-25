@@ -1,6 +1,6 @@
 .container.recipe{
 	width:90%;
-	max-width:800px;
+	max-width:750px;
 	padding-bottom:20px;
 }
 
@@ -13,6 +13,19 @@ td.ingredients{
 	color:#EFE79A;
 	padding:10px 20px;
 	text-align:left;
+}
+
+.ingredient-group-label{
+	font-size:10px;
+	font-style:italic;
+	color:rgb(150, 156, 89);
+	margin-top:2px;
+}
+
+.ingredient-group-label hr{
+	margin:1px 0 2px;
+	border-color:rgba(255,255,255,0.1);
+	width:95%;
 }
 
 .recipe-section-title{
@@ -31,10 +44,11 @@ td.ingredients{
 
 td.ingredients .ingredient{
 	display:inline-block;
-	width:50%;
+	width:100%;
 	font-size:12px;
 	text-align:left;
 	padding:0 5px;
+	margin-bottom:2px;
 }
 
 td.ingredients .ingredient .bullet{
@@ -52,6 +66,11 @@ td.ingredients .ingredient .ingredient-text{
 	display:inline-block;
 	padding:3px 0;
 	cursor:pointer;
+}
+
+td.ingredients .ingredient .alternate-units{
+	font-size:10px;
+	opacity:0.7;
 }
 
 td.steps .step:hover,
@@ -75,7 +94,7 @@ td.ingredients .ingredient.completed .ingredient-text:hover{
 td.ingredients .ingredient .ingredient-text .ingredient-name{
 	color:#F9ED73;
 	background:rgba(0, 0, 0, 0.2);
-	padding:2px 5px;
+	padding:0 5px;
 	margin:0 1px;
 	border:1px solid rgba(255,255,255,0.2);
 	border-radius:5px;
@@ -113,6 +132,10 @@ td.steps .number{
 	padding:4px 10px;
 	margin:0 15px;
 	font-size:12px;
+}
+
+td.completed{
+	background:#776d1d;
 }
 
 .recipe .item .info-label.servings,

@@ -92,5 +92,7 @@ ARCH.content.views.main.draw = function( p ){
 		'<div id="recipe-list"></div>'
 	);
 	
+	$("#search-bar input").focus();
+	
 	this.draw_recipe_list( p );
 };

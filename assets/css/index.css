@@ -33,36 +33,16 @@ th, td{
 }
 
 .button{
-	background:#467763;
-	width:90vw;
 	display:inline-block;
-	text-align:center;
-	padding:1vw;
-	border-radius:100px;
-	margin:1vw;
-	font-size:2vw;
-	color:#EFB1FF;
-	font-weight:300;
+	font-size:12px;
+	background:#365716;
+	border:1px solid #91bd66;
+	color:#fff;
+	padding:5px 10px;
+	border-radius:10px;
 	cursor:pointer;
-	border:0.3vw solid #4F3B6B;
-	
-	background: -webkit-linear-gradient(170deg, #100B14 0%, #52367A 100%);
-	background:    -moz-linear-gradient(170deg, #100B14 0%, #52367A 100%);
-	background:      -o-linear-gradient(170deg, #100B14 0%, #52367A 100%);
-	background:         linear-gradient(170deg, #100B14 0%, #52367A 100%);
-	
-	transition:filter 1s;
-}
-.button:hover{
-	filter:hue-rotate(90deg) invert(100%);
 }
 
-.button-sm{
-	width:90vw;
-	border:0.3vw solid #285F29;
-	
-	background: -webkit-linear-gradient(170deg, #3CA539 0%, #103B1B 100%);
-	background:    -moz-linear-gradient(170deg, #3CA539 0%, #103B1B 100%);
-	background:      -o-linear-gradient(170deg, #3CA539 0%, #103B1B 100%);
-	background:         linear-gradient(170deg, #3CA539 0%, #103B1B 100%);
+.button:hover{
+	background:#45830a;
 }

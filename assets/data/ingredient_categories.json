@@ -1,0 +1,87 @@
+[
+	{
+		"name"        : "Meat / Protein",
+		"ingredients" : [
+			"Almonds", "Andouille Sausage", "Angus Stir-Fry Beef",
+			"Bacon", "Black Beans",
+			"Cashews", "Chicken Breast",
+			"Egg",
+			"Ground Beef",
+			"Italian Sausage",
+			"Kielbasa Sausage",
+			"Refried Beans",
+			"Sirloin Tip",
+			"Tilapia",
+			"Walnuts"
+		]
+	},
+	{
+		"name"        : "Grains",
+		"ingredients" : [
+			"Bow Tie Pasta", "Bread Crumbs",
+			"Egg Noodles",
+			"Flour",
+			"Lasagna Pasta",
+			"Ravioli",
+			"Shell Pasta", "Spaghetti", "Stuffing Mix",
+			"Tortilla Chips", "Tortillas",
+			"Ziti"
+		]
+	},
+	{
+		"name"        : "Vegetables / Fruit",
+		"ingredients" : [
+			"Artichoke Hearts", "Asparagus",
+			"Black Olives", "Broccoli",
+			"Carrots", "Celery Stalk", "Corn",
+			"Grape Tomatoes", "Green Pepper",
+			"Habanero Pepper", 
+			"Jalapeno Pepper",
+			"Onion",
+			"Potatoes",
+			"Spinach", "Serrano Pepper",
+			"Tomatoes"
+		]
+	},
+	{
+		"name"        : "Dairy",
+		"ingredients" : [
+			"American Cheese",
+			"Butter",
+			"Cheddar Cheese", "Colby Cheese", "Cottage Cheese",
+			"Evaporated Milk",
+			"Italian Cheese",
+			"Mayonnaise", "Milk", "Monterey Jack Cheese", "Mozzarella Cheese",
+			"Parmesan Cheese",
+			"Sour Cream",
+			"Whipping Cream"
+		]
+	},
+	{
+		"name"        : "Sauces",
+		"ingredients" : [
+			"Alfredo Sauce",
+			"Buffalo Sauce",
+			"Chicken Broth", "Cream of Chicken",
+			"Enchilada Sauce",
+			"Lemon Juice",
+			"Marinara Sauce",
+			"Olive Oil",
+			"Salsa", "Soy Sauce",
+			"Taco Sauce",
+			"Vegetable Oil",
+			"Water", "Worcestershire Sauce"
+		]
+	},
+	{
+		"name"        : "Spices",
+		"ingredients" : [
+			"Basil", "Black Pepper", "Brown Sugar",
+			"Cayenne Pepper", "Cilantro", "Cumin",
+			"Garlic Powder",
+			"Onion Powder", "Oregano",
+			"Paprika", "Parsley",
+			"Salt"
+		]
+	}
+]

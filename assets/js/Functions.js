@@ -58,7 +58,7 @@ ARCH.functions.to_title_case = function(str){
 
 ARCH.functions.number_to_fraction = function( val ){
 	if     ( val == 0.125 )               return '1/8';
-	else if( val == 0.25  )               return '3/4';
+	else if( val == 0.25  )               return '1/4';
 	else if( val == 0.375 )               return '3/8';
 	else if( 0.33 <= val && val <= 0.34 ) return '1/3';
 	else if( val == 0.5   )               return '1/2';
@@ -84,4 +84,18 @@ ARCH.functions.format_units = function( val, units ){
 	};
 	
 	return units;
+};
+
+ARCH.functions.get_alternate_units = function( val, units ){
+	switch( units ){
+		case 'cup'       :
+			return this.number_to_fraction(  8 * val ) + ' oz';
+		case 'pint'       :
+			return this.number_to_fraction( 16 * val ) + ' oz';
+		case 'lb'        :
+		case 'pound'     :
+			return this.number_to_fraction( 16 * val ) + ' oz';
+	};
+	
+	return false;
 };
