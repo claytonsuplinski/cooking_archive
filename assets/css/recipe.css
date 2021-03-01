@@ -36,6 +36,22 @@ td.ingredients{
 	color:#E6DF9B;
 }
 
+.recipe-section-title .copy-button{
+	display:inline-block;
+	font-size:12px;
+	background:rgba(0,0,0,0.4);
+	padding:2px 10px;
+	font-family:'Lato', Helvetica;
+	border-radius:100px;
+	border:1px solid rgba(255, 255, 255, 0.4);
+	margin-left:3px;
+	cursor:pointer;
+}
+
+.recipe-section-title .copy-button:hover{
+	background:#686117;
+}
+
 .recipe-section-title hr{
 	width:30%;
 	border-color:rgba(255,255,255,0.2);
@@ -98,10 +114,25 @@ td.ingredients .ingredient .ingredient-text .ingredient-name{
 	margin:0 1px;
 	border:1px solid rgba(255,255,255,0.2);
 	border-radius:5px;
+	white-space:nowrap;
 }
 
 td.ingredients .ingredient .ingredient-text .ingredient-name.spicy{
 	color:#ff8989;
+}
+
+td.ingredients .ingredient .ingredient-text .prep-time{
+	display:inline-block;
+	background:#233921;
+	color:#e1ffdc;
+	border:1px solid #74a76f;
+	font-size:10px;
+	padding:2px;
+	border-radius:10px;
+	width:40px;
+	font-family:'Lato', Helvetica;
+	text-align:center;
+	margin-left:5px;
 }
 
 td.steps{

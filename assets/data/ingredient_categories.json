@@ -1,75 +1,49 @@
 [
 	{
-		"name"        : "Meat / Protein",
+		"name"        : "Vegetables / Fruit",
 		"ingredients" : [
-			"Almonds", "Andouille Sausage", "Angus Stir-Fry Beef",
-			"Bacon", "Black Beans",
-			"Cashews", "Chicken Breast",
-			"Egg",
-			"Ground Beef",
-			"Italian Sausage",
-			"Kielbasa Sausage",
-			"Refried Beans",
-			"Sirloin Tip",
-			"Tilapia",
-			"Walnuts"
+			"Apple", "Artichoke Hearts", "Asparagus",
+			"Black Olives", "Broccoli",
+			"Canned Onion Rings", "Carrot", "Celery Stalk", "Corn",
+			"Grape Tomatoes", "Green Beans", "Green Pepper",
+			"Lettuce",
+			"Onion",
+			"Sauerkraut", "Spinach",
+			"Tomato",
+			"Zucchini"
 		]
 	},
 	{
-		"name"        : "Grains",
+		"name"        : "Grain / Starch",
 		"ingredients" : [
 			"Bow Tie Pasta", "Bread Crumbs",
 			"Egg Noodles",
 			"Flour",
+			"Hash Browns",
 			"Lasagna Pasta",
-			"Ravioli",
+			"Penne Pasta", "Potato",
+			"Ravioli", "Red Potato", "Rice", "Rotini Pasta",
 			"Shell Pasta", "Spaghetti", "Stuffing Mix",
-			"Tortilla Chips", "Tortillas",
+			"Tortilla Chips", "Tortilla",
+			"White Bread",
 			"Ziti"
-		]
-	},
-	{
-		"name"        : "Vegetables / Fruit",
-		"ingredients" : [
-			"Artichoke Hearts", "Asparagus",
-			"Black Olives", "Broccoli",
-			"Carrots", "Celery Stalk", "Corn",
-			"Grape Tomatoes", "Green Pepper",
-			"Habanero Pepper", 
-			"Jalapeno Pepper",
-			"Onion",
-			"Potatoes",
-			"Spinach", "Serrano Pepper",
-			"Tomatoes"
-		]
-	},
-	{
-		"name"        : "Dairy",
-		"ingredients" : [
-			"American Cheese",
-			"Butter",
-			"Cheddar Cheese", "Colby Cheese", "Cottage Cheese",
-			"Evaporated Milk",
-			"Italian Cheese",
-			"Mayonnaise", "Milk", "Monterey Jack Cheese", "Mozzarella Cheese",
-			"Parmesan Cheese",
-			"Sour Cream",
-			"Whipping Cream"
 		]
 	},
 	{
 		"name"        : "Sauces",
 		"ingredients" : [
-			"Alfredo Sauce",
+			"Alfredo Sauce", "Apple Pie Filling",
 			"Buffalo Sauce",
-			"Chicken Broth", "Cream of Chicken",
+			"Chicken Broth", "Cream of Chicken", "Cream of Potato",
 			"Enchilada Sauce",
-			"Lemon Juice",
-			"Marinara Sauce",
+			"Honey",
+			"Lemon Juice", "Lime Juice",
+			"Marinara Sauce", "Mustard",
 			"Olive Oil",
+			"Relish",
 			"Salsa", "Soy Sauce",
-			"Taco Sauce",
-			"Vegetable Oil",
+			"Taco Sauce", "Tomato Paste", "Tomato Soup",
+			"Vanilla Extract", "Vegetable Oil",
 			"Water", "Worcestershire Sauce"
 		]
 	},
@@ -77,11 +51,53 @@
 		"name"        : "Spices",
 		"ingredients" : [
 			"Basil", "Black Pepper", "Brown Sugar",
-			"Cayenne Pepper", "Cilantro", "Cumin",
+			"Cayenne Pepper", "Cilantro", "Cinnamon", "Cumin",
 			"Garlic Powder",
 			"Onion Powder", "Oregano",
 			"Paprika", "Parsley",
-			"Salt"
+			"Salt", "Sugar"
+		]
+	},
+	{
+		"name"        : "Meat / Protein",
+		"ingredients" : [
+			"Almonds", "Andouille Sausage", "Angus Stir-Fry Beef",
+			"Bacon", "Black Beans",
+			"Cashews", "Chicken Breast", "Chili with Beans",
+			"Egg",
+			"Ground Beef",
+			"Ham",
+			"Italian Sausage",
+			"Kielbasa Sausage",
+			"Pinto Beans", "Pork Chop",
+			"Refried Beans",
+			"Sirloin Tip", "Smoked Sausage",
+			"Tilapia",
+			"Walnuts"
+		]
+	},
+	{
+		"name"        : "Dairy",
+		"ingredients" : [
+			"American Cheese",
+			"Butter",
+			"Cheddar Cheese", "Colby Cheese", "Cottage Cheese", "Cream Cheese",
+			"Evaporated Milk",
+			"Italian Cheese",
+			"Mayonnaise", "Mexican-blend Cheese", "Milk", "Monterey Jack Cheese", "Mozzarella Cheese",
+			"Parmesan Cheese",
+			"Sour Cream",
+			"Whipping Cream"
+		]
+	},
+	{
+		"name"        : "Spicy",
+		"ingredients" : [
+			"Cayenne Pepper",
+			"Habanero Pepper", 
+			"Jalapeno Pepper",
+			"Pepper Jack Cheese",
+			"Serrano Pepper"
 		]
 	}
 ]

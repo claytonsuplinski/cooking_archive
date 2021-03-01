@@ -11,14 +11,14 @@
 			},
 			"servings"    : 6,
 			"ingredients" : [
-				{ "val" : 6   , "units" : "(4 oz) fillets", "name" : "Tilapia"         },
-				{ "val" : 1   , "units" : "cup"           , "name" : "Almonds"         , "style" : "ground" },
-				{ "val" : 2   ,                             "name" : "Egg"             },
-				{ "val" : 4   , "units" : "tablespoon"    , "name" : "Butter"          },
-				{ "val" : 0.25, "units" : "cup"           , "name" : "Flour"           },
-				{ "val" : 1   , "units" : "teaspoon"      , "name" : "Garlic Powder"   },
-				{ "val" : 1   , "units" : "teaspoon"      , "name" : "Black Pepper"    },
-				{ "val" : 1   , "units" : "cup"           , "name" : "Parmesan Cheese" , "style" : "shredded" }
+				{ "val" :  6   , "units" : "(4 oz) fillets", "name" : "Tilapia"         },
+				{ "val" :  1   , "units" : "cup"           , "name" : "Almonds"         , "style" : "ground" },
+				{ "val" :  2   ,                             "name" : "Egg"             },
+				{ "val" :  4   , "units" : "tablespoon"    , "name" : "Butter"          },
+				{ "val" :  0.25, "units" : "cup"           , "name" : "Flour"           },
+				{ "val" :  1   , "units" : "teaspoon"      , "name" : "Garlic Powder"   },
+				{ "val" :  1   , "units" : "teaspoon"      , "name" : "Black Pepper"    },
+				{ "val" :  1   , "units" : "cup"           , "name" : "Parmesan Cheese" , "style" : "shredded" }
 			],
 			"steps"       : [
 				"Beat the eggs with the garlic powder and pepper until blended.",
@@ -39,11 +39,11 @@
 			},
 			"servings"    : 4,
 			"ingredients" : [
-				{ "val" : 4   ,                       "name" : "Chicken Breast"   , "style" : "skinless and boneless" },
-				{ "val" : 15  , "units" : "oz"      , "name" : "Artichoke Hearts" , "style" : "drained and chopped", "prep" : { "val" : 10 } },
-				{ "val" : 0.75, "units" : "cup"     , "name" : "Mayonnaise"       },
-				{ "val" : 1   , "units" : "teaspoon", "name" : "Garlic Powder"    },
-				{ "val" : 0.75, "units" : "cup"     , "name" : "Parmesan Cheese"  }
+				{ "val" :  4   ,                       "name" : "Chicken Breast"   , "style" : "skinless and boneless" },
+				{ "val" : 15   , "units" : "oz"      , "name" : "Artichoke Hearts" , "style" : "drained and chopped" },
+				{ "val" :  0.75, "units" : "cup"     , "name" : "Mayonnaise"       },
+				{ "val" :  1   , "units" : "teaspoon", "name" : "Garlic Powder"    },
+				{ "val" :  0.75, "units" : "cup"     , "name" : "Parmesan Cheese"  }
 			],
 			"steps": [
 				"In a separate bowl, mix together artichoke hearts, Parmesan cheese, garlic powder, and mayo.",
@@ -61,8 +61,8 @@
 			},
 			"ingredients" : [			
 				{ "val" : 16   , "units" : "oz"              , "name" : "Bow Tie Pasta"          },
-				{ "val" : 13   , "units" : "oz"              , "name" : "Artichoke Hearts"       , "style" : "drained and chopped", "prep" : { "val" : 10 } },
-				{ "val" :  0.25, "units" : "cup"             , "name" : "Walnuts"                , "style" : "chopped", "prep" : { "val" : 5 } },
+				{ "val" : 13   , "units" : "oz"              , "name" : "Artichoke Hearts"       , "style" : "drained and chopped" },
+				{ "val" :  0.25, "units" : "cup"             , "name" : "Walnuts"                , "style" : "chopped" },
 				{ "val" :  3   , "units" : "tablespoon"      , "name" : "Olive Oil"              },
 				{ "val" :  1   , "units" : "cup"             , "name" : "Lemon Juice"            },
 				{ "val" :  1   , "units" : "tablespoon"      , "name" : "Basil"                  },
@@ -83,8 +83,8 @@
 				"cook" : { "val" : 30 }
 			},
 			"ingredients" : [
-				{ "val" :  1   , "units" : "lb" , "name" : "Asparagus"       , "style" : "trimmed", "prep" : { "val" : 10 } },
-				{ "val" : 10   ,                  "name" : "Grape Tomatoes"  , "style" : "halved", "prep" : { "val" : 10 } },
+				{ "val" :  1   , "units" : "lb" , "name" : "Asparagus"       , "style" : "trimmed" },
+				{ "val" : 10   ,                  "name" : "Grape Tomatoes"  , "style" : "halved" },
 				{ "val" :  0.25, "units" : "cup", "name" : "Olive Oil"       },
 				{ "val" :  0.66, "units" : "cup", "name" : "Water"           },
 				{ "val" :  0.5 , "units" : "cup", "name" : "Parmesan Cheese" , "style" : "shredded" }
@@ -129,7 +129,7 @@
 				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
 				{ "val" : 25   , "units" : "oz"         , "name" : "Ravioli"              , "style" : "frozen" },
 				{ "val" : 24   , "units" : "oz"         , "name" : "Marinara Sauce"       },
-				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced", "prep" : { "val" : 10 } },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"                },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"         },
@@ -183,12 +183,12 @@
 			"ingredients": [
 				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Spaghetti"            },
-				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced", "prep" : { "val" : 10 } },
-				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced", "prep" : { "val" : 10 } },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
 				{ "val" : 24   , "units" : "oz"         , "name" : "Marinara Sauce"       },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Cottage Cheese"       , "style" : "small curd" },
 				{ "val" :  2   ,                          "name" : "Egg"                  },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"               , "style" : "melted", "prep" : { "val" : 5 } },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"               , "style" : "melted" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese"    , "style" : "shredded" },
@@ -217,7 +217,7 @@
 			"servings"    : 4,
 			"ingredients" : [
 				{ "val" : 6   , "units" : "(4 oz) fillets", "name" : "Tilapia"       },
-				{ "val" : 3   , "units" : "tablespoon"    , "name" : "Butter"        , "style" : "melted", "prep" : { "val" : 5 } },
+				{ "val" : 3   , "units" : "tablespoon"    , "name" : "Butter"        , "style" : "melted" },
 				{ "val" : 3   , "units" : "tablespoon"    , "name" : "Lemon Juice"   },
 				{ "val" : 1   , "units" : "tablespoon"    , "name" : "Garlic Powder" },
 				{ "val" : 1   , "units" : "tablespoon"    , "name" : "Basil"         },
@@ -241,10 +241,10 @@
 				"cook" : { "val" : 70 }
 			},
 			"ingredients": [			
-				{ "val" :  1   , "units" : "lb"         , "name" : "Italian Sausage" , "style" : "sliced", "prep" : { "val" : 10 } },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Italian Sausage" , "style" : "sliced" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Ziti"            },
-				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced", "prep" : { "val" : 10 } },
-				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced", "prep" : { "val" : 10 } },
+				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
 				{ "val" : 26   , "units" : "oz"         , "name" : "Marinara Sauce"  },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Cottage Cheese"  },
 				{ "val" :  1   ,                          "name" : "Egg"             },
@@ -277,13 +277,13 @@
 			"servings"    : 10,
 			"ingredients" : [
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"          },
-				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced", "prep" : { "val" : 10 } },
-				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced", "prep" : { "val" : 10 } },
-				{ "val" : 10   ,                          "name" : "Tortillas"            },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
+				{ "val" : 10   ,                          "name" : "Tortilla"            },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Refried Beans"        },
-				{ "val" : 10.5 , "units" : "oz"         , "name" : "Corn"                 },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"                 },
 				{ "val" :  8   , "units" : "oz"         , "name" : "Taco Sauce"           },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"               , "style" : "melted", "prep" : { "val" : 5 } },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"               , "style" : "melted" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cumin"                },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Monterey Jack Cheese" , "style" : "shredded" }
@@ -308,11 +308,11 @@
 			},
 			"ingredients": [			
 				{ "val" :  1   , "units" : "lb"         , "name" : "Angus Stir-Fry Beef"  , "style" : "sliced" },
-				{ "val" : 14   , "units" : "oz"         , "name" : "Kielbasa Sausage"     , "style" : "sliced", "prep" : { "val" : 10 } },
-				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "sliced", "prep" : { "val" : 10 } },
-				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "sliced", "prep" : { "val" : 10 } },
+				{ "val" : 14   , "units" : "oz"         , "name" : "Kielbasa Sausage"     , "style" : "sliced" },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "sliced" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "sliced" },
 				{ "val" : 12   , "units" : "oz"         , "name" : "Broccoli"             },
-				{ "val" : 12   , "units" : "oz"         , "name" : "Carrots"              , "style" : "sliced" },
+				{ "val" : 12   , "units" : "oz"         , "name" : "Carrot"               , "style" : "sliced" },
 				{ "val" :  6   , "units" : "tablespoon" , "name" : "Soy Sauce"            },
 				{ "val" :  2   , "units" : "tablespoon" , "name" : "Vegetable Oil"        },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        }
@@ -338,14 +338,14 @@
 			},
 			"ingredients": [				
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"     },
-				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced", "prep" : { "val" : 10 } },
-				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced", "prep" : { "val" : 10 } },
+				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
 				{ "val" :  6   , "units" : "oz"         , "name" : "Black Olives"    },
 				{ "val" : 10   , "units" : "oz"         , "name" : "Enchilada Sauce" },
-				{ "val" : 10   ,                          "name" : "Tortillas"       },
+				{ "val" : 10   ,                          "name" : "Tortilla"        },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"  , "style" : "shredded" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Sour Cream"      },
-				{ "val" :  1   ,                          "name" : "Serrano Pepper"  , "style" : "diced", "prep" : { "val" : 10 }, "spicy" : 1 }
+				{ "val" :  1   ,                          "name" : "Serrano Pepper"  , "style" : "diced" }
 			],
 			"steps": [
 				"In a large pot over medium-high heat, brown the beef and cook with it the onions, green peppers, and serrano peppers.",
@@ -371,8 +371,8 @@
 			},
 			"ingredients": [
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"     },
-				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced", "prep" : { "val" : 10 } },
-				{ "val" : 10.5 , "units" : "oz"         , "name" : "Corn"            },
+				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"            },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Refried Beans"   },
 				{ "val" :  1.5 , "units" : "cup"        , "name" : "Salsa"           , "style" : "chunky" },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Tortilla Chips"  , "style" : "crushed", "prep" : { "val" : 5 } },
@@ -380,7 +380,7 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"    },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"         },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Colby Cheese"    , "style" : "shredded" },
-				{ "val" :  2   ,                          "name" : "Jalapeno Pepper" , "style" : "diced", "prep" : { "val" : 10 }, "spicy" : 1 }
+				{ "val" :  2   ,                          "name" : "Jalapeno Pepper" , "style" : "diced" }
 			],
 			"steps": [
 				"Brown beef and peppers over medium-high heat.",
@@ -402,9 +402,9 @@
 				"cook" : { "val" : 45 }
 			},
 			"ingredients": [				
-				{ "val" :  1.5 , "units" : "lb"         , "name" : "Sirloin Tip"     , "style" : "sliced thinly", "prep" : { "val" : 10 } },
+				{ "val" :  1.5 , "units" : "lb"         , "name" : "Sirloin Tip"     , "style" : "sliced thinly" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Egg Noodles"     },
-				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced", "prep" : { "val" : 10 } },
+				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
 				{ "val" :  8   , "units" : "oz"         , "name" : "Sour Cream"      },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"   },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"         },
@@ -429,8 +429,8 @@
 			},
 			"ingredients": [				
 				{ "val" : 30   , "units" : "oz"         , "name" : "Black Beans"     },
-				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced", "prep" : { "val" : 10 } },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cayenne Pepper"  , "spicy" : 1 },
+				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cayenne Pepper"  },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cilantro"        },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"   }
 			],
@@ -451,7 +451,7 @@
 			},
 			"ingredients" : [
 				{ "val" :  4   ,                          "name" : "Chicken Breast"    , "style" : "diced", "prep" : { "val" : 10 } },
-				{ "val" : 15   , "units" : "oz"         , "name" : "Tomatoes"          , "style" : "diced" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"            , "style" : "diced" },
 				{ "val" :  6   , "units" : "oz"         , "name" : "Stuffing Mix"      },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese" , "style" : "shredded" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"             },
@@ -509,12 +509,12 @@
 				"cook" : { "val" : 90 }
 			},
 			"ingredients" : [			
-				{ "val" :  1   , "units" : "lb"         , "name" : "Andouille Sausage" , "style" : "sliced", "prep" : { "val" : 10 } },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Andouille Sausage" , "style" : "sliced" },
 				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"    , "style" : "skinless, boneless, and diced" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Lasagna Pasta"     },
-				{ "val" :  1   ,                          "name" : "Green Pepper"      , "style" : "diced", "prep" : { "val" : 10 } },
-				{ "val" :  1   ,                          "name" : "Onion"             , "style" : "diced", "prep" : { "val" : 10 } },
-				{ "val" :  1   ,                          "name" : "Celery Stalk"      , "style" : "diced", "prep" : { "val" : 10 } },
+				{ "val" :  1   ,                          "name" : "Green Pepper"      , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"             , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Celery Stalk"      , "style" : "diced" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Alfredo Sauce"     },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"            },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese" , "style" : "shredded" },
@@ -525,8 +525,8 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"           },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"      },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"              },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cayenne Pepper"    , "spicy" : 1 },
-				{ "val" :  1   ,                          "name" : "Habanero Pepper"   , "style" : "diced", "prep" : { "val" : 10 }, "spicy" : 1 }
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cayenne Pepper"    },
+				{ "val" :  1   ,                          "name" : "Habanero Pepper"   , "style" : "diced" }
 			],
 			"steps": [
 				"Cook pasta according to directions on container.",
@@ -552,8 +552,8 @@
 				"cook" : { "val" :  25 }
 			},
 			"ingredients" : [			
-				{ "val" :  1.5 , "units" : "lb"         , "name" : "Broccoli"          , "style" : "trimmed", "prep" : { "val" : 10 } },
-				{ "val" :  0.33, "units" : "cup"        , "name" : "Cashews"           , "style" : "chopped", "prep" : { "val" : 10 } },
+				{ "val" :  1.5 , "units" : "lb"         , "name" : "Broccoli"          , "style" : "trimmed" },
+				{ "val" :  0.33, "units" : "cup"        , "name" : "Cashews"           , "style" : "chopped" },
 				{ "val" :  2   , "units" : "tablespoon" , "name" : "Butter"            },
 				{ "val" :  3   , "units" : "tablespoon" , "name" : "Soy Sauce"         },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Brown Sugar"       },
@@ -583,7 +583,7 @@
 				{ "val" :  2   ,                          "name" : "Egg"               },
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Bread Crumbs"      },
 				{ "val" :  2   , "units" : "tablespoon" , "name" : "Milk"              },
-				{ "val" :  2   , "units" : "tablespoon" , "name" : "Butter"            , "style" : "melted", "prep" : { "val" : 5 } },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Butter"            , "style" : "melted" },
 				{ "val" :  1   , "units" : "cup"        , "name" : "Flour"             },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"    , "style" : "shredded" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"     },
@@ -612,8 +612,8 @@
 			"ingredients" : [
 				{ "val" :  2   , "units" : "lb"         , "name" : "Ground Beef"     },
 				{ "val" :  0.75, "units" : "cup"        , "name" : "Bread Crumbs"    },
-				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced", "prep" : { "val" : 10 } },
-				{ "val" :  2   ,                          "name" : "Egg"             , "style" : "beaten", "prep" : { "val" : 10 } },
+				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
+				{ "val" :  2   ,                          "name" : "Egg"             , "style" : "beaten" },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"  , "style" : "shredded" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"    }
 			],
@@ -635,10 +635,10 @@
 			},
 			"ingredients" : [			
 				{ "val" :  3   ,                          "name" : "Chicken Breast"       },
-				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced", "prep" : { "val" : 10 } },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
 				{ "val" :  0.5 , "units" : "lb"         , "name" : "American Cheese"      },
-				{ "val" :  1   , "units" : "lb"         , "name" : "Potatoes"             , "style" : "thinly sliced", "prep" : { "val" : 10 } },
-				{ "val" : 10.75, "units" : "oz"         , "name" : "Cream of Chicken"     , "style" : "condensed" },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Potato"               , "style" : "thinly sliced" },
+				{ "val" : 11   , "units" : "oz"         , "name" : "Cream of Chicken"     , "style" : "condensed" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"              },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Parsley"              },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Worcestershire Sauce" }
@@ -661,12 +661,12 @@
 				"prep" : { "val" : 15 },
 				"cook" : { "val" : 40 }
 			},
-			"ingredients" : [
-				"1 (32 oz) package frozen hash browns",
-				"8 oz cooked, diced ham",
-				"2 (10.75 oz) cans condensed cream of potato soup",
-				"1 (16 oz) container sour cream",
-				"2 cups shredded cheddar cheese"
+			"ingredients" : [				
+				{ "val" : 32   , "units" : "oz"         , "name" : "Hash Browns"     , "style" : "frozen" },
+				{ "val" :  8   , "units" : "oz"         , "name" : "Ham"             , "style" : "pre-cooked and diced", "prep" : { "val" : 10 } },
+				{ "val" : 22   , "units" : "oz"         , "name" : "Cream of Potato" , "style" : "condensed" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Sour Cream"      },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"  , "style" : "shredded" }
 			],
 			"steps": [
 				"Break hash browns apart while they're still fully sealed in the bag, otherwise it'll make a big mess.",
@@ -683,19 +683,19 @@
 				"prep" : { "val" : 15 },
 				"cook" : { "val" : 50 }
 			},
-			"ingredients" : [
-				"1 lb cooked chicken, diced",
-				"1 (16 oz) package of pasta",
-				"1 (16 oz) jar of alfredo sauce",
-				"1 (12 oz) bag of frozen broccoli",
-				"1 (14.5 oz) can of diced tomatoes",
-				"2 cups of shredded mozzarella cheese",
-				"0.5 cups of milk",
-				"1 tablespoon salt",
-				"1 tablespoon pepper",
-				"1 tablespoon garlic powder",
-				"1 tablespoon onion powder",
-				"1 tablespoon basil"
+			"ingredients" : [			
+				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"    , "style" : "pre-cooked and diced" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Penne Pasta"       },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Alfredo Sauce"     },
+				{ "val" : 12   , "units" : "oz"         , "name" : "Broccoli"          },
+				{ "val" : 14.5 , "units" : "oz"         , "name" : "Tomato"            , "style" : "diced" },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Milk"              },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese" , "style" : "shredded" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"             },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"     },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"      },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"      },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"              }
 			],
 			"steps": [
 				"Cook pasta according to directions on box.",
@@ -713,17 +713,17 @@
 				"prep" : { "val" : 55 },
 				"cook" : { "val" :  8, "units" : "hour" }
 			},
-			"ingredients" : [
-				"3 lbs boneless, skinless chicken breast",
-				"1 (28 oz) jar spaghetti sauce",
-				"1 (6 oz) can tomato paste",
-				"1 onion, diced",
-				"1 green pepper, diced",
-				"1 teaspoon garlic powder",
-				"1 teaspoon basil",
-				"1 teaspoon oregano",
-				"1 teaspoon pepper",
-				"1 (16 oz) package of pasta"
+			"ingredients" : [			
+				{ "val" :  3   , "units" : "lb"         , "name" : "Chicken Breast"    , "style" : "skinless and boneless" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Spaghetti"         },
+				{ "val" :  1   ,                          "name" : "Green Pepper"      , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"             , "style" : "diced" },
+				{ "val" : 28   , "units" : "oz"         , "name" : "Marinara Sauce"    },
+				{ "val" :  6   , "units" : "oz"         , "name" : "Tomato Paste"      },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"             },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"     },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Oregano"           },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"      }
 			],
 			"steps": [
 				"Place chicken, spaghetti sauce, tomato paste, onion, green pepper, and all seasonings in the slow cooker.",
@@ -741,18 +741,18 @@
 				"prep" : { "val" : 40 },
 				"cook" : { "val" :  7, "units" : "hour" }
 			},
-			"ingredients" : [
-				"16 oz salsa",
-				"16 oz diced tomatoes with green chiles",
-				"30 oz pinto beans, drained",
-				"15 oz chicken broth",
-				"1 (14 oz) can of corn",
-				"1 onion, diced",
-				"1/2 teaspoon oregano",
-				"1/2 teaspoon cumin",
-				"1/2 teaspoon salt",
-				"1/2 teaspoon pepper",
-				"3 skinless, boneless chicken breasts"
+			"ingredients" : [				
+				{ "val" :  3   ,                          "name" : "Chicken Breast" , "style" : "skinless and boneless" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Salsa"          , "style" : "chunky" },
+				{ "val" :  1   ,                          "name" : "Onion"          , "style" : "diced" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Tomato"         , "style" : "diced and with green chiles" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"           },
+				{ "val" : 30   , "units" : "oz"         , "name" : "Pinto Beans"    , "style" : "drained" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Chicken Broth"  },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cumin"          },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Oregano"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"   },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"           }
 			],
 			"steps": [
 				"Place the chicken in a slow cooker and pour all the other ingredients over the top.",
@@ -769,21 +769,22 @@
 				"prep" : { "val" : 35 },
 				"cook" : { "val" : 70 }
 			},
-			"ingredients" : [
-				"16 oz ziti pasta",
-				"1 tablespoon vegetable oil",
-				"1 onion, sliced",
-				"1 green pepper, chopped",
-				"2 chicken breasts, cubed",
-				"1 (16 oz) jar salsa",
-				"16 oz cream cheese",
-				"1 teaspoon garlic powder",
-				"1 teaspoon paprika",
-				"1 teaspoon cumin",
-				"1 teaspoon salt",
-				"1 (15 oz) can black beans, drained",
-				"1 (15 oz) can corn, drained",
-				"16 oz shredded cheddar cheese"
+			"ingredients" : [			
+				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"  , "style" : "pre-cooked and diced" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Ziti"            },
+				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "sliced" },
+				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Pinto Beans"     , "style" : "drained" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"            },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Salsa"           , "style" : "chunky" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Cream Cheese"    },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"  , "style" : "shredded" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Vegetable Oil"   },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cumin"           },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"   },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"            },
+				{ "val" :  1   ,                          "name" : "Habanero Pepper" , "style" : "diced" }
 			],
 			"steps": [
 				"Cook pasta according to directions on package.",
@@ -805,18 +806,18 @@
 			"time"        : {
 				"prep" : { "val" : 15 }
 			},
-			"ingredients" : [
-				"9 oz chicken deli meat",
-				"1 cup crushed almonds",
-				"0.5 cups mayo",
-				"1 small onion, chopped",
-				"1.5 tablespoons relish",
-				"2 teaspoons mustard",
-				"1 teaspoon lemon juice",
-				"1 teaspoon garlic powder",
-				"1 teaspoon paprika",
-				"1 teaspoon salt",
-				"1 teaspoon pepper"
+			"ingredients" : [				
+				{ "val" :  9   , "units" : "oz"         , "name" : "Chicken Breast" , "style" : "deli-style" },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Almonds"        , "style" : "crushed"    },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Mayonnaise"     },
+				{ "val" :  1   ,                          "name" : "Onion"          , "style" : "diced" },
+				{ "val" :  2   , "units" : "teaspoon"   , "name" : "Mustard"        },
+				{ "val" :  1.5 , "units" : "tablespoon" , "name" : "Relish"         },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Lemon Juice"    },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"  },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"   },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"           }
 			],
 			"steps": [
 				"Mix all the ingredients together in a large container."
@@ -831,15 +832,15 @@
 				"prep" : { "val" : 45 },
 				"cook" : { "val" :  7, "units" : "hour" }
 			},
-			"ingredients": [
-				"3 tablespoons cilantro",
-				"1 (16 oz) jar salsa",
-				"1 lime, juiced",
-				"3 lbs skinless, boneless chicken breasts",
-				"1 green pepper, diced",
-				"1 small onion, diced",
-				"10-12 tortillas",
-				"2 cups shredded cheese of your choice"
+			"ingredients": [			
+				{ "val" :  3   , "units" : "lb"         , "name" : "Chicken Breast" , "style" : "skinless and boneless" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Salsa"          , "style" : "chunky" },
+				{ "val" :  1   ,                          "name" : "Green Pepper"   , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"          , "style" : "diced" },
+				{ "val" : 10   ,                          "name" : "Tortilla"       },
+				{ "val" :  3   , "units" : "tablespoon" , "name" : "Cilantro"       },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Lime Juice"     },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese" , "style" : "shredded" }
 			],
 			"steps": [
 				"Place chicken in slow cooker and pour salsa, lime juice, and cilantro over the top.",
@@ -857,13 +858,13 @@
 				"prep" : { "val" :  5 },
 				"cook" : { "val" : 20 }
 			},
-			"ingredients" : [
-				"1 cup rice",
-				"1 teaspoon salt",
-				"1/2 cup cilantro",
-				"2 tablespoons lime juice",
-				"1 tablespoon olive oil",
-				"1 teaspoon garlic powder"
+			"ingredients" : [				
+				{ "val" :  1   , "units" : "cup"        , "name" : "Rice"           },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Cilantro"       },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Lime Juice"     },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Olive Oil"      },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"  },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"           }
 			],
 			"steps": [
 				"Cook rice according to directions on box.",
@@ -879,17 +880,17 @@
 				"prep" : { "val" : 20 },
 				"cook" : { "val" : 45 }
 			},
-			"ingredients" : [
-				"6 eggs",
-				"1 large potato",
-				"1 small onion",
-				"1/2 teaspoon garlic powder",
-				"1 green pepper",
-				"2 tomatoes",
-				"1/2 teaspoon salt",
-				"1/2 teaspoon pepper",
-				"1/4 teaspoon cayenne pepper",
-				"1/4 cup pepper jack cheese"
+			"ingredients" : [			
+				{ "val" :  6   ,                          "name" : "Egg"                },
+				{ "val" :  1   ,                          "name" : "Potato"             , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Green Pepper"       , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"              , "style" : "diced" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"             , "style" : "diced" },
+				{ "val" :  0.25, "units" : "cup"        , "name" : "Pepper Jack Cheese" , "style" : "shredded" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"      },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"       },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"               },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cayenne Pepper"     }
 			],
 			"steps": [
 				"Boil potato in salted water for about 20 minutes, or until tender.",
@@ -910,17 +911,16 @@
 				"prep" : { "val" : 30 },
 				"cook" : { "val" : 50 }
 			},
-			"ingredients" : [
-				"12 slices of white bread",
-				"1 (21 oz) can of apple pie filling",
-				"4 eggs",
-				"1.5 cups milk",
-				"4 tablespoons white sugar",
-				"1/4 teaspoon salt",
-				"1 teaspoon vanilla extract",
-				"1 tablespoon butter",
-				"1 teaspoon ground cinnamon",
-				"9x13 baking dish"
+			"ingredients" : [				
+				{ "val" : 12   , "units" : "slices"     , "name" : "White Bread"        },
+				{ "val" : 21   , "units" : "oz"         , "name" : "Apple Pie Filling"  },
+				{ "val" :  4   ,                          "name" : "Egg"                },
+				{ "val" :  1.5 , "units" : "cup"        , "name" : "Milk"               },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"             },
+				{ "val" :  4   , "units" : "tablespoon" , "name" : "Sugar"              },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Cinnamon"           },
+				{ "val" :  0.25, "units" : "teaspoon"   , "name" : "Salt"               },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Vanilla Extract"    }
 			],
 			"steps": [
 				"Lightly butter the bottom of the pan.",
@@ -941,16 +941,16 @@
 				"prep" : { "val" : 30 },
 				"cook" : { "val" : 25 }
 			},
-			"ingredients" : [
-				"1 lb smoked sausage, diced",
-				"1 onion, chopped",
-				"1 green pepper, chopped",
-				"1 (15 oz) can of diced tomatoes",
-				"1 (15 oz) can of corn",
-				"1 teaspoon salt",
-				"1 teaspoon pepper",
-				"1 teaspoon garlic powder",
-				"1 teaspoon paprika"
+			"ingredients" : [			
+				{ "val" : 14   , "units" : "oz"         , "name" : "Smoked Sausage" },
+				{ "val" :  1   ,                          "name" : "Green Pepper"   , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"          , "style" : "diced" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"         , "style" : "diced" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"           },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"  },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"   },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"           }
 			],
 			"steps": [
 				"Cook smoked sausage in a large pot over medium-high heat.",
@@ -970,10 +970,11 @@
 				"cook" : { "val" : 15 }
 			},
 			"servings"    : 1,
-			"ingredients" : [
-				"1/2 teaspoon butter",
-				"1 egg",
-				"Salt and pepper (optional)"
+			"ingredients" : [				
+				{ "val" :  1   ,                          "name" : "Egg"          },
+				{ "val" :  0.5 , "units" : "teaspoon"   , "name" : "Butter"       },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Black Pepper" },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Salt"         }
 			],
 			"steps": [
 				"Preheat frying pan over medium heat.",
@@ -991,11 +992,10 @@
 				"prep" : { "val" : 10 },
 				"cook" : { "val" : 15 }
 			},
-			"ingredients" : [
-				"1 1/2 tablespoons vegetable oil",
-				"3 potatoes, cut into pieces",
-				"1 green pepper (optional)",
-				"1 large frying pan"
+			"ingredients" : [				
+				{ "val" :  3   ,                          "name" : "Potato"         , "style" : "diced" },
+				{ "val" :  1.5 , "units" : "tablespoon" , "name" : "Vegetable Oil"  },
+				{ "val" :  1   ,                          "name" : "Green Pepper"   , "style" : "diced" }
 			],
 			"steps": [
 				"Heat oil over medium-high heat.",
@@ -1011,13 +1011,13 @@
 				"prep" : { "val" : 10 },
 				"cook" : { "val" : 15 }
 			},
-			"ingredients" : [
-				"6 medium red potatoes, cut into chunks",
-				"2 tablespoons vegetable oil",
-				"1/2 teaspoon parsley flakes (per batch)",
-				"1/4 teaspoon garlic powder (per batch)",
-				"1/4 teaspoon onion powder (per batch)",
-				"1/4 teaspoon paprika (per batch)"
+			"ingredients" : [			
+				{ "val" :  6   ,                          "name" : "Red Potato"     , "style" : "diced", "prep" : { "val" : 15 } },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Vegetable Oil"  },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"  },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"   },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Parsley"        }
 			],
 			"steps": [
 				"Heat oil over medium heat.",
@@ -1033,13 +1033,13 @@
 				"prep" : { "val" : 10 },
 				"cook" : { "val" : 15 }
 			},
-			"ingredients" : [
-				"1 tablespoon vegetable oil",
-				"1 tablespoon garlic powder",
-				"4 medium-sized zucchinis, sliced",
-				"1/2 teaspoon salt",
-				"1/2 teaspoon pepper",
-				"1 cup grated Parmesan cheese"
+			"ingredients" : [			
+				{ "val" :  4   ,                          "name" : "Zucchini"           , "style" : "sliced" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Vegetable Oil"      },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"      },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"       },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"               },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Parmesan Cheese"    , "style" : "shredded" }
 			],
 			"steps": [
 				"Heat oil over medium heat.",
@@ -1059,12 +1059,12 @@
 			},
 			"servings"    : 8,
 			"ingredients" : [
-				"8 center cut pork chops",
-				"2 lbs sauerkraut, drained",
-				"1 large red apple, diced",
-				"1 onion",
-				"1 cup cinnamon",
-				"1 tbsp stone ground mustard"
+				{ "val" :  8   ,                          "name" : "Pork Chop"          , "style" : "center-cut" },
+				{ "val" :  2   , "units" : "lb"         , "name" : "Sauerkraut"         , "style" : "drained" },
+				{ "val" :  1   ,                          "name" : "Apple"              , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"              , "style" : "sliced" },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Cinnamon"           },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Mustard"            , "style" : "stone-ground" }
 			],
 			"steps": [
 				"Mix sauerkraut, apple, onion, cinnamon, and mustard in a bowl.",
@@ -1082,14 +1082,14 @@
 				"prep" : { "val" : 10 },
 				"cook" : { "val" : 20 }
 			},
-			"ingredients" : [
-				"1 tablespoon vegetable oil",
-				"1/3 cup chopped onion",
-				"2 (14.5 oz) cans green beans, drained",
-				"1 (10 oz) can condensed cream of chicken soup",
-				"1/4 cup milk",
-				"1/3 cup cheddar or pepper jack cheese",
-				"6oz canned fried onion rings"
+			"ingredients" : [		
+				{ "val" : 30   , "units" : "oz"         , "name" : "Green Beans"        , "style" : "drained" },
+				{ "val" :  1   ,                          "name" : "Onion"              , "style" : "diced" },
+				{ "val" : 11   , "units" : "oz"         , "name" : "Cream of Chicken"   , "style" : "condensed" },
+				{ "val" :  0.25, "units" : "cup"        , "name" : "Milk"               },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Vegetable Oil"      },
+				{ "val" :  6   , "units" : "oz"         , "name" : "Canned Onion Rings" },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Cheddar Cheese"     , "style" : "shredded" }
 			],
 			"steps": [
 				"Heat oil over medium-high heat.",
@@ -1110,11 +1110,10 @@
 				"cook" : { "val" : 15 }
 			},
 			"servings"    : 2,
-			"ingredients" : [
-				"4 slices white bread",
-				"3 tablespoons butter",
-				"2 slices of cheese",
-				"1 frying pan"
+			"ingredients" : [			
+				{ "val" :  4   , "units" : "slices"     , "name" : "White Bread"        },
+				{ "val" :  3   , "units" : "tablespoon" , "name" : "Butter"             },
+				{ "val" :  2   , "units" : "slices"     , "name" : "American Cheese"    }
 			],
 			"steps": [
 				"Preheat frying pan over medium heat.",
@@ -1134,15 +1133,15 @@
 				"prep" : { "val" : 30 },
 				"cook" : { "val" : 50 }
 			},
-			"ingredients" : [
-				"1 (16 oz) package of pasta",
-				"1 bag of broccoli",
-				"1 green pepper, diced",
-				"1 package of precooked ham, diced",
-				"1 cup Miracle Whip",
-				"0.5 cups milk",
-				"2 cups shredded cheddar cheese",
-				"1 cup bread crumbs"
+			"ingredients" : [			
+				{ "val" : 16   , "units" : "oz"         , "name" : "Rotini Pasta"       },
+				{ "val" : 12   , "units" : "oz"         , "name" : "Broccoli"           },
+				{ "val" :  1   ,                          "name" : "Green Pepper"       , "style" : "diced" },
+				{ "val" :  8   , "units" : "oz"         , "name" : "Ham"                , "style" : "pre-cooked and diced", "prep" : { "val" : 10 } },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Mayonnaise"         },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Milk"               },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Bread Crumbs"        },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"     , "style" : "shredded" }
 			],
 			"steps": [
 				"Cook pasta according to directions on the package.",
@@ -1160,18 +1159,18 @@
 				"prep" : { "val" : 40 },
 				"cook" : { "val" : 70 }
 			},
-			"ingredients": [
-				"1.5 lbs ground beef",
-				"3 potatoes, thinly sliced or diced",
-				"1 (10.75 oz) can condensed cream of chicken soup",
-				"1 small onion, diced",
-				"1 green pepper, diced",
-				"1 cup milk",
-				"1 tablespoon salt",
-				"1 tablespoon pepper",
-				"1 tablespoon garlic powder",
-				"1 tablespoon paprika",
-				"2 cups shredded cheddar cheese"
+			"ingredients": [				                                                                      
+				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"      },
+				{ "val" :  3   ,                          "name" : "Potato"           , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Green Pepper"     , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"            , "style" : "diced" },
+				{ "val" : 11   , "units" : "oz"         , "name" : "Cream of Chicken" , "style" : "condensed" },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Milk"             },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"    },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"          },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"     },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"             },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"   , "style" : "shredded" }
 			],
 			"steps": [
 				"Over medium heat, brown the beef along with the onions and green peppers.",
@@ -1191,15 +1190,15 @@
 				"prep" : { "val" : 15 },
 				"cook" : { "val" : 40 }
 			},
-			"ingredients" : [
-				"1 (2 lb) package frozen hash brown potatoes, thawed",
-				"1/2 cup melted butter",
-				"1 (10.75 oz) can condensed cream of chicken soup",
-				"1 (8 oz) container sour cream",
-				"1 small onion, chopped",
-				"2 cups shredded cheddar cheese",
-				"1 teaspoon salt",
-				"1 teaspoon pepper"
+			"ingredients" : [			
+				{ "val" : 32   , "units" : "oz"         , "name" : "Hash Browns"        , "style" : "frozen" },
+				{ "val" :  1   ,                          "name" : "Onion"              , "style" : "diced" },
+				{ "val" : 11   , "units" : "oz"         , "name" : "Cream of Chicken"   , "style" : "condensed" },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Butter"             , "style" : "melted" },
+				{ "val" :  8   , "units" : "oz"         , "name" : "Sour Cream"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"       },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"               },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"     , "style" : "shredded" }
 			],
 			"steps": [
 				"In a lightly greased 9x13 baking dish, mix together hash browns, melted butter, cream of chicken soup, sour cream, onion, cheese, and seasonings.",
@@ -1215,14 +1214,14 @@
 				"prep" : { "val" :  5 },
 				"cook" : { "val" : 25 }
 			},
-			"ingredients" : [
-				"1 tablespoon butter",
-				"2 (16 oz) packages baby carrots",
-				"3 tablespoons honey",
-				"2 tablespoons garlic powder",
-				"1 teaspoon salt",
-				"1 teaspoon pepper",
-				"1/3 cup water"
+			"ingredients" : [			
+				{ "val" : 32   , "units" : "oz"         , "name" : "Carrot"             , "style" : "baby" },
+				{ "val" :  3   , "units" : "tablespoon" , "name" : "Honey"              },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"             },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Garlic Powder"      },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"       },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"               },
+				{ "val" :  0.33, "units" : "cup"        , "name" : "Water"              }
 			],
 			"steps": [
 				"Melt butter in a large skillet over medium heat.",
@@ -1240,21 +1239,20 @@
 				"prep" : { "val" : 45 },
 				"cook" : { "val" : 60 }
 			},
-			"ingredients": [
-				"1 tablespoon olive oil",
-				"1 tablespoon salt",
-				"1 tablespoon pepper",
-				"1 tablespoon paprika",
-				"1 tablespoon garlic powder",
-				"2 stalks of celery, diced",
-				"1 lb boneless, skinless chicken breasts",
-				"1 green pepper",
-				"1 onion",
-				"1 (16 oz) can of diced tomatoes",
-				"2 teaspoons Worcestershire sauce",
-				"1.5 cups rice",
-				"2 cups chicken broth",
-				"10 oz andouille sausage, sliced"
+			"ingredients": [			
+				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"       , "style" : "pre-cooked and diced" },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Andouille Sausage"    , "style" : "sliced" },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
+				{ "val" :  2   ,                          "name" : "Celery Stalk"         , "style" : "diced" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Tomato"               , "style" : "diced" },
+				{ "val" :  1.5 , "units" : "cup"        , "name" : "Rice"                 },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Chicken Broth"        },
+				{ "val" :  2   , "units" : "teaspoon"   , "name" : "Worcestershire Sauce" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"              },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
 				"Heat one tablespoon of olive oil in a frying pan over medium heat.",
@@ -1555,6 +1553,7 @@
 				"prep" : { "val" : 45 },
 				"cook" : { "val" :  8, "units" : "hour" }
 			},
+			"servings"    : 10,
 			"ingredients" : [
 				"3 lbs pork tenderloin",
 				"1 bottle barbeque sauce",
@@ -1872,24 +1871,25 @@
 				"cook" : { "val" : 40 }
 			},
 			"servings"    : 10,
-			"ingredients" : [
-				"1 lb ground beef",
-				"1 small onion, chopped",
-				"1 green pepper, chopped",
-				"1 teaspoon garlic powder",
-				"1/2 teaspoon cumin",
-				"1/4 teaspoon salt",
-				"1/8 teaspoon pepper",
-				"1 (10 oz) can diced tomatoes with green chiles",
-				"1 (16 oz) can refried beans",
-				"1 (15 oz) can chili with beans",
-				"1 (10 oz) can condensed tomato soup",
-				"1 (10 oz) can enchilada sauce",
-				"10 (12 in) flour tortillas",
-				"2 cups shredded lettuce",
-				"2 cups shredded Mexican blend cheese",
-				"2 habanero peppers, finely chopped (optional)",
-				"Sour cream (optional)"
+			"ingredients" : [			
+				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced", "prep" : { "val" : 10 } },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced", "prep" : { "val" : 10 } },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Tomato"               , "style" : "diced and with green chiles" },
+				{ "val" :  6   , "units" : "oz"         , "name" : "Black Olives"         },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Lettuce"              , "style" : "shredded" },
+				{ "val" : 10   ,                          "name" : "Tortilla"             },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Refried Beans"        },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Chili with Beans"     },
+				{ "val" : 10   , "units" : "oz"         , "name" : "Tomato Soup"          , "style" : "condensed" },
+				{ "val" : 10   , "units" : "oz"         , "name" : "Enchilada Sauce"      },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cumin"                },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Mexican-blend Cheese" , "style" : "shredded" },
+				{ "val" :  2   ,                          "name" : "Habanero Pepper"      , "style" : "diced", "prep" : { "val" : 10 } },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Sour Cream"           }
 			],
 			"steps": [
 				"Cook ground beef over medium-high heat until browned.",

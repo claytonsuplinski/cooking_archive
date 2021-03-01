@@ -1,8 +1,11 @@
 ARCH.hashlinks = new Hashlinks({
-	cookware : {},
-	cuisine  : {},
-	dish     : {},
-	recipe   : {},
+	cookware         : {},
+	cuisine          : {},
+	cuisines_exclude : {},
+	dish             : {},
+	recipe           : {},
+	sort_by          : {},
+	suggested        : {},
 });
 
 ARCH.hashlinks.on_start = function(){

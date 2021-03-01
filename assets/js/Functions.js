@@ -2,7 +2,7 @@ ARCH.functions = {};
 
 ARCH.functions.get_recipe_time = function( p ){
 	try{
-		var time_obj = p.recipe.time[ p.key ];
+		var time_obj = p.time_obj || p.recipe.time[ p.key ];
 		Object.assign( p, time_obj );
 		return this.get_formatted_time( p );
 	} catch(e){}
@@ -98,4 +98,34 @@ ARCH.functions.get_alternate_units = function( val, units ){
 	};
 	
 	return false;
+};
+
+ARCH.functions.get_plural_ingredient = function( ing ){
+	if( !ing.units && ing.val != 1 ){
+		if( [ 'Potato', 'Red Potato', 'Tomato' ].includes( ing.name ) ) return ing.name + 'es';
+		return ing.name + 's';
+	}
+	
+	return ing.name;
+};
+
+ARCH.functions.get_matching_ingredients = function( recipe_1, recipe_2 ){
+	var matches = [];
+	var recipe_2_ingredients = [];
+	try{ recipe_2_ingredients = recipe_2.ingredients.map( ing => ing.name ); } catch(e){}
+	recipe_1.ingredients.forEach(function( ing ){
+		try{
+			if( recipe_2_ingredients.includes( ing.name ) ) matches.push( ing.name );
+		} catch(e){}
+	});
+	return matches;
+};
+
+ARCH.functions.copy_to_clipboard = function( text ){
+	var tmp_ele = document.createElement( 'textarea' );
+	tmp_ele.value = text;
+	document.body.appendChild( tmp_ele );
+	tmp_ele.select();
+	document.execCommand( 'copy' );
+	document.body.removeChild( tmp_ele );
 };

@@ -19,6 +19,11 @@ ARCH.content.views.main.get_recipe_list = function( criteria ){
 		return r.cuisines.includes( criteria.cuisine );
 	});
 	
+	if( criteria.cuisines_exclude ) recipes = recipes.filter(function( r ){
+		if( !r.cuisines ) return true;
+		return !r.cuisines.find(function( c ){ return criteria.cuisines_exclude.includes( c ); });
+	});
+	
 	if( criteria.cookware ) recipes = recipes.filter(function( r ){
 		if( !r.cookware ) return false;
 		return r.cookware.includes( criteria.cookware );
@@ -50,6 +55,21 @@ ARCH.content.views.main.get_recipe_list = function( criteria ){
 		
 		recipes = recipes.filter( r => r._query_score ).sort( (a,b) => ( b._query_score - a._query_score ) );
 	}
+	
+	if( criteria.sort_by ){
+		switch( criteria.sort_by ){
+			case 'ingredients_different':
+				recipes = recipes.sort(function( a, b ){
+					return (
+						ARCH.functions.get_matching_ingredients( a, ARCH.content.views.recipe.curr_recipe ).length -
+						ARCH.functions.get_matching_ingredients( b, ARCH.content.views.recipe.curr_recipe ).length
+					);
+				});
+				break;
+		}
+	}
+	
+	if( criteria.suggested ) recipes = recipes.filter( r => r.name !== ARCH.content.views.recipe.curr_recipe.name );
 
 	return recipes;
 };
@@ -58,7 +78,9 @@ ARCH.content.views.main.draw_recipe_list = function( p ){
 	var p = p || {};
 	
 	var criteria = {};
-	[ 'dish', 'cuisine', 'cookware' ].forEach(function( x ){ criteria[ x ] = ARCH.hashlinks.params[ x ].value; });
+	[ 
+		'cuisine', 'cuisines_exclude', 'cookware', 'dish', 'sort_by', 'suggested'
+	].forEach(function( x ){ criteria[ x ] = ARCH.hashlinks.params[ x ].value; });
 	Object.assign( criteria, p );
 	
 	var recipe_list = this.get_recipe_list( criteria );
