@@ -102,7 +102,7 @@ ARCH.functions.get_alternate_units = function( val, units ){
 
 ARCH.functions.get_plural_ingredient = function( ing ){
 	if( !ing.units && ing.val != 1 ){
-		if( [ 'Potato', 'Red Potato', 'Tomato' ].includes( ing.name ) ) return ing.name + 'es';
+		if( [ 'Potato', 'Tomato' ].find( x => ing.name.endsWith(x) ) ) return ing.name + 'es';
 		return ing.name + 's';
 	}
 	

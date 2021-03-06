@@ -43,7 +43,7 @@
 				{ "val" : 15   , "units" : "oz"      , "name" : "Artichoke Hearts" , "style" : "drained and chopped" },
 				{ "val" :  0.75, "units" : "cup"     , "name" : "Mayonnaise"       },
 				{ "val" :  1   , "units" : "teaspoon", "name" : "Garlic Powder"    },
-				{ "val" :  0.75, "units" : "cup"     , "name" : "Parmesan Cheese"  }
+				{ "val" :  0.75, "units" : "cup"     , "name" : "Parmesan Cheese"  , "style" : "shredded" }
 			],
 			"steps": [
 				"In a separate bowl, mix together artichoke hearts, Parmesan cheese, garlic powder, and mayo.",
@@ -242,7 +242,7 @@
 			},
 			"ingredients": [			
 				{ "val" :  1   , "units" : "lb"         , "name" : "Italian Sausage" , "style" : "sliced" },
-				{ "val" : 16   , "units" : "oz"         , "name" : "Ziti"            },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Ziti Pasta"      },
 				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced" },
 				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
 				{ "val" : 26   , "units" : "oz"         , "name" : "Marinara Sauce"  },
@@ -480,7 +480,7 @@
 			"ingredients" : [			
 				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"  , "style" : "skinless and boneless" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Shell Pasta"     },
-				{ "val" : 16   , "units" : "oz"         , "name" : "Chicken Broth"   },
+				{ "val" : 11   , "units" : "oz"         , "name" : "Chicken Broth"   },
 				{ "val" :  3   , "units" : "tablespoon" , "name" : "Butter"          },
 				{ "val" :  1   , "units" : "cup"        , "name" : "Milk"            },
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Whipping Cream"  },
@@ -748,7 +748,7 @@
 				{ "val" : 16   , "units" : "oz"         , "name" : "Tomato"         , "style" : "diced and with green chiles" },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"           },
 				{ "val" : 30   , "units" : "oz"         , "name" : "Pinto Beans"    , "style" : "drained" },
-				{ "val" : 15   , "units" : "oz"         , "name" : "Chicken Broth"  },
+				{ "val" : 11   , "units" : "oz"         , "name" : "Chicken Broth"  },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cumin"          },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Oregano"        },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"   },
@@ -771,7 +771,7 @@
 			},
 			"ingredients" : [			
 				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"  , "style" : "pre-cooked and diced" },
-				{ "val" : 16   , "units" : "oz"         , "name" : "Ziti"            },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Ziti Pasta"      },
 				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "sliced" },
 				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Pinto Beans"     , "style" : "drained" },
@@ -1012,7 +1012,7 @@
 				"cook" : { "val" : 15 }
 			},
 			"ingredients" : [			
-				{ "val" :  6   ,                          "name" : "Red Potato"     , "style" : "diced", "prep" : { "val" : 15 } },
+				{ "val" :  6   ,                          "name" : "Red Potato"     , "style" : "diced" },
 				{ "val" :  2   , "units" : "tablespoon" , "name" : "Vegetable Oil"  },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"  },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"   },
@@ -1247,7 +1247,7 @@
 				{ "val" :  2   ,                          "name" : "Celery Stalk"         , "style" : "diced" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Tomato"               , "style" : "diced" },
 				{ "val" :  1.5 , "units" : "cup"        , "name" : "Rice"                 },
-				{ "val" : 16   , "units" : "oz"         , "name" : "Chicken Broth"        },
+				{ "val" : 11   , "units" : "oz"         , "name" : "Chicken Broth"        },
 				{ "val" :  2   , "units" : "teaspoon"   , "name" : "Worcestershire Sauce" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"              },
@@ -1272,13 +1272,11 @@
 				"prep" : { "val" : 40 },
 				"cook" : { "val" : 30 }
 			},
-			"ingredients" : [
-				"1 tablespoon vegetable oil",
-				"1 (16 oz) package kielbasa sausage, diced",
-				"6 medium red potatoes, diced",
-				"1 red bell pepper, sliced",
-				"1 yellow bell pepper, sliced",
-				"1 large saucepan"
+			"ingredients" : [			
+				{ "val" :  1   , "units" : "lb"         , "name" : "Kielbasa Sausage"     , "style" : "sliced" },
+				{ "val" :  6   ,                          "name" : "Red Potato"           , "style" : "diced" },
+				{ "val" :  2   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Vegetable Oil"        }
 			],
 			"steps": [
 				"Heat the oil in the saucepan over medium heat.",
@@ -1296,15 +1294,15 @@
 				"prep" : { "val" : 40 },
 				"cook" : { "val" : 60 }
 			},
-			"ingredients" : [
-				"1 (16 oz) box of rigatoni pasta",
-				"1 lb ground beef",
-				"1 lb italian sausage",
-				"1 green pepper, chopped",
-				"1 small onion, chopped",
-				"1 (24 oz) jar spaghetti sauce",
-				"4 cups mozzarella cheese",
-				"About 50 slices of pepperoni"
+			"ingredients" : [			
+				{ "val" : 16   , "units" : "oz"         , "name" : "Rigatoni Pasta"       },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Italian Sausage"      , "style" : "sliced" },
+				{ "val" : 50   , "units" : "slices"     , "name" : "Pepperoni"            },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
+				{ "val" : 24   , "units" : "oz"         , "name" : "Marinara Sauce"       },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese"    , "style" : "shredded" }
 			],
 			"steps": [
 				"Cook pasta according to directions on the box.",
@@ -1326,12 +1324,12 @@
 				"prep" : { "val" : 15 },
 				"cook" : { "val" : 30 }
 			},
-			"ingredients" : [
-				"2 lbs unpeeled potatoes, cubed",
-				"1/2 cup butter",
-				"1 cup milk",
-				"2 tablespoons sour cream (optional)",
-				"Salt and pepper to taste"
+			"ingredients" : [			
+				{ "val" :  3   , "units" : "lb"         , "name" : "Potato"         , "style" : "quartered" },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Butter"         },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Milk"           },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"   },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"           }
 			],
 			"steps": [
 				"Bring a pot of water to a boil and cook potatoes until tender, about 15 minutes.",
@@ -1349,14 +1347,18 @@
 				"prep" : { "val" : 15 },
 				"cook" : { "val" : 35 }
 			},
-			"ingredients" : [
-				"6 bagels",
-				"1 onion, diced",
-				"1 (24 oz) jar spaghetti sauce",
-				"40 Italian-style frozen meatballs",
-				"2 cups shredded mozzarella cheese",
-				"8 oz cottage cheese",
-				"1 tablespoon Italian seasoning"
+			"ingredients" : [			
+				{ "val" :  6   ,                          "name" : "Bagel"                },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
+				{ "val" : 24   , "units" : "oz"         , "name" : "Marinara Sauce"       },
+				{ "val" : 40   ,                          "name" : "Meatball"             , "style" : "Italian-style" },
+				{ "val" :  8   , "units" : "oz"         , "name" : "Cottage Cheese"       },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese"    , "style" : "shredded" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"                },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Oregano"              },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
 				"Tear bagels into bite-sized pieces and layer on the bottom of a lightly-greased 9x13 baking dish.",
@@ -1378,22 +1380,22 @@
 				"cook" : { "val" :  8, "units" : "hour" }
 			},
 			"servings"    : 8,
-			"ingredients" : [
-				"1 large bag of tortilla chips",
-				"1 (16 oz) can beef broth",
-				"1 tablespoon salt",
-				"1 tablespoon pepper",
-				"1 tablespoon garlic powder",
-				"3 lbs boneless roast beef chuck or round roast",
-				"1 (4.5 oz) can of mild green chiles",
-				"1 (29 oz) can pinto beans",
-				"2 cups shredded cheddar cheese",
-				"1 container pickled jalapenos",
-				"1 onion, diced",
-				"4 roma tomatoes, sliced into wedges",
-				"1 can of sliced black olives",
-				"16 oz sour cream",
-				"1 tablespoon paprika"
+			"ingredients" : [			
+				{ "val" :  3   , "units" : "lb"         , "name" : "Beef Roast"           , "style" : "boneless; chuck or round roast" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
+				{ "val" :  4   ,                          "name" : "Roma Tomato"          , "style" : "sliced into wedges" },
+				{ "val" : 20   , "units" : "oz"         , "name" : "Tortilla Chips"       },
+				{ "val" : 30   , "units" : "oz"         , "name" : "Refried Beans"        },
+				{ "val" :  6   , "units" : "oz"         , "name" : "Black Olives"         },
+				{ "val" :  4.5 , "units" : "oz"         , "name" : "Green Chiles"         },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Beef Broth"           },
+				{ "val" : 12   , "units" : "oz"         , "name" : "Jalapeno Pepper"      , "style" : "pickled" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Sour Cream"           },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"              },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"       , "style" : "shredded" }
 			],
 			"steps": [
 				"Place beef roast, salt, pepper, garlic powder, and beef broth in slow cooker on low for 6-7 hours.",
@@ -1414,15 +1416,15 @@
 				"prep" : { "val" : 15 },
 				"cook" : { "val" : 70, "units" : "hour" }
 			},
-			"ingredients" : [
-				"1 (16 oz) package angel hair pasta",
-				"1/4 cup olive oil",
-				"1 small onion, chopped",
-				"2 tablespoons garlic powder",
-				"2 (10 oz) cans diced tomatoes",
-				"1 (10.75 oz) can low-sodium chicken broth",
-				"40 Italian-style meatballs",
-				"2 tablespoons basil"
+			"ingredients" : [			
+				{ "val" : 16   , "units" : "oz"         , "name" : "Angel Hair Pasta"     },
+				{ "val" : 40   ,                          "name" : "Meatball"             , "style" : "Italian-style" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
+				{ "val" : 20   , "units" : "oz"         , "name" : "Tomato"               , "style" : "diced" },
+				{ "val" : 11   , "units" : "oz"         , "name" : "Chicken Broth"        },
+				{ "val" :  0.25, "units" : "cup"        , "name" : "Olive Oil"            },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Basil"                },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Garlic Powder"        }
 			],
 			"steps": [
 				"Cook pasta according to directions on package.",
@@ -1441,12 +1443,12 @@
 				"prep" : { "val" : 60 },
 				"cook" : { "val" :  7, "units" : "hour" }
 			},
-			"ingredients" : [
-				"1 (3 lb) beef chuck or rump roast",
-				"1 tablespoon garlic powder",
-				"1 (16 oz) jar sliced pepperoncini",
-				"8-12 buns",
-				"16-20 sliced provolone cheese"
+			"ingredients" : [			
+				{ "val" :  3   , "units" : "lb"         , "name" : "Beef Roast"           , "style" : "boneless; chuck or rump roast" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Pepperoncini Pepper"  , "style" : "sliced" },
+				{ "val" : 12   ,                          "name" : "Hamburger Bun"        },
+				{ "val" : 12   , "units" : "slices"     , "name" : "Provolone Cheese"     },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        }
 			],
 			"steps": [
 				"Make small cuts in roast and place in slow cooker.",
@@ -1466,26 +1468,21 @@
 				"prep" : { "val" : 15 },
 				"cook" : { "val" : 60 }
 			},
-			"ingredients" : [
-				"3 cubed chicken breasts (or 6 cups)",
-				"1/2 cup bread crumbs",
-				"1/2 cup parmesan cheese",
-				"1 tablespoon vegetable oil",
-				"1 (16 oz) box penne pasta",
-				"2 cups shredded Italian blend cheese",
-				"3 cups spinach",
-				"1 (15 oz) can crushed tomatoes",
-				"1 (15 oz) jar Alfredo sauce",
-				"1 (6.5 oz) jar pesto sauce",
-				"1 cup milk"
+			"ingredients" : [				
+				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"       , "style" : "pre-cooked and diced" },
+				{ "val" :  3   , "units" : "cup"        , "name" : "Spinach"              , "style" : "shredded" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"               , "style" : "crushed" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Penne Pasta"          },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Alfredo Sauce"        },
+				{ "val" :  6.5 , "units" : "oz"         , "name" : "Pesto Sauce"          },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Milk"                 },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Bread Crumbs"         },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Parmesan Cheese"      , "style" : "shredded" },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Italian Cheese"       , "style" : "shredded" }
 			],
 			"steps": [
 				"Cook the pasta according to the directions on the box.",
-				"Heat 1 tablespoon of oil over medium-high heat.",
-				"Add the chicken and cook covered for about 4 minutes.",
-				"Flip the pieces of chicken, reduce heat to low, and cook covered for another 15 minutes.",
-				"Let chicken sit for a few minutes before moving the pieces to the lightly greased baking dish.",
-				"Mix the Italian cheese, spinach, tomatoes, alfredo sauce, pesto sauce, and milk in the baking dish.",
+				"Mix the Italian cheese, chicken, spinach, tomatoes, alfredo sauce, pesto sauce, and milk in the baking dish.",
 				"Stir the pasta into the baking dish.",
 				"Sprinkle bread crumbs and parmesan cheese over the top of the baking dish.",
 				"Cook in oven at 350 degrees for 40 minutes.",
@@ -1501,10 +1498,10 @@
 				"prep" : { "val" : 20 },
 				"cook" : { "val" : 20 }
 			},
-			"ingredients" : [
-				"6 tomatoes",
-				"1/2 cup pesto",
-				"1 cup grated Parmesan cheese"
+			"ingredients" : [			
+				{ "val" :  6   ,                          "name" : "Tomato"               },
+				{ "val" :  6.5 , "units" : "oz"         , "name" : "Pesto Sauce"          },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Parmesan Cheese"      , "style" : "shredded" }
 			],
 			"steps": [
 				"Slice tomatoes in half along the stems and remove stems.",
@@ -1523,16 +1520,16 @@
 				"prep" : { "val" : 30 },
 				"cook" : { "val" : 60 }
 			},
-			"ingredients" : [
-				"1 (16 oz) package egg noodles",
-				"1 lb ground beef",
-				"1 small onion, chopped",
-				"1 teaspoon garlic powder",
-				"1 green pepper, chopped",
-				"1 package pepperoni",
-				"1 (16 oz) container pizza sauce",
-				"1/4 cups milk",
-				"2 cups shredded mozzarella cheese"
+			"ingredients" : [			
+				{ "val" : 16   , "units" : "oz"         , "name" : "Egg Noodles"          },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
+				{ "val" : 50   , "units" : "slices"     , "name" : "Pepperoni"            },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Pizza Sauce"          },
+				{ "val" :  0.25, "units" : "cup"        , "name" : "Milk"                 },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese"    , "style" : "shredded" }
 			],
 			"steps": [
 				"Cook noodles according to directions on package.",
@@ -1881,8 +1878,7 @@
 				{ "val" : 10   ,                          "name" : "Tortilla"             },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Refried Beans"        },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Chili with Beans"     },
-				{ "val" : 10   , "units" : "oz"         , "name" : "Tomato Soup"          , "style" : "condensed" },
-				{ "val" : 10   , "units" : "oz"         , "name" : "Enchilada Sauce"      },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Taco Sauce"           },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cumin"                },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
@@ -1897,9 +1893,8 @@
 				"Drain grease and season with garlic powder, cumin, salt, and pepper.",
 				"In a separate pot, stir together diced tomatoes with chiles, refried beans, and chili with beans.",
 				"Cook beans on medium-low until warm.",
-				"In a separate bowl, combine the enchilada sauce, tomato soup, and one can of water.",
 				"When finished cooking the beef and beans, mix together in a separate container.",
-				"Scoop some of the meat and bean mixture into a tortilla, wrap the burrito, top with lettuce, then the sauce, then the cheese.",
+				"Scoop some of the meat and bean mixture into a tortilla, wrap the burrito, top with lettuce, then the taco sauce, then the cheese.",
 				"Heat in microwave for about 1 minute and add sour cream if desired."
 			]
 		},

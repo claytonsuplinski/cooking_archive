@@ -5,9 +5,11 @@
 			"Apple", "Artichoke Hearts", "Asparagus",
 			"Black Olives", "Broccoli",
 			"Canned Onion Rings", "Carrot", "Celery Stalk", "Corn",
-			"Grape Tomatoes", "Green Beans", "Green Pepper",
+			"Grape Tomatoes", "Green Beans", "Green Chiles", "Green Pepper",
 			"Lettuce",
 			"Onion",
+			"Pepperoncini Pepper",
+			"Roma Tomato",
 			"Sauerkraut", "Spinach",
 			"Tomato",
 			"Zucchini"
@@ -16,30 +18,32 @@
 	{
 		"name"        : "Grain / Starch",
 		"ingredients" : [
-			"Bow Tie Pasta", "Bread Crumbs",
+			"Angel Hair Pasta",
+			"Bagel", "Bow Tie Pasta", "Bread Crumbs",
 			"Egg Noodles",
 			"Flour",
-			"Hash Browns",
+			"Hash Browns", "Hamburger Bun",
 			"Lasagna Pasta",
 			"Penne Pasta", "Potato",
-			"Ravioli", "Red Potato", "Rice", "Rotini Pasta",
+			"Ravioli", "Red Potato", "Rice", "Rigatoni Pasta", "Rotini Pasta",
 			"Shell Pasta", "Spaghetti", "Stuffing Mix",
 			"Tortilla Chips", "Tortilla",
 			"White Bread",
-			"Ziti"
+			"Ziti Pasta"
 		]
 	},
 	{
 		"name"        : "Sauces",
 		"ingredients" : [
 			"Alfredo Sauce", "Apple Pie Filling",
-			"Buffalo Sauce",
+			"Beef Broth", "Buffalo Sauce",
 			"Chicken Broth", "Cream of Chicken", "Cream of Potato",
 			"Enchilada Sauce",
 			"Honey",
 			"Lemon Juice", "Lime Juice",
 			"Marinara Sauce", "Mustard",
 			"Olive Oil",
+			"Pesto Sauce", "Pizza Sauce",
 			"Relish",
 			"Salsa", "Soy Sauce",
 			"Taco Sauce", "Tomato Paste", "Tomato Soup",
@@ -62,14 +66,15 @@
 		"name"        : "Meat / Protein",
 		"ingredients" : [
 			"Almonds", "Andouille Sausage", "Angus Stir-Fry Beef",
-			"Bacon", "Black Beans",
+			"Bacon", "Beef Roast", "Black Beans",
 			"Cashews", "Chicken Breast", "Chili with Beans",
 			"Egg",
 			"Ground Beef",
 			"Ham",
 			"Italian Sausage",
 			"Kielbasa Sausage",
-			"Pinto Beans", "Pork Chop",
+			"Meatball",
+			"Pepperoni", "Pinto Beans", "Pork Chop",
 			"Refried Beans",
 			"Sirloin Tip", "Smoked Sausage",
 			"Tilapia",
@@ -85,7 +90,7 @@
 			"Evaporated Milk",
 			"Italian Cheese",
 			"Mayonnaise", "Mexican-blend Cheese", "Milk", "Monterey Jack Cheese", "Mozzarella Cheese",
-			"Parmesan Cheese",
+			"Parmesan Cheese", "Provolone Cheese",
 			"Sour Cream",
 			"Whipping Cream"
 		]
