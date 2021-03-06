@@ -88,7 +88,7 @@ ARCH.content.views.main.draw_recipe_list = function( p ){
 	$("#recipe-list").html(
 		recipe_list.map(function( recipe ){
 			return '<div class="container">'+
-				'<a href="' + ARCH.hashlinks.get_url({ include : { recipe : recipe.name } }) + '">'+
+				'<a href="' + ARCH.hashlinks.get_url({ clear : true, include : { recipe : recipe.name } }) + '">'+
 					'<div class="item selectable">'+
 						ARCH.content.get_servings_html(        recipe ) +
 						ARCH.content.get_prep_time_html(       recipe ) +

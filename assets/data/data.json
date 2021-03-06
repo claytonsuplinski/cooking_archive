@@ -1392,8 +1392,8 @@
 				{ "val" : 12   , "units" : "oz"         , "name" : "Jalapeno Pepper"      , "style" : "pickled" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Sour Cream"           },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"              },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"       , "style" : "shredded" }
 			],
@@ -1443,6 +1443,7 @@
 				"prep" : { "val" : 60 },
 				"cook" : { "val" :  7, "units" : "hour" }
 			},
+			"servings"    : 12,
 			"ingredients" : [			
 				{ "val" :  3   , "units" : "lb"         , "name" : "Beef Roast"           , "style" : "boneless; chuck or rump roast" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Pepperoncini Pepper"  , "style" : "sliced" },
@@ -1550,18 +1551,17 @@
 				"prep" : { "val" : 45 },
 				"cook" : { "val" :  8, "units" : "hour" }
 			},
-			"servings"    : 10,
-			"ingredients" : [
-				"3 lbs pork tenderloin",
-				"1 bottle barbeque sauce",
-				"1 teaspoon garlic powder",
-				"1 teaspoon onion powder",
-				"1 teaspoon salt",
-				"1 teaspoon pepper",
-				"1 teaspoon paprika",
-				"1/4 cup soy sauce",
-				"12 hamburger buns, lightly toasted",
-				"1 crock pot"
+			"servings"    : 12,
+			"ingredients" : [			
+				{ "val" :  3   , "units" : "lb"         , "name" : "Pork Roast"           , "style" : "tenderloin" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Barbeque Sauce"       },
+				{ "val" : 12   ,                          "name" : "Hamburger Bun"        },
+				{ "val" :  0.25, "units" : "cup"        , "name" : "Soy Sauce"            },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"              },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
 				"Put the pork tenderloin in the crock pot.",
