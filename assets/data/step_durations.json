@@ -4,6 +4,7 @@
 	{ "name" : "Asparagus"         , "prep" : { "val" : 10 } , "units" : "lb" },
 	{ "name" : "Artichoke Hearts"  , "prep" : { "val" : 10 } },
 	{ "name" : "Broccoli"          , "prep" : { "val" : 10 } , "style" : "trimmed" },
+	{ "name" : "Brussels Sprouts"  , "prep" : { "val" : 15 } , "style" : "trimmed and halved" },
 	{ "name" : "Butter"            , "prep" : { "val" :  5 } , "style" : "melted" },
 	{ "name" : "Cashews"           , "prep" : { "val" : 10 } , "style" : "chopped" },
 	{ "name" : "Celery Stalk"      , "prep" : { "val" : 10 } },
@@ -26,6 +27,7 @@
 	{ "name" : "Roma Tomato"       , "prep" : { "val" : 10 } },
 	{ "name" : "Sirloin Tip"       , "prep" : { "val" : 10 } },
 	{ "name" : "Serrano Pepper"    , "prep" : { "val" : 10 } },
+	{ "name" : "Smoked Sausage"    , "prep" : { "val" : 10 } },
 	{ "name" : "Zucchini"          , "prep" : { "val" : 15 } , "val" : 4 },
 	{ "name" : "Zucchini"          , "prep" : { "val" : 15 } , "val" : 3 },
 	{ "name" : "Zucchini"          , "prep" : { "val" : 10 } }

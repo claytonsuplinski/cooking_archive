@@ -925,10 +925,10 @@
 			"steps": [
 				"Lightly butter the bottom of the pan.",
 				"Tear the 12 slices of bread and evenly spread them in the pan.",
-				"In a separate bowl, whisk the eggs, milk, 2 tablespoons sugar, salt, and vanilla.",
+				"In a separate bowl, whisk the eggs, milk, sugar, salt, and vanilla.",
 				"Pour the egg mixture over the bread.",
+				"Mix apple pie filling and cinnamon in with the casserole.",
 				"Dot the bread with butter and let stand for about 10 minutes.",
-				"Sprinkle 2 tablespoons sugar and cinnamon over the top.",
 				"Bake at 350 degrees for 50 minutes.",
 				"When done, let stand for 5 minutes before serving."
 			]
@@ -942,7 +942,7 @@
 				"cook" : { "val" : 25 }
 			},
 			"ingredients" : [			
-				{ "val" : 14   , "units" : "oz"         , "name" : "Smoked Sausage" },
+				{ "val" : 14   , "units" : "oz"         , "name" : "Smoked Sausage" , "style" : "sliced" },
 				{ "val" :  1   ,                          "name" : "Green Pepper"   , "style" : "diced" },
 				{ "val" :  1   ,                          "name" : "Onion"          , "style" : "diced" },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"         , "style" : "diced" },
@@ -1579,14 +1579,15 @@
 				"prep" : { "val" : 20 },
 				"cook" : { "val" : 40 }
 			},
-			"ingredients" : [
-				"1/2 cup grated parmesian cheese",
-				"3/4 cup milk",
-				"1 (8 oz) container sour cream",
-				"1 (12 oz) package wide egg noodles",
-				"1 (1 oz) packet Ranch Salad Dressing & Seasoning Mix",
-				"1 lb cooked ground beef",
-				"1/2 lb green onions or green peppers"
+			"ingredients" : [				
+				{ "val" : 16   , "units" : "oz"         , "name" : "Egg Noodles"          },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
+				{ "val" :  0.75, "units" : "cup"        , "name" : "Milk"                 },
+				{ "val" :  8   , "units" : "oz"         , "name" : "Sour Cream"           },
+				{ "val" :  1   , "units" : "oz"         , "name" : "Ranch Seasoning"      },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Parmesan Cheese"      , "style" : "shredded" }
 			],
 			"steps": [
 				"Cook noodles and drain",
@@ -1604,12 +1605,12 @@
 			"time"        : {
 				"prep" : { "val" : 20 }
 			},
-			"ingredients" : [
-				"1 (16 oz) bag of frozen strawberries",
-				"1 (12 oz) bag of frozen blueberries",
-				"1 (8 oz) block of cream cheese",
-				"8 oz cool whip",
-				"1/2 cup sugar"
+			"ingredients" : [				
+				{ "val" : 16   , "units" : "oz"         , "name" : "Strawberries"         , "style" : "frozen" },
+				{ "val" : 12   , "units" : "oz"         , "name" : "Blueberries"          , "style" : "frozen" },
+				{ "val" :  8   , "units" : "oz"         , "name" : "Cream Cheese"         },
+				{ "val" :  8   , "units" : "oz"         , "name" : "Whipped Cream"        },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Sugar"                }
 			],
 			"steps": [
 				"Heat the cream cheese in the microwave for about 40 seconds to soften it up.",
@@ -1626,11 +1627,11 @@
 				"prep" : { "val" : 15 },
 				"cook" : { "val" : 30 }
 			},
-			"ingredients" : [
-				"1.5 lbs Brussels sprouts, trimmed and halved",
-				"3 tablespoons olive oil",
-				"1 tablespoon salt",
-				"1 tablespoon pepper"
+			"ingredients" : [			
+				{ "val" :  1.5 ,                          "name" : "Brussels Sprouts"     , "style" : "trimmed and halved" },
+				{ "val" :  3   , "units" : "tablespoon" , "name" : "Olive Oil"            },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
 				"Coat Brussels sprouts with olive oil and place on a baking sheet.",
@@ -1647,11 +1648,15 @@
 				"prep" : { "val" : 10 },
 				"cook" : { "val" : 40 }
 			},
-			"ingredients" : [
-				"1 (14 oz) smoked sausage, sliced",
-				"16 oz pasta",
-				"1 jar alfredo sauce",
-				"1 (10 oz) can of diced tomatoes"
+			"ingredients" : [			
+				{ "val" : 16   , "units" : "oz"         , "name" : "Rigatoni Pasta"       },
+				{ "val" : 14   , "units" : "oz"         , "name" : "Smoked Sausage"       , "style" : "sliced" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Alfredo Sauce"        },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"               , "style" : "diced" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
 				"Cook pasta according to directions on box.",
@@ -1668,15 +1673,15 @@
 				"prep" : { "val" : 30 },
 				"cook" : { "val" : 50 }
 			},
-			"ingredients" : [
-				"1 (14 oz) kielbasa or smoked sausage, sliced",
-				"3 teaspoons garlic powder",
-				"1 medium onion, diced",
-				"1 green pepper, diced",
-				"1 (19 oz) package cheese tortellini",
-				"1 teaspoon basil",
-				"1 (24 oz) jar marinara sauce",
-				"2 cups shredded mozzarella cheese"
+			"ingredients" : [			
+				{ "val" : 19   , "units" : "oz"         , "name" : "Tortellini"           , "style" : "cheese" },
+				{ "val" : 14   , "units" : "oz"         , "name" : "Smoked Sausage"       , "style" : "sliced" },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
+				{ "val" : 24   , "units" : "oz"         , "name" : "Marinara Sauce"       },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"                },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese"    , "style" : "shredded" }
 			],
 			"steps": [
 				"Cook tortellini according to directions on package.",
@@ -1700,11 +1705,11 @@
 				"prep" : { "val" : 25 },
 				"cook" : { "val" : 30 }
 			},
-			"ingredients" : [
-				"1 (14 oz) package smoked sausage",
-				"1 lb potatoes, diced",
-				"1 cup sauerkraut, rinsed and drained",
-				"2 tablespoons whole-grain mustard"
+			"ingredients" : [			
+				{ "val" : 14   , "units" : "oz"         , "name" : "Smoked Sausage" , "style" : "sliced" },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Potato"         , "style" : "diced" },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Sauerkraut"     },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Mustard"        , "style" : "stone-ground" }
 			],
 			"steps": [
 				"Cook sausage in a large skillet over medium-high heat for about 3 minutes.",
@@ -1722,9 +1727,8 @@
 				"cook" : { "val" : 20 }
 			},
 			"ingredients" : [
-				"1 chopped onion",
-				"1 tablespoon oil or butter",
-				"1 frying pan"
+				{ "val" :  1   ,                          "name" : "Onion"  , "style" : "diced" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter" }
 			],
 			"steps": [
 				"Heat the oil or butter over medium-high heat.",
@@ -1741,14 +1745,14 @@
 				"prep" : { "val" : 30 },
 				"cook" : { "val" : 45 }
 			},
-			"ingredients" : [
-				"3 pounds of potatoes, thinly sliced",
-				"1 small onion, thinly sliced",
-				"9 tablespoons all-purpose flour",
-				"3 tablespoons butter",
-				"Salt",
-				"Pepper",
-				"3 cups milk"
+			"ingredients" : [			
+				{ "val" :  3   , "units" : "lb"         , "name" : "Potato"         , "style" : "thinly sliced" },
+				{ "val" :  1   ,                          "name" : "Onion"          , "style" : "thinly sliced" },
+				{ "val" :  9   , "units" : "tablespoon" , "name" : "Flour"          },
+				{ "val" :  3   , "units" : "cup"        , "name" : "Milk"           },
+				{ "val" :  3   , "units" : "tablespoon" , "name" : "Butter"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"   },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"           }
 			],
 			"steps": [
 				"Lightly grease the baking dish.",
@@ -1768,11 +1772,11 @@
 				"prep" : { "val" :  5 },
 				"cook" : { "val" : 20 }
 			},
-			"ingredients": [
-				"16 oz scallops",
-				"1 tablespoon butter",
-				"Salt and pepper",
-				"1 frying pan"
+			"ingredients": [			
+				{ "val" : 16   , "units" : "oz"         , "name" : "Scallops"             },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"               },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
 				"Pat scallops dry with paper towel and sprinkle generously with salt and pepper.",

@@ -3,14 +3,14 @@
 		"name"        : "Vegetables / Fruit",
 		"ingredients" : [
 			"Apple", "Artichoke Hearts", "Asparagus",
-			"Black Olives", "Broccoli",
+			"Black Olives", "Blueberries", "Broccoli", "Brussels Sprouts",
 			"Canned Onion Rings", "Carrot", "Celery Stalk", "Corn",
 			"Grape Tomatoes", "Green Beans", "Green Chiles", "Green Pepper",
 			"Lettuce",
 			"Onion",
 			"Pepperoncini Pepper",
 			"Roma Tomato",
-			"Sauerkraut", "Spinach",
+			"Sauerkraut", "Spinach", "Strawberries",
 			"Tomato",
 			"Zucchini"
 		]
@@ -27,7 +27,7 @@
 			"Penne Pasta", "Potato",
 			"Ravioli", "Red Potato", "Rice", "Rigatoni Pasta", "Rotini Pasta",
 			"Shell Pasta", "Spaghetti", "Stuffing Mix",
-			"Tortilla Chips", "Tortilla",
+			"Tortellini", "Tortilla Chips", "Tortilla",
 			"White Bread",
 			"Ziti Pasta"
 		]
@@ -59,6 +59,7 @@
 			"Garlic Powder",
 			"Onion Powder", "Oregano",
 			"Paprika", "Parsley",
+			"Ranch Seasoning",
 			"Salt", "Sugar"
 		]
 	},
@@ -76,7 +77,7 @@
 			"Meatball",
 			"Pepperoni", "Pinto Beans", "Pork Chop", "Pork Roast",
 			"Refried Beans",
-			"Sirloin Tip", "Smoked Sausage",
+			"Scallops", "Sirloin Tip", "Smoked Sausage",
 			"Tilapia",
 			"Walnuts"
 		]
@@ -92,7 +93,7 @@
 			"Mayonnaise", "Mexican-blend Cheese", "Milk", "Monterey Jack Cheese", "Mozzarella Cheese",
 			"Parmesan Cheese", "Provolone Cheese",
 			"Sour Cream",
-			"Whipping Cream"
+			"Whipped Cream", "Whipping Cream"
 		]
 	},
 	{
