@@ -125,8 +125,12 @@ ARCH.content.views.recipe.draw = function(){
 						'<tr><td class="steps">' +
 							'<div class="recipe-section-title">Steps<hr></div>' +
 							this.curr_recipe.steps.map(function( step, i ){
-								return '<div class="step"  onclick="$( this ).toggleClass(\'completed\');">' + 
-									'<span class="number">' + ( i + 1 ) + '</span>' + step +
+								var content = step;
+								if( typeof( step ) == 'object' ){
+									content = '<span class="action">' + step.action + '</span>' + ( !step.desc ? '.' : ', ' + step.desc );
+								}
+								return '<div class="step" onclick="$( this ).toggleClass(\'completed\');">' + 
+									'<span class="number">' + ( i + 1 ) + '</span>' + content +
 								'</div>';
 							}).join('<hr>') + 
 						'</td></tr>' +

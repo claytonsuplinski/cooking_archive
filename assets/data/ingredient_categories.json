@@ -4,14 +4,15 @@
 		"ingredients" : [
 			"Apple", "Artichoke Hearts", "Asparagus",
 			"Black Olives", "Blueberries", "Broccoli", "Brussels Sprouts",
-			"Canned Onion Rings", "Carrot", "Celery Stalk", "Corn",
+			"Canned Onion Rings", "Carrot", "Celery Stalk", "Corn", "Cucumber",
 			"Grape Tomatoes", "Green Beans", "Green Chiles", "Green Pepper",
 			"Lettuce",
 			"Onion",
-			"Pepperoncini Pepper",
+			"Peas", "Pepperoncini Pepper", "Pineapple",
 			"Roma Tomato",
 			"Sauerkraut", "Spinach", "Strawberries",
 			"Tomato",
+			"Yellow Squash",
 			"Zucchini"
 		]
 	},
@@ -27,7 +28,7 @@
 			"Penne Pasta", "Potato",
 			"Ravioli", "Red Potato", "Rice", "Rigatoni Pasta", "Rotini Pasta",
 			"Shell Pasta", "Spaghetti", "Stuffing Mix",
-			"Tortellini", "Tortilla Chips", "Tortilla",
+			"Tater Tots", "Tortellini", "Tortilla Chips", "Tortilla",
 			"White Bread",
 			"Ziti Pasta"
 		]
@@ -40,13 +41,14 @@
 			"Chicken Broth", "Cream of Chicken", "Cream of Potato",
 			"Enchilada Sauce",
 			"Honey",
+			"Italian Salad Dressing",
 			"Lemon Juice", "Lime Juice",
 			"Marinara Sauce", "Mustard",
 			"Olive Oil",
 			"Pesto Sauce", "Pizza Sauce",
 			"Relish",
-			"Salsa", "Soy Sauce",
-			"Taco Sauce", "Tomato Paste", "Tomato Soup",
+			"Salsa", "Sweet and Sour Sauce", "Soy Sauce",
+			"Taco Sauce", "Tomato Paste", "Tomato Sauce", "Tomato Soup",
 			"Vanilla Extract", "Vegetable Oil",
 			"Water", "Worcestershire Sauce"
 		]
@@ -56,11 +58,12 @@
 		"ingredients" : [
 			"Basil", "Black Pepper", "Brown Sugar",
 			"Cayenne Pepper", "Cilantro", "Cinnamon", "Cumin",
-			"Garlic Powder",
+			"Garlic Powder", "Gravy Mix",
 			"Onion Powder", "Oregano",
 			"Paprika", "Parsley",
 			"Ranch Seasoning",
-			"Salt", "Sugar"
+			"Salt", "Sugar",
+			"Thyme"
 		]
 	},
 	{
@@ -92,7 +95,7 @@
 			"Italian Cheese",
 			"Mayonnaise", "Mexican-blend Cheese", "Milk", "Monterey Jack Cheese", "Mozzarella Cheese",
 			"Parmesan Cheese", "Provolone Cheese",
-			"Sour Cream",
+			"Sour Cream", "Swiss Cheese",
 			"Whipped Cream", "Whipping Cream"
 		]
 	},

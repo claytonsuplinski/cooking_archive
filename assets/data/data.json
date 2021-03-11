@@ -21,7 +21,7 @@
 				{ "val" :  1   , "units" : "cup"           , "name" : "Parmesan Cheese" , "style" : "shredded" }
 			],
 			"steps"       : [
-				"Beat the eggs with the garlic powder and pepper until blended.",
+				{ "action" : "Beat the eggs", "desc" : "with the garlic powder and pepper until blended." },
 				"Stir together ground almonds and parmesan cheese in a separate bowl.",
 				"Dip the tilapia fillets in flour, then the egg, and then the almond mixture.",
 				"Melt the butter in the skillet over medium-high heat.",
@@ -1794,17 +1794,18 @@
 				"prep" : { "val" : 40 },
 				"cook" : { "val" : 80 }
 			},
-			"ingredients" : [
-				"3 lbs potatoes, cubed",
-				"1 cup milk",
-				"1 tablespoon butter",
-				"1 onion, chopped",
-				"2 cups shredded cheddar cheese",
-				"Salt and pepper to taste",
-				"1 (10 oz) can of peas and carrots, drained",
-				"1.5 lbs ground beef",
-				"1 tablespoon Worcestershire sauce",
-				"1 packet of instant gravy mix"
+			"ingredients" : [			
+				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"          },
+				{ "val" :  3   , "units" : "lb"         , "name" : "Potato"               , "style" : "quartered" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced", "prep" : { "val" : 10 } },
+				{ "val" : 10   , "units" : "oz"         , "name" : "Peas"                 },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Milk"                 },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"               },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Worcestershire Sauce" },
+				{ "val" :  1   , "units" : "oz"         , "name" : "Gravy Mix"            },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"       , "style" : "shredded" }
 			],
 			"steps": [
 				"Bring a large pot of water to a boil and add the diced potatoes.",
@@ -1825,14 +1826,14 @@
 				"prep" : { "val" : 30 },
 				"cook" : { "val" : 20 }
 			},
-			"ingredients" : [
-				"1 (16 oz) package rotini pasta",
-				"1 (16 oz) bottle Italian salad dressing",
-				"1 cucumber, chopped",
-				"1 (15 oz) can of diced tomatoes",
-				"1 small onion, chopped",
-				"1 teaspoon basil",
-				"1 teaspoon garlic powder"
+			"ingredients" : [			
+				{ "val" : 16   , "units" : "oz"         , "name" : "Rotini Pasta"           },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Italian Salad Dressing" },
+				{ "val" :  1   ,                          "name" : "Cucumber"               , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                  , "style" : "diced" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"                 , "style" : "diced" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"                  },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"          }
 			],
 			"steps": [
 				"Cook pasta according to directions.",
@@ -1848,13 +1849,13 @@
 				"prep" : { "val" : 15 },
 				"cook" : { "val" :  6, "units" : "hour" }
 			},
-			"ingredients" : [
-				"32 oz frozen green beans",
-				"2 (10.75 oz) cans of cream of chicken soup",
-				"1 cup milk",
-				"1 teaspoon salt",
-				"1 teaspoon pepper",
-				"1 (6 oz) can of French-fried onions"
+			"ingredients" : [				
+				{ "val" : 32   , "units" : "oz"         , "name" : "Green Beans"            , "style" : "frozen" },
+				{ "val" : 22   , "units" : "oz"         , "name" : "Cream of Chicken"       },
+				{ "val" :  6   , "units" : "oz"         , "name" : "Canned Onion Rings"     },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Milk"                   },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"           },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                   }
 			],
 			"steps": [
 				"Put green beans, cream of chicken, milk, salt, pepper, and half of the fried onions in the slow cooker.",
@@ -1874,8 +1875,8 @@
 			"servings"    : 10,
 			"ingredients" : [			
 				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
-				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced", "prep" : { "val" : 10 } },
-				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced", "prep" : { "val" : 10 } },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Tomato"               , "style" : "diced and with green chiles" },
 				{ "val" :  6   , "units" : "oz"         , "name" : "Black Olives"         },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Lettuce"              , "style" : "shredded" },
@@ -1888,7 +1889,7 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Mexican-blend Cheese" , "style" : "shredded" },
-				{ "val" :  2   ,                          "name" : "Habanero Pepper"      , "style" : "diced", "prep" : { "val" : 10 } },
+				{ "val" :  2   ,                          "name" : "Habanero Pepper"      , "style" : "diced" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Sour Cream"           }
 			],
 			"steps": [
@@ -1911,19 +1912,18 @@
 				"cook" : { "val" : 25 }
 			},
 			"servings"    : 4,
-			"ingredients" : [
-				"3-4 boneless, skinless chicken breast filets",
-				"3/4 teaspoon salt",
-				"1/4 teaspoon black pepper",
-				"1/4 teaspoon cayenne pepper",
-				"1/8 teaspoon paprika",
-				"2 and 1/4 teaspoons garlic powder",
-				"1/8 teaspoon onion powder",
-				"1/4 teaspoon thyme",
-				"1/4 teaspoon parsley",
-				"2 tablespoons butter",
-				"1 tablespoon vegetable or olive oil",
-				"3 tablespoons lime juice"
+			"ingredients" : [			
+				{ "val" :  4   ,                          "name" : "Chicken Breast"   , "style" : "skinless and boneless" },
+				{ "val" :  3   , "units" : "tablespoon" , "name" : "Lime Juice"       },
+				{ "val" :  3   , "units" : "tablespoon" , "name" : "Butter"           },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"    },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"     },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"          },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Parsley"          },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Thyme"            },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"     },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"             },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cayenne Pepper"   }
 			],
 			"steps": [
 				"In a small bowl, mix together salt, black pepper, cayenne pepper, paprika, 1/4 teaspoon garlic powder, onion powder, thyme, and parsley.",
@@ -1943,16 +1943,20 @@
 				"cook" : { "val" : 65 }
 			},
 			"servings"    : 6,
-			"ingredients" : [
-				"6 skinless, boneless chicken breasts",
-				"1/3 cup parmesan cheese",
-				"1/4 teaspoon italian seasoning",
-				"1 small onion, chopped",
-				"1 small green pepper, chopped",
-				"1 tablespoon butter",
-				"1 tablespoon all-purpose flour",
-				"1 cup milk",
-				"About one handful of spinach"
+			"ingredients" : [			
+				{ "val" :  6   ,                          "name" : "Chicken Breast"       , "style" : "skinless and boneless" },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
+				{ "val" : 10   , "units" : "oz"         , "name" : "Spinach"              },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Milk"                 },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"               },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Flour"                },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"                },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Oregano"              },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 },
+				{ "val" :  0.33, "units" : "cup"        , "name" : "Parmesan Cheese"      , "style" : "shredded" }
 			],
 			"steps": [
 				"Lay pieces of chicken in a lightly greased 9x13 baking dish.",
@@ -1972,13 +1976,15 @@
 				"cook" : { "val" : 100 }
 			},
 			"servings"    : 12,
-			"ingredients" : [
-				"1 lb ground beef",
-				"2 (8 oz) cans tomato sauce",
-				"2 cups rice",
-				"6 large green peppers",
-				"1 cup parmesan, cheddar, or pepper jack cheese",
-				"1/2 teaspoon garlic powder"
+			"ingredients" : [			
+				{ "val" :  6   ,                          "name" : "Green Pepper"         , "style" : "halved" },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Rice"                 },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Tomato Sauce"         },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Pepper Jack Cheese"   , "style" : "shredded" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
 				"Remove stems and seeds from green peppers and slice in half lengthwise.",
@@ -1999,12 +2005,12 @@
 				"prep" : { "val" : 30 },
 				"cook" : { "val" : 45 }
 			},
-			"ingredients" : [
-				"4 boneless, skinless chicken breast halves",
-				"1 (14.5 oz) can stewed tomatoes",
-				"1 yellow squash, thinly sliced",
-				"1 medium zucchini, thinly sliced",
-				"2 cups shredded mozzarella cheese"
+			"ingredients" : [			
+				{ "val" :  4   ,                          "name" : "Chicken Breast"       , "style" : "skinless and boneless" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"               , "style" : "stewed" },
+				{ "val" :  1   ,                          "name" : "Yellow Squash"        , "style" : "thinly sliced" },
+				{ "val" :  1   ,                          "name" : "Zucchini"             , "style" : "thinly sliced" },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese"    , "style" : "shredded" }
 			],
 			"steps": [
 				"Place chicken in a lightly greased baking dish.",
@@ -2022,14 +2028,14 @@
 				"prep" : { "val" : 35 },
 				"cook" : { "val" : 40 }
 			},
-			"ingredients" : [
-				"1 (14 oz) package smoked sausage, sliced",
-				"1 green pepper, chopped",
-				"1 small onion, chopped",
-				"3 jalepenos or serranos, chopped",
-				"1 cup sweet and sour sauce",
-				"1 cup pineapple, drained if from a can",
-				"3 cups rice"
+			"ingredients" : [			
+				{ "val" : 14   , "units" : "oz"         , "name" : "Smoked Sausage"       , "style" : "sliced" },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
+				{ "val" :  3   , "units" : "cup"        , "name" : "Rice"                 },
+				{ "val" : 20   , "units" : "oz"         , "name" : "Pineapple"            , "style" : "drained" },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Sweet and Sour Sauce" },
+				{ "val" :  3   ,                          "name" : "Jalapeno Pepper"      , "style" : "diced" }
 			],
 			"steps": [
 				"Cook rice according to directions on package.",
@@ -2049,13 +2055,13 @@
 				"cook" : { "val" : 50 }
 			},
 			"servings"    : 6,
-			"ingredients" : [
-				"6 skinless, boneless chicken breast halves",
-				"6 slices Swiss cheese",
-				"1 (10.75 oz) can condensed cream of chicken soup",
-				"1/4 cup milk",
-				"1 (8 oz) package stuffing mix",
-				"1/2 cup melted butter"
+			"ingredients" : [			
+				{ "val" :  6   ,                          "name" : "Chicken Breast"       , "style" : "skinless and boneless" },
+				{ "val" :  6   , "units" : "slices"     , "name" : "Swiss Cheese"         },
+				{ "val" :  8   , "units" : "oz"         , "name" : "Stuffing Mix"         },
+				{ "val" : 11   , "units" : "oz"         , "name" : "Cream of Chicken"     },
+				{ "val" :  0.25, "units" : "cup"        , "name" : "Milk"                 },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Butter"               , "style" : "melted" }
 			],
 			"steps": [
 				"Place chicken breasts in a lightly greased 9x13 baking dish.",
@@ -2074,17 +2080,19 @@
 				"prep" : { "val" : 30 },
 				"cook" : { "val" : 50 }
 			},
-			"ingredients" : [
-				"1 (16 oz) package spaghetti",
-				"1.5 lbs ground beef",
-				"1 tablespoon cumin",
-				"1 green pepper, chopped",
-				"2 jalepenos, chopped",
-				"1 (15 oz) can corn, drained",
-				"1 (8 oz) jar taco sauce",
-				"1 (10.75 oz) can condensed cream of chicken soup",
-				"1 (8 oz) container sour cream",
-				"2 cups shredded cheddar cheese"
+			"ingredients" : [			
+				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"          },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Spaghetti"            },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"                 , "style" : "drained" },
+				{ "val" :  8   , "units" : "oz"         , "name" : "Taco Sauce"           },
+				{ "val" : 11   , "units" : "oz"         , "name" : "Cream of Chicken"     },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cumin"                },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"       , "style" : "shredded" },
+				{ "val" :  8   , "units" : "oz"         , "name" : "Sour Cream"           },
+				{ "val" :  2   ,                          "name" : "Jalapeno Pepper"      , "style" : "diced" }
 			],
 			"steps": [
 				"Cook spaghetti according to directions on box.",
@@ -2105,17 +2113,17 @@
 				"prep" : { "val" : 20 },
 				"cook" : { "val" : 55 }
 			},
-			"ingredients" : [
-				"1 (32 oz) package frozen tater tots",
-				"1 lb ground beef",
-				"1 small onion, diced",
-				"3 teaspoons Worcestershire sauce",
-				"1 teaspoon garlic powder",
-				"1 teaspoon black pepper",
-				"1 (10.75 oz) can condensed cream of chicken soup",
-				"1 can of corn",
-				"1/2 cup milk",
-				"2 cups shredded cheddar cheese"
+			"ingredients" : [			
+				{ "val" : 32   , "units" : "oz"         , "name" : "Tater Tots"           },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"                 },
+				{ "val" : 11   , "units" : "oz"         , "name" : "Cream of Chicken"     },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Milk"                 },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Worcestershire Sauce" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"       , "style" : "shredded" }
 			],
 			"steps": [
 				"Brown the beef along with the onions over medium-high heat.",
@@ -2134,15 +2142,15 @@
 				"prep" : { "val" : 30 },
 				"cook" : { "val" : 50 }
 			},
-			"ingredients" : [
-				"5 medium zucchinis, sliced",
-				"1 (10.75 oz) can condensed cream of chicken soup",
-				"1 cup sour cream",
-				"1 small onion, chopped",
-				"1 (10.75 oz) can of carrots",
-				"1 (6 oz) package stuffing mix",
-				"1/2 cup butter, melted",
-				"1 lb ground beef"
+			"ingredients" : [			
+				{ "val" :  5   ,                          "name" : "Zucchini"             , "style" : "sliced" },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
+				{ "val" : 11   , "units" : "oz"         , "name" : "Carrot"               },
+				{ "val" : 11   , "units" : "oz"         , "name" : "Cream of Chicken"     },
+				{ "val" :  6   , "units" : "oz"         , "name" : "Stuffing Mix"         },
+				{ "val" :  8   , "units" : "oz"         , "name" : "Sour Cream"           },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Butter"               , "style" : "melted" }
 			],
 			"steps": [
 				"Brown the beef on the stove over medium-high heat.",
