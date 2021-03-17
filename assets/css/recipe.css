@@ -107,6 +107,7 @@ td.ingredients .ingredient.completed .ingredient-text:hover{
 	opacity:0.5;
 }
 
+td.steps .step .action,
 td.ingredients .ingredient .ingredient-text .ingredient-name{
 	color:#F9ED73;
 	background:rgba(0, 0, 0, 0.2);

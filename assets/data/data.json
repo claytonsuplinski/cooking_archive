@@ -21,9 +21,9 @@
 				{ "val" :  1   , "units" : "cup"           , "name" : "Parmesan Cheese" , "style" : "shredded" }
 			],
 			"steps"       : [
-				{ "action" : "Beat the eggs", "desc" : "with the garlic powder and pepper until blended." },
-				"Stir together ground almonds and parmesan cheese in a separate bowl.",
-				"Dip the tilapia fillets in flour, then the egg, and then the almond mixture.",
+				{ "action" : "Beat the eggs", "desc" : "with the garlic powder and pepper until blended" },
+				{ "action" : "Mix together" , "desc" : "ground almonds and parmesan cheese in a separate bowl" },
+				{ "action" : "Coat"         , "desc" : "the tilapia fillets in flour, then the egg, and then the almond mixture" },
 				"Melt the butter in the skillet over medium-high heat.",
 				"Cook tilapia for about 2-3 minutes on each side.",
 				"Reduce heat to medium, add salt if desired, and cook covered for about 5 minutes."
@@ -70,8 +70,8 @@
 				{ "val" :  1   , "units" : "tablespoon"      , "name" : "Black Pepper"           }
 			],
 			"steps": [
-				"Cook the pasta according to directions on the package.",
-				"Mix all the ingredients together in the serving container."
+				{ "action" : "Cook pasta according to directions on package" },
+				{ "action" : "Mix together" , "desc" : "all the ingredients in the serving container" }
 			]
 		},
 		{
@@ -1400,8 +1400,9 @@
 			"steps": [
 				"Place beef roast, salt, pepper, garlic powder, and beef broth in slow cooker on low for 6-7 hours.",
 				"Take beef roast out of slow cooker and shred.",
-				"Return the beef roast to slow cooker with chiles, onions, and pinto beans.",
+				"Return the beef roast to slow cooker with chiles and onions.",
 				"Stir mixture together in slow cooker and let cook for another hour.",
+				"When removing beef mixture from slow cooker, add refried beans.",
 				"Plate chips, beef mixture, black olives, jalapenos, and shredded cheese.",
 				"Microwave for 30 seconds.",
 				"Finish topping nachos with tomatoes, sour cream, and paprika."
@@ -1469,6 +1470,7 @@
 				"prep" : { "val" : 15 },
 				"cook" : { "val" : 60 }
 			},
+			"servings"    : 10,
 			"ingredients" : [				
 				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"       , "style" : "pre-cooked and diced" },
 				{ "val" :  3   , "units" : "cup"        , "name" : "Spinach"              , "style" : "shredded" },

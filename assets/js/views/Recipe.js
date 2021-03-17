@@ -127,7 +127,7 @@ ARCH.content.views.recipe.draw = function(){
 							this.curr_recipe.steps.map(function( step, i ){
 								var content = step;
 								if( typeof( step ) == 'object' ){
-									content = '<span class="action">' + step.action + '</span>' + ( !step.desc ? '.' : ', ' + step.desc );
+									content = '<span class="action">' + step.action + '</span>' + ( !step.desc ? '' : ', ' + step.desc + '.' );
 								}
 								return '<div class="step" onclick="$( this ).toggleClass(\'completed\');">' + 
 									'<span class="number">' + ( i + 1 ) + '</span>' + content +
