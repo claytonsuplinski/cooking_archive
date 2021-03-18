@@ -9,6 +9,25 @@ ARCH.functions.get_recipe_time = function( p ){
 	return false;
 };
 
+ARCH.functions.add_time_objects = function( times ){
+	var output = { val : 0 };
+	
+	times.forEach(function( t ){
+		var val = t.val;
+		if( t.units == 'hour' ) val *= 60;
+		output.val += val;
+	});
+	
+	if( output.val >= 100 ){
+		output.val /= 60;
+		output.val  = Number( output.val.toFixed( 1 ) );
+		if( output.val === parseInt( output.val, 10 ) ) output.val = output.val.toFixed( 0 );
+		output.units = 'hour';
+	}
+	
+	return output;
+};
+
 ARCH.functions.get_formatted_time = function( p ){
 	var value = ( p.val || 0 );
 	var units = p.units || 'minute';

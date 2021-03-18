@@ -5,10 +5,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "seafood" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 15 }
-			},
 			"servings"    : 6,
 			"ingredients" : [
 				{ "val" :  6   , "units" : "(4 oz) fillets", "name" : "Tilapia"         },
@@ -21,12 +17,14 @@
 				{ "val" :  1   , "units" : "cup"           , "name" : "Parmesan Cheese" , "style" : "shredded" }
 			],
 			"steps"       : [
-				{ "action" : "Beat the eggs", "desc" : "with the garlic powder and pepper until blended" },
-				{ "action" : "Mix together" , "desc" : "ground almonds and parmesan cheese in a separate bowl" },
-				{ "action" : "Coat"         , "desc" : "the tilapia fillets in flour, then the egg, and then the almond mixture" },
-				"Melt the butter in the skillet over medium-high heat.",
-				"Cook tilapia for about 2-3 minutes on each side.",
-				"Reduce heat to medium, add salt if desired, and cook covered for about 5 minutes."
+				{ "action" : "Beat the eggs"                   , "desc" : "with the garlic powder and pepper until blended" },
+				{ "action" : "Mix together"                    , "desc" : "ground almonds and parmesan cheese in a separate bowl" },
+				{ "action" : "Dunk and coat"                   , "desc" : "the tilapia fillets in flour, then the egg, and then the almond mixture" },
+				{ "action" : "Melt the butter in a frying pan" , "desc" : "over medium-high heat" },
+				{ "action" : "Cook tilapia"                    , "desc" : "for about 2-3 minutes on each side", "cook" : { "val" : 10 } },
+				{ "action" : "Reduce heat"                     , "desc" : "to medium" },
+				{ "action" : "Add salt"                        , "desc" : "if desired" },
+				{ "action" : "Cook tilapia"                    , "desc" : "covered, for another 5 minutes", "cook" : { "val" : 5 } }
 			]
 		},
 		{
@@ -46,9 +44,9 @@
 				{ "val" :  0.75, "units" : "cup"     , "name" : "Parmesan Cheese"  , "style" : "shredded" }
 			],
 			"steps": [
-				"In a separate bowl, mix together artichoke hearts, Parmesan cheese, garlic powder, and mayo.",
+				{ "action" : "Mix together" , "desc" : "artichoke hearts, Parmesan cheese, garlic powder, and mayo in a separate bowl" },
 				"Place chicken in a lightly greased 9x13 baking dish and cover each piece evenly with artichoke mixture.",
-				"Bake at 375 degrees for 40 minutes."
+				{ "action" : "Bake" , "desc" : "at 375 degrees for 40 minutes", "cook" : { "val" : 40 } }
 			]
 		},
 		{

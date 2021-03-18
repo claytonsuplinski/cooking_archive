@@ -80,6 +80,7 @@ ARCH.content.load = function(){
 					self.draw_header();
 					
 					ARCH.data.recipes.forEach(function( recipe ){
+						recipe.time = { prep : { val : 0 }, cook : { val : 0 } };
 						recipe.ingredients.forEach(function( ingredient ){
 							if( !ingredient.prep ){
 								try{
@@ -87,6 +88,7 @@ ARCH.content.load = function(){
 									if( step_duration ) ingredient.prep = step_duration.prep;
 								} catch(e){}
 							}
+							if( ingredient.prep ) recipe.time.prep = ARCH.functions.add_time_objects([ recipe.time.prep, ingredient.prep ]);
 						});
 						recipe.steps.forEach(function( step ){
 							if( typeof step == 'object' ){
@@ -99,6 +101,8 @@ ARCH.content.load = function(){
 										}
 									} catch(e){}
 								}
+								if( step.prep ) recipe.time.prep = ARCH.functions.add_time_objects([ recipe.time.prep, step.prep ]);
+								if( step.cook ) recipe.time.cook = ARCH.functions.add_time_objects([ recipe.time.cook, step.cook ]);
 							}
 						});
 					});

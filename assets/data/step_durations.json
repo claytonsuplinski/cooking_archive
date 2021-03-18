@@ -37,8 +37,10 @@
 	{ "name" : "Zucchini"          , "prep" : { "val" : 10 } },
 	
 	{ "action" : "Beat the eggs" , "prep" : { "val" : 10 } },
+	{ "action" : "Dunk and coat" , "prep" : { "val" : 10 } },
 	{ "action" : "Mix together"  , "prep" : { "val" :  5 } },
 	{ "action" : "Stir together" , "prep" : { "val" : 10 } },
 	
-	{ "action" : "Cook pasta according to directions on package" , "cook" : { "val" : 20 } }
+	{ "action" : "Cook pasta according to directions on package" , "cook" : { "val" : 20 } },
+	{ "action" : "Melt the butter in a frying pan"               , "cook" : { "val" :  5 } }
 ]
