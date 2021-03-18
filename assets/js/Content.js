@@ -88,6 +88,19 @@ ARCH.content.load = function(){
 								} catch(e){}
 							}
 						});
+						recipe.steps.forEach(function( step ){
+							if( typeof step == 'object' ){
+								if( !( step.prep || step.cook ) ){
+									try{
+										var step_duration = ARCH.content.get_step_duration( step );
+										if( step_duration ){
+											if( step_duration.prep ) step.prep = step_duration.prep;
+											if( step_duration.cook ) step.cook = step_duration.cook;
+										}
+									} catch(e){}
+								}
+							}
+						});
 					});
 					
 					var value_index = ARCH.data.recipes.map(function(a){ return a.name; }).indexOf( ARCH.hashlinks.params.recipe.value );
@@ -119,13 +132,13 @@ ARCH.content.get_cuisine_image = function(name){
 ARCH.content.get_prep_time_html = function( recipe ){
 	var prep_time = ARCH.functions.get_recipe_time({ recipe, key : 'prep', abbreviated : true });
 	if( !prep_time ) return '';
-	return '<div class="info-label time-label prep">Prep : ' + prep_time + '</div>';
+	return '<div class="info-label time-label prep-time">Prep : ' + prep_time + '</div>';
 };
 
 ARCH.content.get_cook_time_html = function( recipe ){
 	var cook_time = ARCH.functions.get_recipe_time({ recipe, key : 'cook', abbreviated : true });
 	if( !cook_time ) return '';
-	return '<div class="info-label time-label cook">Cook : ' + cook_time + '</div>';
+	return '<div class="info-label time-label cook-time">Cook : ' + cook_time + '</div>';
 };
 
 ARCH.content.get_servings_html = function( recipe ){
@@ -146,7 +159,7 @@ ARCH.content.get_recipe_cuisines_html = function( recipe ){
 ARCH.content.get_step_duration = function( item ){
 	return ARCH.step_durations.find(function( step ){
 		// console.log( step );
-		return Object.keys( step ).filter( x => ![ 'prep' ].includes(x) ).every(function( x ){
+		return Object.keys( step ).filter( x => ![ 'cook', 'prep' ].includes(x) ).every(function( x ){
 			// console.log( x, step[ x ], item[ x ] );
 			return ( step[ x ] == item[ x ] );
 		});

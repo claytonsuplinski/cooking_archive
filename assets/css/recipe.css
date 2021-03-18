@@ -124,9 +124,6 @@ td.ingredients .ingredient .ingredient-text .ingredient-name.spicy{
 
 td.ingredients .ingredient .ingredient-text .prep-time{
 	display:inline-block;
-	background:#233921;
-	color:#e1ffdc;
-	border:1px solid #74a76f;
 	font-size:10px;
 	padding:2px;
 	border-radius:10px;
@@ -158,11 +155,23 @@ td.steps .step{
 	cursor:pointer;
 }
 
+td.steps .prep-time,
+td.steps .cook-time{
+	display:inline-block;
+	font-size:10px;
+	border-radius:100px;
+	width:45px;
+	font-family:'Lato', Helvetica;
+	text-align:center;
+	margin-right:10px;
+	line-height:1.8;
+}
+
 td.steps .number{
 	background-color:rgba(0, 0, 0, 0.5);
 	border-radius:100px;
 	padding:4px 10px;
-	margin:0 15px;
+	margin:0 10px;
 	font-size:12px;
 }
 
@@ -176,7 +185,7 @@ td.completed{
 	bottom:auto;
 }
 
-.recipe .item .time-label.prep{
+.recipe .item .time-label.prep-time{
 	top:110px;
 	bottom:auto;
 }

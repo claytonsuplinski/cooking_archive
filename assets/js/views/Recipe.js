@@ -130,7 +130,10 @@ ARCH.content.views.recipe.draw = function(){
 									content = '<span class="action">' + step.action + '</span>' + ( !step.desc ? '' : ', ' + step.desc + '.' );
 								}
 								return '<div class="step" onclick="$( this ).toggleClass(\'completed\');">' + 
-									'<span class="number">' + ( i + 1 ) + '</span>' + content +
+									'<span class="number">' + ( i + 1 ) + '</span>' + 
+									( !step.prep ? '' : ' <span class="prep-time">' + ARCH.functions.get_recipe_time({ time_obj : step.prep, abbreviated : true }) + '</span>' ) +
+									( !step.cook ? '' : ' <span class="cook-time">' + ARCH.functions.get_recipe_time({ time_obj : step.cook, abbreviated : true }) + '</span>' ) +
+									content +
 								'</div>';
 							}).join('<hr>') + 
 						'</td></tr>' +

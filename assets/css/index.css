@@ -46,3 +46,15 @@ th, td{
 .button:hover{
 	background:#45830a;
 }
+
+.prep-time{
+	background:#3c2753 !important;
+	color:rgba(255,255,255,0.95) !important;
+	border:1px solid rgba(255,255,255,0.5) !important;
+}
+
+.cook-time{
+	background:#5a320c !important;
+	color:rgba(255,255,255,0.95) !important;
+	border:1px solid rgba(255,255,255,0.5) !important;
+}
