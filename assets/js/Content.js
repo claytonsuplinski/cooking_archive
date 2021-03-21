@@ -29,6 +29,21 @@ ARCH.content.list_uncategorized_ingredients = function(){
 	console.log( 'Total uncategorized ingredients : ', count );
 };
 
+ARCH.content.list_unformatted_steps = function(){
+	var count = 0;
+	ARCH.data.recipes.forEach(function( recipe ){
+		recipe.steps.forEach(function( step ){
+			try{
+				if( typeof step == 'string' ){
+					console.log( recipe.name, ' : ', step );
+					count++;
+				}
+			} catch(e){}
+		});
+	});
+	console.log( 'Total remaining unformatted steps : ', count );
+};
+
 ARCH.content.load_step_durations = function( callback ){
 	$.ajax({
 		url: './assets/data/step_durations.json',

@@ -37,16 +37,17 @@
 			},
 			"servings"    : 4,
 			"ingredients" : [
-				{ "val" :  4   ,                       "name" : "Chicken Breast"   , "style" : "skinless and boneless" },
-				{ "val" : 15   , "units" : "oz"      , "name" : "Artichoke Hearts" , "style" : "drained and chopped" },
-				{ "val" :  0.75, "units" : "cup"     , "name" : "Mayonnaise"       },
-				{ "val" :  1   , "units" : "teaspoon", "name" : "Garlic Powder"    },
-				{ "val" :  0.75, "units" : "cup"     , "name" : "Parmesan Cheese"  , "style" : "shredded" }
+				{ "val" :  4   ,                        "name" : "Chicken Breast"   , "style" : "skinless and boneless" },
+				{ "val" : 15   , "units" : "oz"       , "name" : "Artichoke Hearts" , "style" : "drained and chopped" },
+				{ "val" :  0.75, "units" : "cup"      , "name" : "Mayonnaise"       },
+				{ "val" :  1   , "units" : "teaspoon" , "name" : "Garlic Powder"    },
+				{ "val" :  0.75, "units" : "cup"      , "name" : "Parmesan Cheese"  , "style" : "shredded" }
 			],
 			"steps": [
-				{ "action" : "Mix together" , "desc" : "artichoke hearts, Parmesan cheese, garlic powder, and mayo in a separate bowl" },
-				"Place chicken in a lightly greased 9x13 baking dish and cover each piece evenly with artichoke mixture.",
-				{ "action" : "Bake" , "desc" : "at 375 degrees for 40 minutes", "cook" : { "val" : 40 } }
+				{ "action" : "Mix together"   , "desc" : "artichoke hearts, Parmesan cheese, garlic powder, and mayo in a separate bowl" },
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Place chicken in the baking dish and cover each piece evenly with artichoke mixture", "prep" : { "val" : 10 } },
+				{ "action" : "Bake"           , "desc" : "at 375 degrees for 40 minutes", "cook" : { "val" : 40 } }
 			]
 		},
 		{
@@ -108,10 +109,8 @@
 				{ "val" : 1, "units" : "lb", "name" : "Bacon" }
 			],
 			"steps": [
-				"Lay bacon flat on the frying pan without preheating.",
-				"Cook bacon on low heat.",
-				"Flip bacon every 7-8 minutes until both sides are browned and crispy enough.",
-				"Pour leftover grease into a metal or glass container."
+				{ "action" : "Lay bacon flat on the frying pan without preheating", "prep" : { "val" : 5 } },
+				{ "action" : "Cook bacon on low", "desc" : "flipping every 7-8 minutes until both sides are browned and crispy enough", "prep" : { "val" : 20 } }
 			]
 		},
 		{
@@ -135,11 +134,12 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Monterey Jack Cheese" , "style" : "shredded" }
 			],
 			"steps": [
-				"Brown beef and green peppers over medium-high heat.",
-				"In a lightly greased 9x13 baking dish, mix together spaghetti sauce, frozen ravioli, beef mixture, and seasonings.",
+				{ "action" : "Brown the beef"                       , "desc" : "with green peppers, over medium heat" },
+				{ "action" : "Lightly grease"                       , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Mix together"                         , "desc" : "spaghetti sauce, frozen ravioli, beef mixture, and seasonings in the baking dish" },
 				"Top the casserole with both cheeses and cover with aluminum foil.",
-				"Bake at 450 degrees for 30 minutes.",
-				"Let sit for 5 minutes before serving."
+				{ "action" : "Bake"                                 , "desc" : "at 450 degrees for 30 minutes", "cook" : { "val" : 30 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -193,7 +193,7 @@
 				{ "val" :  0.33, "units" : "cup"        , "name" : "Parmesan Cheese"      , "style" : "shredded" }
 			],
 			"steps": [
-				"Cook spaghetti according to directions on box.",
+				{ "action" : "Cook pasta according to directions on package" },
 				"Brown the beef along with the onions, peppers, and garlic powder.",
 				"After draining the grease, mix in the spaghetti sauce and salt.",
 				"Whisk eggs, parmesan cheese, and butter in a bowl and mix in with the spaghetti.",
@@ -254,7 +254,7 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Italian Cheese"  }
 			],
 			"steps": [
-				"Cook pasta according to directions on package.",
+				{ "action" : "Cook pasta according to directions on package" },
 				"Cook sausage, green pepper, and onions over medium heat until sausage is brown, about 10 minutes.",
 				"In a lightly greased 9x13 baking dish, stir together cottage cheese, egg, seasonings, spaghetti sauce, and half the Italian cheese.",
 				"Once done cooking, mix sausage and vegetables into the baking dish.",
@@ -409,7 +409,7 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"    }
 			],
 			"steps": [
-				"Cook the noodles according to the directions on the container.",
+				{ "action" : "Cook pasta according to directions on package" },
 				"Heat the skillet over medium heat and add the beef and onions.",
 				"Cook until the beef is browned and the onions are tender.",
 				"Drain the grease and stir in the sour cream.",
@@ -494,7 +494,8 @@
 				"Cook on low for 6-7 hours.",
 				"Shred chicken and add butter, cheese, milk, whipping cream, and evaporated milk to slow cooker.",
 				"Stir together and let cook for one more hour.",
-				"Cook pasta according to directions on box and mix together with chicken / cheese mixture before serving."
+				{ "action" : "Cook pasta according to directions on package" },
+				"Mix pasta together with chicken / cheese mixture before serving."
 			]
 		},
 		{
@@ -527,7 +528,7 @@
 				{ "val" :  1   ,                          "name" : "Habanero Pepper"   , "style" : "diced" }
 			],
 			"steps": [
-				"Cook pasta according to directions on container.",
+				{ "action" : "Cook pasta according to directions on package" },
 				"Melt butter over medium-high heat and cook vegetables along with 1 tablespoon garlic powder for about 10 minutes.",
 				"Over medium-high heat, cook the sausage and chicken while seasoning with salt, paprika, black pepper, onion powder, cayenne pepper, basil, and 2 teaspoons garlic powder.",
 				"Cook the chicken until it is no longer pink and the juices run clear, about 10 minutes.",
