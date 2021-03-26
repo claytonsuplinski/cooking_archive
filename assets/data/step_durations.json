@@ -41,6 +41,8 @@
 	{ "action" : "Let sit for 5 minutes before serving" , "prep" : { "val" :  5 } },
 	{ "action" : "Lightly grease"                       , "prep" : { "val" :  5 } },
 	{ "action" : "Mix together"                         , "prep" : { "val" :  5 } },
+	{ "action" : "Place"                                , "prep" : { "val" :  5 } },
+	{ "action" : "Sprinkle"                             , "prep" : { "val" :  5 } },
 	{ "action" : "Stir together"                        , "prep" : { "val" : 10 } },
 	
 	{ "action" : "Brown the beef"                                , "cook" : { "val" : 20 } },

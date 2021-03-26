@@ -47,7 +47,7 @@
 				{ "action" : "Mix together"   , "desc" : "artichoke hearts, Parmesan cheese, garlic powder, and mayo in a separate bowl" },
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Place chicken in the baking dish and cover each piece evenly with artichoke mixture", "prep" : { "val" : 10 } },
-				{ "action" : "Bake"           , "desc" : "at 375 degrees for 40 minutes", "cook" : { "val" : 40 } }
+				{ "action" : "Bake"           , "desc" : "at 375 degrees", "cook" : { "val" : 40 } }
 			]
 		},
 		{
@@ -137,8 +137,8 @@
 				{ "action" : "Brown the beef"                       , "desc" : "with green peppers, over medium heat" },
 				{ "action" : "Lightly grease"                       , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Mix together"                         , "desc" : "spaghetti sauce, frozen ravioli, beef mixture, and seasonings in the baking dish" },
-				"Top the casserole with both cheeses and cover with aluminum foil.",
-				{ "action" : "Bake"                                 , "desc" : "at 450 degrees for 30 minutes", "cook" : { "val" : 30 } },
+				{ "action" : "Sprinkle"                             , "desc" : "both cheeses on top of the casserole" },
+				{ "action" : "Bake"                                 , "desc" : "at 450 degrees", "cook" : { "val" : 30 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
@@ -161,12 +161,12 @@
 				{ "val" : 0.66, "units" : "cup"       , "name" : "Parmesan Cheese" , "style" : "shredded" }
 			],
 			"steps": [
-				"Preheat oven to 350 degrees.",
-				"Lightly grease the baking dish (coat bottom with about 1/2 tablespoon of butter).",
-				"In a bowl, blend olive oil and garlic.",
-				"In a separate bowl, blend bread crumbs, parmesan cheese, and pepper.",
-				"Coat each piece of chicken in the oil mixture, then the bread crumb mixture.",
-				"Place chicken on baking dish and cook in oven for about 30 minutes."
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Mix together"   , "desc" : "olive oil and garlic powder in a separate bowl" },
+				{ "action" : "Mix together"   , "desc" : "bread crumbs, Parmesan cheese, and black pepper in a separate bowl" },
+				{ "action" : "Dunk and coat"  , "desc" : "each piece of chicken in the oil mixture, then bread crumb mixture" },
+				{ "action" : "Place"          , "desc" : "chicken in the baking dish" },
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } }
 			]
 		},
 		{
@@ -194,13 +194,13 @@
 			],
 			"steps": [
 				{ "action" : "Cook pasta according to directions on package" },
-				"Brown the beef along with the onions, peppers, and garlic powder.",
+				{ "action" : "Brown the beef" , "desc" : "with green peppers, onions, and garlic powder, over medium heat" },
 				"After draining the grease, mix in the spaghetti sauce and salt.",
 				"Whisk eggs, parmesan cheese, and butter in a bowl and mix in with the spaghetti.",
 				"Lightly grease bottom of baking dish and place half of spaghetti in the dish.",
 				"Top with half the cottage cheese, mozzarella cheese, and meat sauce. Repeat the layers.",
-				"Bake in oven preheated to 350 degrees for 45 minutes.",
-				"Let sit for a few minutes before serving."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 45 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -226,7 +226,7 @@
 				"Mix butter, lemon juice, garlic powder, and salt in a bowl.",
 				"Place tilapia in a lightly-greased 9x13 baking dish.",
 				"Pour butter mixture on the tilapia and sprinkle with paprika and basil.",
-				"Bake at 425 degrees for 15 minutes."
+				{ "action" : "Bake"           , "desc" : "at 425 degrees", "cook" : { "val" : 15 } }
 			]
 		},
 		{
@@ -259,8 +259,8 @@
 				"In a lightly greased 9x13 baking dish, stir together cottage cheese, egg, seasonings, spaghetti sauce, and half the Italian cheese.",
 				"Once done cooking, mix sausage and vegetables into the baking dish.",
 				"Sprinkle remaining Italian cheese over the top of the casserole.",
-				"Bake at 350 degrees for 30 minutes.",
-				"Let sit for a few minutes before serving."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -292,7 +292,7 @@
 				"Spread a thin layer of refried beans on each tortilla.",
 				"Place an equal amount of beef mixture, corn, taco sauce, and cheese in each tortilla and place in baking dish.",
 				"Brush the tortillas with melted butter.",
-				"Bake at 350 degrees for 30 minutes."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } }
 			]
 		},
 		{
@@ -353,7 +353,7 @@
 				"Tightly roll the tortillas and place seam-side down in the pan.",
 				"Pour remaining sauce over the enchiladas.",
 				"Sprinkle with remaining cheese and black olives.",
-				"Bake in oven at 350 degrees for 20 minutes.",
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
 				"Let stand for about 5 minutes, or else enchiladas will probably stick to the pan.",
 				"When ready to serve, add sour cream on top of the enchiladas (optional)."
 			]
@@ -386,8 +386,8 @@
 				"Add cooked beef and peppers to the baking dish and stir together evenly.",
 				"Crumble tortilla chips to cover the top of the casserole.",
 				"Sprinkle cheese on top of the tortilla chip layer.",
-				"Bake for 20 minutes at 350 degrees.",
-				"Let sit for about 5 minutes before serving."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -463,7 +463,7 @@
 				"Season the chicken with salt.",
 				"In a separate bowl, mix tomatoes, water, garlic powder, and stuffing mix. Let soften for a few minutes.",
 				"Sprinkle cheese on top of chicken, then the italian seasoning, then the stuffing mixture.",
-				"Bake at 400 degrees for about 30 minutes."
+				{ "action" : "Bake"           , "desc" : "at 400 degrees", "cook" : { "val" : 30 } }
 			]
 		},
 		{
@@ -539,7 +539,8 @@
 				"Spread mozzarella cheese over the top and add another layer of noodles.",
 				"Pour remaining alfredo sauce over the top. Fill the empty jar of alfredo sauce halfway with water and also pour over the top.",
 				"Sprinkle parmesan cheese over the top.",
-				"Bake at 325 degrees for about 50 minutes. Let sit about 15 minutes before serving."
+				{ "action" : "Bake"           , "desc" : "at 325 degrees", "cook" : { "val" : 50 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -596,7 +597,7 @@
 				"Dunk the chicken pieces in the flour mixture, then the egg mixture, then the cheese mixture.",
 				"Place the coated chicken pieces in a lightly greased baking dish.",
 				"Pour melted butter over the chicken pieces.",
-				"Bake at 350 degrees for 35 minutes."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 35 } }
 			]
 		},
 		{
@@ -620,7 +621,7 @@
 				"In a large bowl, combine beef, bread crumbs, onion, eggs, seasonings, and mix together well.",
 				"Place mixture into a lightly greased 9x13 baking dish.",
 				"Shape the beef into two layers, with cheese between and on top.",
-				"Bake at 350 degrees for 1 hour."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 60 } }
 			]
 		},
 		{
@@ -670,7 +671,8 @@
 			"steps": [
 				"Break hash browns apart while they're still fully sealed in the bag, otherwise it'll make a big mess.",
 				"In a lightly-greased 9x13 baking dish, mix together hash browns, ham, cream of potato soup, sour cream, and cheddar cheese.",
-				"Bake for 40 minutes at 375 degrees. Let sit for about 5 minutes before serving."
+				{ "action" : "Bake"           , "desc" : "at 375 degrees", "cook" : { "val" : 40 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -700,7 +702,7 @@
 				"Cook pasta according to directions on box.",
 				"Mix all ingredients together, except for 1 cup of mozzarella cheese, together in a lightly greased baking dish.",
 				"Sprinkle the remaining cup of mozzarella cheese on top of the casserole.",
-				"Bake at 350 degrees for 30 minutes."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } }
 			]
 		},
 		{
@@ -712,9 +714,10 @@
 				"prep" : { "val" : 55 },
 				"cook" : { "val" :  8, "units" : "hour" }
 			},
+			"servings"    : 12,
 			"ingredients" : [			
 				{ "val" :  3   , "units" : "lb"         , "name" : "Chicken Breast"    , "style" : "skinless and boneless" },
-				{ "val" : 16   , "units" : "oz"         , "name" : "Spaghetti"         },
+				{ "val" : 32   , "units" : "oz"         , "name" : "Spaghetti"         },
 				{ "val" :  1   ,                          "name" : "Green Pepper"      , "style" : "diced" },
 				{ "val" :  1   ,                          "name" : "Onion"             , "style" : "diced" },
 				{ "val" : 28   , "units" : "oz"         , "name" : "Marinara Sauce"    },
@@ -794,7 +797,7 @@
 				"Cook until cream cheese is melted, about 10 minutes.",
 				"Combine pasta, chicken, salsa mixture, black beans, corn, and onion mixture in a lightly greased baking dish.",
 				"Mix half the shredded cheese into the casserole.",
-				"Bake at 350 degrees for 20 minutes.",
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
 				"Remove from oven, top with remaining cheese.",
 				"Bake for another 10 minutes."
 			]
@@ -928,8 +931,8 @@
 				"Pour the egg mixture over the bread.",
 				"Mix apple pie filling and cinnamon in with the casserole.",
 				"Dot the bread with butter and let stand for about 10 minutes.",
-				"Bake at 350 degrees for 50 minutes.",
-				"When done, let stand for 5 minutes before serving."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 50 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -1069,7 +1072,7 @@
 				"Mix sauerkraut, apple, onion, cinnamon, and mustard in a bowl.",
 				"Place pork chops in a lightly greased 9x13 baking dish.",
 				"Cover pork chops with the sauerkraut mixture.",
-				"Bake at 350 degrees for 45 minutes."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 45 } }
 			]
 		},
 		{
@@ -1146,7 +1149,8 @@
 				"Cook pasta according to directions on the package.",
 				"Mix together pasta, broccoli, green pepper, ham, Miracle Whip, milk, and 1 cup cheese in a lightly greased baking dish.",
 				"Top with bread crumbs and remaining cheese.",
-				"Bake at 350 degrees for 30 minutes."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -1175,9 +1179,9 @@
 				"Over medium heat, brown the beef along with the onions and green peppers.",
 				"Put the cooked beef mixture in a lightly greased 9x13 baking dish.",
 				"Add potatoes, cream of chicken soup, milk, and seasonings into the baking dish and stir together.",
-				"Bake at 350 degrees for 30 minutes.",
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } },
 				"Top the casserole with cheddar cheese and cook for another 20 minutes.",
-				"Let sit for about 5 minutes before serving."
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -1201,8 +1205,8 @@
 			],
 			"steps": [
 				"In a lightly greased 9x13 baking dish, mix together hash browns, melted butter, cream of chicken soup, sour cream, onion, cheese, and seasonings.",
-				"Bake at 350 degrees for 40 minutes.",
-				"Let sit for about 5 minutes before serving."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 40 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -1310,8 +1314,8 @@
 				"After the meat and vegetables are done cooking, use a slotted spoon to transfer to the baking dish.",
 				"Stir spaghetti sauce into the meat and pasta, mixing everything together evenly.",
 				"Sprinkle half the cheese over the top, followed by the pepperoni, followed by the remaining cheese.",
-				"Bake at 350 degrees for about 20 minutes.",
-				"Let cool for about 5 minutes before serving."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -1365,8 +1369,8 @@
 				"Sprinkle half the mozzarella cheese over the casserole.",
 				"Mix the spaghetti sauce and meatballs together and layer on casserole.",
 				"Sprinkle remaining mozzarella cheese on top.",
-				"Bake at 350 degrees for 35 minutes.",
-				"Let sit for 5 minutes before serving."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 35 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -1487,8 +1491,8 @@
 				"Mix the Italian cheese, chicken, spinach, tomatoes, alfredo sauce, pesto sauce, and milk in the baking dish.",
 				"Stir the pasta into the baking dish.",
 				"Sprinkle bread crumbs and parmesan cheese over the top of the baking dish.",
-				"Cook in oven at 350 degrees for 40 minutes.",
-				"Let sit for about 5 minutes before serving."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 40 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -1510,7 +1514,7 @@
 				"Place tomatoes, flat side up, in a lightly greased 9x13 baking dish.",
 				"Evenly distribute pesto on each tomato.",
 				"Sprinkle cheese on top of each tomato.",
-				"Bake at 350 degrees for 15-20 minutes, until cheese is melted and slightly browned."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 15 } }
 			]
 		},
 		{
@@ -1539,8 +1543,9 @@
 				"In a skillet over medium-high heat, brown the beef with the onion, garlic powder, and green pepper.",
 				"Using a slotted spoon, scoop the beef mixture onto the noodles.",
 				"Mix the pizza sauce, pepperoni, and milk in with the beef and noodles and stir until everything is evenly mixed.",
-				"Bake at 350 degrees for 20 minutes, top with cheese, and bake for another 10 minutes.",
-				"Let sit for 5 minutes before serving."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
+				"Top with cheese, and bake for another 10 minutes.",
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -1637,7 +1642,7 @@
 			"steps": [
 				"Coat Brussels sprouts with olive oil and place on a baking sheet.",
 				"Cover Brussels sprouts with salt and pepper.",
-				"Cook at 425 degrees for 30 minutes (or 475 for 15 minutes for crispier texture)."
+				{ "action" : "Bake"           , "desc" : "at 475 degrees", "cook" : { "val" : 15 } }
 			]
 		},
 		{
@@ -1693,8 +1698,8 @@
 				"Move sausage and vegetables to baking dish and stir together.",
 				"Add marinara sauce, garlic powder, basil, and 1/2 cup of cheese to baking dish and stir together.",
 				"Top with remaining cheese.",
-				"Cook at 350 degrees for 10 minutes.",
-				"Let sit for 5 minutes before serving."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 10 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -1761,7 +1766,7 @@
 				"Add as much salt and pepper as desired.",
 				"Repeat these two steps two more times.",
 				"Pour the milk over the top of the potatoes.",
-				"Bake at 375 degrees for 45 minutes."
+				{ "action" : "Bake"           , "desc" : "at 375 degrees", "cook" : { "val" : 45 } }
 			]
 		},
 		{
@@ -1816,7 +1821,7 @@
 				"In a lightly greased 9x13 baking dish, mix the beef mixture and gravy. Evenly layer the beef mixture.",
 				"Add an even layer of peas and carrots, then mashed potatoes.",
 				"Top with shredded cheese.",
-				"Bake at 375 degrees for 20 minutes."
+				{ "action" : "Bake"           , "desc" : "at 375 degrees", "cook" : { "val" : 20 } }
 			]
 		},
 		{
@@ -1964,7 +1969,8 @@
 				"In a small saucepan, saute onion, green pepper, and butter over medium-high heat.",
 				"Once cooked, add in flour and milk, stirring until bubbly. Stir in spinach.",
 				"Sprinkle seasoning over the pieces of chicken, then spoon spinach mixture over each piece.",
-				"Top the chicken with parmesan cheese and bake at 350 degrees for 35 minutes."
+				"Top the chicken with parmesan cheese.",
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 35 } }
 			]
 		},
 		{
@@ -1994,7 +2000,7 @@
 				"In a bowl, mix the beef, rice, 1 can of tomato sauce, and garlic powder.",
 				"Put an equal amount of mixture in each pepper.",
 				"Pour remaining can of tomato sauce over the peppers.",
-				"Preheat oven to 350 degrees and bake for 1 hour.",
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 60 } },
 				"With about 10 minutes to go, cover the peppers with cheese."
 			]
 		},
@@ -2069,7 +2075,7 @@
 				"Place one slice of cheese on each piece of chicken.",
 				"Combine cream of chicken soup and milk in separate bowl and evenly pour over chicken.",
 				"Sprinkle with stuffing mix and pour melted butter over the top.",
-				"Bake at 350 degrees for 50 minutes."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 50 } }
 			]
 		},
 		{
@@ -2101,8 +2107,8 @@
 				"Add spaghetti and beef mixture to a lightly greased 9x13 baking dish.",
 				"Mix in corn, taco sauce, cream of chicken soup, sour cream, and 1 cup cheddar cheese.",
 				"Sprinkle remaining cheddar cheese over the top.",
-				"Bake at 350 degrees for 30 minutes.",
-				"Let sit for 5 minutes before serving."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -2131,8 +2137,8 @@
 				"Lightly grease a 9x13 baking dish and place the beef and onions in the dish with a slotted spoon.",
 				"Pour Worcestershire sauce, garlic powder, black pepper, cream of chicken soup, corn, milk, 1/2 cup cheddar cheese, and tater tots in the baking dish and stir together.",
 				"Sprinkle the rest of the cheese over the top of the casserole.",
-				"Bake at 350 degrees for 35 minutes.",
-				"Let sit for 5 minutes before serving."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 35 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -2160,7 +2166,8 @@
 				"Remove zucchini from stove and place in baking dish.",
 				"Mix cream of chicken soup, sour cream, carrots, and onion into baking dish.",
 				"Pour stuffing mix, then melted butter on top of the stuffing, and mix it all together in the baking dish.",
-				"Bake for 20 minutes at 350 degrees. Let sit for about 5 minutes before serving."
+				{ "action" : "Bake"                                 , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		}
 	]

@@ -127,7 +127,16 @@ ARCH.content.views.recipe.draw = function(){
 							this.curr_recipe.steps.map(function( step, i ){
 								var content = step;
 								if( typeof( step ) == 'object' ){
-									content = '<span class="action">' + step.action + '</span>' + ( !step.desc ? '' : ', ' + step.desc + '.' );
+									content = '<span class="action">' + 
+										step.action + 
+									'</span>' +
+									( !step.desc ? '' :
+										', ' + step.desc + 
+											( !( [ 'Bake' ].includes( step.action ) && step.cook ) ? '' :
+												', for ' + ARCH.functions.get_formatted_time( step.cook )
+											) +
+										'.'
+									);
 								}
 								return '<div class="step" onclick="$( this ).toggleClass(\'completed\');">' + 
 									'<span class="number">' + ( i + 1 ) + '</span>' + 
