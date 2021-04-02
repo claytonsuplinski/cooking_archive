@@ -196,5 +196,9 @@ td.completed{
 @media (max-width: 400px){
 	td.ingredients .ingredient{
 		width:100%;
-	}	
+	}
+	
+	.container.recipe{
+		width:100%;
+	}
 }
