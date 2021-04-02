@@ -91,8 +91,9 @@ ARCH.content.views.main.draw_recipe_list = function( p ){
 				'<a href="' + ARCH.hashlinks.get_url({ clear : true, include : { recipe : recipe.name } }) + '">'+
 					'<div class="item selectable">'+
 						ARCH.content.get_servings_html(        recipe ) +
-						ARCH.content.get_prep_time_html(       recipe ) +
-						ARCH.content.get_cook_time_html(       recipe ) +
+						ARCH.content.get_time_html(            recipe, 'prep'  ) +
+						ARCH.content.get_time_html(            recipe, 'cook'  ) +
+						ARCH.content.get_time_html(            recipe, 'total' ) +
 						ARCH.content.get_recipe_cuisines_html( recipe ) +
 						'<table>'+
 							'<tr>'+

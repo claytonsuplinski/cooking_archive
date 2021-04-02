@@ -83,6 +83,10 @@
 }
 
 .item .time-label.prep-time{
+	bottom:55px;
+}
+
+.item .time-label.cook-time{
 	bottom:30px;
 }
 

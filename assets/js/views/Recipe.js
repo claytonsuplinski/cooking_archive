@@ -75,8 +75,9 @@ ARCH.content.views.recipe.draw = function(){
 		'<div class="container recipe">' +
 				'<div class="item">' +
 					ARCH.content.get_servings_html(        this.curr_recipe ) +
-					ARCH.content.get_prep_time_html(       this.curr_recipe ) +
-					ARCH.content.get_cook_time_html(       this.curr_recipe ) +
+					ARCH.content.get_time_html(            this.curr_recipe, 'prep'  ) +
+					ARCH.content.get_time_html(            this.curr_recipe, 'cook'  ) +
+					ARCH.content.get_time_html(            this.curr_recipe, 'total' ) +
 					ARCH.content.get_recipe_cuisines_html( this.curr_recipe ) +
 					'<table>' +
 						'<tr>' +
@@ -130,13 +131,13 @@ ARCH.content.views.recipe.draw = function(){
 									content = '<span class="action">' + 
 										step.action + 
 									'</span>' +
-									( !step.desc ? '' :
-										', ' + step.desc + 
-											( !( [ 'Bake' ].includes( step.action ) && step.cook ) ? '' :
-												', for ' + ARCH.functions.get_formatted_time( step.cook )
-											) +
-										'.'
-									);
+									( !step.desc ? '' : ', ' + step.desc ) +
+									// TODO : I may want to see about converting this code to use a config file of some sort.
+									( ![ 'Brown' ].includes( step.action ) ? '' : ', over medium heat' ) +
+									( !( [ 'Bake', 'Cook on low', 'Cook on high' ].includes( step.action ) && step.cook ) ? '' :
+										', for ' + ARCH.functions.get_formatted_time( step.cook ) +
+										( step.cook_range_end ? ' - ' + ARCH.functions.get_formatted_time( step.cook_range_end ) : '' )
+									) + '.';
 								}
 								return '<div class="step" onclick="$( this ).toggleClass(\'completed\');">' + 
 									'<span class="number">' + ( i + 1 ) + '</span>' + 

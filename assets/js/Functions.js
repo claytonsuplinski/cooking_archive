@@ -20,7 +20,6 @@ ARCH.functions.add_time_objects = function( times ){
 	
 	if( output.val >= 100 ){
 		output.val /= 60;
-		output.val  = Number( output.val.toFixed( 1 ) );
 		if( output.val === parseInt( output.val, 10 ) ) output.val = output.val.toFixed( 0 );
 		output.units = 'hour';
 	}
@@ -32,10 +31,39 @@ ARCH.functions.get_formatted_time = function( p ){
 	var value = ( p.val || 0 );
 	var units = p.units || 'minute';
 
-	if( p.abbreviated ) units = this.get_abbreviated_units( units );
-	else                units = units + ( value == 1 ? '' : 's' );
+	if( p.abbreviated ){
+		if( units == 'hour' ) value *= 60;
+		return this.time_abbr( value );
+	}
+	else{
+		units = units + ( value == 1 ? '' : 's' );
+	}
 	
 	return value + ' ' + units;
+};
+
+ARCH.functions.time_abbr = function( b, params ){
+	var units = 'm';
+	var sign  = ( b < 0 ? '-' : '' );
+	var b     = Math.abs( b );
+
+	var curr_val    = b;
+	var curr_factor = 1;
+	if( curr_val >= 60 ){
+		curr_val /= 60, curr_factor /= 60, units = 'h';
+		if( curr_val >= 24 ){
+			curr_val /= 24, curr_factor /= 24, units = 'd';
+			if( curr_val >= 365.25 ){
+				curr_val /= 365, curr_factor /= 365, units = 'y';
+			}
+		}
+	}
+
+	var result_val = parseInt( curr_val );
+
+	var remainder_val = b - result_val / curr_factor;
+
+	return sign + result_val + units + ( remainder_val > 0 && units != 'm' ? ' ' + this.time_abbr( remainder_val, params ): '' );
 };
 
 ARCH.functions.get_abbreviated_units = function( units ){

@@ -134,7 +134,7 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Monterey Jack Cheese" , "style" : "shredded" }
 			],
 			"steps": [
-				{ "action" : "Brown the beef"                       , "desc" : "with green peppers, over medium heat" },
+				{ "action" : "Brown"                                , "desc" : "the beef with green peppers" },
 				{ "action" : "Lightly grease"                       , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Mix together"                         , "desc" : "spaghetti sauce, frozen ravioli, beef mixture, and seasonings in the baking dish" },
 				{ "action" : "Sprinkle"                             , "desc" : "both cheeses on top of the casserole" },
@@ -193,12 +193,12 @@
 				{ "val" :  0.33, "units" : "cup"        , "name" : "Parmesan Cheese"      , "style" : "shredded" }
 			],
 			"steps": [
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Cook pasta according to directions on package" },
-				{ "action" : "Brown the beef" , "desc" : "with green peppers, onions, and garlic powder, over medium heat" },
-				"After draining the grease, mix in the spaghetti sauce and salt.",
-				"Whisk eggs, parmesan cheese, and butter in a bowl and mix in with the spaghetti.",
-				"Lightly grease bottom of baking dish and place half of spaghetti in the dish.",
-				"Top with half the cottage cheese, mozzarella cheese, and meat sauce. Repeat the layers.",
+				{ "action" : "Mix together"   , "desc" : "pasta, eggs, butter, cottage cheese, and Parmesan cheese in the baking dish" },
+				{ "action" : "Brown"          , "desc" : "the beef with green peppers, onions, and garlic powder" },
+				{ "action" : "Mix together"   , "desc" : "beef mixture, marinara sauce, and half of the mozzarella cheese in the baking dish" },
+				{ "action" : "Sprinkle"       , "desc" : "the remaining mozzarella cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 45 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -223,8 +223,8 @@
 				{ "val" : 1   , "units" : "tablespoon"    , "name" : "Salt"          }
 			],
 			"steps": [
-				"Mix butter, lemon juice, garlic powder, and salt in a bowl.",
-				"Place tilapia in a lightly-greased 9x13 baking dish.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Mix together"   , "desc" : "butter, lemon juice, garlic powder, and salt in a separate bowl" },
 				"Pour butter mixture on the tilapia and sprinkle with paprika and basil.",
 				{ "action" : "Bake"           , "desc" : "at 425 degrees", "cook" : { "val" : 15 } }
 			]
@@ -254,11 +254,12 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Italian Cheese"  }
 			],
 			"steps": [
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Cook pasta according to directions on package" },
 				"Cook sausage, green pepper, and onions over medium heat until sausage is brown, about 10 minutes.",
 				"In a lightly greased 9x13 baking dish, stir together cottage cheese, egg, seasonings, spaghetti sauce, and half the Italian cheese.",
 				"Once done cooking, mix sausage and vegetables into the baking dish.",
-				"Sprinkle remaining Italian cheese over the top of the casserole.",
+				{ "action" : "Sprinkle"       , "desc" : "remaining Italian cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -287,8 +288,8 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Monterey Jack Cheese" , "style" : "shredded" }
 			],
 			"steps": [
-				"Brown beef and saute onions and green peppers over medium-high heat. Add seasonings to the beef mixture.",
 				"Lightly grease a 9x13 baking dish.",
+				{ "action" : "Brown"          , "desc" : "the beef with green peppers, onions, and seasonings" },
 				"Spread a thin layer of refried beans on each tortilla.",
 				"Place an equal amount of beef mixture, corn, taco sauce, and cheese in each tortilla and place in baking dish.",
 				"Brush the tortillas with melted butter.",
@@ -352,7 +353,7 @@
 				"Put an equal amount of the beef mixture in each tortilla, along with a little bit of cheese and olives.",
 				"Tightly roll the tortillas and place seam-side down in the pan.",
 				"Pour remaining sauce over the enchiladas.",
-				"Sprinkle with remaining cheese and black olives.",
+				{ "action" : "Sprinkle"       , "desc" : "remaining cheese and black olives on top of the enchiladas" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
 				"Let stand for about 5 minutes, or else enchiladas will probably stick to the pan.",
 				"When ready to serve, add sour cream on top of the enchiladas (optional)."
@@ -385,7 +386,7 @@
 				"Lightly grease a 9x13 baking dish and pour in the salsa, corn, refried beans, and seasonings.",
 				"Add cooked beef and peppers to the baking dish and stir together evenly.",
 				"Crumble tortilla chips to cover the top of the casserole.",
-				"Sprinkle cheese on top of the tortilla chip layer.",
+				{ "action" : "Sprinkle"       , "desc" : "cheese on top" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -538,7 +539,7 @@
 				"Repeat the layers and cover with a layer of noodles.",
 				"Spread mozzarella cheese over the top and add another layer of noodles.",
 				"Pour remaining alfredo sauce over the top. Fill the empty jar of alfredo sauce halfway with water and also pour over the top.",
-				"Sprinkle parmesan cheese over the top.",
+				{ "action" : "Sprinkle"       , "desc" : "Parmesan cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 325 degrees", "cook" : { "val" : 50 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -701,7 +702,7 @@
 			"steps": [
 				"Cook pasta according to directions on box.",
 				"Mix all ingredients together, except for 1 cup of mozzarella cheese, together in a lightly greased baking dish.",
-				"Sprinkle the remaining cup of mozzarella cheese on top of the casserole.",
+				{ "action" : "Sprinkle"       , "desc" : "the remaining mozzarella cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } }
 			]
 		},
@@ -901,7 +902,7 @@
 				"Cook until the bottom has set, about 2 minutes.",
 				"Stir in chopped potatoes and tomatoes, salt, pepper, and cayenne pepper. (Optional: cook some sausage or bacon separately, chop up, and add to this step)",
 				"Cook until all the eggs have set, maybe about 10 minutes or so.",
-				"Just before serving, sprinkle cheese over the top."
+				{ "action" : "Sprinkle"       , "desc" : "cheese on top, just before serving" }
 			]
 		},
 		{
@@ -1047,7 +1048,7 @@
 				"Heat oil over medium heat.",
 				"Add zucchini slices and sprinkle garlic powder, salt, and pepper on them.",
 				"Cook the zucchini for about 2-3 minutes on each side, or until soft.",
-				"After zucchini are done cooking, sprinkle Parmesan cheese on them."
+				{ "action" : "Sprinkle"       , "desc" : "Parmesan cheese, just before serving" }
 			]
 		},
 		{
@@ -1176,11 +1177,12 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"   , "style" : "shredded" }
 			],
 			"steps": [
-				"Over medium heat, brown the beef along with the onions and green peppers.",
-				"Put the cooked beef mixture in a lightly greased 9x13 baking dish.",
-				"Add potatoes, cream of chicken soup, milk, and seasonings into the baking dish and stir together.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Brown"          , "desc" : "the beef with green peppers and onions" },
+				{ "action" : "Mix together"   , "desc" : "the beef mixture, potatoes, cream of chicken, milk, and seasonings in the baking dish" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } },
-				"Top the casserole with cheddar cheese and cook for another 20 minutes.",
+				{ "action" : "Sprinkle"       , "desc" : "cheddar cheese on top of the casserole" },
+				{ "action" : "Bake"           , "desc" : "again"         , "cook" : { "val" : 20 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
@@ -1204,7 +1206,8 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"     , "style" : "shredded" }
 			],
 			"steps": [
-				"In a lightly greased 9x13 baking dish, mix together hash browns, melted butter, cream of chicken soup, sour cream, onion, cheese, and seasonings.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Mix together"   , "desc" : "the hash browns, melted butter, cream of chicken, sour cream, onion, cheese, and seasonings in the baking dish" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 40 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -1308,7 +1311,7 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese"    , "style" : "shredded" }
 			],
 			"steps": [
-				"Cook pasta according to directions on the box.",
+				{ "action" : "Cook pasta according to directions on package" },
 				"Once cooked, transfer the pasta to a lightly greased 9x13 baking dish.",
 				"Cook the beef, sausage, peppers, and onions over medium heat until the meat is browned.",
 				"After the meat and vegetables are done cooking, use a slotted spoon to transfer to the baking dish.",
@@ -1366,9 +1369,9 @@
 			"steps": [
 				"Tear bagels into bite-sized pieces and layer on the bottom of a lightly-greased 9x13 baking dish.",
 				"Layer the cottage cheese, onion, and seasonings evenly over the bagel pieces.",
-				"Sprinkle half the mozzarella cheese over the casserole.",
+				{ "action" : "Sprinkle"       , "desc" : "half the mozzarella cheese on top of the casserole" },
 				"Mix the spaghetti sauce and meatballs together and layer on casserole.",
-				"Sprinkle remaining mozzarella cheese on top.",
+				{ "action" : "Sprinkle"       , "desc" : "the remaining mozzarella cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 35 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -1431,7 +1434,7 @@
 				{ "val" :  2   , "units" : "tablespoon" , "name" : "Garlic Powder"        }
 			],
 			"steps": [
-				"Cook pasta according to directions on package.",
+				{ "action" : "Cook pasta according to directions on package" },
 				"Cook meatballs according to directions on package.",
 				"Pour olive oil in a deep skillet and saute onions and garlic powder over high heat for about 5 minutes.",
 				"Reduce heat to medium-high and add tomatoes, basil, and chicken broth. Simmer for about 8 minutes.",
@@ -1487,10 +1490,10 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Italian Cheese"       , "style" : "shredded" }
 			],
 			"steps": [
-				"Cook the pasta according to the directions on the box.",
+				{ "action" : "Cook pasta according to directions on package" },
 				"Mix the Italian cheese, chicken, spinach, tomatoes, alfredo sauce, pesto sauce, and milk in the baking dish.",
 				"Stir the pasta into the baking dish.",
-				"Sprinkle bread crumbs and parmesan cheese over the top of the baking dish.",
+				{ "action" : "Sprinkle"       , "desc" : "bread crumbs and Parmesan cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 40 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -1510,10 +1513,11 @@
 				{ "val" :  1   , "units" : "cup"        , "name" : "Parmesan Cheese"      , "style" : "shredded" }
 			],
 			"steps": [
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				"Slice tomatoes in half along the stems and remove stems.",
-				"Place tomatoes, flat side up, in a lightly greased 9x13 baking dish.",
+				{ "action" : "Place"          , "desc" : "tomatoes, flat side up, in the baking dish" },
 				"Evenly distribute pesto on each tomato.",
-				"Sprinkle cheese on top of each tomato.",
+				{ "action" : "Sprinkle"       , "desc" : "Parmesan cheese on each tomato" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 15 } }
 			]
 		},
@@ -1538,8 +1542,9 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese"    , "style" : "shredded" }
 			],
 			"steps": [
-				"Cook noodles according to directions on package.",
-				"Put the noodles in a lightly greased 9x13 baking dish.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Cook pasta according to directions on package" },
+				"Put the noodles in the baking dish.",
 				"In a skillet over medium-high heat, brown the beef with the onion, garlic powder, and green pepper.",
 				"Using a slotted spoon, scoop the beef mixture onto the noodles.",
 				"Mix the pizza sauce, pepperoni, and milk in with the beef and noodles and stir until everything is evenly mixed.",
@@ -1570,9 +1575,9 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
-				"Put the pork tenderloin in the crock pot.",
-				"Pour seasonings, soy sauce, and barbeque sauce over the pork and stir.",
-				"Cook on low for about 6-7 hours.",
+				{ "action" : "Place"          , "desc" : "the pork tenderloin in the slow cooker" },
+				{ "action" : "Mix together"   , "desc" : "seasonings, soy sauce, and barbeque sauce in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 6, "units" : "hour" }, "cook_range_end" : { "val" : 7, "units" : "hour" } },
 				"Remove pork from crock pot, shred with a fork and knife, place pork back in crock pot, and cook for one more hour."
 			]
 		},
@@ -1665,7 +1670,7 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
-				"Cook pasta according to directions on box.",
+				{ "action" : "Cook pasta according to directions on package" },
 				"Saute sausage and tomatoes over medium-high until browned, about 10 minutes.",
 				"Mix together pasta, sausage mixture, and alfredo sauce in a large container."
 			]
@@ -1690,7 +1695,7 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese"    , "style" : "shredded" }
 			],
 			"steps": [
-				"Cook tortellini according to directions on package.",
+				{ "action" : "Cook pasta according to directions on package" },
 				"Move tortellini to a lightly greased 9x13 baking dish.",
 				"Heat skillet over medium-high heat and add sausage.",
 				"Cook for about 2-3 minutes and add green peppers and onions.",
@@ -1965,7 +1970,8 @@
 				{ "val" :  0.33, "units" : "cup"        , "name" : "Parmesan Cheese"      , "style" : "shredded" }
 			],
 			"steps": [
-				"Lay pieces of chicken in a lightly greased 9x13 baking dish.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				"Lay pieces of chicken in the baking dish.",
 				"In a small saucepan, saute onion, green pepper, and butter over medium-high heat.",
 				"Once cooked, add in flour and milk, stirring until bubbly. Stir in spinach.",
 				"Sprinkle seasoning over the pieces of chicken, then spoon spinach mixture over each piece.",
@@ -2020,10 +2026,11 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese"    , "style" : "shredded" }
 			],
 			"steps": [
-				"Place chicken in a lightly greased baking dish.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				"Place chicken in the baking dish.",
 				"Place tomatoes, zucchini, and squash on top of and around the chicken.",
-				"Sprinkle cheese over the top.",
-				"Bake for 45 minutes at 375 degrees."
+				{ "action" : "Sprinkle"       , "desc" : "mozzarella cheese on top of the chicken" },
+				{ "action" : "Bake"           , "desc" : "at 375 degrees", "cook" : { "val" : 45 } }
 			]
 		},
 		{
@@ -2045,11 +2052,9 @@
 				{ "val" :  3   ,                          "name" : "Jalapeno Pepper"      , "style" : "diced" }
 			],
 			"steps": [
-				"Cook rice according to directions on package.",
-				"Cook sausage, peppers, and onions over medium-high heat for about 10 minutes, or until sausage is slightly browned.",
-				"Add pineapple to sausage and vegetables and cook for another 5 minutes.",
-				"Mix rice, sausage, and vegetables together in a serving container.",
-				"Mix in sweet and sour sauce."
+				{ "action" : "Cook rice according to directions on package" },
+				{ "action" : "Brown"          , "desc" : "the sausage with the green peppers, onions, pineapple (after about 10 minutes), and jalapeno peppers" },
+				{ "action" : "Mix together"   , "desc" : "sausage mixture, rice, and sweet and sour sauce in a serving container" }
 			]
 		},
 		{
@@ -2071,10 +2076,12 @@
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Butter"               , "style" : "melted" }
 			],
 			"steps": [
-				"Place chicken breasts in a lightly greased 9x13 baking dish.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				"Place chicken breasts in the baking dish.",
 				"Place one slice of cheese on each piece of chicken.",
 				"Combine cream of chicken soup and milk in separate bowl and evenly pour over chicken.",
-				"Sprinkle with stuffing mix and pour melted butter over the top.",
+				{ "action" : "Sprinkle"       , "desc" : "stuffing mix on top of the casserole" },
+				"Pour melted butter over the top.",
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 50 } }
 			]
 		},
@@ -2102,11 +2109,11 @@
 				{ "val" :  2   ,                          "name" : "Jalapeno Pepper"      , "style" : "diced" }
 			],
 			"steps": [
-				"Cook spaghetti according to directions on box.",
-				"Cook and brown beef and vegetables over medium-high heat, adding cumin after about 5 minutes.",
-				"Add spaghetti and beef mixture to a lightly greased 9x13 baking dish.",
-				"Mix in corn, taco sauce, cream of chicken soup, sour cream, and 1 cup cheddar cheese.",
-				"Sprinkle remaining cheddar cheese over the top.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Cook pasta according to directions on package" },
+				{ "action" : "Brown"          , "desc" : "the beef with the green peppers, jalapeno peppers, and cumin" },
+				{ "action" : "Mix together"   , "desc" : "beef mixture, pasta, corn, taco sauce, cream of chicken, sour cream, and 1 cup of cheddar cheese in the baking dish" },
+				{ "action" : "Sprinkle"       , "desc" : "the remaining cheddar cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -2133,10 +2140,10 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"       , "style" : "shredded" }
 			],
 			"steps": [
-				"Brown the beef along with the onions over medium-high heat.",
-				"Lightly grease a 9x13 baking dish and place the beef and onions in the dish with a slotted spoon.",
-				"Pour Worcestershire sauce, garlic powder, black pepper, cream of chicken soup, corn, milk, 1/2 cup cheddar cheese, and tater tots in the baking dish and stir together.",
-				"Sprinkle the rest of the cheese over the top of the casserole.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Brown"          , "desc" : "the beef with the onions" },
+				{ "action" : "Mix together"   , "desc" : "beef mixture, Worcestershire sauce, garlic powder, black pepper, cream of chicken soup, corn, milk, 1/2 cup cheddar cheese, and tater tots in the baking dish" },
+				{ "action" : "Sprinkle"       , "desc" : "the remaining cheddar cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 35 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -2160,13 +2167,12 @@
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Butter"               , "style" : "melted" }
 			],
 			"steps": [
-				"Brown the beef on the stove over medium-high heat.",
-				"Remove beef and place in a lightly-greased 9x13 baking dish.",
-				"Sautee the sliced zucchini with the leftover grease from the beef.",
-				"Remove zucchini from stove and place in baking dish.",
-				"Mix cream of chicken soup, sour cream, carrots, and onion into baking dish.",
-				"Pour stuffing mix, then melted butter on top of the stuffing, and mix it all together in the baking dish.",
-				{ "action" : "Bake"                                 , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Brown"          , "desc" : "the beef with the onions" },
+				{ "action" : "Transfer"       , "desc" : "the beef mixture to the baking dish" },
+				{ "action" : "Sautee"         , "desc" : "the sliced zucchini with the leftover grease from the beef" },
+				{ "action" : "Mix together"   , "desc" : "zucchini, cream of chicken, sour cream, carrots, stuffing mix, and melted butter in the baking dish" },
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		}

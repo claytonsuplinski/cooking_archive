@@ -44,8 +44,11 @@
 	{ "action" : "Place"                                , "prep" : { "val" :  5 } },
 	{ "action" : "Sprinkle"                             , "prep" : { "val" :  5 } },
 	{ "action" : "Stir together"                        , "prep" : { "val" : 10 } },
+	{ "action" : "Transfer"                             , "prep" : { "val" :  5 } },
 	
-	{ "action" : "Brown the beef"                                , "cook" : { "val" : 20 } },
+	{ "action" : "Brown"                                         , "cook" : { "val" : 20 } },
 	{ "action" : "Cook pasta according to directions on package" , "cook" : { "val" : 20 } },
-	{ "action" : "Melt the butter in a frying pan"               , "cook" : { "val" :  5 } }
+	{ "action" : "Cook rice according to directions on package"  , "cook" : { "val" : 25 } },
+	{ "action" : "Melt the butter in a frying pan"               , "cook" : { "val" :  5 } },
+	{ "action" : "Sautee"                                        , "cook" : { "val" : 20 } }
 ]

@@ -185,10 +185,8 @@ td.completed{
 	bottom:auto;
 }
 
-.recipe .item .time-label.prep-time{
-	top:110px;
-	bottom:auto;
-}
+.recipe .item .time-label.prep-time{ top: 85px; }
+.recipe .item .time-label.cook-time{ top:110px; }
 
 .recipe .item .cuisine-icon{
 	top:45px;

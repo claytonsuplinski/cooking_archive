@@ -47,14 +47,13 @@ th, td{
 	background:#45830a;
 }
 
+.total-time,
+.cook-time,
 .prep-time{
-	background:#3c2753 !important;
 	color:rgba(255,255,255,0.95) !important;
 	border:1px solid rgba(255,255,255,0.5) !important;
 }
 
-.cook-time{
-	background:#5a320c !important;
-	color:rgba(255,255,255,0.95) !important;
-	border:1px solid rgba(255,255,255,0.5) !important;
-}
+.prep-time{  background:#3c2753 !important; }
+.cook-time{  background:#5a320c !important; }
+.total-time{ background:#502020 !important; }

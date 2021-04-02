@@ -120,6 +120,7 @@ ARCH.content.load = function(){
 								if( step.cook ) recipe.time.cook = ARCH.functions.add_time_objects([ recipe.time.cook, step.cook ]);
 							}
 						});
+						recipe.time.total = ARCH.functions.add_time_objects([ recipe.time.prep, recipe.time.cook ]);
 					});
 					
 					var value_index = ARCH.data.recipes.map(function(a){ return a.name; }).indexOf( ARCH.hashlinks.params.recipe.value );
@@ -148,16 +149,10 @@ ARCH.content.get_cuisine_image = function(name){
 	return './assets/img/cuisines/' + ARCH.functions.str_to_filename( name ) + '.jpg';
 };
 
-ARCH.content.get_prep_time_html = function( recipe ){
-	var prep_time = ARCH.functions.get_recipe_time({ recipe, key : 'prep', abbreviated : true });
-	if( !prep_time ) return '';
-	return '<div class="info-label time-label prep-time">Prep : ' + prep_time + '</div>';
-};
-
-ARCH.content.get_cook_time_html = function( recipe ){
-	var cook_time = ARCH.functions.get_recipe_time({ recipe, key : 'cook', abbreviated : true });
-	if( !cook_time ) return '';
-	return '<div class="info-label time-label cook-time">Cook : ' + cook_time + '</div>';
+ARCH.content.get_time_html = function( recipe, type ){
+	var time = ARCH.functions.get_recipe_time({ recipe, key : type, abbreviated : true });
+	if( !time ) return '';
+	return '<div class="info-label time-label ' + type + '-time">' + ARCH.functions.to_title_case( type ) + ' : ' + time + '</div>';
 };
 
 ARCH.content.get_servings_html = function( recipe ){
