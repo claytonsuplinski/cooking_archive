@@ -31,10 +31,6 @@
 			"name"        : "Artichoke Chicken",
 			"dish"        : "main",
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 40 }
-			},
 			"servings"    : 4,
 			"ingredients" : [
 				{ "val" :  4   ,                        "name" : "Chicken Breast"   , "style" : "skinless and boneless" },
@@ -44,8 +40,8 @@
 				{ "val" :  0.75, "units" : "cup"      , "name" : "Parmesan Cheese"  , "style" : "shredded" }
 			],
 			"steps": [
-				{ "action" : "Mix together"   , "desc" : "artichoke hearts, Parmesan cheese, garlic powder, and mayo in a separate bowl" },
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Mix together"   , "desc" : "artichoke hearts, Parmesan cheese, garlic powder, and mayo in a separate bowl" },
 				{ "action" : "Place chicken in the baking dish and cover each piece evenly with artichoke mixture", "prep" : { "val" : 10 } },
 				{ "action" : "Bake"           , "desc" : "at 375 degrees", "cook" : { "val" : 40 } }
 			]
@@ -54,10 +50,6 @@
 			"name"        : "Artichoke Pasta Salad",
 			"dish"        : "side",
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 15 }
-			},
 			"ingredients" : [			
 				{ "val" : 16   , "units" : "oz"              , "name" : "Bow Tie Pasta"          },
 				{ "val" : 13   , "units" : "oz"              , "name" : "Artichoke Hearts"       , "style" : "drained and chopped" },
@@ -77,10 +69,6 @@
 			"name"        : "Asparagus and Tomatoes",
 			"dish"        : "side",
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 30 }
-			},
 			"ingredients" : [
 				{ "val" :  1   , "units" : "lb" , "name" : "Asparagus"       , "style" : "trimmed" },
 				{ "val" : 10   ,                  "name" : "Grape Tomatoes"  , "style" : "halved" },
@@ -101,11 +89,7 @@
 			"dish"        : "ingredient",
 			"cuisines"    : [ "american" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 5 },
-				"cook" : { "val" : 20 }
-			},
-			"ingredients": [
+			"ingredients" : [
 				{ "val" : 1, "units" : "lb", "name" : "Bacon" }
 			],
 			"steps": [
@@ -118,10 +102,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 30 }
-			},
 			"ingredients" : [
 				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
 				{ "val" : 25   , "units" : "oz"         , "name" : "Ravioli"              , "style" : "frozen" },
@@ -147,10 +127,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 30 }
-			},
 			"servings"    : 6,
 			"ingredients" : [
 				{ "val" : 6   ,                         "name" : "Chicken Breast"  , "style" : "halved, skinless, and boneless", "prep" : { "val" : 10 } },
@@ -174,11 +150,7 @@
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 25 },
-				"cook" : { "val" : 85 }
-			},
-			"ingredients": [
+			"ingredients" : [
 				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Spaghetti"            },
 				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
@@ -197,7 +169,7 @@
 				{ "action" : "Cook pasta according to directions on package" },
 				{ "action" : "Mix together"   , "desc" : "pasta, eggs, butter, cottage cheese, and Parmesan cheese in the baking dish" },
 				{ "action" : "Brown"          , "desc" : "the beef with green peppers, onions, and garlic powder" },
-				{ "action" : "Mix together"   , "desc" : "beef mixture, marinara sauce, and half of the mozzarella cheese in the baking dish" },
+				{ "action" : "Mix together"   , "desc" : "the beef mixture, marinara sauce, and half of the mozzarella cheese in the baking dish" },
 				{ "action" : "Sprinkle"       , "desc" : "the remaining mozzarella cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 45 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
@@ -208,10 +180,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "seafood" ],
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 15 }
-			},
 			"servings"    : 4,
 			"ingredients" : [
 				{ "val" : 6   , "units" : "(4 oz) fillets", "name" : "Tilapia"       },
@@ -234,11 +202,7 @@
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 70 }
-			},
-			"ingredients": [			
+			"ingredients" : [			
 				{ "val" :  1   , "units" : "lb"         , "name" : "Italian Sausage" , "style" : "sliced" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Ziti Pasta"      },
 				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced" },
@@ -269,10 +233,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "mexican" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" : 50 }
-			},
 			"servings"    : 10,
 			"ingredients" : [
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"          },
@@ -288,7 +248,7 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Monterey Jack Cheese" , "style" : "shredded" }
 			],
 			"steps": [
-				"Lightly grease a 9x13 baking dish.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Brown"          , "desc" : "the beef with green peppers, onions, and seasonings" },
 				"Spread a thin layer of refried beans on each tortilla.",
 				"Place an equal amount of beef mixture, corn, taco sauce, and cheese in each tortilla and place in baking dish.",
@@ -297,15 +257,11 @@
 			]
 		},
 		{
-			"name": "Beef and Sausage Stir-Fry",
+			"name"        : "Beef and Sausage Stir-Fry",
 			"dish"        : "main",
 			"cuisines"    : [ "chinese" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 30 }
-			},
-			"ingredients": [			
+			"ingredients" : [			
 				{ "val" :  1   , "units" : "lb"         , "name" : "Angus Stir-Fry Beef"  , "style" : "sliced" },
 				{ "val" : 14   , "units" : "oz"         , "name" : "Kielbasa Sausage"     , "style" : "sliced" },
 				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "sliced" },
@@ -331,11 +287,7 @@
 			"cuisines"    : [ "mexican" ],
 			"cookware"    : [ "stove", "oven" ],
 			"servings"    : 10,
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" : 40 }
-			},
-			"ingredients": [				
+			"ingredients" : [				
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"     },
 				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced" },
 				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
@@ -347,8 +299,8 @@
 				{ "val" :  1   ,                          "name" : "Serrano Pepper"  , "style" : "diced" }
 			],
 			"steps": [
-				"In a large pot over medium-high heat, brown the beef and cook with it the onions, green peppers, and serrano peppers.",
-				"Lightly grease the bottom of the baking dish so the enchiladas don't stick.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Brown"          , "desc" : "the beef with green peppers, onions, and serrano peppers" },
 				"Pour 1/4 cup of the enchilada sauce in the bottom of the baking dish.",
 				"Put an equal amount of the beef mixture in each tortilla, along with a little bit of cheese and olives.",
 				"Tightly roll the tortillas and place seam-side down in the pan.",
@@ -364,11 +316,7 @@
 			"dish"        : "main",
 			"cuisines"    : [ "mexican" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 35 },
-				"cook" : { "val" : 20 }
-			},
-			"ingredients": [
+			"ingredients" : [
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"     },
 				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced" },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"            },
@@ -382,10 +330,10 @@
 				{ "val" :  2   ,                          "name" : "Jalapeno Pepper" , "style" : "diced" }
 			],
 			"steps": [
-				"Brown beef and peppers over medium-high heat.",
-				"Lightly grease a 9x13 baking dish and pour in the salsa, corn, refried beans, and seasonings.",
-				"Add cooked beef and peppers to the baking dish and stir together evenly.",
-				"Crumble tortilla chips to cover the top of the casserole.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Brown"          , "desc" : "the beef with green peppers" },
+				{ "action" : "Mix together"   , "desc" : "the beef mixture, salsa, corn, refried beans, cumin, onion powder, and paprika in the baking dish" },
+				{ "action" : "Sprinkle"       , "desc" : "crushed tortilla chips on top" },
 				{ "action" : "Sprinkle"       , "desc" : "cheese on top" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
@@ -396,11 +344,7 @@
 			"dish"        : "main",
 			"cuisines"    : [ "russian" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 45 }
-			},
-			"ingredients": [				
+			"ingredients" : [				
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Sirloin Tip"     , "style" : "sliced thinly" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Egg Noodles"     },
 				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
@@ -411,8 +355,7 @@
 			],
 			"steps": [
 				{ "action" : "Cook pasta according to directions on package" },
-				"Heat the skillet over medium heat and add the beef and onions.",
-				"Cook until the beef is browned and the onions are tender.",
+				{ "action" : "Brown"          , "desc" : "the beef with onions" },
 				"Drain the grease and stir in the sour cream.",
 				"Add the paprika, garlic powder, and pepper.",
 				"Cook for a few minutes until the sour cream is warm throughout, but not boiling."
@@ -422,11 +365,7 @@
 			"name"        : "Black Beans",
 			"dish"        : "side",
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 20 }
-			},
-			"ingredients": [				
+			"ingredients" : [				
 				{ "val" : 30   , "units" : "oz"         , "name" : "Black Beans"     },
 				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cayenne Pepper"  },
@@ -444,10 +383,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 30 }
-			},
 			"ingredients" : [
 				{ "val" :  4   ,                          "name" : "Chicken Breast"    , "style" : "diced", "prep" : { "val" : 10 } },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"            , "style" : "diced" },
@@ -460,7 +395,8 @@
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Water"             }
 			],
 			"steps": [
-				"Layer the chicken along the bottom of a lightly greased 9x13 baking dish.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				"Layer the chicken along the bottom of the baking dish.",
 				"Season the chicken with salt.",
 				"In a separate bowl, mix tomatoes, water, garlic powder, and stuffing mix. Let soften for a few minutes.",
 				"Sprinkle cheese on top of chicken, then the italian seasoning, then the stuffing mixture.",
@@ -472,10 +408,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "american" ],
 			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" :  8, "units" : "hour" }
-			},
 			"ingredients" : [			
 				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"  , "style" : "skinless and boneless" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Shell Pasta"     },
@@ -491,12 +423,13 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"            }
 			],
 			"steps": [
-				"Add chicken, broth, buffalo sauce, and seasonings to slow cooker.",
-				"Cook on low for 6-7 hours.",
-				"Shred chicken and add butter, cheese, milk, whipping cream, and evaporated milk to slow cooker.",
-				"Stir together and let cook for one more hour.",
+				{ "action" : "Mix together"   , "desc" : "chicken, broth, buffalo sauce, garlic powder, onion power, and salt in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 6, "units" : "hour" }, "cook_range_end" : { "val" : 7, "units" : "hour" } },
+				{ "action" : "Shred"          , "desc" : "chicken and return to slow cooker" },
+				{ "action" : "Mix together"   , "desc" : "butter, cheese, milk, whipping cream, and evaporated milk in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 1, "units" : "hour" } },
 				{ "action" : "Cook pasta according to directions on package" },
-				"Mix pasta together with chicken / cheese mixture before serving."
+				{ "action" : "Mix together"   , "desc" : "pasta with chicken / cheese mixture before serving" }
 			]
 		},
 		{
@@ -504,10 +437,7 @@
 			"dish"        : "main",
 			"cuisines"    : [ "american" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" : 90 }
-			},
+			"servings"    : 12,
 			"ingredients" : [			
 				{ "val" :  1   , "units" : "lb"         , "name" : "Andouille Sausage" , "style" : "sliced" },
 				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"    , "style" : "skinless, boneless, and diced" },
@@ -516,12 +446,10 @@
 				{ "val" :  1   ,                          "name" : "Onion"             , "style" : "diced" },
 				{ "val" :  1   ,                          "name" : "Celery Stalk"      , "style" : "diced" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Alfredo Sauce"     },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"            },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese" , "style" : "shredded" },
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Parmesan Cheese"   , "style" : "shredded" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"             },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"     },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"      },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"           },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"      },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"              },
@@ -529,12 +457,12 @@
 				{ "val" :  1   ,                          "name" : "Habanero Pepper"   , "style" : "diced" }
 			],
 			"steps": [
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Cook pasta according to directions on package" },
-				"Melt butter over medium-high heat and cook vegetables along with 1 tablespoon garlic powder for about 10 minutes.",
-				"Over medium-high heat, cook the sausage and chicken while seasoning with salt, paprika, black pepper, onion powder, cayenne pepper, basil, and 2 teaspoons garlic powder.",
+				{ "action" : "Brown"          , "desc" : "the sausage with green peppers, onions, celery, habanero peppers, cayenne pepper, salt, black pepper, paprika, basil, and garlic powder" },
 				"Cook the chicken until it is no longer pink and the juices run clear, about 10 minutes.",
 				"Remove meat with a slotted spoon and mix in with vegetables along with half of the alfredo sauce.",
-				"In a lightly greased baking dish, layer the bottom with 4 lasagna noodles.",
+				"In the baking dish, layer the bottom with 4 lasagna noodles.",
 				"Spread half of the meat and vegetable mixture over the noodles.",
 				"Repeat the layers and cover with a layer of noodles.",
 				"Spread mozzarella cheese over the top and add another layer of noodles.",
@@ -548,10 +476,6 @@
 			"name"        : "Cashew Broccoli",
 			"dish"        : "side",
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" :   5 },
-				"cook" : { "val" :  25 }
-			},
 			"ingredients" : [			
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Broccoli"          , "style" : "trimmed" },
 				{ "val" :  0.33, "units" : "cup"        , "name" : "Cashews"           , "style" : "chopped" },
@@ -575,10 +499,6 @@
 			"name"        : "Cheddar Baked Chicken",
 			"dish"        : "main",
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 35 }
-			},
 			"ingredients" : [			
 				{ "val" :  5   ,                          "name" : "Chicken Breast"    , "style" : "boneless and halved", "prep" : { "val" : 10 } },
 				{ "val" :  2   ,                          "name" : "Egg"               },
@@ -592,9 +512,9 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"              }
 			],
 			"steps": [
-				"In a bowl, mix flour and seasonings.",
-				"In another bowl, beat together egg and milk.",
-				"In a third bowl, mix cheese and bread crumbs.",
+				{ "action" : "Mix together"   , "desc" : "flour, salt, black pepper, and garlic powder in a bowl" },
+				{ "action" : "Beat the egg"   , "desc" : "with the milk in a separate bowl" },
+				{ "action" : "Mix together"   , "desc" : "cheese and bread crumbs in a third bowl" },
 				"Dunk the chicken pieces in the flour mixture, then the egg mixture, then the cheese mixture.",
 				"Place the coated chicken pieces in a lightly greased baking dish.",
 				"Pour melted butter over the chicken pieces.",
@@ -606,10 +526,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "american" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 60 }
-			},
 			"ingredients" : [
 				{ "val" :  2   , "units" : "lb"         , "name" : "Ground Beef"     },
 				{ "val" :  0.75, "units" : "cup"        , "name" : "Bread Crumbs"    },
@@ -619,8 +535,9 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"    }
 			],
 			"steps": [
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				"In a large bowl, combine beef, bread crumbs, onion, eggs, seasonings, and mix together well.",
-				"Place mixture into a lightly greased 9x13 baking dish.",
+				"Place mixture into the baking dish.",
 				"Shape the beef into two layers, with cheese between and on top.",
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 60 } }
 			]
@@ -630,10 +547,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "comfort" ],
 			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" :  8, "unit" : "hour" }
-			},
 			"ingredients" : [			
 				{ "val" :  3   ,                          "name" : "Chicken Breast"       },
 				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
@@ -645,11 +558,11 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Worcestershire Sauce" }
 			],
 			"steps": [
-				"Place peppers in slow cooker, top with potatoes, then chicken.",
-				"Sprinkle paprika and pour soup over chicken. Also pour one can of water over the chicken.",
-				"Cook on low for 6 to 8 hours.",
-				"About 1 hour before serving, take chicken out, shred, and return to slow cooker.",
-				"About 15 mins before serving, add velveeta cheese.",
+				{ "action" : "Mix together"   , "desc" : "green peppers, topped with potatoes, then chicken, paprika, cream of chicken, and one can of water in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 6, "units" : "hour" }, "cook_range_end" : { "val" : 7, "units" : "hour" } },
+				{ "action" : "Shred"          , "desc" : "chicken and return to slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 1, "units" : "hour" } },
+				{ "action" : "Mix together"   , "desc" : "velveeta cheese in the slow cooker, about 15 minutes before serving" },
 				"Stir every few minutes until cheese is evenly mixed in."
 			]
 		},
@@ -658,10 +571,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "comfort", "breakfast" ],
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 40 }
-			},
 			"ingredients" : [				
 				{ "val" : 32   , "units" : "oz"         , "name" : "Hash Browns"     , "style" : "frozen" },
 				{ "val" :  8   , "units" : "oz"         , "name" : "Ham"             , "style" : "pre-cooked and diced", "prep" : { "val" : 10 } },
@@ -670,8 +579,9 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"  , "style" : "shredded" }
 			],
 			"steps": [
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				"Break hash browns apart while they're still fully sealed in the bag, otherwise it'll make a big mess.",
-				"In a lightly-greased 9x13 baking dish, mix together hash browns, ham, cream of potato soup, sour cream, and cheddar cheese.",
+				"In the baking dish, mix together hash browns, ham, cream of potato soup, sour cream, and cheddar cheese.",
 				{ "action" : "Bake"           , "desc" : "at 375 degrees", "cook" : { "val" : 40 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -681,10 +591,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 50 }
-			},
 			"ingredients" : [			
 				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"    , "style" : "pre-cooked and diced" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Penne Pasta"       },
@@ -700,8 +606,9 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"              }
 			],
 			"steps": [
-				"Cook pasta according to directions on box.",
+				{ "action" : "Cook pasta according to directions on package" },
 				"Mix all ingredients together, except for 1 cup of mozzarella cheese, together in a lightly greased baking dish.",
+				{ "action" : "Cook chicken according to directions on package" },
 				{ "action" : "Sprinkle"       , "desc" : "the remaining mozzarella cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } }
 			]
@@ -711,10 +618,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 55 },
-				"cook" : { "val" :  8, "units" : "hour" }
-			},
 			"servings"    : 12,
 			"ingredients" : [			
 				{ "val" :  3   , "units" : "lb"         , "name" : "Chicken Breast"    , "style" : "skinless and boneless" },
@@ -729,10 +632,11 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"      }
 			],
 			"steps": [
-				"Place chicken, spaghetti sauce, tomato paste, onion, green pepper, and all seasonings in the slow cooker.",
-				"Cook on low for 6-7 hours.",
-				"Shred chicken and return to slow cooker and return for one more hour.",
-				"Cook pasta according to directions on box."
+				{ "action" : "Mix together"   , "desc" : "chicken, marinara sauce, tomato paste, onions, green peppers, basil, garlic powder, oregano, and black pepper in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 6, "units" : "hour" }, "cook_range_end" : { "val" : 7, "units" : "hour" } },
+				{ "action" : "Shred"          , "desc" : "chicken and return to slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 1, "units" : "hour" } },
+				{ "action" : "Cook pasta according to directions on package" }
 			]
 		},
 		{
@@ -740,10 +644,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "comfort" ],
 			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 40 },
-				"cook" : { "val" :  7, "units" : "hour" }
-			},
 			"ingredients" : [				
 				{ "val" :  3   ,                          "name" : "Chicken Breast" , "style" : "skinless and boneless" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Salsa"          , "style" : "chunky" },
@@ -758,9 +658,10 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"           }
 			],
 			"steps": [
-				"Place the chicken in a slow cooker and pour all the other ingredients over the top.",
-				"Cook on low for 6 hours.",
-				"Shred chicken and return to slow cooker for 1 more hour."
+				{ "action" : "Mix together"   , "desc" : "chicken, salsa, onions, tomatoes, corn, pinto beans, chicken broth, cumin, oregano, black pepper, and salt in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 6, "units" : "hour" }, "cook_range_end" : { "val" : 7, "units" : "hour" } },
+				{ "action" : "Shred"          , "desc" : "chicken and return to slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 1, "units" : "hour" } }
 			]
 		},
 		{
@@ -768,10 +669,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "mexican" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 35 },
-				"cook" : { "val" : 70 }
-			},
 			"ingredients" : [			
 				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"  , "style" : "pre-cooked and diced" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Ziti Pasta"      },
@@ -790,13 +687,15 @@
 				{ "val" :  1   ,                          "name" : "Habanero Pepper" , "style" : "diced" }
 			],
 			"steps": [
-				"Cook pasta according to directions on package.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Cook pasta according to directions on package" },
 				"Heat oil over medium heat, add onions and peppers.",
 				"Cook until vegetables are soft, about 5-7 minutes.",
+				{ "action" : "Cook chicken according to directions on package" },
 				"Add chicken and cook until no longer pink, about 10 minutes.",
 				"Combine salsa, cream cheese, and seasonings in a saucepan over low heat.",
 				"Cook until cream cheese is melted, about 10 minutes.",
-				"Combine pasta, chicken, salsa mixture, black beans, corn, and onion mixture in a lightly greased baking dish.",
+				"Combine pasta, chicken, salsa mixture, black beans, corn, and onion mixture in the baking dish.",
 				"Mix half the shredded cheese into the casserole.",
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
 				"Remove from oven, top with remaining cheese.",
@@ -806,9 +705,6 @@
 		{
 			"name"        : "Chicken Salad",
 			"dish"        : "main",
-			"time"        : {
-				"prep" : { "val" : 15 }
-			},
 			"ingredients" : [				
 				{ "val" :  9   , "units" : "oz"         , "name" : "Chicken Breast" , "style" : "deli-style" },
 				{ "val" :  1   , "units" : "cup"        , "name" : "Almonds"        , "style" : "crushed"    },
@@ -823,7 +719,7 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"           }
 			],
 			"steps": [
-				"Mix all the ingredients together in a large container."
+				{ "action" : "Mix together"   , "desc" : "all ingredients in a serving container" }
 			]
 		},
 		{
@@ -831,11 +727,7 @@
 			"dish"        : "main",
 			"cuisines"    : [ "mexican" ],
 			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" :  7, "units" : "hour" }
-			},
-			"ingredients": [			
+			"ingredients" : [			
 				{ "val" :  3   , "units" : "lb"         , "name" : "Chicken Breast" , "style" : "skinless and boneless" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Salsa"          , "style" : "chunky" },
 				{ "val" :  1   ,                          "name" : "Green Pepper"   , "style" : "diced" },
@@ -846,21 +738,18 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese" , "style" : "shredded" }
 			],
 			"steps": [
-				"Place chicken in slow cooker and pour salsa, lime juice, and cilantro over the top.",
-				"Stir together and cook on low for 6 hours.",
-				"About one hour before serving, shred the chicken and put back into slow cooker along with the green pepper and onion.",
-				"Let cook for one more hour on low.",
-				"When done cooking, place chicken mixture in tortillas and top with cheese."
+				{ "action" : "Mix together"   , "desc" : "chicken, salsa, lime juice, and cilantro in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 6, "units" : "hour" }, "cook_range_end" : { "val" : 7, "units" : "hour" } },
+				{ "action" : "Shred"          , "desc" : "chicken and return to slow cooker" },
+				{ "action" : "Mix together"   , "desc" : "green peppers and onions in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 1, "units" : "hour" } },
+				{ "action" : "Place"          , "desc" : "equal amounts of the chicken mixture in each tortilla and top with cheddar cheese" }
 			]
 		},
 		{
 			"name"        : "Cilantro Lime Rice",
 			"dish"        : "side",
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" :  5 },
-				"cook" : { "val" : 20 }
-			},
 			"ingredients" : [				
 				{ "val" :  1   , "units" : "cup"        , "name" : "Rice"           },
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Cilantro"       },
@@ -870,8 +759,8 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"           }
 			],
 			"steps": [
-				"Cook rice according to directions on box.",
-				"Mix rest of ingredients into cooked rice."
+				{ "action" : "Cook rice according to directions on package" },
+				{ "action" : "Mix together"   , "desc" : "cilantro, lime juice, olive oil, garlic powder, and salt into the cooked rice" }
 			]
 		},
 		{
@@ -879,10 +768,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "breakfast" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 45 }
-			},
 			"ingredients" : [			
 				{ "val" :  6   ,                          "name" : "Egg"                },
 				{ "val" :  1   ,                          "name" : "Potato"             , "style" : "diced" },
@@ -910,10 +795,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "breakfast" ],
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 50 }
-			},
 			"ingredients" : [				
 				{ "val" : 12   , "units" : "slices"     , "name" : "White Bread"        },
 				{ "val" : 21   , "units" : "oz"         , "name" : "Apple Pie Filling"  },
@@ -926,7 +807,7 @@
 				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Vanilla Extract"    }
 			],
 			"steps": [
-				"Lightly butter the bottom of the pan.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				"Tear the 12 slices of bread and evenly spread them in the pan.",
 				"In a separate bowl, whisk the eggs, milk, sugar, salt, and vanilla.",
 				"Pour the egg mixture over the bread.",
@@ -940,10 +821,6 @@
 			"name"        : "Fried Corn with Smoked Sausage",
 			"dish"        : "main",
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 25 }
-			},
 			"ingredients" : [			
 				{ "val" : 14   , "units" : "oz"         , "name" : "Smoked Sausage" , "style" : "sliced" },
 				{ "val" :  1   ,                          "name" : "Green Pepper"   , "style" : "diced" },
@@ -956,8 +833,7 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"           }
 			],
 			"steps": [
-				"Cook smoked sausage in a large pot over medium-high heat.",
-				"After about a minute of cooking the sausage, add the green pepper and onion.",
+				{ "action" : "Brown"          , "desc" : "the sausage with green peppers and onions" },
 				"About 5 minutes later, add the corn and tomatoes, reduce heat to medium, and cover.",
 				"After about 5 minutes, stir in salt, pepper, garlic powder, and paprika.",
 				"Cook for another 5 minutes covered."
@@ -968,10 +844,6 @@
 			"dish"        : "ingredient",
 			"cuisines"    : [ "breakfast" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" :  5 },
-				"cook" : { "val" : 15 }
-			},
 			"servings"    : 1,
 			"ingredients" : [				
 				{ "val" :  1   ,                          "name" : "Egg"          },
@@ -991,10 +863,6 @@
 			"name"        : "Fried Potatoes",
 			"dish"        : "ingredient",
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 15 }
-			},
 			"ingredients" : [				
 				{ "val" :  3   ,                          "name" : "Potato"         , "style" : "diced" },
 				{ "val" :  1.5 , "units" : "tablespoon" , "name" : "Vegetable Oil"  },
@@ -1010,10 +878,6 @@
 			"name"        : "Fried Red Potatoes",
 			"dish"        : "side",
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 15 }
-			},
 			"ingredients" : [			
 				{ "val" :  6   ,                          "name" : "Red Potato"     , "style" : "diced" },
 				{ "val" :  2   , "units" : "tablespoon" , "name" : "Vegetable Oil"  },
@@ -1032,10 +896,6 @@
 			"name"        : "Garlic Parmesan Zucchini",
 			"dish"        : "side",
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 15 }
-			},
 			"ingredients" : [			
 				{ "val" :  4   ,                          "name" : "Zucchini"           , "style" : "sliced" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Vegetable Oil"      },
@@ -1056,10 +916,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "german" ],
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 45 }
-			},
 			"servings"    : 8,
 			"ingredients" : [
 				{ "val" :  8   ,                          "name" : "Pork Chop"          , "style" : "center-cut" },
@@ -1070,9 +926,10 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Mustard"            , "style" : "stone-ground" }
 			],
 			"steps": [
-				"Mix sauerkraut, apple, onion, cinnamon, and mustard in a bowl.",
-				"Place pork chops in a lightly greased 9x13 baking dish.",
-				"Cover pork chops with the sauerkraut mixture.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Mix together"   , "desc" : "sauerkraut, apple, onion, cinnamon, and mustard in a separate bowl" },
+				{ "action" : "Place"          , "desc" : "pork chops in the baking dish" },
+				{ "action" : "Place"          , "desc" : "even amounts of the sauerkraut mixture on each pork chop" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 45 } }
 			]
 		},
@@ -1081,10 +938,6 @@
 			"dish"        : "side",
 			"cuisines"    : [ "comfort" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 20 }
-			},
 			"ingredients" : [		
 				{ "val" : 30   , "units" : "oz"         , "name" : "Green Beans"        , "style" : "drained" },
 				{ "val" :  1   ,                          "name" : "Onion"              , "style" : "diced" },
@@ -1108,10 +961,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "american" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" :  5 },
-				"cook" : { "val" : 15 }
-			},
 			"servings"    : 2,
 			"ingredients" : [			
 				{ "val" :  4   , "units" : "slices"     , "name" : "White Bread"        },
@@ -1132,10 +981,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "comfort" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 50 }
-			},
 			"ingredients" : [			
 				{ "val" : 16   , "units" : "oz"         , "name" : "Rotini Pasta"       },
 				{ "val" : 12   , "units" : "oz"         , "name" : "Broccoli"           },
@@ -1147,9 +992,10 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"     , "style" : "shredded" }
 			],
 			"steps": [
-				"Cook pasta according to directions on the package.",
-				"Mix together pasta, broccoli, green pepper, ham, Miracle Whip, milk, and 1 cup cheese in a lightly greased baking dish.",
-				"Top with bread crumbs and remaining cheese.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Cook pasta according to directions on package" },
+				{ "action" : "Mix together"   , "desc" : "pasta, broccoli, green pepper, ham, mayonnaise, milk, and half of the cheddar cheese in the baking dish" },
+				{ "action" : "Sprinkle"       , "desc" : "bread crumbs and remaining cheddar cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -1159,11 +1005,7 @@
 			"dish"        : "main",
 			"cuisines"    : [ "comfort" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 40 },
-				"cook" : { "val" : 70 }
-			},
-			"ingredients": [				                                                                      
+			"ingredients" : [				                                                                      
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"      },
 				{ "val" :  3   ,                          "name" : "Potato"           , "style" : "diced" },
 				{ "val" :  1   ,                          "name" : "Green Pepper"     , "style" : "diced" },
@@ -1191,10 +1033,6 @@
 			"dish"        : "side",
 			"cuisines"    : [ "breakfast", "comfort" ],
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 40 }
-			},
 			"ingredients" : [			
 				{ "val" : 32   , "units" : "oz"         , "name" : "Hash Browns"        , "style" : "frozen" },
 				{ "val" :  1   ,                          "name" : "Onion"              , "style" : "diced" },
@@ -1216,10 +1054,6 @@
 			"name"        : "Honey Garlic Carrots",
 			"dish"        : "side",
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" :  5 },
-				"cook" : { "val" : 25 }
-			},
 			"ingredients" : [			
 				{ "val" : 32   , "units" : "oz"         , "name" : "Carrot"             , "style" : "baby" },
 				{ "val" :  3   , "units" : "tablespoon" , "name" : "Honey"              },
@@ -1241,11 +1075,7 @@
 			"dish"        : "main",
 			"cuisines"    : [ "american" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" : 60 }
-			},
-			"ingredients": [			
+			"ingredients" : [			
 				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"       , "style" : "pre-cooked and diced" },
 				{ "val" :  1   , "units" : "lb"         , "name" : "Andouille Sausage"    , "style" : "sliced" },
 				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
@@ -1261,8 +1091,7 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
-				"Heat one tablespoon of olive oil in a frying pan over medium heat.",
-				"Cook diced chicken in the frying pan with olive oil.",
+				{ "action" : "Cook chicken according to directions on package" },
 				"In a large pot, cook the sliced sausage over medium heat.",
 				"Add celery, onion, and green pepper to the pot with the sausage.",
 				"After cooking for about 5 minutes, add tomatoes, seasonings, Worcestershire sauce, and chicken to the large pot.",
@@ -1274,10 +1103,6 @@
 			"name"        : "Kielbasa with Peppers and Potatoes",
 			"dish"        : "main",
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 40 },
-				"cook" : { "val" : 30 }
-			},
 			"ingredients" : [			
 				{ "val" :  1   , "units" : "lb"         , "name" : "Kielbasa Sausage"     , "style" : "sliced" },
 				{ "val" :  6   ,                          "name" : "Red Potato"           , "style" : "diced" },
@@ -1296,10 +1121,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 40 },
-				"cook" : { "val" : 60 }
-			},
 			"ingredients" : [			
 				{ "val" : 16   , "units" : "oz"         , "name" : "Rigatoni Pasta"       },
 				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
@@ -1311,12 +1132,12 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese"    , "style" : "shredded" }
 			],
 			"steps": [
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Cook pasta according to directions on package" },
-				"Once cooked, transfer the pasta to a lightly greased 9x13 baking dish.",
-				"Cook the beef, sausage, peppers, and onions over medium heat until the meat is browned.",
-				"After the meat and vegetables are done cooking, use a slotted spoon to transfer to the baking dish.",
-				"Stir spaghetti sauce into the meat and pasta, mixing everything together evenly.",
-				"Sprinkle half the cheese over the top, followed by the pepperoni, followed by the remaining cheese.",
+				{ "action" : "Transfer"       , "desc" : "the pasta to the baking dish" },
+				{ "action" : "Brown"          , "desc" : "the beef and sausage with green peppers and onions" },
+				{ "action" : "Mix together"   , "desc" : "the beef mixture, marinara sauce, pasta, half of the pepperoni, and half of the mozzarella cheese in the baking dish" },
+				{ "action" : "Sprinkle"       , "desc" : "the remaining pepperoni and mozzerella cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -1326,10 +1147,6 @@
 			"dish"        : "side",
 			"cuisines"    : [ "comfort" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 30 }
-			},
 			"ingredients" : [			
 				{ "val" :  3   , "units" : "lb"         , "name" : "Potato"         , "style" : "quartered" },
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Butter"         },
@@ -1349,10 +1166,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 35 }
-			},
 			"ingredients" : [			
 				{ "val" :  6   ,                          "name" : "Bagel"                },
 				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
@@ -1381,10 +1194,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "mexican" ],
 			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 70 },
-				"cook" : { "val" :  8, "units" : "hour" }
-			},
 			"servings"    : 8,
 			"ingredients" : [			
 				{ "val" :  3   , "units" : "lb"         , "name" : "Beef Roast"           , "style" : "boneless; chuck or round roast" },
@@ -1419,10 +1228,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 70, "units" : "hour" }
-			},
 			"ingredients" : [			
 				{ "val" : 16   , "units" : "oz"         , "name" : "Angel Hair Pasta"     },
 				{ "val" : 40   ,                          "name" : "Meatball"             , "style" : "Italian-style" },
@@ -1446,10 +1251,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "comfort" ],
 			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 60 },
-				"cook" : { "val" :  7, "units" : "hour" }
-			},
 			"servings"    : 12,
 			"ingredients" : [			
 				{ "val" :  3   , "units" : "lb"         , "name" : "Beef Roast"           , "style" : "boneless; chuck or rump roast" },
@@ -1472,10 +1273,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 60 }
-			},
 			"servings"    : 10,
 			"ingredients" : [				
 				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"       , "style" : "pre-cooked and diced" },
@@ -1491,8 +1288,9 @@
 			],
 			"steps": [
 				{ "action" : "Cook pasta according to directions on package" },
-				"Mix the Italian cheese, chicken, spinach, tomatoes, alfredo sauce, pesto sauce, and milk in the baking dish.",
-				"Stir the pasta into the baking dish.",
+				{ "action" : "Mix together"   , "desc" : "pasta, Italian cheese, spinach, tomatoes, and alfredo sauce in a 9x13 baking dish" },
+				{ "action" : "Cook chicken according to directions on package" },
+				{ "action" : "Mix together"   , "desc" : "chicken, alfredo sauce, pesto sauce, and milk in the baking dish" },
 				{ "action" : "Sprinkle"       , "desc" : "bread crumbs and Parmesan cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 40 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
@@ -1503,10 +1301,6 @@
 			"dish"        : "side",
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 20 }
-			},
 			"ingredients" : [			
 				{ "val" :  6   ,                          "name" : "Tomato"               },
 				{ "val" :  6.5 , "units" : "oz"         , "name" : "Pesto Sauce"          },
@@ -1516,7 +1310,7 @@
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				"Slice tomatoes in half along the stems and remove stems.",
 				{ "action" : "Place"          , "desc" : "tomatoes, flat side up, in the baking dish" },
-				"Evenly distribute pesto on each tomato.",
+				{ "action" : "Place"          , "desc" : "equal amounts of pesto on each tomato" },
 				{ "action" : "Sprinkle"       , "desc" : "Parmesan cheese on each tomato" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 15 } }
 			]
@@ -1526,10 +1320,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 60 }
-			},
 			"ingredients" : [			
 				{ "val" : 16   , "units" : "oz"         , "name" : "Egg Noodles"          },
 				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
@@ -1544,8 +1334,8 @@
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Cook pasta according to directions on package" },
-				"Put the noodles in the baking dish.",
-				"In a skillet over medium-high heat, brown the beef with the onion, garlic powder, and green pepper.",
+				{ "action" : "Transfer"       , "desc" : "the pasta to the baking dish" },
+				{ "action" : "Brown"          , "desc" : "the beef with green peppers, onions, and garlic powder" },
 				"Using a slotted spoon, scoop the beef mixture onto the noodles.",
 				"Mix the pizza sauce, pepperoni, and milk in with the beef and noodles and stir until everything is evenly mixed.",
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
@@ -1558,10 +1348,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "american", "comfort" ],
 			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 45 },
-				"cook" : { "val" :  8, "units" : "hour" }
-			},
 			"servings"    : 12,
 			"ingredients" : [			
 				{ "val" :  3   , "units" : "lb"         , "name" : "Pork Roast"           , "style" : "tenderloin" },
@@ -1578,7 +1364,9 @@
 				{ "action" : "Place"          , "desc" : "the pork tenderloin in the slow cooker" },
 				{ "action" : "Mix together"   , "desc" : "seasonings, soy sauce, and barbeque sauce in the slow cooker" },
 				{ "action" : "Cook on low"    , "cook" : { "val" : 6, "units" : "hour" }, "cook_range_end" : { "val" : 7, "units" : "hour" } },
-				"Remove pork from crock pot, shred with a fork and knife, place pork back in crock pot, and cook for one more hour."
+				{ "action" : "Shred"          , "desc" : "pork and return to slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 1, "units" : "hour" } },
+				{ "action" : "Place"          , "desc" : "equal amounts of the shredded pork in the hamburger buns" }
 			]
 		},
 		{
@@ -1586,10 +1374,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "comfort" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 40 }
-			},
 			"ingredients" : [				
 				{ "val" : 16   , "units" : "oz"         , "name" : "Egg Noodles"          },
 				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
@@ -1601,21 +1385,16 @@
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Parmesan Cheese"      , "style" : "shredded" }
 			],
 			"steps": [
-				"Cook noodles and drain",
-				"In a bowl, mix sour cream, milk, and seasoning mix until smooth.",
-				"Cook the beef over medium heat until nicely browned.",
-				"Drain the grease from the beef.",
-				"Add the onions or peppers and cook until vegetables are tender.",
-				"Remove beef and vegetables from stove, mix together with noodles and sauce."
+				{ "action" : "Cook pasta according to directions on package" },
+				{ "action" : "Mix together"   , "desc" : "sour cream, milk, and seasoning mix until smooth, in a separate bowl" },
+				{ "action" : "Brown"          , "desc" : "the beef with green peppers and onions" },
+				{ "action" : "Mix together"   , "desc" : "beef mixture, sauce, and pasta in a serving container" }
 			]
 		},
 		{
 			"name"        : "Red, White, and Blue Fruit Salad",
 			"dish"        : "side",
 			"cuisines"    : [ "american" ],
-			"time"        : {
-				"prep" : { "val" : 20 }
-			},
 			"ingredients" : [				
 				{ "val" : 16   , "units" : "oz"         , "name" : "Strawberries"         , "style" : "frozen" },
 				{ "val" : 12   , "units" : "oz"         , "name" : "Blueberries"          , "style" : "frozen" },
@@ -1634,10 +1413,6 @@
 			"name"        : "Roasted Brussels Sprouts",
 			"dish"        : "side",
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 30 }
-			},
 			"ingredients" : [			
 				{ "val" :  1.5 ,                          "name" : "Brussels Sprouts"     , "style" : "trimmed and halved" },
 				{ "val" :  3   , "units" : "tablespoon" , "name" : "Olive Oil"            },
@@ -1645,8 +1420,9 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
-				"Coat Brussels sprouts with olive oil and place on a baking sheet.",
-				"Cover Brussels sprouts with salt and pepper.",
+				{ "action" : "Coat"           , "desc" : "brussels sprouts with olive oil" },
+				{ "action" : "Place"          , "desc" : "brussels sprouts on a baking sheet" },
+				{ "action" : "Sprinkle"       , "desc" : "salt and black pepper on the brussels sprouts" },
 				{ "action" : "Bake"           , "desc" : "at 475 degrees", "cook" : { "val" : 15 } }
 			]
 		},
@@ -1655,10 +1431,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 40 }
-			},
 			"ingredients" : [			
 				{ "val" : 16   , "units" : "oz"         , "name" : "Rigatoni Pasta"       },
 				{ "val" : 14   , "units" : "oz"         , "name" : "Smoked Sausage"       , "style" : "sliced" },
@@ -1671,8 +1443,8 @@
 			],
 			"steps": [
 				{ "action" : "Cook pasta according to directions on package" },
-				"Saute sausage and tomatoes over medium-high until browned, about 10 minutes.",
-				"Mix together pasta, sausage mixture, and alfredo sauce in a large container."
+				{ "action" : "Brown"          , "desc" : "the sausage and tomatoes" },
+				{ "action" : "Mix together"   , "desc" : "pasta, sausage mixture, and alfredo sauce in a serving container" }
 			]
 		},
 		{
@@ -1680,10 +1452,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 50 }
-			},
 			"ingredients" : [			
 				{ "val" : 19   , "units" : "oz"         , "name" : "Tortellini"           , "style" : "cheese" },
 				{ "val" : 14   , "units" : "oz"         , "name" : "Smoked Sausage"       , "style" : "sliced" },
@@ -1695,14 +1463,12 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese"    , "style" : "shredded" }
 			],
 			"steps": [
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Cook pasta according to directions on package" },
-				"Move tortellini to a lightly greased 9x13 baking dish.",
-				"Heat skillet over medium-high heat and add sausage.",
-				"Cook for about 2-3 minutes and add green peppers and onions.",
-				"Cook until vegetables are soft and sausage is browned.",
-				"Move sausage and vegetables to baking dish and stir together.",
-				"Add marinara sauce, garlic powder, basil, and 1/2 cup of cheese to baking dish and stir together.",
-				"Top with remaining cheese.",
+				{ "action" : "Transfer"       , "desc" : "the tortellini to the baking dish" },
+				{ "action" : "Brown"          , "desc" : "the sausage with green peppers and onions" },
+				{ "action" : "Mix together"   , "desc" : "sausage mixture, marinara sauce, garlic powder, basil, pasta, and half a cup of mozzarella cheese in the baking dish" },
+				{ "action" : "Sprinkle"       , "desc" : "the remaining mozzarella cheese on top of the baking dish" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 10 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -1712,10 +1478,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "german" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 25 },
-				"cook" : { "val" : 30 }
-			},
 			"ingredients" : [			
 				{ "val" : 14   , "units" : "oz"         , "name" : "Smoked Sausage" , "style" : "sliced" },
 				{ "val" :  1   , "units" : "lb"         , "name" : "Potato"         , "style" : "diced" },
@@ -1723,7 +1485,7 @@
 				{ "val" :  2   , "units" : "tablespoon" , "name" : "Mustard"        , "style" : "stone-ground" }
 			],
 			"steps": [
-				"Cook sausage in a large skillet over medium-high heat for about 3 minutes.",
+				{ "action" : "Brown"          , "desc" : "the sausage" },
 				"Add potatoes to the skillet, cook for about 5 minutes uncovered and 5 minutes covered.",
 				"Add sauerkraut and mustard to the skillet and mix together.",
 				"Cook for an additional 10 minutes or until sausage is browned and potatoes are tender."
@@ -1733,10 +1495,6 @@
 			"name"        : "Sauteed Onions",
 			"dish"        : "ingredient",
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 10 },
-				"cook" : { "val" : 20 }
-			},
 			"ingredients" : [
 				{ "val" :  1   ,                          "name" : "Onion"  , "style" : "diced" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter" }
@@ -1752,10 +1510,6 @@
 			"dish"        : "side",
 			"cuisines"    : [ "comfort" ],
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 45 }
-			},
 			"ingredients" : [			
 				{ "val" :  3   , "units" : "lb"         , "name" : "Potato"         , "style" : "thinly sliced" },
 				{ "val" :  1   ,                          "name" : "Onion"          , "style" : "thinly sliced" },
@@ -1779,11 +1533,7 @@
 			"dish"        : "main",
 			"cuisines"    : [ "seafood" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" :  5 },
-				"cook" : { "val" : 20 }
-			},
-			"ingredients": [			
+			"ingredients" : [			
 				{ "val" : 16   , "units" : "oz"         , "name" : "Scallops"             },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"               },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
@@ -1801,10 +1551,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "comfort" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 40 },
-				"cook" : { "val" : 80 }
-			},
 			"ingredients" : [			
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"          },
 				{ "val" :  3   , "units" : "lb"         , "name" : "Potato"               , "style" : "quartered" },
@@ -1821,7 +1567,7 @@
 			"steps": [
 				"Bring a large pot of water to a boil and add the diced potatoes.",
 				"Drain and mash potatoes, while mixing in milk, butter, salt, and pepper.",
-				"Brown beef and saute onions over medium-high heat. After about 5 minutes, pour in Worcestershire sauce.",
+				{ "action" : "Brown"          , "desc" : "the beef with onions and Worcestershire sauce" },
 				"Prepare gravy according to instructions on packet.",
 				"In a lightly greased 9x13 baking dish, mix the beef mixture and gravy. Evenly layer the beef mixture.",
 				"Add an even layer of peas and carrots, then mashed potatoes.",
@@ -1833,10 +1579,6 @@
 			"name"        : "Simple Pasta Salad",
 			"dish"        : "side",
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 20 }
-			},
 			"ingredients" : [			
 				{ "val" : 16   , "units" : "oz"         , "name" : "Rotini Pasta"           },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Italian Salad Dressing" },
@@ -1856,10 +1598,6 @@
 			"dish"        : "side",
 			"cuisines"    : [ "comfort" ],
 			"cookware"    : [ "slow cooker" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" :  6, "units" : "hour" }
-			},
 			"ingredients" : [				
 				{ "val" : 32   , "units" : "oz"         , "name" : "Green Beans"            , "style" : "frozen" },
 				{ "val" : 22   , "units" : "oz"         , "name" : "Cream of Chicken"       },
@@ -1879,10 +1617,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "mexican" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 50 },
-				"cook" : { "val" : 40 }
-			},
 			"servings"    : 10,
 			"ingredients" : [			
 				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
@@ -1904,9 +1638,7 @@
 				{ "val" : 16   , "units" : "oz"         , "name" : "Sour Cream"           }
 			],
 			"steps": [
-				"Cook ground beef over medium-high heat until browned.",
-				"Add onions and peppers, cook until onions are translucent.",
-				"Drain grease and season with garlic powder, cumin, salt, and pepper.",
+				{ "action" : "Brown"          , "desc" : "the beef with green peppers, onions, salt, black pepper, garlic powder, cumin, and habanero peppers" },
 				"In a separate pot, stir together diced tomatoes with chiles, refried beans, and chili with beans.",
 				"Cook beans on medium-low until warm.",
 				"When finished cooking the beef and beans, mix together in a separate container.",
@@ -1918,10 +1650,6 @@
 			"name"        : "Spicy Garlic Lime Chicken",
 			"dish"        : "main",
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 15 },
-				"cook" : { "val" : 25 }
-			},
 			"servings"    : 4,
 			"ingredients" : [			
 				{ "val" :  4   ,                          "name" : "Chicken Breast"   , "style" : "skinless and boneless" },
@@ -1949,10 +1677,6 @@
 			"name"        : "Spinach Chicken Parmesan",
 			"dish"        : "main",
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 40 },
-				"cook" : { "val" : 65 }
-			},
 			"servings"    : 6,
 			"ingredients" : [			
 				{ "val" :  6   ,                          "name" : "Chicken Breast"       , "style" : "skinless and boneless" },
@@ -1984,10 +1708,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "comfort" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" :  40 },
-				"cook" : { "val" : 100 }
-			},
 			"servings"    : 12,
 			"ingredients" : [			
 				{ "val" :  6   ,                          "name" : "Green Pepper"         , "style" : "halved" },
@@ -2014,10 +1734,6 @@
 			"name"        : "Summer Style Chicken",
 			"dish"        : "main",
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 45 }
-			},
 			"ingredients" : [			
 				{ "val" :  4   ,                          "name" : "Chicken Breast"       , "style" : "skinless and boneless" },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"               , "style" : "stewed" },
@@ -2038,10 +1754,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "chinese" ],
 			"cookware"    : [ "stove" ],
-			"time"        : {
-				"prep" : { "val" : 35 },
-				"cook" : { "val" : 40 }
-			},
 			"ingredients" : [			
 				{ "val" : 14   , "units" : "oz"         , "name" : "Smoked Sausage"       , "style" : "sliced" },
 				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
@@ -2062,10 +1774,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "swiss", "comfort" ],
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 50 }
-			},
 			"servings"    : 6,
 			"ingredients" : [			
 				{ "val" :  6   ,                          "name" : "Chicken Breast"       , "style" : "skinless and boneless" },
@@ -2090,10 +1798,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "mexican", "comfort" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 50 }
-			},
 			"ingredients" : [			
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"          },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Spaghetti"            },
@@ -2123,10 +1827,6 @@
 			"dish"        : "main",
 			"cuisines"    : [ "american", "comfort" ],
 			"cookware"    : [ "stove", "oven" ],
-			"time"        : {
-				"prep" : { "val" : 20 },
-				"cook" : { "val" : 55 }
-			},
 			"ingredients" : [			
 				{ "val" : 32   , "units" : "oz"         , "name" : "Tater Tots"           },
 				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
@@ -2152,10 +1852,6 @@
 			"name"        : "Zucchini Casserole",
 			"dish"        : "main",
 			"cookware"    : [ "oven" ],
-			"time"        : {
-				"prep" : { "val" : 30 },
-				"cook" : { "val" : 50 }
-			},
 			"ingredients" : [			
 				{ "val" :  5   ,                          "name" : "Zucchini"             , "style" : "sliced" },
 				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
