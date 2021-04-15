@@ -220,9 +220,8 @@
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Cook pasta according to directions on package" },
-				"Cook sausage, green pepper, and onions over medium heat until sausage is brown, about 10 minutes.",
-				"In a lightly greased 9x13 baking dish, stir together cottage cheese, egg, seasonings, spaghetti sauce, and half the Italian cheese.",
-				"Once done cooking, mix sausage and vegetables into the baking dish.",
+				{ "action" : "Brown"          , "desc" : "the sausage with green peppers and onions" },
+				{ "action" : "Mix together"   , "desc" : "the sausage mixture, cottage cheese, egg, spaghetti sauce, garlic powder, basil, oregano, salt, black pepper, and half of the Italian cheese in the baking dish" },
 				{ "action" : "Sprinkle"       , "desc" : "remaining Italian cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
@@ -250,7 +249,7 @@
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Brown"          , "desc" : "the beef with green peppers, onions, and seasonings" },
-				"Spread a thin layer of refried beans on each tortilla.",
+				{ "action" : "Place"          , "desc" : "a thin layer of refried beans in each tortilla" },
 				"Place an equal amount of beef mixture, corn, taco sauce, and cheese in each tortilla and place in baking dish.",
 				"Brush the tortillas with melted butter.",
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } }
