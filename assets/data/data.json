@@ -478,7 +478,7 @@
 			"ingredients" : [			
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Broccoli"          , "style" : "trimmed" },
 				{ "val" :  0.33, "units" : "cup"        , "name" : "Cashews"           , "style" : "chopped" },
-				{ "val" :  2   , "units" : "tablespoon" , "name" : "Butter"            },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Butter"            , "style" : "melted"  },
 				{ "val" :  3   , "units" : "tablespoon" , "name" : "Soy Sauce"         },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Brown Sugar"       },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"      },
@@ -487,11 +487,8 @@
 			"steps": [
 				"Place broccoli in a large pot with about 1 inch of water in the bottom.",
 				"Bring to a boil and cook for about 7 minutes.",
-				"Drain broccoli and remove from heat.",
-				"Melt the butter in the microwave or on the stove.",
-				"Mix the sugar, soy sauce, pepper, and garlic powder into the butter.",
-				"Remove the butter from heat and mix in the cashews.",
-				"Mix the butter and cashews with the broccoli."
+				{ "action" : "Transfer"       , "desc" : "the broccoli into a serving container" },
+				{ "action" : "Mix together"   , "desc" : "butter, sugar, soy sauce, black pepper, garlic powder, and cashews into the serving container" }
 			]
 		},
 		{
@@ -511,12 +508,13 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"              }
 			],
 			"steps": [
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Mix together"   , "desc" : "flour, salt, black pepper, and garlic powder in a bowl" },
 				{ "action" : "Beat the egg"   , "desc" : "with the milk in a separate bowl" },
 				{ "action" : "Mix together"   , "desc" : "cheese and bread crumbs in a third bowl" },
-				"Dunk the chicken pieces in the flour mixture, then the egg mixture, then the cheese mixture.",
-				"Place the coated chicken pieces in a lightly greased baking dish.",
-				"Pour melted butter over the chicken pieces.",
+				{ "action" : "Dunk and coat"  , "desc" : "the chicken pieces in the flour mixture, then the egg mixture, then the cheese mixture" },
+				{ "action" : "Place"          , "desc" : "the chicken pieces in the baking dish" },
+				{ "action" : "Pour"           , "desc" : "the melted butter on the chicken pieces" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 35 } }
 			]
 		},
@@ -535,9 +533,10 @@
 			],
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
-				"In a large bowl, combine beef, bread crumbs, onion, eggs, seasonings, and mix together well.",
-				"Place mixture into the baking dish.",
-				"Shape the beef into two layers, with cheese between and on top.",
+				{ "action" : "Mix together"   , "desc" : "ground beef, bread crumbs, onions, eggs, and black pepper in a separate bowl" },
+				{ "action" : "Place"          , "desc" : "half of the beef mixture in the baking dish, while forming it into a shape that will be the lower half of the loaf" },
+				{ "action" : "Sprinkle"       , "desc" : "cheddar cheese on top of the lower half of the meatloaf" },
+				{ "action" : "Place"          , "desc" : "the other half of the beef mixture in the baking dish, while forming it into the upper half of the loaf" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 60 } }
 			]
 		},
@@ -579,8 +578,8 @@
 			],
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
-				"Break hash browns apart while they're still fully sealed in the bag, otherwise it'll make a big mess.",
-				"In the baking dish, mix together hash browns, ham, cream of potato soup, sour cream, and cheddar cheese.",
+				{ "action" : "Crush"          , "desc" : "hash browns apart while they're still fully sealed in the bag, otherwise it'll make a big mess" },
+				{ "action" : "Mix together"   , "desc" : "hash browns, ham, cream of potato, sour cream, and cheddar cheese in the baking dish" },
 				{ "action" : "Bake"           , "desc" : "at 375 degrees", "cook" : { "val" : 40 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -605,10 +604,12 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"              }
 			],
 			"steps": [
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Cook pasta according to directions on package" },
-				"Mix all ingredients together, except for 1 cup of mozzarella cheese, together in a lightly greased baking dish.",
+				{ "action" : "Mix together"   , "desc" : "pasta, broccoli, tomato, milk, basil, garlic powder, onion powder, black pepper, and salt in the baking dish" },
 				{ "action" : "Cook chicken according to directions on package" },
-				{ "action" : "Sprinkle"       , "desc" : "the remaining mozzarella cheese on top of the casserole" },
+				{ "action" : "Mix together"   , "desc" : "the chicken, alfredo sauce, and one cup of the mozzarella cheese in the baking dish" },
+				{ "action" : "Sprinkle"       , "desc" : "the remaining one cup of mozzarella cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } }
 			]
 		},
@@ -698,7 +699,7 @@
 				"Mix half the shredded cheese into the casserole.",
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
 				"Remove from oven, top with remaining cheese.",
-				"Bake for another 10 minutes."
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 10 } }
 			]
 		},
 		{
