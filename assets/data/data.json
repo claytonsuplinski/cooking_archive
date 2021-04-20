@@ -300,14 +300,14 @@
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Brown"          , "desc" : "the beef with green peppers, onions, and serrano peppers" },
-				"Pour 1/4 cup of the enchilada sauce in the bottom of the baking dish.",
-				"Put an equal amount of the beef mixture in each tortilla, along with a little bit of cheese and olives.",
-				"Tightly roll the tortillas and place seam-side down in the pan.",
-				"Pour remaining sauce over the enchiladas.",
+				{ "action" : "Pour"           , "desc" : "1/4 cups of enchilada sauce in the bottom of the baking dish" },
+				{ "action" : "Place"          , "desc" : "an equal amount of beef mixture, cheese, and 5-6 black olives in each tortilla" },
+				{ "action" : "Roll"           , "desc" : "the tortillas and place seam-side down in the baking dish" },
+				{ "action" : "Pour"           , "desc" : "the remaining enchilada sauce on the enchiladas" },
 				{ "action" : "Sprinkle"       , "desc" : "remaining cheese and black olives on top of the enchiladas" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
-				"Let stand for about 5 minutes, or else enchiladas will probably stick to the pan.",
-				"When ready to serve, add sour cream on top of the enchiladas (optional)."
+				{ "action" : "Let sit for 5 minutes before serving" },
+				{ "action" : "Place"          , "desc" : "sour cream on each enchilada when serving" }
 			]
 		},
 		{
@@ -1263,7 +1263,7 @@
 				"Make small cuts in roast and place in slow cooker.",
 				"Sprinkle garlic powder over roast.",
 				"Pour entire jar of pepperoncini, including liquid, over the meat.",
-				"Cover and cook on low for 5 hours.",
+				{ "action" : "Cook on low"    , "cook" : { "val" : 5, "units" : "hour" }, "cook_range_end" : { "val" : 6, "units" : "hour" } },
 				"Take roast out of slow cooker, shred into small pieces, and put back into crock pot for 2 more hours.",
 				"When making the sandwiches, place meat in buns, top with cheese, and cook in microwave for a few seconds to melt the cheese."
 			]
@@ -1336,10 +1336,10 @@
 				{ "action" : "Cook pasta according to directions on package" },
 				{ "action" : "Transfer"       , "desc" : "the pasta to the baking dish" },
 				{ "action" : "Brown"          , "desc" : "the beef with green peppers, onions, and garlic powder" },
-				"Using a slotted spoon, scoop the beef mixture onto the noodles.",
-				"Mix the pizza sauce, pepperoni, and milk in with the beef and noodles and stir until everything is evenly mixed.",
+				{ "action" : "Mix together"   , "desc" : "beef mixture, pizza sauce, pepperoni, and milk in the baking dish" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
-				"Top with cheese, and bake for another 10 minutes.",
+				{ "action" : "Sprinkle"       , "desc" : "mozzarella cheese on top of the casserole" },
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 10 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
@@ -1520,7 +1520,7 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"           }
 			],
 			"steps": [
-				"Lightly grease the baking dish.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				"Layer 1/3 of the potato slices, followed by 1/3 of the onions, 3 tablespoons of flour, and 2 tablespoons of butter spread across the layer.",
 				"Add as much salt and pepper as desired.",
 				"Repeat these two steps two more times.",
@@ -1565,13 +1565,14 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"       , "style" : "shredded" }
 			],
 			"steps": [
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				"Bring a large pot of water to a boil and add the diced potatoes.",
 				"Drain and mash potatoes, while mixing in milk, butter, salt, and pepper.",
 				{ "action" : "Brown"          , "desc" : "the beef with onions and Worcestershire sauce" },
 				"Prepare gravy according to instructions on packet.",
 				"In a lightly greased 9x13 baking dish, mix the beef mixture and gravy. Evenly layer the beef mixture.",
 				"Add an even layer of peas and carrots, then mashed potatoes.",
-				"Top with shredded cheese.",
+				{ "action" : "Sprinkle"       , "desc" : "cheddar cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 375 degrees", "cook" : { "val" : 20 } }
 			]
 		},
@@ -1589,8 +1590,8 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"          }
 			],
 			"steps": [
-				"Cook pasta according to directions.",
-				"Mix together all the ingredients in a large container."
+				{ "action" : "Cook pasta according to directions on package" },
+				{ "action" : "Mix together"   , "desc" : "pasta, dressing, cucumbers, onions, tomatoes, basil, and garlic powder in a serving container" }
 			]
 		},
 		{
@@ -1608,7 +1609,7 @@
 			],
 			"steps": [
 				"Put green beans, cream of chicken, milk, salt, pepper, and half of the fried onions in the slow cooker.",
-				"Cook on low for 5-6 hours.",
+				{ "action" : "Cook on low"    , "cook" : { "val" : 5, "units" : "hour" }, "cook_range_end" : { "val" : 6, "units" : "hour" } },
 				"Top with remaining fried onions when ready to serve."
 			]
 		},
@@ -1695,11 +1696,12 @@
 			],
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
-				"Lay pieces of chicken in the baking dish.",
+				{ "action" : "Place"          , "desc" : "chicken breasts in the baking dish" },
 				"In a small saucepan, saute onion, green pepper, and butter over medium-high heat.",
 				"Once cooked, add in flour and milk, stirring until bubbly. Stir in spinach.",
-				"Sprinkle seasoning over the pieces of chicken, then spoon spinach mixture over each piece.",
-				"Top the chicken with parmesan cheese.",
+				{ "action" : "Sprinkle"       , "desc" : "basil, garlic powder, oregano, black pepper, and salt on the chicken" },
+				{ "action" : "Place"          , "desc" : "an equal amount of the spinach mixture on each piece of chicken" },
+				{ "action" : "Sprinkle"       , "desc" : "Parmesan cheese on the chicken" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 35 } }
 			]
 		},
@@ -1743,8 +1745,8 @@
 			],
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
-				"Place chicken in the baking dish.",
-				"Place tomatoes, zucchini, and squash on top of and around the chicken.",
+				{ "action" : "Place"          , "desc" : "chicken breasts in the baking dish" },
+				{ "action" : "Mix together"   , "desc" : "tomatoes, zucchini, and squash on and around the chicken in the baking dish" },
 				{ "action" : "Sprinkle"       , "desc" : "mozzarella cheese on top of the chicken" },
 				{ "action" : "Bake"           , "desc" : "at 375 degrees", "cook" : { "val" : 45 } }
 			]

@@ -46,6 +46,7 @@
 	{ "action" : "Mix together"                         , "prep" : { "val" :  5 } },
 	{ "action" : "Place"                                , "prep" : { "val" :  5 } },
 	{ "action" : "Pour"                                 , "prep" : { "val" :  5 } },
+	{ "action" : "Roll"                                 , "prep" : { "val" : 10 } },
 	{ "action" : "Shred"                                , "prep" : { "val" : 30 } },
 	{ "action" : "Sprinkle"                             , "prep" : { "val" :  5 } },
 	{ "action" : "Stir together"                        , "prep" : { "val" : 10 } },
