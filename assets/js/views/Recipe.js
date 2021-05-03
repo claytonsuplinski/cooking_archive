@@ -134,7 +134,7 @@ ARCH.content.views.recipe.draw = function(){
 									( !step.desc ? '' : ', ' + step.desc ) +
 									// TODO : I may want to see about converting this code to use a config file of some sort.
 									( ![ 'Brown' ].includes( step.action ) ? '' : ', over medium heat' ) +
-									( !( [ 'Bake', 'Cook on low', 'Cook on high' ].includes( step.action ) && step.cook ) ? '' :
+									( !( [ 'Bake', 'Boil', 'Cook', 'Cook on low', 'Cook on high' ].includes( step.action ) && step.cook ) ? '' :
 										', for ' + ARCH.functions.get_formatted_time( step.cook ) +
 										( step.cook_range_end ? ' - ' + ARCH.functions.get_formatted_time( step.cook_range_end ) : '' )
 									) + '.';

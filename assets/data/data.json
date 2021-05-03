@@ -689,16 +689,15 @@
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Cook pasta according to directions on package" },
-				"Heat oil over medium heat, add onions and peppers.",
-				"Cook until vegetables are soft, about 5-7 minutes.",
+				{ "action" : "Heat the oil in a frying pan" , "desc" : "over medium heat" },
+				{ "action" : "Cook"           , "desc" : "green peppers, onions, and habanero peppers", "cook" : { "val" : 5 } },
+				{ "action" : "Mix together"   , "desc" : "chicken into the frying pan" },
 				{ "action" : "Cook chicken according to directions on package" },
-				"Add chicken and cook until no longer pink, about 10 minutes.",
-				"Combine salsa, cream cheese, and seasonings in a saucepan over low heat.",
-				"Cook until cream cheese is melted, about 10 minutes.",
-				"Combine pasta, chicken, salsa mixture, black beans, corn, and onion mixture in the baking dish.",
-				"Mix half the shredded cheese into the casserole.",
+				{ "action" : "Mix together"   , "desc" : "salsa, cream cheese, cumin, garlic powder, paprika, and salt in a separate saucepan" },
+				{ "action" : "Cook"           , "desc" : "over low heat", "cook" : { "val" : 10 } },
+				{ "action" : "Mix together"   , "desc" : "pasta, chicken mixture, salsa mixture, black beans, corn, and 1 cup of cheddar cheese in the baking dish" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
-				"Remove from oven, top with remaining cheese.",
+				{ "action" : "Sprinkle"       , "desc" : "the remaining 1 cup of cheddar cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 10 } }
 			]
 		},
@@ -774,20 +773,24 @@
 				{ "val" :  1   ,                          "name" : "Green Pepper"       , "style" : "diced" },
 				{ "val" :  1   ,                          "name" : "Onion"              , "style" : "diced" },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"             , "style" : "diced" },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Ham"                , "style" : "pre-cooked and diced" },
 				{ "val" :  0.25, "units" : "cup"        , "name" : "Pepper Jack Cheese" , "style" : "shredded" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Olive Oil"          },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"      },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"       },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"               },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cayenne Pepper"     }
 			],
 			"steps": [
-				"Boil potato in salted water for about 20 minutes, or until tender.",
-				"Saute onions and green peppers in lightly oiled large pot over medium-high heat, about 5-10 minutes.",
-				"Reduce heat to medium and pour in eggs.",
-				"Cook until the bottom has set, about 2 minutes.",
-				"Stir in chopped potatoes and tomatoes, salt, pepper, and cayenne pepper. (Optional: cook some sausage or bacon separately, chop up, and add to this step)",
-				"Cook until all the eggs have set, maybe about 10 minutes or so.",
-				{ "action" : "Sprinkle"       , "desc" : "cheese on top, just before serving" }
+				{ "action" : "Boil"                            , "desc" : "potatoes in salted water", "cook" : { "val" : 20 } },
+				{ "action" : "Heat the oil in a frying pan"    , "desc" : "over medium-high heat" },
+				{ "action" : "Sautee"                          , "desc" : "onions and green peppers", "cook" : { "val" : 10 } },
+				{ "action" : "Reduce"                          , "desc" : "heat to medium" },
+				{ "action" : "Pour"                            , "desc" : "eggs into the frying pan" },
+				{ "action" : "Cook"                            , "desc" : "until the eggs have set", "cook" : { "val" :  2 } },
+				{ "action" : "Mix together"                    , "desc" : "potatoes, tomatoes, salt, pepper, cayenne pepper, and ham (or bacon/sausage) into the frying pan" },
+				{ "action" : "Cook"                            , "desc" : "until the eggs have set", "cook" : { "val" : 10 } },
+				{ "action" : "Sprinkle"                        , "desc" : "cheese on top, just before serving" }
 			]
 		},
 		{
@@ -809,10 +812,8 @@
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				"Tear the 12 slices of bread and evenly spread them in the pan.",
-				"In a separate bowl, whisk the eggs, milk, sugar, salt, and vanilla.",
-				"Pour the egg mixture over the bread.",
-				"Mix apple pie filling and cinnamon in with the casserole.",
-				"Dot the bread with butter and let stand for about 10 minutes.",
+				{ "action" : "Mix together"   , "desc" : "eggs, milk, sugar, salt, vanilla, apple pie filling, and cinnamon in the baking dish" },
+				{ "action" : "Place"          , "desc" : "dots of butter on the bread pieces" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 50 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -852,7 +853,7 @@
 				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Salt"         }
 			],
 			"steps": [
-				"Preheat frying pan over medium heat.",
+				{ "action" : "Melt the butter in a frying pan" , "desc" : "over medium heat" },
 				"Crack the egg in a separate bowl.",
 				"Pour egg into frying pan and cook for 2-3 minutes on one side.",
 				"While the egg is cooking add salt, pepper, or other seasonings as desired.",
@@ -869,9 +870,10 @@
 				{ "val" :  1   ,                          "name" : "Green Pepper"   , "style" : "diced" }
 			],
 			"steps": [
-				"Heat oil over medium-high heat.",
-				"Cook potatoes in oil until golden brown, about 5 minutes.",
-				"Stir in optional green pepper and cook for about another 1-2 minutes."
+				{ "action" : "Heat the oil in a frying pan", "desc" : "over medium-high heat" },
+				{ "action" : "Cook"                        , "desc" : "potatoes in the oil", "cook" : { "val" : 5 } },
+				{ "action" : "Mix together"                , "desc" : "green pepper into the potatoes" },
+				{ "action" : "Cook"                        , "desc" : "potatoes and green peppers", "cook" : { "val" : 2 } }
 			]
 		},
 		{
@@ -887,9 +889,10 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Parsley"        }
 			],
 			"steps": [
-				"Heat oil over medium heat.",
-				"Cook potatoes for 10 minutes, stirring occasionally.",
-				"Stir in seasonings and cook for about 5 more minutes."
+				{ "action" : "Heat the oil in a frying pan", "desc" : "over medium heat" },
+				{ "action" : "Cook"                        , "desc" : "potatoes in the oil", "cook" : { "val" : 10 } },
+				{ "action" : "Mix together"                , "desc" : "garlic powder, onion powder, paprika, and parsley into the potatoes" },
+				{ "action" : "Cook"                        , "desc" : "potatoes", "cook" : { "val" :  5 } }
 			]
 		},
 		{
@@ -905,7 +908,7 @@
 				{ "val" :  1   , "units" : "cup"        , "name" : "Parmesan Cheese"    , "style" : "shredded" }
 			],
 			"steps": [
-				"Heat oil over medium heat.",
+				{ "action" : "Heat the oil in a frying pan", "desc" : "over medium heat" },
 				"Add zucchini slices and sprinkle garlic powder, salt, and pepper on them.",
 				"Cook the zucchini for about 2-3 minutes on each side, or until soft.",
 				{ "action" : "Sprinkle"       , "desc" : "Parmesan cheese, just before serving" }
@@ -948,7 +951,7 @@
 				{ "val" :  1   , "units" : "cup"        , "name" : "Cheddar Cheese"     , "style" : "shredded" }
 			],
 			"steps": [
-				"Heat oil over medium-high heat.",
+				{ "action" : "Heat the oil in a frying pan", "desc" : "over medium-high heat" },
 				"Add onion and cook for about 3 minutes.",
 				"Add green beans and cook for about 2 minutes.",
 				"Stir in soup and milk, cook for about 2 minutes.",
@@ -1064,8 +1067,8 @@
 				{ "val" :  0.33, "units" : "cup"        , "name" : "Water"              }
 			],
 			"steps": [
-				"Melt butter in a large skillet over medium heat.",
-				"Stir in carrots, honey, garlic powder, salt, and pepper.",
+				{ "action" : "Melt the butter in a frying pan" , "desc" : "over medium heat" },
+				{ "action" : "Mix together"   , "desc" : "carrots, honey, garlic powder, salt, and black pepper into the frying pan" },
 				"Pour in water, cover, and bring to a boil.",
 				"Cook for about 10 minutes, or until carrots are tender."
 			]
@@ -1092,8 +1095,8 @@
 			],
 			"steps": [
 				{ "action" : "Cook chicken according to directions on package" },
-				"In a large pot, cook the sliced sausage over medium heat.",
-				"Add celery, onion, and green pepper to the pot with the sausage.",
+				{ "action" : "Brown"          , "desc" : "the sausage" },
+				{ "action" : "Mix together"   , "desc" : "green peppers, onions, and celery into the sausage" },
 				"After cooking for about 5 minutes, add tomatoes, seasonings, Worcestershire sauce, and chicken to the large pot.",
 				"After cooking for about 10 minutes, add rice and chicken broth to the large pot.",
 				"Cook for about 20 minutes, or until the rice has absorbed most of the liquid."
@@ -1110,8 +1113,8 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Vegetable Oil"        }
 			],
 			"steps": [
-				"Heat the oil in the saucepan over medium heat.",
-				"Place kielbasa and potatoes in the saucepan.",
+				{ "action" : "Heat the oil in a frying pan", "desc" : "over medium heat" },
+				{ "action" : "Mix together"   , "desc" : "sausage and potatoes in the frying pan" },
 				"Cover and cook for 25 minutes, stirring occasionally until potatoes are tender.",
 				"Mix in the peppers and continue cooking 5 minutes, until peppers are tender."
 			]
@@ -1213,14 +1216,16 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"       , "style" : "shredded" }
 			],
 			"steps": [
-				"Place beef roast, salt, pepper, garlic powder, and beef broth in slow cooker on low for 6-7 hours.",
-				"Take beef roast out of slow cooker and shred.",
-				"Return the beef roast to slow cooker with chiles and onions.",
-				"Stir mixture together in slow cooker and let cook for another hour.",
-				"When removing beef mixture from slow cooker, add refried beans.",
-				"Plate chips, beef mixture, black olives, jalapenos, and shredded cheese.",
-				"Microwave for 30 seconds.",
-				"Finish topping nachos with tomatoes, sour cream, and paprika."
+				{ "action" : "Place"          , "desc" : "the beef roast, salt, black pepper, garlic powder, and beef broth in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 6, "units" : "hour" }, "cook_range_end" : { "val" : 7, "units" : "hour" } },
+				{ "action" : "Shred"          , "desc" : "beef roast and return to slow cooker" },
+				{ "action" : "Mix together"   , "desc" : "green chiles and onions into the beef roast" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 1, "units" : "hour" } },
+				{ "action" : "Transfer"       , "desc" : "beef roast mixture to a serving container" },
+				{ "action" : "Mix together"   , "desc" : "refried beans into the beef roast mixture" },
+				{ "action" : "Place"          , "desc" : "tortilla chips, beef mixture, black olives, jalapenos, and cheddar cheese on a plate" },
+				{ "action" : "Heat plate of nachos in microwave for 30 seconds" , "cook" : { "val" : 1 } },
+				{ "action" : "Place"          , "desc" : "tomatoes, sour cream, and paprika on top of plated nachos" }
 			]
 		},
 		{
@@ -1443,7 +1448,7 @@
 			],
 			"steps": [
 				{ "action" : "Cook pasta according to directions on package" },
-				{ "action" : "Brown"          , "desc" : "the sausage and tomatoes" },
+				{ "action" : "Brown"          , "desc" : "the sausage with tomatoes, garlic powder, onion powder, black pepper, and salt" },
 				{ "action" : "Mix together"   , "desc" : "pasta, sausage mixture, and alfredo sauce in a serving container" }
 			]
 		},

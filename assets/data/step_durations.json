@@ -56,6 +56,7 @@
 	{ "action" : "Cook chicken according to directions on package" , "cook" : { "val" : 20 } },
 	{ "action" : "Cook pasta according to directions on package"   , "cook" : { "val" : 20 } },
 	{ "action" : "Cook rice according to directions on package"    , "cook" : { "val" : 25 } },
+	{ "action" : "Heat the oil in a frying pan"                    , "cook" : { "val" :  5 } },
 	{ "action" : "Melt the butter in a frying pan"                 , "cook" : { "val" :  5 } },
 	{ "action" : "Sautee"                                          , "cook" : { "val" : 20 } }
 ]
