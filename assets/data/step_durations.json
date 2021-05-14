@@ -43,6 +43,8 @@
 	{ "action" : "Dunk and coat"                        , "prep" : { "val" : 10 } },
 	{ "action" : "Let sit for 5 minutes before serving" , "prep" : { "val" :  5 } },
 	{ "action" : "Lightly grease"                       , "prep" : { "val" :  5 } },
+	{ "action" : "Make"                                 , "prep" : { "val" :  5 } },
+	{ "action" : "Mash"                                 , "prep" : { "val" :  5 } },
 	{ "action" : "Mix together"                         , "prep" : { "val" :  5 } },
 	{ "action" : "Place"                                , "prep" : { "val" :  5 } },
 	{ "action" : "Pour"                                 , "prep" : { "val" :  5 } },
@@ -52,11 +54,13 @@
 	{ "action" : "Stir together"                        , "prep" : { "val" : 10 } },
 	{ "action" : "Transfer"                             , "prep" : { "val" :  5 } },
 	
-	{ "action" : "Brown"                                           , "cook" : { "val" : 20 } },
-	{ "action" : "Cook chicken according to directions on package" , "cook" : { "val" : 20 } },
-	{ "action" : "Cook pasta according to directions on package"   , "cook" : { "val" : 20 } },
-	{ "action" : "Cook rice according to directions on package"    , "cook" : { "val" : 25 } },
-	{ "action" : "Heat the oil in a frying pan"                    , "cook" : { "val" :  5 } },
-	{ "action" : "Melt the butter in a frying pan"                 , "cook" : { "val" :  5 } },
-	{ "action" : "Sautee"                                          , "cook" : { "val" : 20 } }
+	{ "action" : "Bring to a boil"                                   , "cook" : { "val" :  5 } },
+	{ "action" : "Brown"                                             , "cook" : { "val" : 20 } },
+	{ "action" : "Cook chicken according to directions on package"   , "cook" : { "val" : 20 } },
+	{ "action" : "Cook meatballs according to directions on package" , "cook" : { "val" : 20 } },
+	{ "action" : "Cook pasta according to directions on package"     , "cook" : { "val" : 20 } },
+	{ "action" : "Cook rice according to directions on package"      , "cook" : { "val" : 25 } },
+	{ "action" : "Heat the oil in a frying pan"                      , "cook" : { "val" :  5 } },
+	{ "action" : "Melt the butter in a frying pan"                   , "cook" : { "val" :  5 } },
+	{ "action" : "Sautee"                                            , "cook" : { "val" : 20 } }
 ]

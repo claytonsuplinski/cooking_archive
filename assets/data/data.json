@@ -485,7 +485,7 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"     }
 			],
 			"steps": [
-				"Place broccoli in a large pot with about 1 inch of water in the bottom.",
+				{ "action" : "Place"          , "desc" : "the broccoli and 1 inch of water in a large pot" },
 				"Bring to a boil and cook for about 7 minutes.",
 				{ "action" : "Transfer"       , "desc" : "the broccoli into a serving container" },
 				{ "action" : "Mix together"   , "desc" : "butter, sugar, soy sauce, black pepper, garlic powder, and cashews into the serving container" }
@@ -837,7 +837,7 @@
 				{ "action" : "Brown"          , "desc" : "the sausage with green peppers and onions" },
 				"About 5 minutes later, add the corn and tomatoes, reduce heat to medium, and cover.",
 				"After about 5 minutes, stir in salt, pepper, garlic powder, and paprika.",
-				"Cook for another 5 minutes covered."
+				{ "action" : "Cook"           , "desc" : "covered", "cook" : { "val" :  5 } }
 			]
 		},
 		{
@@ -952,10 +952,14 @@
 			],
 			"steps": [
 				{ "action" : "Heat the oil in a frying pan", "desc" : "over medium-high heat" },
-				"Add onion and cook for about 3 minutes.",
-				"Add green beans and cook for about 2 minutes.",
-				"Stir in soup and milk, cook for about 2 minutes.",
-				"Add cheese, cook for about 2 minutes.",
+				{ "action" : "Place"                       , "desc" : "onion in the frying pan" },
+				{ "action" : "Cook"                        , "cook" : { "val" :  3 } },
+				{ "action" : "Mix together"                , "desc" : "green beans into the frying pan" },
+				{ "action" : "Cook"                        , "cook" : { "val" :  2 } },
+				{ "action" : "Mix together"                , "desc" : "cream of chicken and milk into the frying pan" },
+				{ "action" : "Cook"                        , "cook" : { "val" :  2 } },
+				{ "action" : "Mix together"                , "desc" : "cheddar cheese into the frying pan" },
+				{ "action" : "Cook"                        , "cook" : { "val" :  2 } },
 				"Remove from heat and add onion rings just before serving."
 			]
 		},
@@ -1068,9 +1072,10 @@
 			],
 			"steps": [
 				{ "action" : "Melt the butter in a frying pan" , "desc" : "over medium heat" },
-				{ "action" : "Mix together"   , "desc" : "carrots, honey, garlic powder, salt, and black pepper into the frying pan" },
-				"Pour in water, cover, and bring to a boil.",
-				"Cook for about 10 minutes, or until carrots are tender."
+				{ "action" : "Mix together"    , "desc" : "carrots, honey, garlic powder, salt, black pepper, and water into the frying pan" },
+				{ "action" : "Cover"           , "desc" : "the frying pan" },
+				{ "action" : "Bring to a boil" },
+				{ "action" : "Cook"            , "cook" : { "val" : 10 } }
 			]
 		},
 		{
@@ -1115,8 +1120,10 @@
 			"steps": [
 				{ "action" : "Heat the oil in a frying pan", "desc" : "over medium heat" },
 				{ "action" : "Mix together"   , "desc" : "sausage and potatoes in the frying pan" },
-				"Cover and cook for 25 minutes, stirring occasionally until potatoes are tender.",
-				"Mix in the peppers and continue cooking 5 minutes, until peppers are tender."
+				{ "action" : "Cover"          , "desc" : "the frying pan" },
+				{ "action" : "Cook"           , "cook" : { "val" : 20 } },
+				{ "action" : "Mix together"   , "desc" : "green peppers in the frying pan" },
+				{ "action" : "Cook"           , "cook" : { "val" :  5 } }
 			]
 		},
 		{
@@ -1146,7 +1153,7 @@
 			]
 		},
 		{
-			"name"        : "Mashed Potatoes with Skins",
+			"name"        : "Mashed Potatoes",
 			"dish"        : "side",
 			"cuisines"    : [ "comfort" ],
 			"cookware"    : [ "stove" ],
@@ -1158,10 +1165,12 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"           }
 			],
 			"steps": [
-				"Bring a pot of water to a boil and cook potatoes until tender, about 15 minutes.",
-				"Drain potatoes and transfer to a bowl.",
-				"Add butter and mash with a potato masher or electric mixer until potatoes start becoming smooth.",
-				"Add milk, seasonings, and sour cream. Mix to desired texture."
+				{ "action" : "Place"           , "desc" : "potatoes in a large pot and fill with enough water to cover the potatoes" },
+				{ "action" : "Bring to a boil" },
+				{ "action" : "Cook"            , "cook" : { "val" : 15 } },
+				{ "action" : "Transfer"        , "desc" : "potatoes to a separate container for mashing" },
+				{ "action" : "Mix together"    , "desc" : "butter, milk, salt, and black pepper into the potatoes" },
+				{ "action" : "Mash"            , "desc" : "the potato mixture until smooth" }
 			]
 		},
 		{
@@ -1245,7 +1254,7 @@
 			],
 			"steps": [
 				{ "action" : "Cook pasta according to directions on package" },
-				"Cook meatballs according to directions on package.",
+				{ "action" : "Cook meatballs according to directions on package" },
 				"Pour olive oil in a deep skillet and saute onions and garlic powder over high heat for about 5 minutes.",
 				"Reduce heat to medium-high and add tomatoes, basil, and chicken broth. Simmer for about 8 minutes.",
 				"Mix pasta, meatballs, and sauce together in a separate container."
@@ -1265,12 +1274,15 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        }
 			],
 			"steps": [
-				"Make small cuts in roast and place in slow cooker.",
-				"Sprinkle garlic powder over roast.",
-				"Pour entire jar of pepperoncini, including liquid, over the meat.",
+				{ "action" : "Place"          , "desc" : "the beef roast in a slow cooker" },
+				{ "action" : "Make"           , "desc" : "small cuts in the beef roast" },
+				{ "action" : "Sprinkle"       , "desc" : "garlic powder on the beef roast" },
+				{ "action" : "Pour"           , "desc" : "pepperoncini peppers, including liquid, over the beef roast" },
 				{ "action" : "Cook on low"    , "cook" : { "val" : 5, "units" : "hour" }, "cook_range_end" : { "val" : 6, "units" : "hour" } },
-				"Take roast out of slow cooker, shred into small pieces, and put back into crock pot for 2 more hours.",
-				"When making the sandwiches, place meat in buns, top with cheese, and cook in microwave for a few seconds to melt the cheese."
+				{ "action" : "Shred"          , "desc" : "beef roast and return to slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 2, "units" : "hour" } },
+				{ "action" : "Place"          , "desc" : "equal amounts of the shredded beef and cheese in the hamburger buns" },
+				{ "action" : "Heat sandwiches in microwave for 30 seconds" , "cook" : { "val" : 1 } }
 			]
 		},
 		{
@@ -1307,13 +1319,12 @@
 			"cuisines"    : [ "italian" ],
 			"cookware"    : [ "oven" ],
 			"ingredients" : [			
-				{ "val" :  6   ,                          "name" : "Tomato"               },
+				{ "val" :  6   ,                          "name" : "Roma Tomato"          , "style" : "halved, with stems removed" },
 				{ "val" :  6.5 , "units" : "oz"         , "name" : "Pesto Sauce"          },
 				{ "val" :  1   , "units" : "cup"        , "name" : "Parmesan Cheese"      , "style" : "shredded" }
 			],
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
-				"Slice tomatoes in half along the stems and remove stems.",
 				{ "action" : "Place"          , "desc" : "tomatoes, flat side up, in the baking dish" },
 				{ "action" : "Place"          , "desc" : "equal amounts of pesto on each tomato" },
 				{ "action" : "Sprinkle"       , "desc" : "Parmesan cheese on each tomato" },
@@ -1505,9 +1516,9 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter" }
 			],
 			"steps": [
-				"Heat the oil or butter over medium-high heat.",
-				"Add the onions and cook for about 7-10 minutes.",
-				"As they cook, push the onions around the pan to evenly cook them."
+				{ "action" : "Heat the oil in a frying pan" , "desc" : "over medium-high heat" },
+				{ "action" : "Place"          , "desc" : "the onions in the frying pan" },
+				{ "action" : "Cook"           , "desc" : "while moving the onions around the pan somewhat often", "cook" : { "val" : 10 } }
 			]
 		},
 		{
