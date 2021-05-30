@@ -77,8 +77,7 @@
 				{ "val" :  0.5 , "units" : "cup", "name" : "Parmesan Cheese" , "style" : "shredded" }
 			],
 			"steps": [
-				"Put asparagus and water in the saucepan over medium heat and cover.",
-				"Cook asparagus until tender, about 10 minutes.",
+				{ "action" : "Cook"           , "desc" : "asparagus and water, covered, over medium heat", "cook" : { "val" : 10 } },
 				"Drain and reduce heat to low.",
 				"Add olive oil, cheese, and tomatoes and replace lid.",
 				"Let cook for about another two minutes until cheese melts."
@@ -193,7 +192,9 @@
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Mix together"   , "desc" : "butter, lemon juice, garlic powder, and salt in a separate bowl" },
-				"Pour butter mixture on the tilapia and sprinkle with paprika and basil.",
+				{ "action" : "Place"          , "desc" : "tilapia in the baking dish" },
+				{ "action" : "Pour"           , "desc" : "butter mixture over the tilapia" },
+				{ "action" : "Sprinkle"       , "desc" : "paprika and basil on the tilapia" },
 				{ "action" : "Bake"           , "desc" : "at 425 degrees", "cook" : { "val" : 15 } }
 			]
 		},
@@ -250,8 +251,9 @@
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Brown"          , "desc" : "the beef with green peppers, onions, and seasonings" },
 				{ "action" : "Place"          , "desc" : "a thin layer of refried beans in each tortilla" },
-				"Place an equal amount of beef mixture, corn, taco sauce, and cheese in each tortilla and place in baking dish.",
-				"Brush the tortillas with melted butter.",
+				{ "action" : "Place"          , "desc" : "equal amounts of beef mixture, corn, taco sauce, and monterey jack cheese in each tortilla" },
+				{ "action" : "Place"          , "desc" : "each chimichanga in the baking dish" },
+				{ "action" : "Coat"           , "desc" : "the tortillas with melted butter" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } }
 			]
 		},
@@ -356,7 +358,7 @@
 				{ "action" : "Cook pasta according to directions on package" },
 				{ "action" : "Brown"          , "desc" : "the beef with onions" },
 				"Drain the grease and stir in the sour cream.",
-				"Add the paprika, garlic powder, and pepper.",
+				{ "action" : "Mix together"   , "desc" : "paprika, garlic powder, and black pepper into the beef mixture" },
 				"Cook for a few minutes until the sour cream is warm throughout, but not boiling."
 			]
 		},
@@ -374,7 +376,7 @@
 			"steps": [
 				"In a medium saucepan, combine beans, onion, and garlic powder and bring to a boil.",
 				"Reduce heat to medium-low and add the cilantro and cayenne pepper.",
-				"Cook for about 5 more minutes."
+				{ "action" : "Cook"           , "cook" : { "val" :  5 } }
 			]
 		},
 		{
@@ -395,10 +397,10 @@
 			],
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
-				"Layer the chicken along the bottom of the baking dish.",
-				"Season the chicken with salt.",
-				"In a separate bowl, mix tomatoes, water, garlic powder, and stuffing mix. Let soften for a few minutes.",
-				"Sprinkle cheese on top of chicken, then the italian seasoning, then the stuffing mixture.",
+				{ "action" : "Place"          , "desc" : "chicken in the baking dish" },
+				{ "action" : "Sprinkle"       , "desc" : "salt on the chicken" },
+				{ "action" : "Mix together"   , "desc" : "tomatoes, water, garlic powder, and stuffing mix in a separate bowl" },
+				{ "action" : "Layer"          , "desc" : "mozzarella cheese, oregano, basil, and stuffing mixture on top of the chicken" },
 				{ "action" : "Bake"           , "desc" : "at 400 degrees", "cook" : { "val" : 30 } }
 			]
 		},
@@ -556,12 +558,12 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Worcestershire Sauce" }
 			],
 			"steps": [
-				{ "action" : "Mix together"   , "desc" : "green peppers, topped with potatoes, then chicken, paprika, cream of chicken, and one can of water in the slow cooker" },
+				{ "action" : "Mix together"   , "desc" : "green peppers, topped with potatoes, then chicken, paprika, parsley, cream of chicken, Worcestershire sauce, and one can of water in the slow cooker" },
 				{ "action" : "Cook on low"    , "cook" : { "val" : 6, "units" : "hour" }, "cook_range_end" : { "val" : 7, "units" : "hour" } },
 				{ "action" : "Shred"          , "desc" : "chicken and return to slow cooker" },
 				{ "action" : "Cook on low"    , "cook" : { "val" : 1, "units" : "hour" } },
-				{ "action" : "Mix together"   , "desc" : "velveeta cheese in the slow cooker, about 15 minutes before serving" },
-				"Stir every few minutes until cheese is evenly mixed in."
+				{ "action" : "Mix together"   , "desc" : "American cheese in the slow cooker, about 15 minutes before serving" },
+				{ "action" : "Stir every few minutes until cheese is evenly mixed in" }
 			]
 		},
 		{
@@ -1102,9 +1104,11 @@
 				{ "action" : "Cook chicken according to directions on package" },
 				{ "action" : "Brown"          , "desc" : "the sausage" },
 				{ "action" : "Mix together"   , "desc" : "green peppers, onions, and celery into the sausage" },
-				"After cooking for about 5 minutes, add tomatoes, seasonings, Worcestershire sauce, and chicken to the large pot.",
-				"After cooking for about 10 minutes, add rice and chicken broth to the large pot.",
-				"Cook for about 20 minutes, or until the rice has absorbed most of the liquid."
+				{ "action" : "Cook"           , "cook" : { "val" :  5 } },
+				{ "action" : "Mix together"   , "desc" : "tomatoes, Worcestershire sauce, chicken, garlic powder, paprika, black pepper, and salt into the sausage mixture" },
+				{ "action" : "Cook"           , "cook" : { "val" : 10 } },
+				{ "action" : "Mix together"   , "desc" : "rice and chicken broth into the sausage mixture" },
+				{ "action" : "Cook"           , "cook" : { "val" : 20 } }
 			]
 		},
 		{
@@ -1192,10 +1196,13 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
-				"Tear bagels into bite-sized pieces and layer on the bottom of a lightly-greased 9x13 baking dish.",
-				"Layer the cottage cheese, onion, and seasonings evenly over the bagel pieces.",
-				{ "action" : "Sprinkle"       , "desc" : "half the mozzarella cheese on top of the casserole" },
-				"Mix the spaghetti sauce and meatballs together and layer on casserole.",
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Tear"           , "desc" : "the bagels into bite-sized pieces" },
+				{ "action" : "Place"          , "desc" : "the bagel pieces in the baking dish" },
+				{ "action" : "Layer"          , "desc" : "cottage cheese and onions on the bagel pieces" },
+				{ "action" : "Sprinkle"       , "desc" : "garlic powder, basil, oregano, black pepper, salt, and half the mozzarella cheese on top of the casserole" },
+				{ "action" : "Place"          , "desc" : "the meatballs on top of the casserole" },
+				{ "action" : "Pour"           , "desc" : "the marinara sauce on top of the casserole" },
 				{ "action" : "Sprinkle"       , "desc" : "the remaining mozzarella cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 35 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
@@ -1353,9 +1360,8 @@
 				{ "action" : "Transfer"       , "desc" : "the pasta to the baking dish" },
 				{ "action" : "Brown"          , "desc" : "the beef with green peppers, onions, and garlic powder" },
 				{ "action" : "Mix together"   , "desc" : "beef mixture, pizza sauce, pepperoni, and milk in the baking dish" },
-				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
 				{ "action" : "Sprinkle"       , "desc" : "mozzarella cheese on top of the casserole" },
-				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 10 } },
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 30 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
@@ -1803,11 +1809,12 @@
 			],
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
-				"Place chicken breasts in the baking dish.",
-				"Place one slice of cheese on each piece of chicken.",
-				"Combine cream of chicken soup and milk in separate bowl and evenly pour over chicken.",
+				{ "action" : "Place"          , "desc" : "the chicken breasts in the baking dish" },
+				{ "action" : "Place"          , "desc" : "one slice of swiss cheese on each piece of chicken" },
+				{ "action" : "Mix together"   , "desc" : "cream of chicken and milk in a separate bowl" },
+				{ "action" : "Pour"           , "desc" : "the cream of chicken mixture on the pieces of chicken" },
 				{ "action" : "Sprinkle"       , "desc" : "stuffing mix on top of the casserole" },
-				"Pour melted butter over the top.",
+				{ "action" : "Pour"           , "desc" : "melted butter on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 50 } }
 			]
 		},

@@ -41,6 +41,7 @@
 	{ "action" : "Coat"                                 , "prep" : { "val" : 10 } },
 	{ "action" : "Crush"                                , "prep" : { "val" :  5 } },
 	{ "action" : "Dunk and coat"                        , "prep" : { "val" : 10 } },
+	{ "action" : "Layer"                                , "prep" : { "val" :  5 } },
 	{ "action" : "Let sit for 5 minutes before serving" , "prep" : { "val" :  5 } },
 	{ "action" : "Lightly grease"                       , "prep" : { "val" :  5 } },
 	{ "action" : "Make"                                 , "prep" : { "val" :  5 } },
@@ -52,6 +53,7 @@
 	{ "action" : "Shred"                                , "prep" : { "val" : 30 } },
 	{ "action" : "Sprinkle"                             , "prep" : { "val" :  5 } },
 	{ "action" : "Stir together"                        , "prep" : { "val" : 10 } },
+	{ "action" : "Tear"                                 , "prep" : { "val" : 10 } },
 	{ "action" : "Transfer"                             , "prep" : { "val" :  5 } },
 	
 	{ "action" : "Bring to a boil"                                   , "cook" : { "val" :  5 } },
