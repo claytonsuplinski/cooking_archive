@@ -41,6 +41,7 @@
 	{ "action" : "Coat"                                 , "prep" : { "val" : 10 } },
 	{ "action" : "Crush"                                , "prep" : { "val" :  5 } },
 	{ "action" : "Dunk and coat"                        , "prep" : { "val" : 10 } },
+	{ "action" : "Flip"                                 , "prep" : { "val" :  5 } },
 	{ "action" : "Layer"                                , "prep" : { "val" :  5 } },
 	{ "action" : "Let sit for 5 minutes before serving" , "prep" : { "val" :  5 } },
 	{ "action" : "Lightly grease"                       , "prep" : { "val" :  5 } },
