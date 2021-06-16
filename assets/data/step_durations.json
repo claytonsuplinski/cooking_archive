@@ -13,6 +13,7 @@
 	{ "name" : "Grape Tomatoes"    , "prep" : { "val" : 10 } },
 	{ "name" : "Green Pepper"      , "prep" : { "val" : 10 } , "val" : 1 },
 	{ "name" : "Green Pepper"      , "prep" : { "val" : 15 } , "val" : 2 },
+	{ "name" : "Green Pepper"      , "prep" : { "val" : 15 } , "style" : "halved lengthwise" },
 	{ "name" : "Habanero Pepper"   , "prep" : { "val" : 10 } },
 	{ "name" : "Italian Sausage"   , "prep" : { "val" : 10 } },
 	{ "name" : "Jalapeno Pepper"   , "prep" : { "val" : 10 } },
@@ -36,10 +37,10 @@
 	{ "name" : "Zucchini"          , "prep" : { "val" : 15 } , "val" : 3 },
 	{ "name" : "Zucchini"          , "prep" : { "val" : 10 } },
 	
-	{ "action" : "Beat the egg"                         , "prep" : { "val" : 10 } },
-	{ "action" : "Beat the eggs"                        , "prep" : { "val" : 10 } },
+	{ "action" : "Beat"                                 , "prep" : { "val" : 10 } },
 	{ "action" : "Coat"                                 , "prep" : { "val" : 10 } },
 	{ "action" : "Crush"                                , "prep" : { "val" :  5 } },
+	{ "action" : "Drain"                                , "prep" : { "val" :  5 } },
 	{ "action" : "Dunk and coat"                        , "prep" : { "val" : 10 } },
 	{ "action" : "Flip"                                 , "prep" : { "val" :  5 } },
 	{ "action" : "Layer"                                , "prep" : { "val" :  5 } },
@@ -56,6 +57,7 @@
 	{ "action" : "Stir together"                        , "prep" : { "val" : 10 } },
 	{ "action" : "Tear"                                 , "prep" : { "val" : 10 } },
 	{ "action" : "Transfer"                             , "prep" : { "val" :  5 } },
+	{ "action" : "Wrap"                                 , "prep" : { "val" :  5 } },
 	
 	{ "action" : "Bring to a boil"                                   , "cook" : { "val" :  5 } },
 	{ "action" : "Brown"                                             , "cook" : { "val" : 20 } },

@@ -17,14 +17,17 @@
 				{ "val" :  1   , "units" : "cup"           , "name" : "Parmesan Cheese" , "style" : "shredded" }
 			],
 			"steps"       : [
-				{ "action" : "Beat the eggs"                   , "desc" : "with the garlic powder and pepper until blended" },
-				{ "action" : "Mix together"                    , "desc" : "ground almonds and parmesan cheese in a separate bowl" },
-				{ "action" : "Dunk and coat"                   , "desc" : "the tilapia fillets in flour, then the egg, and then the almond mixture" },
+				{ "action" : "Beat"           , "desc" : "the eggs with the garlic powder and pepper until blended" },
+				{ "action" : "Mix together"   , "desc" : "ground almonds and parmesan cheese in a separate bowl" },
+				{ "action" : "Dunk and coat"  , "desc" : "the tilapia fillets in flour, then the egg, and then the almond mixture" },
 				{ "action" : "Melt the butter in a frying pan" , "desc" : "over medium-high heat" },
-				{ "action" : "Cook tilapia"                    , "desc" : "for about 2-3 minutes on each side", "cook" : { "val" : 10 } },
-				{ "action" : "Reduce heat"                     , "desc" : "to medium" },
-				{ "action" : "Add salt"                        , "desc" : "if desired" },
-				{ "action" : "Cook tilapia"                    , "desc" : "covered, for another 5 minutes", "cook" : { "val" : 5 } }
+				{ "action" : "Place"          , "desc" : "tilapia in the frying pan" },
+				{ "action" : "Cook"           , "cook" : { "val" :  3 } },
+				{ "action" : "Flip"           , "desc" : "the tilapia" },
+				{ "action" : "Cook"           , "cook" : { "val" :  3 } },
+				{ "action" : "Reduce heat"    , "desc" : "to medium" },
+				{ "action" : "Add salt"       , "desc" : "if desired" },
+				{ "action" : "Cook"           , "desc" : "covered", "cook" : { "val" : 5 } }
 			]
 		},
 		{
@@ -78,9 +81,10 @@
 			],
 			"steps": [
 				{ "action" : "Cook"           , "desc" : "asparagus and water, covered, over medium heat", "cook" : { "val" : 10 } },
-				"Drain and reduce heat to low.",
-				"Add olive oil, cheese, and tomatoes and replace lid.",
-				"Let cook for about another two minutes until cheese melts."
+				{ "action" : "Drain"          , "desc" : "the water from the asparagus" },
+				{ "action" : "Reduce heat"    , "desc" : "to low" },
+				{ "action" : "Mix together"   , "desc" : "olive oil, Parmesan cheese, and tomatoes into the asparagus" },
+				{ "action" : "Cook"           , "desc" : "covered", "cook" : { "val" :  3 } }
 			]
 		},
 		{
@@ -357,9 +361,9 @@
 			"steps": [
 				{ "action" : "Cook pasta according to directions on package" },
 				{ "action" : "Brown"          , "desc" : "the beef with onions" },
-				"Drain the grease and stir in the sour cream.",
-				{ "action" : "Mix together"   , "desc" : "paprika, garlic powder, and black pepper into the beef mixture" },
-				"Cook for a few minutes until the sour cream is warm throughout, but not boiling."
+				{ "action" : "Drain"          , "desc" : "the grease" },
+				{ "action" : "Mix together"   , "desc" : "sour cream, paprika, garlic powder, and black pepper into the beef mixture" },
+				{ "action" : "Cook"           , "cook" : { "val" :  5 } }
 			]
 		},
 		{
@@ -512,7 +516,7 @@
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Mix together"   , "desc" : "flour, salt, black pepper, and garlic powder in a bowl" },
-				{ "action" : "Beat the egg"   , "desc" : "with the milk in a separate bowl" },
+				{ "action" : "Beat"           , "desc" : "the egg with the milk in a separate bowl" },
 				{ "action" : "Mix together"   , "desc" : "cheese and bread crumbs in a third bowl" },
 				{ "action" : "Dunk and coat"  , "desc" : "the chicken pieces in the flour mixture, then the egg mixture, then the cheese mixture" },
 				{ "action" : "Place"          , "desc" : "the chicken pieces in the baking dish" },
@@ -1267,8 +1271,10 @@
 				{ "action" : "Cook meatballs according to directions on package" },
 				{ "action" : "Heat the oil in a frying pan" , "desc" : "over medium-high heat" },
 				{ "action" : "Sautee"         , "desc" : "the onions and garlic powder in the frying pan" },
-				"Reduce heat to medium-high and add tomatoes, basil, and chicken broth. Simmer for about 8 minutes.",
-				"Mix pasta, meatballs, and sauce together in a separate container."
+				{ "action" : "Reduce heat"    , "desc" : "to medium-high" },
+				{ "action" : "Mix together"   , "desc" : "tomatoes, basil, and chicken broth into the onions" },
+				{ "action" : "Cook"           , "cook" : { "val" :  8 } },
+				{ "action" : "Mix together"   , "desc" : "pasta, meatballs, and vegetable mixture in a serving container" }
 			]
 		},
 		{
@@ -1429,10 +1435,10 @@
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Sugar"                }
 			],
 			"steps": [
-				"Heat the cream cheese in the microwave for about 40 seconds to soften it up.",
-				"Beat the cream cheese in a large bowl, slowly adding sugar and stirring until smooth.",
-				"Slowly stir in the cool whip and stir until smooth.",
-				"Add strawberries and blueberries and mix together evenly."
+				{ "action" : "Heat the cream cheese in the microwave for about 40 seconds to soften it up", "cook" : { "val" : 1 } },
+				{ "action" : "Beat"           , "desc" : "the cream cheese in a bowl while slowly adding sugar, until smooth" },
+				{ "action" : "Stir together"  , "desc" : "slowly, the whipped cream into the cream cheese mixture, until smooth" },
+				{ "action" : "Mix together"   , "desc" : "the strawberries and blueberries into the whipped cream mixture" }
 			]
 		},
 		{
@@ -1543,15 +1549,21 @@
 				{ "val" :  1   ,                          "name" : "Onion"          , "style" : "thinly sliced" },
 				{ "val" :  9   , "units" : "tablespoon" , "name" : "Flour"          },
 				{ "val" :  3   , "units" : "cup"        , "name" : "Milk"           },
-				{ "val" :  3   , "units" : "tablespoon" , "name" : "Butter"         },
+				{ "val" :  6   , "units" : "tablespoon" , "name" : "Butter"         },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"   },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"           }
 			],
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
-				"Layer 1/3 of the potato slices, followed by 1/3 of the onions, 3 tablespoons of flour, and 2 tablespoons of butter spread across the layer.",
-				"Add as much salt and pepper as desired.",
-				"Repeat these two steps two more times.",
+				{ "action" : "Layer"          , "desc" : "1/3 of the potato slices" },
+				{ "action" : "Layer"          , "desc" : "a mixture of 1/3 of the onions, 3 tablespoons of flour, and 2 tablespoons of butter" },
+				{ "action" : "Sprinkle"       , "desc" : "salt and black pepper on the potatoes" },
+				{ "action" : "Layer"          , "desc" : "1/3 of the potato slices" },
+				{ "action" : "Layer"          , "desc" : "a mixture of 1/3 of the onions, 3 tablespoons of flour, and 2 tablespoons of butter" },
+				{ "action" : "Sprinkle"       , "desc" : "salt and black pepper on the potatoes" },
+				{ "action" : "Layer"          , "desc" : "1/3 of the potato slices" },
+				{ "action" : "Layer"          , "desc" : "a mixture of 1/3 of the onions, 3 tablespoons of flour, and 2 tablespoons of butter" },
+				{ "action" : "Sprinkle"       , "desc" : "salt and black pepper on the potatoes" },
 				{ "action" : "Pour"           , "desc" : "the milk onto the potatoes" },
 				{ "action" : "Bake"           , "desc" : "at 375 degrees", "cook" : { "val" : 45 } }
 			]
@@ -1568,10 +1580,13 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
-				"Pat scallops dry with paper towel and sprinkle generously with salt and pepper.",
-				"Heat butter in pan over medium-high heat.",
-				"Place scallops in pan spaced about an inch apart.",
-				"Cook scallops for 3 minutes on each side, or until golden brown on both sides."
+				{ "action" : "Dry the scallops with a paper towel" , "prep" : { "val" : 5 } },
+				{ "action" : "Melt the butter in a frying pan" , "desc" : "over medium-high heat" },
+				{ "action" : "Place"          , "desc" : "the scallops in the frying pan, spaced about 1 inch apart" },
+				{ "action" : "Place"          , "desc" : "sprinkle salt and black pepper on the scallops" },
+				{ "action" : "Cook"           , "cook" : { "val" :  3 } },
+				{ "action" : "Flip"           , "desc" : "the scallops" },
+				{ "action" : "Cook"           , "cook" : { "val" :  3 } }
 			]
 		},
 		{
@@ -1671,8 +1686,11 @@
 				{ "action" : "Mix together"   , "desc" : "tomatoes, refried beans, and chili with beans in a separate pot" },
 				{ "action" : "Cook"           , "desc" : "bean and tomato mixture, over medium-low heat", "cook" : { "val" : 15 } },
 				{ "action" : "Mix together"   , "desc" : "beef mixture and bean / tomato mixture in a serving container" },
-				"Scoop some of the meat and bean mixture into a tortilla, wrap the burrito, top with lettuce, then the taco sauce, then the cheese.",
-				"Heat in microwave for about 1 minute and add sour cream if desired."
+				{ "action" : "Place"          , "desc" : "an equal amount of meat mixture in a tortilla" },
+				{ "action" : "Wrap"           , "desc" : "the burrito" },
+				{ "action" : "Place"          , "desc" : "an equal amount of lettuce, taco sauce, and cheese on top of the burrito" },
+				{ "action" : "Heat burrito in microwave for 1 minute before serving" , "cook" : { "val" : 1 } },
+				{ "action" : "Place"          , "desc" : "sour cream on the burrito" }
 			]
 		},
 		{
@@ -1697,9 +1715,11 @@
 				{ "action" : "Melt the butter in a frying pan" , "desc" : "over medium heat" },
 				{ "action" : "Place"          , "desc" : "chicken in the frying pan" },
 				{ "action" : "Sprinkle"       , "desc" : "salt, black pepper, cayenne pepper, paprika, garlic powder, onion powder, thyme, and parsley on the chicken" },
-				"Cook chicken until golden brown, about 6-7 minutes on each side.",
-				"Sprinkle with 2 teaspoons of garlic powder and lime juice.",
-				"Cook 5 minutes, stirring frequently to evenly coat the sauce."
+				{ "action" : "Cook"           , "desc" : "the chicken", "cook" : { "val" : 7 } },
+				{ "action" : "Flip"           , "desc" : "the chicken" },
+				{ "action" : "Cook"           , "desc" : "the chicken", "cook" : { "val" : 7 } },
+				{ "action" : "Pour"           , "desc" : "lime juice on the chicken" },
+				{ "action" : "Cook"           , "desc" : "while stirring frequently", "cook" : { "val" : 5 } }
 			]
 		},
 		{
@@ -1740,7 +1760,7 @@
 			"cookware"    : [ "stove", "oven" ],
 			"servings"    : 12,
 			"ingredients" : [			
-				{ "val" :  6   ,                          "name" : "Green Pepper"         , "style" : "halved" },
+				{ "val" :  6   ,                          "name" : "Green Pepper"         , "style" : "halved lengthwise" },
 				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Rice"                 },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Tomato Sauce"         },
@@ -1750,14 +1770,14 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
-				"Remove stems and seeds from green peppers and slice in half lengthwise.",
-				"Cook rice according to directions on package.",
-				"Brown the beef over medium heat.",
-				"In a bowl, mix the beef, rice, 1 can of tomato sauce, and garlic powder.",
-				"Put an equal amount of mixture in each pepper.",
-				"Pour remaining can of tomato sauce over the peppers.",
-				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 60 } },
-				"With about 10 minutes to go, cover the peppers with cheese."
+				{ "action" : "Cook rice according to directions on package" },
+				{ "action" : "Brown"          , "desc" : "the ground beef with salt and black pepper" },
+				{ "action" : "Mix together"   , "desc" : "the beef, rice, 8 oz of tomato sauce, and garlic powder in a separate bowl" },
+				{ "action" : "Place"          , "desc" : "an equal amount of the beef mixture in each pepper" },
+				{ "action" : "Pour"           , "desc" : "8 oz of tomato sauce over the peppers" },
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 50 } },
+				{ "action" : "Sprinkle"       , "desc" : "pepper jack cheese on the peppers" },
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 10 } }
 			]
 		},
 		{
