@@ -274,16 +274,14 @@
 				{ "val" : 12   , "units" : "oz"         , "name" : "Broccoli"             },
 				{ "val" : 12   , "units" : "oz"         , "name" : "Carrot"               , "style" : "sliced" },
 				{ "val" :  6   , "units" : "tablespoon" , "name" : "Soy Sauce"            },
-				{ "val" :  2   , "units" : "tablespoon" , "name" : "Vegetable Oil"        },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        }
 			],
 			"steps": [
-				"Heat oil over medium-high heat.",
-				"Cook and stir meat until browned, about 8-10 minutes.",
-				"Drain some of the grease, but not all.",
-				"Stir in broccoli, carrots, peppers, onions, and garlic powder.",
-				"Cook for about 10 minutes, stirring frequently to evenly distribute the vegetables and meat.",
-				"Pour soy sauce over the top and stir to evenly coat, cooking for another 5-10 minutes."
+				{ "action" : "Brown"          , "desc" : "the beef and sausage" },
+				{ "action" : "Mix together"   , "desc" : "broccoli, carrots, green peppers, onions, and garlic powder into the meat mixture" },
+				{ "action" : "Cook"           , "desc" : "while stirring often", "cook" : { "val" : 10 } },
+				{ "action" : "Mix together"   , "desc" : "soy sauce into the meat and vegetables" },
+				{ "action" : "Cook"           , "cook" : { "val" : 10 } }
 			]
 		},
 		{
@@ -378,8 +376,10 @@
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"   }
 			],
 			"steps": [
-				"In a medium saucepan, combine beans, onion, and garlic powder and bring to a boil.",
-				"Reduce heat to medium-low and add the cilantro and cayenne pepper.",
+				{ "action" : "Mix together"   , "desc" : "black beans, onions, and garlic powder in a saucepan" },
+				{ "action" : "Bring to a boil" },
+				{ "action" : "Reduce heat"    , "desc" : "to medium-low" },
+				{ "action" : "Sprinkle"       , "desc" : "cilantro and cayenne pepper on the beans" },
 				{ "action" : "Cook"           , "cook" : { "val" :  5 } }
 			]
 		},
@@ -445,7 +445,7 @@
 			"servings"    : 12,
 			"ingredients" : [			
 				{ "val" :  1   , "units" : "lb"         , "name" : "Andouille Sausage" , "style" : "sliced" },
-				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"    , "style" : "skinless, boneless, and diced" },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"    , "style" : "pre-cooked and diced" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Lasagna Pasta"     },
 				{ "val" :  1   ,                          "name" : "Green Pepper"      , "style" : "diced" },
 				{ "val" :  1   ,                          "name" : "Onion"             , "style" : "diced" },
@@ -465,14 +465,18 @@
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Cook pasta according to directions on package" },
 				{ "action" : "Brown"          , "desc" : "the sausage with green peppers, onions, celery, habanero peppers, cayenne pepper, salt, black pepper, paprika, basil, and garlic powder" },
-				"Cook the chicken until it is no longer pink and the juices run clear, about 10 minutes.",
-				"Remove meat with a slotted spoon and mix in with vegetables along with half of the alfredo sauce.",
-				"In the baking dish, layer the bottom with 4 lasagna noodles.",
-				"Spread half of the meat and vegetable mixture over the noodles.",
-				"Repeat the layers and cover with a layer of noodles.",
-				"Spread mozzarella cheese over the top and add another layer of noodles.",
-				"Pour remaining alfredo sauce over the top. Fill the empty jar of alfredo sauce halfway with water and also pour over the top.",
-				{ "action" : "Sprinkle"       , "desc" : "Parmesan cheese on top of the casserole" },
+				{ "action" : "Mix together"   , "desc" : "meat mixture with half of the alfredo sauce in a separate container" },
+				{ "action" : "Cook chicken according to directions on package" },
+				{ "action" : "Mix together"   , "desc" : "chicken into the meat mixture" },
+				{ "action" : "Layer"          , "desc" : "4 lasagna noodles along the bottom of the baking dish" },
+				{ "action" : "Layer"          , "desc" : "half of the meat mixture on the lasagna noodles" },
+				{ "action" : "Layer"          , "desc" : "4 lasagna noodles" },
+				{ "action" : "Layer"          , "desc" : "half of the meat mixture" },
+				{ "action" : "Layer"          , "desc" : "4 lasagna noodles" },
+				{ "action" : "Sprinkle"       , "desc" : "mozzarella cheese on top of the lasagna" },
+				{ "action" : "Layer"          , "desc" : "the remaining lasagna noodles" },
+				{ "action" : "Pour"           , "desc" : "the remaining alfredo sauce over the top of the lasagna" },
+				{ "action" : "Sprinkle"       , "desc" : "Parmesan cheese on top of the lasagna" },
 				{ "action" : "Bake"           , "desc" : "at 325 degrees", "cook" : { "val" : 50 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
 			]
@@ -492,7 +496,8 @@
 			],
 			"steps": [
 				{ "action" : "Place"          , "desc" : "the broccoli and 1 inch of water in a large pot" },
-				"Bring to a boil and cook for about 7 minutes.",
+				{ "action" : "Bring to a boil" },
+				{ "action" : "Cook"           , "cook" : { "val" :  7 } },
 				{ "action" : "Transfer"       , "desc" : "the broccoli into a serving container" },
 				{ "action" : "Mix together"   , "desc" : "butter, sugar, soy sauce, black pepper, garlic powder, and cashews into the serving container" }
 			]
@@ -791,7 +796,7 @@
 				{ "action" : "Boil"                            , "desc" : "potatoes in salted water", "cook" : { "val" : 20 } },
 				{ "action" : "Heat the oil in a frying pan"    , "desc" : "over medium-high heat" },
 				{ "action" : "Sautee"                          , "desc" : "onions and green peppers", "cook" : { "val" : 10 } },
-				{ "action" : "Reduce"                          , "desc" : "heat to medium" },
+				{ "action" : "Reduce heat"                     , "desc" : "to medium" },
 				{ "action" : "Pour"                            , "desc" : "eggs into the frying pan" },
 				{ "action" : "Cook"                            , "desc" : "until the eggs have set", "cook" : { "val" :  2 } },
 				{ "action" : "Mix together"                    , "desc" : "potatoes, tomatoes, salt, pepper, cayenne pepper, and ham (or bacon/sausage) into the frying pan" },
@@ -805,7 +810,7 @@
 			"cuisines"    : [ "breakfast" ],
 			"cookware"    : [ "oven" ],
 			"ingredients" : [				
-				{ "val" : 12   , "units" : "slices"     , "name" : "White Bread"        },
+				{ "val" : 12   , "units" : "slices"     , "name" : "White Bread"       , "style" : "torn into pieces" },
 				{ "val" : 21   , "units" : "oz"         , "name" : "Apple Pie Filling"  },
 				{ "val" :  4   ,                          "name" : "Egg"                },
 				{ "val" :  1.5 , "units" : "cup"        , "name" : "Milk"               },
@@ -817,7 +822,7 @@
 			],
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
-				"Tear the 12 slices of bread and evenly spread them in the pan.",
+				{ "action" : "Layer"          , "desc" : "the bread pieces along the bottom of the baking dish" },
 				{ "action" : "Mix together"   , "desc" : "eggs, milk, sugar, salt, vanilla, apple pie filling, and cinnamon in the baking dish" },
 				{ "action" : "Place"          , "desc" : "dots of butter on the bread pieces" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 50 } },
@@ -841,9 +846,9 @@
 			],
 			"steps": [
 				{ "action" : "Brown"          , "desc" : "the sausage with green peppers and onions" },
-				"About 5 minutes later, add the corn and tomatoes, reduce heat to medium, and cover.",
-				"After about 5 minutes, stir in salt, pepper, garlic powder, and paprika.",
-				{ "action" : "Cook"           , "desc" : "covered", "cook" : { "val" :  5 } }
+				{ "action" : "Mix together"   , "desc" : "corn, tomatoes, salt, black pepper, garlic powder, and paprika into the sausage mixture, after about 5 minutes of browning" },
+				{ "action" : "Reduce heat"    , "desc" : "to medium" },
+				{ "action" : "Cook"           , "desc" : "covered", "cook" : { "val" : 10 } }
 			]
 		},
 		{
@@ -860,10 +865,11 @@
 			],
 			"steps": [
 				{ "action" : "Melt the butter in a frying pan" , "desc" : "over medium heat" },
-				"Crack the egg in a separate bowl.",
-				"Pour egg into frying pan and cook for 2-3 minutes on one side.",
-				"While the egg is cooking add salt, pepper, or other seasonings as desired.",
-				"Flip and cook for an additional 2 minutes."
+				{ "action" : "Place"          , "desc" : "the egg in the frying pan" },
+				{ "action" : "Sprinkle"       , "desc" : "salt and black pepper on the egg" },
+				{ "action" : "Cook"           , "cook" : { "val" : 2 } },
+				{ "action" : "Flip"           , "desc" : "the egg" },
+				{ "action" : "Cook"           , "cook" : { "val" : 2 } }
 			]
 		},
 		{
@@ -877,9 +883,9 @@
 			],
 			"steps": [
 				{ "action" : "Heat the oil in a frying pan", "desc" : "over medium-high heat" },
-				{ "action" : "Cook"                        , "desc" : "potatoes in the oil", "cook" : { "val" : 5 } },
-				{ "action" : "Mix together"                , "desc" : "green pepper into the potatoes" },
-				{ "action" : "Cook"                        , "desc" : "potatoes and green peppers", "cook" : { "val" : 2 } }
+				{ "action" : "Cook"           , "desc" : "potatoes in the oil", "cook" : { "val" : 5 } },
+				{ "action" : "Mix together"   , "desc" : "green pepper into the potatoes" },
+				{ "action" : "Cook"           , "desc" : "potatoes and green peppers", "cook" : { "val" : 2 } }
 			]
 		},
 		{
@@ -979,17 +985,20 @@
 			"cookware"    : [ "stove" ],
 			"servings"    : 2,
 			"ingredients" : [			
-				{ "val" :  4   , "units" : "slices"     , "name" : "White Bread"        },
+				{ "val" :  2   , "units" : "slices"     , "name" : "White Bread"        },
 				{ "val" :  3   , "units" : "tablespoon" , "name" : "Butter"             },
-				{ "val" :  2   , "units" : "slices"     , "name" : "American Cheese"    }
+				{ "val" :  1   , "units" : "slices"     , "name" : "American Cheese"    }
 			],
 			"steps": [
-				"Preheat frying pan over medium heat.",
-				"Butter one side of bread and place butter-side-down onto skillet.",
-				"Add 1 slice of cheese on top of the bread.",
-				"Butter one side of second slice of bread and place butter-side-up on top of the sandwich.",
-				"Grill until lightly browned and flip.",
-				"Continue grilling until cheese is melted and other side is lightly browned."
+				{ "action" : "Preheat frying pan over medium heat", "cook" : { "val" : 5 } },
+				{ "action" : "Spread"         , "desc" : "butter on one side of a piece of bread" },
+				{ "action" : "Place"          , "desc" : "the bread in the pan, butter-side down" },
+				{ "action" : "Place"          , "desc" : "one slice of American cheese on top of the bread" },
+				{ "action" : "Spread"         , "desc" : "butter on one side of another piece of bread" },
+				{ "action" : "Place"          , "desc" : "that slice of bread on top of the cheese, butter-side up" },
+				{ "action" : "Cook"           , "cook" : { "val" :  2 } },
+				{ "action" : "Flip"           , "desc" : "the sandwich" },
+				{ "action" : "Cook"           , "cook" : { "val" :  2 } }
 			]
 		},
 		{
@@ -1609,12 +1618,11 @@
 			],
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
-				"Bring a large pot of water to a boil and add the diced potatoes.",
-				"Drain and mash potatoes, while mixing in milk, butter, salt, and pepper.",
+				{ "action" : "Prepare"        , "desc" : "mashed potatoes", "prep" : { "val" : 30 }, "cook" : { "val" : 20 } },
 				{ "action" : "Brown"          , "desc" : "the beef with onions and Worcestershire sauce" },
-				"Prepare gravy according to instructions on packet.",
-				"In a lightly greased 9x13 baking dish, mix the beef mixture and gravy. Evenly layer the beef mixture.",
-				"Add an even layer of peas and carrots, then mashed potatoes.",
+				{ "action" : "Prepare gravy according to instructions on packet" , "prep" : { "val" : 20 } },
+				{ "action" : "Mix together"   , "desc" : "the beef mixture and gravy in the baking dish" },
+				{ "action" : "Layer"          , "desc" : "peas and carrots, followed by mashed potatoes, on top of the beef mixture" },
 				{ "action" : "Sprinkle"       , "desc" : "cheddar cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 375 degrees", "cook" : { "val" : 20 } }
 			]
@@ -1745,8 +1753,9 @@
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Place"          , "desc" : "chicken breasts in the baking dish" },
-				"In a small saucepan, saute onion, green pepper, and butter over medium-high heat.",
-				"Once cooked, add in flour and milk, stirring until bubbly. Stir in spinach.",
+				{ "action" : "Sautee"         , "desc" : "onions and green peppers" },
+				{ "action" : "Mix together"   , "desc" : "flour and milk into the vegetables, stirring until bubbly" },
+				{ "action" : "Mix together"   , "desc" : "spinach into the vegetable mixture" },
 				{ "action" : "Sprinkle"       , "desc" : "basil, garlic powder, oregano, black pepper, and salt on the chicken" },
 				{ "action" : "Place"          , "desc" : "an equal amount of the spinach mixture on each piece of chicken" },
 				{ "action" : "Sprinkle"       , "desc" : "Parmesan cheese on the chicken" },
