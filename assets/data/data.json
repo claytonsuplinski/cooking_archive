@@ -69,6 +69,25 @@
 			]
 		},
 		{
+			"name"        : "Artichoke Spinach Dip",
+			"dish"        : "side",
+			"cookware"    : [ "oven" ],
+			"servings"    : 10,
+			"ingredients" : [
+				{ "val" : 15   , "units" : "oz"       , "name" : "Artichoke Hearts" , "style" : "drained and chopped" },
+				{ "val" : 10   , "units" : "oz"       , "name" : "Spinach"          , "style" : "chopped" },
+				{ "val" :  0.66, "units" : "cup"      , "name" : "Sour Cream"       },
+				{ "val" :  0.33, "units" : "cup"      , "name" : "Mayonnaise"       },
+				{ "val" :  8   , "units" : "oz"       , "name" : "Cream Cheese"     },
+				{ "val" :  1   , "units" : "teaspoon" , "name" : "Garlic Powder"    },
+				{ "val" :  2   , "units" : "cup"      , "name" : "Parmesan Cheese"  , "style" : "shredded" }
+			],
+			"steps": [
+				{ "action" : "Mix together"   , "desc" : "artichoke hearts, spinach, sour cream, cream cheese, mayonnaise, garlic powder, and Parmesan cheese in an 8x8 baking dish" },
+				{ "action" : "Bake"           , "desc" : "at 375 degrees", "cook" : { "val" : 25 } }
+			]
+		},
+		{
 			"name"        : "Asparagus and Tomatoes",
 			"dish"        : "side",
 			"cookware"    : [ "stove" ],
@@ -733,6 +752,24 @@
 			]
 		},
 		{
+			"name"        : "Chili Slow Cooker Brisket",
+			"dish"        : "main",
+			"cuisines"    : [ "comfort" ],
+			"cookware"    : [ "slow cooker" ],
+			"ingredients" : [			
+				{ "val" :  3   , "units" : "lb"         , "name" : "Beef Roast"      , "style" : "boneless; chuck or round roast" },
+				{ "val" : 24   , "units" : "oz"         , "name" : "Chili Sauce"     },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Beef Broth"      },
+				{ "val" :  1   , "units" : "oz"         , "name" : "Onion Soup Mix"  },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"   }
+			],
+			"steps": [
+				{ "action" : "Place"          , "desc" : "small cuts in the beef roast and set in the slow cooker" },
+				{ "action" : "Mix together"   , "desc" : "chili sauce, onion soup mix, garlic powder, and beef broth in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 8, "units" : "hour" }, "cook_range_end" : { "val" : 10, "units" : "hour" } }
+			]
+		},
+		{
 			"name"        : "Cilantro Lime Chicken Tacos",
 			"dish"        : "main",
 			"cuisines"    : [ "mexican" ],
@@ -771,6 +808,26 @@
 			"steps": [
 				{ "action" : "Cook rice according to directions on package" },
 				{ "action" : "Mix together"   , "desc" : "cilantro, lime juice, olive oil, garlic powder, and salt into the cooked rice" }
+			]
+		},
+		{
+			"name"        : "Creamed Corn Casserole",
+			"dish"        : "side",
+			"cuisines"    : [ "comfort" ],
+			"cookware"    : [ "slow cooker" ],
+			"ingredients" : [
+				{ "val" : 36   , "units" : "oz"         , "name" : "Corn"               , "style" : "frozen" },
+				{ "val" : 12   , "units" : "oz"         , "name" : "Cream Cheese"       , "style" : "cubed" },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Milk"               },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Butter"             , "style" : "melted" },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Salt"               },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Black Pepper"       },
+				{ "val" :  6   , "units" : "oz"         , "name" : "Canned Onion Rings" }
+			],
+			"steps": [
+				{ "action" : "Mix together"   , "desc" : "the corn, cream cheese, salt, black pepper, milk, and butter in the slow cooker" },
+				{ "action" : "Cook on high"   , "cook" : { "val" : 2, "units" : "hour" }, "cook_range_end" : { "val" : 3, "units" : "hour" } },
+				{ "action" : "Mix together"   , "desc" : "the canned onion rings into the corn mixture" }
 			]
 		},
 		{
@@ -1094,6 +1151,33 @@
 				{ "action" : "Cover"           , "desc" : "the frying pan" },
 				{ "action" : "Bring to a boil" },
 				{ "action" : "Cook"            , "cook" : { "val" : 10 } }
+			]
+		},
+		{
+			"name"        : "Italian Sausage Zucchini Casserole",
+			"dish"        : "main",
+			"cuisines"    : [ "italian" ],
+			"cookware"    : [ "stove", "oven" ],
+			"ingredients" : [
+				{ "val" : 16   , "units" : "oz"         , "name" : "Penne Pasta"          },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Italian Sausage"      , "style" : "sliced" },
+				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
+				{ "val" :  2   ,                          "name" : "Zucchini"             , "style" : "sliced" },
+				{ "val" : 50   , "units" : "slices"     , "name" : "Pepperoni"            },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Pizza Sauce"          },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  0.5 , "units" : "lb"         , "name" : "American Cheese"      , "style" : "diced" },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Parmesan Cheese"      , "style" : "shredded" }
+			],
+			"steps": [
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Cook pasta according to directions on package" },
+				{ "action" : "Transfer"       , "desc" : "the pasta to the baking dish" },
+				{ "action" : "Brown"          , "desc" : "the Italian sausage with green peppers, zucchini, and garlic powder" },
+				{ "action" : "Mix together"   , "desc" : "sausage mixture, pizza sauce, pepperoni, and American cheese in the baking dish" },
+				{ "action" : "Sprinkle"       , "desc" : "Parmesan cheese on top of the casserole" },
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
+				{ "action" : "Let sit for 5 minutes before serving" }
 			]
 		},
 		{
@@ -1851,6 +1935,24 @@
 				{ "action" : "Sprinkle"       , "desc" : "stuffing mix on top of the casserole" },
 				{ "action" : "Pour"           , "desc" : "melted butter on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 50 } }
+			]
+		},
+		{
+			"name"        : "S'mores",
+			"dish"        : "dessert",
+			"cuisines"    : [ "american", "comfort" ],
+			"cookware"    : [ "oven" ],
+			"servings"    : 6,
+			"ingredients" : [			
+				{ "val" : 12   ,                          "name" : "Graham Cracker"       },
+				{ "val" :  6   ,                          "name" : "Chocolate Bar"        },
+				{ "val" :  6   ,                          "name" : "Marshmallow"          }
+			],
+			"steps": [
+				{ "action" : "Place"          , "desc" : "6 graham crackers on the bottom of the baking dish" },
+				{ "action" : "Layer"          , "desc" : "1 chocolate bar and 1 marshmallow on each graham cracker" },
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 10 } },
+				{ "action" : "Layer"          , "desc" : "1 graham cracker on each marshmallow" }
 			]
 		},
 		{

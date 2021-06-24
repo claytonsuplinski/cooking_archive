@@ -23,6 +23,7 @@
 			"Bagel", "Bow Tie Pasta", "Bread Crumbs",
 			"Egg Noodles",
 			"Flour",
+			"Graham Cracker",
 			"Hash Browns", "Hamburger Bun",
 			"Lasagna Pasta",
 			"Penne Pasta", "Potato",
@@ -38,7 +39,7 @@
 		"ingredients" : [
 			"Alfredo Sauce", "Apple Pie Filling",
 			"Barbeque Sauce", "Beef Broth", "Buffalo Sauce",
-			"Chicken Broth", "Cream of Chicken", "Cream of Potato",
+			"Chicken Broth", "Chili Sauce", "Cream of Chicken", "Cream of Potato",
 			"Enchilada Sauce",
 			"Honey",
 			"Italian Salad Dressing",
@@ -54,12 +55,19 @@
 		]
 	},
 	{
+		"name"        : "Dessert",
+		"ingredients" : [
+			"Chocolate Bar",
+			"Marshmallow"
+		]
+	},
+	{
 		"name"        : "Spices",
 		"ingredients" : [
 			"Basil", "Black Pepper", "Brown Sugar",
 			"Cilantro", "Cinnamon", "Cumin",
 			"Garlic Powder", "Gravy Mix",
-			"Onion Powder", "Oregano",
+			"Onion Powder", "Onion Soup Mix", "Oregano",
 			"Paprika", "Parsley",
 			"Ranch Seasoning",
 			"Salt", "Sugar",
