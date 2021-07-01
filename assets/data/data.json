@@ -304,36 +304,6 @@
 			]
 		},
 		{
-			"name"        : "Beef Enchiladas",
-			"dish"        : "main",
-			"cuisines"    : [ "mexican" ],
-			"cookware"    : [ "stove", "oven" ],
-			"servings"    : 10,
-			"ingredients" : [				
-				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"     },
-				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced" },
-				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
-				{ "val" :  6   , "units" : "oz"         , "name" : "Black Olives"    },
-				{ "val" : 10   , "units" : "oz"         , "name" : "Enchilada Sauce" },
-				{ "val" : 10   ,                          "name" : "Tortilla"        },
-				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"  , "style" : "shredded" },
-				{ "val" : 16   , "units" : "oz"         , "name" : "Sour Cream"      },
-				{ "val" :  1   ,                          "name" : "Serrano Pepper"  , "style" : "diced" }
-			],
-			"steps": [
-				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
-				{ "action" : "Brown"          , "desc" : "the beef with green peppers, onions, and serrano peppers" },
-				{ "action" : "Pour"           , "desc" : "1/4 cups of enchilada sauce in the bottom of the baking dish" },
-				{ "action" : "Place"          , "desc" : "an equal amount of beef mixture, cheese, and 5-6 black olives in each tortilla" },
-				{ "action" : "Roll"           , "desc" : "the tortillas and place seam-side down in the baking dish" },
-				{ "action" : "Pour"           , "desc" : "the remaining enchilada sauce on the enchiladas" },
-				{ "action" : "Sprinkle"       , "desc" : "remaining cheese and black olives on top of the enchiladas" },
-				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
-				{ "action" : "Let sit for 5 minutes before serving" },
-				{ "action" : "Place"          , "desc" : "sour cream on each enchilada when serving" }
-			]
-		},
-		{
 			"name"        : "Beef Nacho Casserole",
 			"dish"        : "main",
 			"cuisines"    : [ "mexican" ],
@@ -859,6 +829,42 @@
 				{ "action" : "Mix together"                    , "desc" : "potatoes, tomatoes, salt, pepper, cayenne pepper, and ham (or bacon/sausage) into the frying pan" },
 				{ "action" : "Cook"                            , "desc" : "until the eggs have set", "cook" : { "val" : 10 } },
 				{ "action" : "Sprinkle"                        , "desc" : "cheese on top, just before serving" }
+			]
+		},
+		{
+			"name"        : "Enchiladas",
+			"dish"        : "main",
+			"cuisines"    : [ "mexican" ],
+			"cookware"    : [ "stove", "oven" ],
+			"variations"  : [ "beef", "chicken" ],
+			"servings"    : 10,
+			"ingredients" : [				
+				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"     , "variations" : [ "beef"    ] },
+				{ "val" :  1.5 , "units" : "lb"         , "name" : "Chicken Breast"  , "variations" : [ "chicken" ], "style" : "pre-cooked and diced" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"          , "variations" : [ "chicken" ] },
+				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
+				{ "val" :  6   , "units" : "oz"         , "name" : "Black Olives"    },
+				{ "val" : 10   , "units" : "oz"         , "name" : "Enchilada Sauce" },
+				{ "val" : 10   ,                          "name" : "Tortilla"        },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"  , "style" : "shredded" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Sour Cream"      },
+				{ "val" :  1   ,                          "name" : "Serrano Pepper"  , "style" : "diced" }
+			],
+			"steps": [
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Brown"          , "desc" : "the beef with green peppers, onions, and serrano peppers", "variations" : [ "beef" ] },
+				{ "action" : "Melt the butter in a frying pan" , "desc" : "over medium heat", "variations" : [ "chicken" ] },
+				{ "action" : "Cook"           , "desc" : "the green peppers and onions in the butter", "cook" : { "val" : 5 }, "variations" : [ "chicken" ] },
+				{ "action" : "Cook chicken according to directions on package", "variations" : [ "chicken" ] },
+				{ "action" : "Pour"           , "desc" : "1/4 cups of enchilada sauce in the bottom of the baking dish" },
+				{ "action" : "Place"          , "desc" : "an equal amount of beef mixture, cheese, and 5-6 black olives in each tortilla" },
+				{ "action" : "Roll"           , "desc" : "the tortillas and place seam-side down in the baking dish" },
+				{ "action" : "Pour"           , "desc" : "the remaining enchilada sauce on the enchiladas" },
+				{ "action" : "Sprinkle"       , "desc" : "remaining cheese and black olives on top of the enchiladas" },
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
+				{ "action" : "Let sit for 5 minutes before serving" },
+				{ "action" : "Place"          , "desc" : "sour cream on each enchilada when serving" }
 			]
 		},
 		{

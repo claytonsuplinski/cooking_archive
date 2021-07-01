@@ -6,6 +6,7 @@ ARCH.hashlinks = new Hashlinks({
 	recipe           : {},
 	sort_by          : {},
 	suggested        : {},
+	variation        : {},
 });
 
 ARCH.hashlinks.on_start = function(){

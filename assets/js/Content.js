@@ -74,6 +74,10 @@ ARCH.content.load_ingredient_categories = function( callback ){
 	});
 };
 
+ARCH.content.matches_variation = function( item, variation ){
+	return ( !item.variations || item.variations.includes( variation ) );
+};
+
 ARCH.content.load = function(){
 	var self = this;
 
@@ -96,7 +100,20 @@ ARCH.content.load = function(){
 					
 					ARCH.data.recipes.forEach(function( recipe ){
 						recipe.time = { prep : { val : 0 }, cook : { val : 0 } };
+
+						if( ARCH.hashlinks.params.recipe.value == recipe.name ){
+							if( recipe.variations ) recipe.curr_variation = ARCH.hashlinks.params.variation.value;
+						}
+
+						if( recipe.variations ){
+							recipe.curr_variation = recipe.curr_variation || recipe.variations[ 0 ];
+
+							recipe[ 'ingredients' ] = recipe[ 'ingredients' ].filter( x => self.matches_variation( x, recipe.curr_variation ) );
+							recipe[       'steps' ] = recipe[       'steps' ].filter( x => self.matches_variation( x, recipe.curr_variation ) );
+						}
+
 						recipe.ingredients.forEach(function( ingredient ){
+							// if( recipe.curr_variation && !self.matches_variation( ingredient, recipe.curr_variation ) ) return;
 							if( !ingredient.prep ){
 								try{
 									var step_duration = ARCH.content.get_step_duration( ingredient );
@@ -107,6 +124,7 @@ ARCH.content.load = function(){
 						});
 						recipe.steps.forEach(function( step ){
 							if( typeof step == 'object' ){
+								if( recipe.curr_variation && !self.matches_variation( step, recipe.curr_variation ) ) return;
 								if( !( step.prep || step.cook ) ){
 									try{
 										var step_duration = ARCH.content.get_step_duration( step );

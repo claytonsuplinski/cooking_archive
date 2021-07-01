@@ -2,7 +2,7 @@ ARCH.content.views.recipe = { completed_ingredients : [] };
 
 ARCH.content.views.recipe.set = function( idx ){
 	this.curr_recipe = ARCH.data.recipes[ idx ];
-};
+ };
 
 ARCH.content.views.recipe.get_ingredient_category = function( ingredient ){
 	var category = ARCH.ingredient_categories.find(function( c ){
@@ -69,6 +69,11 @@ ARCH.content.views.recipe.toggle_ingredient = function( html_ele, group_name, in
 	this.grouped_ingredients[ group_name ][ ingredient_idx ].completed = !this.grouped_ingredients[ group_name ][ ingredient_idx ].completed;
 };
 
+ARCH.content.views.recipe.set_variation = function( value ){
+	if( value == this.curr_recipe.variations[ 0 ] ) ARCH.hashlinks.remove( 'variation' );
+	else                                            ARCH.hashlinks.add({ variation : value });
+};
+
 ARCH.content.views.recipe.draw = function(){
 	this.grouped_ingredients = this.get_grouped_ingredients();
 	$("#content").html(
@@ -81,7 +86,19 @@ ARCH.content.views.recipe.draw = function(){
 					ARCH.content.get_recipe_cuisines_html( this.curr_recipe ) +
 					'<table>' +
 						'<tr>' +
-							'<td class="title">' + this.curr_recipe.name + '<hr></div>' +
+							'<td class="title">' +
+								( !this.curr_recipe.variations ? '' :
+									'<select onchange="ARCH.content.views.recipe.set_variation( this.value );">' +
+										this.curr_recipe.variations.map(function( v ){
+											return '<option value="' + v + '" ' + ( v == this.curr_recipe.curr_variation ? 'selected' : '' ) + '>' + 
+												ARCH.functions.to_title_case( v ) +
+											'</option>';
+										}, this).join('') +
+									'</select>'
+								) +
+								this.curr_recipe.name + 
+								'<hr>' + 
+							'</td>' +
 						'</tr>' +
 						'<tr><td class="img" style="background-image:url(' + ARCH.content.get_recipe_image( this.curr_recipe.name ) + ');"></td></tr>' +
 						'<tr><td class="ingredients">' +
