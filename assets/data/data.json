@@ -693,12 +693,11 @@
 				{ "action" : "Cook"           , "desc" : "green peppers, onions, and habanero peppers", "cook" : { "val" : 5 } },
 				{ "action" : "Mix together"   , "desc" : "chicken into the frying pan" },
 				{ "action" : "Cook chicken according to directions on package" },
-				{ "action" : "Mix together"   , "desc" : "salsa, cream cheese, cumin, garlic powder, paprika, and salt in a separate saucepan" },
+				{ "action" : "Mix together"   , "desc" : "salsa, cream cheese, cumin, garlic powder, paprika, and salt into the chicken mixture" },
 				{ "action" : "Cook"           , "desc" : "over low heat", "cook" : { "val" : 10 } },
-				{ "action" : "Mix together"   , "desc" : "pasta, chicken mixture, salsa mixture, black beans, corn, and 1 cup of cheddar cheese in the baking dish" },
-				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
+				{ "action" : "Mix together"   , "desc" : "pasta, chicken mixture, pinto beans, corn, and 1 cup of cheddar cheese in the baking dish" },
 				{ "action" : "Sprinkle"       , "desc" : "the remaining 1 cup of cheddar cheese on top of the casserole" },
-				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 10 } }
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 25 } }
 			]
 		},
 		{
@@ -1414,7 +1413,7 @@
 				{ "val" : 16   , "units" : "oz"         , "name" : "Penne Pasta"          },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Alfredo Sauce"        },
 				{ "val" :  6.5 , "units" : "oz"         , "name" : "Pesto Sauce"          },
-				{ "val" :  1   , "units" : "cup"        , "name" : "Milk"                 },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Milk"                 },
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Bread Crumbs"         },
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Parmesan Cheese"      , "style" : "shredded" },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Italian Cheese"       , "style" : "shredded" }
