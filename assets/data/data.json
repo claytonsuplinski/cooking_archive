@@ -1420,7 +1420,7 @@
 			],
 			"steps": [
 				{ "action" : "Cook pasta according to directions on package" },
-				{ "action" : "Mix together"   , "desc" : "pasta, Italian cheese, spinach, tomatoes, and alfredo sauce in a 9x13 baking dish" },
+				{ "action" : "Mix together"   , "desc" : "pasta, Italian cheese, spinach, and tomatoes in a 9x13 baking dish" },
 				{ "action" : "Cook chicken according to directions on package" },
 				{ "action" : "Mix together"   , "desc" : "chicken, alfredo sauce, pesto sauce, and milk in the baking dish" },
 				{ "action" : "Sprinkle"       , "desc" : "bread crumbs and Parmesan cheese on top of the casserole" },
