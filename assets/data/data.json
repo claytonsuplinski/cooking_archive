@@ -1544,7 +1544,7 @@
 			"dish"        : "side",
 			"cookware"    : [ "oven" ],
 			"ingredients" : [			
-				{ "val" :  1.5 ,                          "name" : "Brussels Sprouts"     , "style" : "trimmed and halved" },
+				{ "val" :  1.5 , "units" : "lbs"        , "name" : "Brussels Sprouts"     , "style" : "trimmed and halved" },
 				{ "val" :  3   , "units" : "tablespoon" , "name" : "Olive Oil"            },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
