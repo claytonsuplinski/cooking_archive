@@ -312,7 +312,8 @@
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"     },
 				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced" },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"            },
-				{ "val" : 16   , "units" : "oz"         , "name" : "Refried Beans"   },
+				{ "val" :  6   , "units" : "oz"         , "name" : "Black Olives"    },
+				{ "val" : 32   , "units" : "oz"         , "name" : "Refried Beans"   },
 				{ "val" :  1.5 , "units" : "cup"        , "name" : "Salsa"           , "style" : "chunky" },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Tortilla Chips"  , "style" : "crushed", "prep" : { "val" : 5 } },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cumin"           },
@@ -324,7 +325,7 @@
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Brown"          , "desc" : "the beef with green peppers" },
-				{ "action" : "Mix together"   , "desc" : "the beef mixture, salsa, corn, refried beans, cumin, onion powder, and paprika in the baking dish" },
+				{ "action" : "Mix together"   , "desc" : "the beef mixture, salsa, corn, black olives, refried beans, cumin, onion powder, and paprika in the baking dish" },
 				{ "action" : "Sprinkle"       , "desc" : "crushed tortilla chips on top" },
 				{ "action" : "Sprinkle"       , "desc" : "cheese on top" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
@@ -1113,6 +1114,26 @@
 				{ "action" : "Sprinkle"       , "desc" : "cheddar cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "again"         , "cook" : { "val" : 20 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
+			]
+		},
+		{
+			"name"        : "Hamburgers",
+			"dish"        : "main",
+			"cuisines"    : [ "american" ],
+			"cookware"    : [ "stove" ],
+			"ingredients" : [				                                                                      
+				{ "val" :  3   , "units" : "lb"         , "name" : "Ground Beef"      },
+				{ "val" : 12   ,                          "name" : "Hamburger Bun"    },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"     },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"             }
+			],
+			"steps": [
+				{ "action" : "Divide"         , "desc" : "the beef into 16 portions" },
+				{ "action" : "Lightly flatten", "desc" : "each portion of beef into patties" },
+				{ "action" : "Cook"           , "desc" : "the patties of beef over medium heat", "cook" : { "val" : 5 } },
+				{ "action" : "Sprinkle"       , "desc" : "salt and black pepper on the beef patties" },
+				{ "action" : "Flip"           , "desc" : "the beef patties" },
+				{ "action" : "Cook"           , "cook" : { "val" : 5 } }
 			]
 		},
 		{
