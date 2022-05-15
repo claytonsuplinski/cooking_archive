@@ -25,10 +25,10 @@
 			"Flour",
 			"Graham Cracker",
 			"Hash Browns", "Hamburger Bun",
-			"Lasagna Pasta",
+			"Lasagna Pasta", "Oatmeal",
 			"Penne Pasta", "Potato",
 			"Ravioli", "Red Potato", "Rice", "Rigatoni Pasta", "Rotini Pasta",
-			"Shell Pasta", "Spaghetti", "Stuffing Mix",
+			"Shell Pasta", "Spaghetti", "Stuffing Mix", "Sunflower Seeds",
 			"Tater Tots", "Tortellini", "Tortilla Chips", "Tortilla",
 			"White Bread",
 			"Ziti Pasta"
@@ -57,7 +57,7 @@
 	{
 		"name"        : "Dessert",
 		"ingredients" : [
-			"Chocolate Bar",
+			"Chocolate Bar", "Chocolate Chips",
 			"Marshmallow"
 		]
 	},
@@ -86,7 +86,7 @@
 			"Italian Sausage",
 			"Kielbasa Sausage",
 			"Meatball",
-			"Pepperoni", "Pinto Beans", "Pork Chop", "Pork Roast",
+			"Peanut Butter", "Pepperoni", "Pinto Beans", "Pork Chop", "Pork Roast",
 			"Refried Beans",
 			"Scallops", "Sirloin Tip", "Smoked Sausage",
 			"Tilapia",

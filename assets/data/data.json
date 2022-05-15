@@ -1495,6 +1495,23 @@
 			]
 		},
 		{
+			"name"        : "Power Balls",
+			"dish"        : "dessert",
+			"ingredients" : [			
+				{ "val" :  1.5 , "units" : "cup"        , "name" : "Oatmeal"              },
+				{ "val" :  0.25, "units" : "cup"        , "name" : "Sunflower Seeds"      },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Peanut Butter"        },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Vanilla Extract"      },
+				{ "val" :  0.25, "units" : "cup"        , "name" : "Honey"                },
+				{ "val" :  0.33, "units" : "cup"        , "name" : "Chocolate Chips"      }
+			],
+			"steps": [
+				{ "action" : "Mix together"   , "desc" : "all ingredients in a large bowl" },
+				{ "action" : "Divide"         , "desc" : "mixture into ping-pong ball sized spheres (if mixture is too sticky, try putting grease / cooking spray on your hands)" },
+				{ "action" : "Place"          , "desc" : "power balls in the refrigerator for at least 1 hour before serving", "prep" : { "val" : 60 } }
+			]
+		},
+		{
 			"name"        : "Pulled Pork",
 			"dish"        : "main",
 			"cuisines"    : [ "american", "comfort" ],
