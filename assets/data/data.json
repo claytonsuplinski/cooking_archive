@@ -1397,6 +1397,25 @@
 			]
 		},
 		{
+			"name"        : "Pasta Salad",
+			"dish"        : "side",
+			"cookware"    : [ "stove" ],
+			"ingredients" : [			
+				{ "val" : 16   , "units" : "oz"         , "name" : "Rotini Pasta"           },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Italian Salad Dressing" },
+				{ "val" :  1   ,                          "name" : "Cucumber"               , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                  , "style" : "diced" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"                 , "style" : "diced" },
+				{ "val" :  6   , "units" : "oz"         , "name" : "Black Olives"           },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"                  },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"          }
+			],
+			"steps": [
+				{ "action" : "Cook pasta according to directions on package" },
+				{ "action" : "Mix together"   , "desc" : "pasta, dressing, cucumbers, onions, black olives, tomatoes, basil, and garlic powder in a serving container" }
+			]
+		},
+		{
 			"name"        : "Pepperoncini Beef",
 			"dish"        : "main",
 			"cuisines"    : [ "comfort" ],
@@ -1752,24 +1771,6 @@
 				{ "action" : "Layer"          , "desc" : "peas and carrots, followed by mashed potatoes, on top of the beef mixture" },
 				{ "action" : "Sprinkle"       , "desc" : "cheddar cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 375 degrees", "cook" : { "val" : 20 } }
-			]
-		},
-		{
-			"name"        : "Simple Pasta Salad",
-			"dish"        : "side",
-			"cookware"    : [ "stove" ],
-			"ingredients" : [			
-				{ "val" : 16   , "units" : "oz"         , "name" : "Rotini Pasta"           },
-				{ "val" : 16   , "units" : "oz"         , "name" : "Italian Salad Dressing" },
-				{ "val" :  1   ,                          "name" : "Cucumber"               , "style" : "diced" },
-				{ "val" :  1   ,                          "name" : "Onion"                  , "style" : "diced" },
-				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"                 , "style" : "diced" },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"                  },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"          }
-			],
-			"steps": [
-				{ "action" : "Cook pasta according to directions on package" },
-				{ "action" : "Mix together"   , "desc" : "pasta, dressing, cucumbers, onions, tomatoes, basil, and garlic powder in a serving container" }
 			]
 		},
 		{
