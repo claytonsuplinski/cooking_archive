@@ -65,13 +65,13 @@
 		"name"        : "Spices",
 		"ingredients" : [
 			"Basil", "Black Pepper", "Brown Sugar",
-			"Cilantro", "Cinnamon", "Cumin",
+			"Chili Powder", "Cilantro", "Cinnamon", "Cumin",
 			"Garlic Powder", "Gravy Mix",
 			"Onion Powder", "Onion Soup Mix", "Oregano",
 			"Paprika", "Parsley",
-			"Ranch Seasoning",
+			"Ranch Seasoning", "Rosemary",
 			"Salt", "Sugar",
-			"Thyme"
+			"Thyme", "Tumeric"
 		]
 	},
 	{

@@ -1830,6 +1830,25 @@
 			]
 		},
 		{
+			"name"        : "Spanish Rice",
+			"dish"        : "side",
+			"cookware"    : [ "stove" ],
+			"cuisines"    : [ "mexican" ],
+			"servings"    : 5,
+			"ingredients" : [			
+				{ "val" :  8   , "units" : "cup"        , "name" : "Rice"            },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Chicken Broth"   },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Tomato Sauce"    },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Chili Powder"    },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cumin"           },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Tumeric"         }
+			],
+			"steps": [
+				{ "action" : "Cook rice according to directions on package", "desc" : "replacing water with chicken broth and tomato sauce" },
+				{ "action" : "Sprinkle"                                    , "desc" : "chili powder, cumin, and tumeric into the rice" }
+			]
+		},
+		{
 			"name"        : "Spicy Garlic Lime Chicken",
 			"dish"        : "main",
 			"cookware"    : [ "stove" ],
