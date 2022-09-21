@@ -404,15 +404,14 @@
 			"cuisines"    : [ "american" ],
 			"cookware"    : [ "slow cooker" ],
 			"ingredients" : [			
-				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"  , "style" : "skinless and boneless" },
+				{ "val" :  2   , "units" : "lb"         , "name" : "Chicken Breast"  , "style" : "skinless and boneless" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Shell Pasta"     },
 				{ "val" : 11   , "units" : "oz"         , "name" : "Chicken Broth"   },
 				{ "val" :  3   , "units" : "tablespoon" , "name" : "Butter"          },
 				{ "val" :  1   , "units" : "cup"        , "name" : "Milk"            },
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Whipping Cream"  },
-				{ "val" : 12   , "units" : "oz"         , "name" : "Evaporated Milk" },
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Buffalo Sauce"   },
-				{ "val" :  8   , "units" : "oz"         , "name" : "American Cheese" },
+				{ "val" :  8   , "units" : "oz"         , "name" : "American Cheese" , "style" : "diced" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"   },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"    },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"            }
@@ -421,7 +420,7 @@
 				{ "action" : "Mix together"   , "desc" : "chicken, broth, buffalo sauce, garlic powder, onion power, and salt in the slow cooker" },
 				{ "action" : "Cook on low"    , "cook" : { "val" : 6, "units" : "hour" }, "cook_range_end" : { "val" : 7, "units" : "hour" } },
 				{ "action" : "Shred"          , "desc" : "chicken and return to slow cooker" },
-				{ "action" : "Mix together"   , "desc" : "butter, cheese, milk, whipping cream, and evaporated milk in the slow cooker" },
+				{ "action" : "Mix together"   , "desc" : "butter, cheese, milk, and whipping cream in the slow cooker" },
 				{ "action" : "Cook on low"    , "cook" : { "val" : 1, "units" : "hour" } },
 				{ "action" : "Cook pasta according to directions on package" },
 				{ "action" : "Mix together"   , "desc" : "pasta with chicken / cheese mixture before serving" }
@@ -1254,6 +1253,24 @@
 				{ "action" : "Cook"           , "cook" : { "val" : 20 } },
 				{ "action" : "Mix together"   , "desc" : "green peppers in the frying pan" },
 				{ "action" : "Cook"           , "cook" : { "val" :  5 } }
+			]
+		},
+		{
+			"name"        : "Lemon Garlic Kale",
+			"dish"        : "side",
+			"cookware"    : [ "stove" ],
+			"ingredients" : [			
+				{ "val" :  8   , "units" : "cup"        , "name" : "Kale"          , "style" : "chopped" },
+				{ "val" :  1   ,                          "name" : "Lemon"         , "style" : "halved" },
+				{ "val" :  3   , "units" : "tablespoon" , "name" : "Vegetable Oil" },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Garlic Powder" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"          }
+			],
+			"steps": [
+				{ "action" : "Heat the oil in a frying pan", "desc" : "over medium heat" },
+				{ "action" : "Mix together"    , "desc" : "kale, garlic powder, and salt into the frying pan" },
+				{ "action" : "Cook"            , "desc" : "until kale is wilted, but not brown or burnt", "cook" : { "val" : 5 } },
+				{ "action" : "Squeeze"         , "desc" : "lemon over the kale, mixing the juice in" }
 			]
 		},
 		{

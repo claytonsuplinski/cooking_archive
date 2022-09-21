@@ -58,6 +58,7 @@
 	{ "action" : "Shred"                                , "prep" : { "val" : 30 } },
 	{ "action" : "Spread"                               , "prep" : { "val" :  5 } },
 	{ "action" : "Sprinkle"                             , "prep" : { "val" :  5 } },
+	{ "action" : "Squeeze"                              , "prep" : { "val" :  5 } },
 	{ "action" : "Stir together"                        , "prep" : { "val" : 10 } },
 	{ "action" : "Tear"                                 , "prep" : { "val" : 10 } },
 	{ "action" : "Transfer"                             , "prep" : { "val" :  5 } },
