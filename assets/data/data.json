@@ -1352,6 +1352,30 @@
 			]
 		},
 		{
+			"name"        : "Mexican Street Corn Dip",
+			"dish"        : "side",
+			"cuisines"    : [ "mexican" ],
+			"cookware"    : [ "slow cooker" ],
+			"servings"    : 10,
+			"ingredients" : [
+				{ "val" : 24   , "units" : "oz"       , "name" : "Corn"             },
+				{ "val" :  1   ,                        "name" : "Onion"            , "style" : "diced" },
+				{ "val" :  2   ,                        "name" : "Jalapeno Pepper"  , "style" : "diced" },
+				{ "val" :  8   , "units" : "oz"       , "name" : "Salsa"            },
+				{ "val" :  8   , "units" : "oz"       , "name" : "Cream Cheese"     },
+				{ "val" :  0.5 , "units" : "cup"      , "name" : "Mayonnaise"       },
+				{ "val" :  2   , "units" : "teaspoon" , "name" : "Salt"             },
+				{ "val" :  2   , "units" : "teaspoon" , "name" : "Chili Powder"     },
+				{ "val" :  2   , "units" : "teaspoon" , "name" : "Cilantro"         },
+				{ "val" :  2   , "units" : "teaspoon" , "name" : "Cumin"            },
+				{ "val" :  2   , "units" : "teaspoon" , "name" : "Paprika"          }
+			],
+			"steps": [
+				{ "action" : "Mix together"   , "desc" : "all ingredients in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 4, "units" : "hour" } }
+			]
+		},
+		{
 			"name"        : "Nachos",
 			"dish"        : "main",
 			"cuisines"    : [ "mexican" ],
