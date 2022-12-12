@@ -763,6 +763,17 @@
 			]
 		},
 		{
+			"name"        : "Coleslaw",
+			"dish"        : "side",
+			"ingredients" : [				
+				{ "val" : 16   , "units" : "oz"         , "name" : "Coleslaw Cabbage"  },
+				{ "val" :  8   , "units" : "oz"         , "name" : "Coleslaw Dressing" }
+			],
+			"steps": [
+				{ "action" : "Mix together", "desc" : "cabbage and dressing in a serving container" }
+			]
+		},
+		{
 			"name"        : "Cilantro Lime Rice",
 			"dish"        : "side",
 			"cookware"    : [ "stove" ],
@@ -1635,6 +1646,24 @@
 				{ "action" : "Beat"           , "desc" : "the cream cheese in a bowl while slowly adding sugar, until smooth" },
 				{ "action" : "Stir together"  , "desc" : "slowly, the whipped cream into the cream cheese mixture, until smooth" },
 				{ "action" : "Mix together"   , "desc" : "the strawberries and blueberries into the whipped cream mixture" }
+			]
+		},
+		{
+			"name"        : "Roasted Broccoli",
+			"dish"        : "side",
+			"cookware"    : [ "oven" ],
+			"ingredients" : [			
+				{ "val" : 32   , "units" : "oz"         , "name" : "Broccoli"             , "style" : "trimmed" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "sliced" },
+				{ "val" :  6   , "units" : "tablespoon" , "name" : "Olive Oil"            },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
+			],
+			"steps": [
+				{ "action" : "Coat"           , "desc" : "broccoli and onions with olive oil" },
+				{ "action" : "Place"          , "desc" : "broccoli and onions on a baking sheet" },
+				{ "action" : "Sprinkle"       , "desc" : "salt and black pepper on the vegetables" },
+				{ "action" : "Bake"           , "desc" : "at 425 degrees", "cook" : { "val" : 20 } }
 			]
 		},
 		{
