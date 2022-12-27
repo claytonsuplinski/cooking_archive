@@ -27,7 +27,7 @@
 			"Hash Browns", "Hamburger Bun",
 			"Lasagna Pasta", "Oatmeal",
 			"Penne Pasta", "Potato",
-			"Ravioli", "Red Potato", "Rice", "Rigatoni Pasta", "Rotini Pasta",
+			"Ravioli", "Red Potato", "Rice", "Rice Krispies", "Rigatoni Pasta", "Rotini Pasta",
 			"Shell Pasta", "Spaghetti", "Stuffing Mix", "Sunflower Seeds",
 			"Tater Tots", "Tortellini", "Tortilla Chips", "Tortilla",
 			"White Bread",
@@ -39,7 +39,7 @@
 		"ingredients" : [
 			"Alfredo Sauce", "Apple Pie Filling",
 			"Barbeque Sauce", "Beef Broth", "Buffalo Sauce",
-			"Chicken Broth", "Chili Sauce", "Coleslaw Dressing", "Cream of Chicken", "Cream of Potato",
+			"Chicken Broth", "Chili Sauce", "Coconut Oil", "Coleslaw Dressing", "Cream of Chicken", "Cream of Potato",
 			"Enchilada Sauce",
 			"Honey",
 			"Italian Salad Dressing",
@@ -68,7 +68,7 @@
 			"Chili Powder", "Cilantro", "Cinnamon", "Cumin",
 			"Garlic Powder", "Gravy Mix",
 			"Onion Powder", "Onion Soup Mix", "Oregano",
-			"Paprika", "Parsley",
+			"Paprika", "Parsley", "Powdered Sugar",
 			"Ranch Seasoning", "Rosemary",
 			"Salt", "Sugar",
 			"Thyme", "Tumeric"
@@ -101,7 +101,7 @@
 			"Cheddar Cheese", "Colby Cheese", "Cottage Cheese", "Cream Cheese",
 			"Evaporated Milk",
 			"Italian Cheese",
-			"Mayonnaise", "Mexican-blend Cheese", "Milk", "Monterey Jack Cheese", "Mozzarella Cheese",
+			"Margarine", "Mayonnaise", "Mexican-blend Cheese", "Milk", "Monterey Jack Cheese", "Mozzarella Cheese",
 			"Parmesan Cheese", "Provolone Cheese",
 			"Sour Cream", "Swiss Cheese",
 			"Whipped Cream", "Whipping Cream"

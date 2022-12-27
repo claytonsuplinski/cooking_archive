@@ -981,6 +981,32 @@
 			]
 		},
 		{
+			"name"        : "Fudge",
+			"dish"        : "dessert",
+			"cookware"    : [ "stove" ],
+			"ingredients" : [
+				{ "val" :  3   , "units" : "cup"        , "name" : "Chocolate Chips"      },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Margarine"            , "style" : "diced" },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Marshmallow"          , "style" : "miniature" },
+				{ "val" : 12   , "units" : "oz"         , "name" : "Evaporated Milk"      },
+				{ "val" :  3.5 , "units" : "cup"        , "name" : "Sugar"                },
+				{ "val" :  2   , "units" : "teaspoon"   , "name" : "Vanilla Extract"      },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Walnuts"              , "style" : "crushed" }
+			],
+			"steps": [
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
+				{ "action" : "Mix together"   , "desc" : "chocolate chips, margarine, marshmallows, and vanilla in a large bowl" },
+				{ "action" : "Mix together"   , "desc" : "evaporated milk and sugar in a sauce pan" },
+				{ "action" : "Bring to a boil" },
+				{ "action" : "Cook"           , "cook" : { "val" : 15 }, "desc" : "continuing to boil, stirring constantly" },
+				{ "action" : "Mix together"   , "desc" : "hot ingredients with cold ingredients in the large bowl" },
+				{ "action" : "Beat"           , "desc" : "until glossy, thick, and marshmallows are completely melted" },
+				{ "action" : "Mix together"   , "desc" : "walnuts into the chocolate mixture" },
+				{ "action" : "Pour"           , "desc" : "chocolate mixture into the baking dish" },
+				{ "action" : "Cool"           , "cook" : { "val" : 30 }, "desc" : "the fudge by placing in the refrigerator" }
+			]
+		},
+		{
 			"name"        : "Garlic Parmesan Zucchini",
 			"dish"        : "side",
 			"cookware"    : [ "stove" ],
@@ -1465,6 +1491,27 @@
 			"steps": [
 				{ "action" : "Cook pasta according to directions on package" },
 				{ "action" : "Mix together"   , "desc" : "pasta, dressing, cucumbers, onions, black olives, tomatoes, basil, and garlic powder in a serving container" }
+			]
+		},
+		{
+			"name"        : "Peanut Butter Balls",
+			"dish"        : "dessert",
+			"cookware"    : [ "stove" ],
+			"ingredients" : [			
+				{ "val" :  1   , "units" : "cup"        , "name" : "Peanut Butter"        },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Powdered Sugar"       },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Rice Krispies"        },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Chocolate Chips"      },
+				{ "val" :  0.25, "units" : "cup"        , "name" : "Butter"               , "style" : "softened" },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Coconut Oil"          }
+			],
+			"steps": [
+				{ "action" : "Mix together"   , "desc" : "peanut butter, butter, and powdered sugar in a large bowl" },
+				{ "action" : "Divide"         , "desc" : "peanut butter mixture into ping-pong ball sized spheres (if mixture is too sticky, try putting grease / cooking spray on your hands)" },
+				{ "action" : "Cool"           , "cook" : { "val" : 30 }, "desc" : "the peanut butter balls by placing in the refrigerator" },
+				{ "action" : "Melt"           , "cook" : { "val" :  5 }, "desc" : "the chocolate and coconut oil on the stove over low heat, stirring frequently" },
+				{ "action" : "Coat"           , "desc" : "the peanut butter balls in the melted chocolate" },
+				{ "action" : "Cool"           , "cook" : { "val" : 30 }, "desc" : "the peanut butter balls by placing in the refrigerator" }
 			]
 		},
 		{
