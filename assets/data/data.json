@@ -31,6 +31,34 @@
 			]
 		},
 		{
+			"name"        : "Applesauce Cake",
+			"dish"        : "dessert",
+			"cookware"    : [ "oven" ],
+			"servings"    : 12,
+			"ingredients" : [
+				{ "val" :  2   , "units" : "cup"        , "name" : "Applesauce"           },
+				{ "val" :  2   ,                          "name" : "Egg"                  },
+				{ "val" :  0.75, "units" : "cup"        , "name" : "Brown Sugar"          },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Flour"                },
+				{ "val" :  0.75, "units" : "cup"        , "name" : "Canola Oil"           },
+				{ "val" :  2   , "units" : "teaspoon"   , "name" : "Cinnamon"             },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Cardamom"             },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Ginger"               },
+				{ "val" :  0.25, "units" : "teaspoon"   , "name" : "Cloves"               },
+				{ "val" :  0.75, "units" : "teaspoon"   , "name" : "Salt"                 },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Baking Powder"        },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Baking Soda"          }
+			],
+			"steps": [
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish, and coat with a light layer of flour" },
+				{ "action" : "Whisk"          , "desc" : "brown sugar and eggs until pale and foamy, in a large bowl" },
+				{ "action" : "Whisk"          , "desc" : "applesauce, oil, and all seasonings into the egg mixture" },
+				{ "action" : "Whisk"          , "desc" : "flour, baking powder, and baking soda into the batter until well combined" },
+				{ "action" : "Pour"           , "desc" : "the batter into the baking dish -- smooth the top and tap the pan on the countertop to release air bubbles" },
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 35 } }
+			]
+		},
+		{
 			"name"        : "Artichoke Chicken",
 			"dish"        : "main",
 			"cookware"    : [ "oven" ],
@@ -538,6 +566,27 @@
 				{ "action" : "Sprinkle"       , "desc" : "cheddar cheese on top of the lower half of the meatloaf" },
 				{ "action" : "Place"          , "desc" : "the other half of the beef mixture in the baking dish, while forming it into the upper half of the loaf" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 60 } }
+			]
+		},
+		{
+			"name"        : "Cheesy Broccoli Soup",
+			"dish"        : "side",
+			"cuisines"    : [ "comfort" ],
+			"cookware"    : [ "slow cooker" ],
+			"ingredients" : [
+				{ "val" : 24   , "units" : "oz"         , "name" : "Broccoli"          },
+				{ "val" :  2.5 , "units" : "oz"         , "name" : "Country Gravy Mix" },
+				{ "val" :  4   , "units" : "cup"        , "name" : "Water"             },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"    , "style" : "shredded" }
+			],
+			"steps": [
+				{ "action" : "Mix together"   , "desc" : "gravy mix and water in the slow cooker until well blended" },
+				{ "action" : "Mix together"   , "desc" : "broccoli into the gravy" },
+				{ "action" : "Cook on high"   , "cook" : { "val" : 1, "units" : "hour" } },
+				{ "action" : "Stir"           , "desc" : "the broccoli and gravy mixture" },
+				{ "action" : "Cook on high"   , "cook" : { "val" : 2, "units" : "hour" } },
+				{ "action" : "Mix together"   , "desc" : "cheese into the broccoli and gravy" },
+				{ "action" : "Cook on high"   , "cook" : { "val" : 10, "units" : "minute" } }
 			]
 		},
 		{

@@ -2,7 +2,7 @@
 	{
 		"name"        : "Vegetables / Fruit",
 		"ingredients" : [
-			"Apple", "Artichoke Hearts", "Asparagus",
+			"Apple", "Applesauce", "Artichoke Hearts", "Asparagus",
 			"Black Olives", "Blueberries", "Broccoli", "Brussels Sprouts",
 			"Canned Onion Rings", "Carrot", "Celery Stalk", "Coleslaw Cabbage", "Corn", "Cucumber",
 			"Grape Tomatoes", "Green Beans", "Green Chiles", "Green Pepper",
@@ -39,7 +39,7 @@
 		"ingredients" : [
 			"Alfredo Sauce", "Apple Pie Filling",
 			"Barbeque Sauce", "Beef Broth", "Buffalo Sauce",
-			"Chicken Broth", "Chili Sauce", "Coconut Oil", "Coleslaw Dressing", "Cream of Chicken", "Cream of Potato",
+			"Canola Oil", "Chicken Broth", "Chili Sauce", "Coconut Oil", "Coleslaw Dressing", "Cream of Chicken", "Cream of Potato",
 			"Enchilada Sauce",
 			"Honey",
 			"Italian Salad Dressing",
@@ -64,9 +64,9 @@
 	{
 		"name"        : "Spices",
 		"ingredients" : [
-			"Basil", "Black Pepper", "Brown Sugar",
-			"Chili Powder", "Cilantro", "Cinnamon", "Cumin",
-			"Garlic Powder", "Gravy Mix",
+			"Baking Powder", "Baking Soda", "Basil", "Black Pepper", "Brown Sugar",
+			"Cardamom", "Chili Powder", "Cilantro", "Cinnamon", "Cloves", "Country Gravy Mix", "Cumin",
+			"Garlic Powder", "Ginger", "Gravy Mix",
 			"Onion Powder", "Onion Soup Mix", "Oregano",
 			"Paprika", "Parsley", "Powdered Sugar",
 			"Ranch Seasoning", "Rosemary",
