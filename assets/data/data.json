@@ -148,6 +148,24 @@
 			]
 		},
 		{
+			"name"        : "Baked Avocados",
+			"dish"        : "side",
+			"cookware"    : [ "oven" ],
+			"servings"    : 10,
+			"ingredients" : [
+				{ "val" :  5   ,                          "name" : "Avocado"              , "style" : "halved and pitted" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 },
+				{ "val" : 1    , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" : 1    , "units" : "tablespoon" , "name" : "Chili Powder"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        }
+			],
+			"steps": [
+				{ "action" : "Place"                                , "desc" : "avocado halves in the baking dish" },
+				{ "action" : "Sprinkle"                             , "desc" : "all seasonings on the avocado halves" },
+				{ "action" : "Bake"                                 , "desc" : "at 325 degrees", "cook" : { "val" : 20 } }
+			]
+		},
+		{
 			"name"        : "Baked Beef Ravioli",
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
@@ -643,7 +661,6 @@
 				{ "val" : 16   , "units" : "oz"         , "name" : "Penne Pasta"       },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Alfredo Sauce"     },
 				{ "val" : 12   , "units" : "oz"         , "name" : "Broccoli"          },
-				{ "val" : 14.5 , "units" : "oz"         , "name" : "Tomato"            , "style" : "diced" },
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Milk"              },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese" , "style" : "shredded" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"             },
@@ -655,7 +672,7 @@
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Cook pasta according to directions on package" },
-				{ "action" : "Mix together"   , "desc" : "pasta, broccoli, tomato, milk, basil, garlic powder, onion powder, black pepper, and salt in the baking dish" },
+				{ "action" : "Mix together"   , "desc" : "pasta, broccoli, milk, basil, garlic powder, onion powder, black pepper, and salt in the baking dish" },
 				{ "action" : "Cook chicken according to directions on package" },
 				{ "action" : "Mix together"   , "desc" : "the chicken, alfredo sauce, and one cup of the mozzarella cheese in the baking dish" },
 				{ "action" : "Sprinkle"       , "desc" : "the remaining one cup of mozzarella cheese on top of the casserole" },
@@ -1597,7 +1614,6 @@
 			"ingredients" : [				
 				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"       , "style" : "pre-cooked and diced" },
 				{ "val" :  3   , "units" : "cup"        , "name" : "Spinach"              , "style" : "shredded" },
-				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"               , "style" : "crushed" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Penne Pasta"          },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Alfredo Sauce"        },
 				{ "val" :  6.5 , "units" : "oz"         , "name" : "Pesto Sauce"          },
@@ -1608,7 +1624,7 @@
 			],
 			"steps": [
 				{ "action" : "Cook pasta according to directions on package" },
-				{ "action" : "Mix together"   , "desc" : "pasta, Italian cheese, spinach, and tomatoes in a 9x13 baking dish" },
+				{ "action" : "Mix together"   , "desc" : "pasta, Italian cheese, and spinach in a 9x13 baking dish" },
 				{ "action" : "Cook chicken according to directions on package" },
 				{ "action" : "Mix together"   , "desc" : "chicken, alfredo sauce, pesto sauce, and milk in the baking dish" },
 				{ "action" : "Sprinkle"       , "desc" : "bread crumbs and Parmesan cheese on top of the casserole" },
@@ -1908,6 +1924,23 @@
 				{ "action" : "Cook"           , "cook" : { "val" :  3 } },
 				{ "action" : "Flip"           , "desc" : "the scallops" },
 				{ "action" : "Cook"           , "cook" : { "val" :  3 } }
+			]
+		},
+		{
+			"name"        : "Seashell Pasta Salad",
+			"dish"        : "side",
+			"cookware"    : [ "stove" ],
+			"ingredients" : [			
+				{ "val" : 16   , "units" : "oz"         , "name" : "Shell Pasta"           },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Tuna"                  },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Peas"                  },
+				{ "val" :  6   ,                          "name" : "Celery Stalk"           , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                  , "style" : "diced" },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Mayonnaise"            }
+			],
+			"steps": [
+				{ "action" : "Cook pasta according to directions on package" },
+				{ "action" : "Mix together"   , "desc" : "pasta and all other ingredients in a serving container" }
 			]
 		},
 		{
@@ -2237,6 +2270,36 @@
 				{ "action" : "Sprinkle"       , "desc" : "the remaining cheddar cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 35 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
+			]
+		},
+		{
+			"name"        : "Thai Coconut Beef",
+			"dish"        : "main",
+			"cuisines"    : [ "thai" ],
+			"cookware"    : [ "slow cooker" ],
+			"ingredients" : [			
+				{ "val" :  3   , "units" : "lb"         , "name" : "Beef Roast"      , "style" : "boneless; chuck or round roast" },
+				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "sliced" },
+				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "sliced" },
+				{ "val" :  0.5 , "units" : "lb"         , "name" : "Snap Peas"       },
+				{ "val" :  4   , "units" : "cup"        , "name" : "Rice"            },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Peanut Butter"   },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Honey"           },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Soy Sauce"       },
+				{ "val" : 14   , "units" : "oz"         , "name" : "Coconut Milk"    },
+				{ "val" :  2   , "units" : "teaspoon"   , "name" : "Ginger"          },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cilantro"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"            },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"    },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"   }
+			],
+			"steps": [
+				{ "action" : "Place"          , "desc" : "small cuts in the beef roast and set in the slow cooker" },
+				{ "action" : "Mix together"   , "desc" : "green pepper, onion, peanut butter, honey, soy sauce, coconut milk, ginger, cilantro, salt, black pepper, and garlic powder in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 7, "units" : "hour" }, "cook_range_end" : { "val" : 9, "units" : "hour" } },
+				{ "action" : "Shred"          , "desc" : "beef and return to slow cooker with snap peas" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 1, "units" : "hour" } },
+				{ "action" : "Cook rice according to directions on package" }
 			]
 		},
 		{

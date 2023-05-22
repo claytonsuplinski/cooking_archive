@@ -2,7 +2,7 @@
 	{
 		"name"        : "Vegetables / Fruit",
 		"ingredients" : [
-			"Apple", "Applesauce", "Artichoke Hearts", "Asparagus",
+			"Apple", "Applesauce", "Artichoke Hearts", "Asparagus", "Avocado",
 			"Black Olives", "Blueberries", "Broccoli", "Brussels Sprouts",
 			"Canned Onion Rings", "Carrot", "Celery Stalk", "Coleslaw Cabbage", "Corn", "Cucumber",
 			"Grape Tomatoes", "Green Beans", "Green Chiles", "Green Pepper",
@@ -10,7 +10,7 @@
 			"Onion",
 			"Peas", "Pepperoncini Pepper", "Pineapple",
 			"Roma Tomato",
-			"Sauerkraut", "Spinach", "Strawberries",
+			"Sauerkraut", "Snap Peas", "Spinach", "Strawberries",
 			"Tomato",
 			"Yellow Squash",
 			"Zucchini"
@@ -39,7 +39,7 @@
 		"ingredients" : [
 			"Alfredo Sauce", "Apple Pie Filling",
 			"Barbeque Sauce", "Beef Broth", "Buffalo Sauce",
-			"Canola Oil", "Chicken Broth", "Chili Sauce", "Coconut Oil", "Coleslaw Dressing", "Cream of Chicken", "Cream of Potato",
+			"Canola Oil", "Chicken Broth", "Chili Sauce", "Coconut Milk", "Coconut Oil", "Coleslaw Dressing", "Cream of Chicken", "Cream of Potato",
 			"Enchilada Sauce",
 			"Honey",
 			"Italian Salad Dressing",
@@ -89,7 +89,7 @@
 			"Peanut Butter", "Pepperoni", "Pinto Beans", "Pork Chop", "Pork Roast",
 			"Refried Beans",
 			"Scallops", "Sirloin Tip", "Smoked Sausage",
-			"Tilapia",
+			"Tilapia", "Tuna",
 			"Walnuts"
 		]
 	},
