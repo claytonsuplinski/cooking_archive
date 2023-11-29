@@ -103,7 +103,7 @@
 			"servings"    : 10,
 			"ingredients" : [
 				{ "val" : 15   , "units" : "oz"       , "name" : "Artichoke Hearts" , "style" : "drained and chopped" },
-				{ "val" : 10   , "units" : "oz"       , "name" : "Spinach"          , "style" : "chopped" },
+				{ "val" : 10   , "units" : "oz"       , "name" : "Spinach"          , "style" : "fresh, chopped" },
 				{ "val" :  0.66, "units" : "cup"      , "name" : "Sour Cream"       },
 				{ "val" :  0.33, "units" : "cup"      , "name" : "Mayonnaise"       },
 				{ "val" :  8   , "units" : "oz"       , "name" : "Cream Cheese"     },
@@ -307,9 +307,9 @@
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"          },
 				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
 				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
-				{ "val" : 10   ,                          "name" : "Tortilla"            },
+				{ "val" : 10   ,                          "name" : "Tortilla"             },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Refried Beans"        },
-				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"                 },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"                 , "style" : "canned" },
 				{ "val" :  8   , "units" : "oz"         , "name" : "Taco Sauce"           },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"               , "style" : "melted" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cumin"                },
@@ -357,7 +357,7 @@
 			"ingredients" : [
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"     },
 				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced" },
-				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"            },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"            , "style" : "canned" },
 				{ "val" :  6   , "units" : "oz"         , "name" : "Black Olives"    },
 				{ "val" : 32   , "units" : "oz"         , "name" : "Refried Beans"   },
 				{ "val" :  1.5 , "units" : "cup"        , "name" : "Salsa"           , "style" : "chunky" },
@@ -715,7 +715,7 @@
 				{ "val" : 16   , "units" : "oz"         , "name" : "Salsa"          , "style" : "chunky" },
 				{ "val" :  1   ,                          "name" : "Onion"          , "style" : "diced" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Tomato"         , "style" : "diced and with green chiles" },
-				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"           },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"           , "style" : "canned" },
 				{ "val" : 30   , "units" : "oz"         , "name" : "Pinto Beans"    , "style" : "drained" },
 				{ "val" : 11   , "units" : "oz"         , "name" : "Chicken Broth"  },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cumin"          },
@@ -741,7 +741,7 @@
 				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "sliced" },
 				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Pinto Beans"     , "style" : "drained" },
-				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"            },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"            , "style" : "canned" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Salsa"           , "style" : "chunky" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Cream Cheese"    },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Cheddar Cheese"  , "style" : "shredded" },
@@ -977,7 +977,7 @@
 				{ "val" :  1   ,                          "name" : "Green Pepper"   , "style" : "diced" },
 				{ "val" :  1   ,                          "name" : "Onion"          , "style" : "diced" },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"         , "style" : "diced" },
-				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"           },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"           , "style" : "canned" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"  },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"        },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"   },
@@ -1120,27 +1120,23 @@
 			"name"        : "Green Bean Casserole",
 			"dish"        : "side",
 			"cuisines"    : [ "comfort" ],
-			"cookware"    : [ "stove" ],
+			"cookware"    : [ "oven" ],
+			"servings"    : 10,
 			"ingredients" : [		
-				{ "val" : 30   , "units" : "oz"         , "name" : "Green Beans"        , "style" : "drained" },
-				{ "val" :  1   ,                          "name" : "Onion"              , "style" : "diced" },
-				{ "val" : 11   , "units" : "oz"         , "name" : "Cream of Chicken"   , "style" : "condensed" },
+				{ "val" : 30   , "units" : "oz"         , "name" : "Green Beans"        , "style" : "canned, drained" },
+				{ "val" :  0.5 ,                          "name" : "Onion"              , "style" : "diced" },
+				{ "val" : 22   , "units" : "oz"         , "name" : "Cream of Chicken"   , "style" : "condensed" },
 				{ "val" :  0.25, "units" : "cup"        , "name" : "Milk"               },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Vegetable Oil"      },
 				{ "val" :  6   , "units" : "oz"         , "name" : "Canned Onion Rings" },
-				{ "val" :  1   , "units" : "cup"        , "name" : "Cheddar Cheese"     , "style" : "shredded" }
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Oregano"            },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"       },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"               }
 			],
 			"steps": [
-				{ "action" : "Heat the oil in a frying pan", "desc" : "over medium-high heat" },
-				{ "action" : "Place"          , "desc" : "onion in the frying pan" },
-				{ "action" : "Cook"           , "cook" : { "val" :  3 } },
-				{ "action" : "Mix together"   , "desc" : "green beans into the frying pan" },
-				{ "action" : "Cook"           , "cook" : { "val" :  2 } },
-				{ "action" : "Mix together"   , "desc" : "cream of chicken and milk into the frying pan" },
-				{ "action" : "Cook"           , "cook" : { "val" :  2 } },
-				{ "action" : "Mix together"   , "desc" : "cheddar cheese into the frying pan" },
-				{ "action" : "Cook"           , "cook" : { "val" :  2 } },
-				{ "action" : "Sprinkle"       , "desc" : "canned onion rings on top, just before serving" }
+				{ "action" : "Lightly grease" , "desc" : "a 9x13 (9x9 might work?) baking dish" },
+				{ "action" : "Mix together"   , "desc" : "all ingredients except for half of the canned onion rings in the baking dish" },
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 25 } },
+				{ "action" : "Sprinkle"       , "desc" : "the remaining canned onion rings on top, just before serving" }
 			]
 		},
 		{
@@ -1461,7 +1457,7 @@
 			"cookware"    : [ "slow cooker" ],
 			"servings"    : 10,
 			"ingredients" : [
-				{ "val" : 24   , "units" : "oz"       , "name" : "Corn"             },
+				{ "val" : 24   , "units" : "oz"       , "name" : "Corn"             , "style" : "frozen" },
 				{ "val" :  1   ,                        "name" : "Onion"            , "style" : "diced" },
 				{ "val" :  2   ,                        "name" : "Jalapeno Pepper"  , "style" : "diced" },
 				{ "val" :  8   , "units" : "oz"       , "name" : "Salsa"            },
@@ -1613,7 +1609,7 @@
 			"servings"    : 10,
 			"ingredients" : [				
 				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"       , "style" : "pre-cooked and diced" },
-				{ "val" :  3   , "units" : "cup"        , "name" : "Spinach"              , "style" : "shredded" },
+				{ "val" :  3   , "units" : "cup"        , "name" : "Spinach"              , "style" : "fresh, shredded" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Penne Pasta"          },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Alfredo Sauce"        },
 				{ "val" :  6.5 , "units" : "oz"         , "name" : "Pesto Sauce"          },
@@ -1973,6 +1969,32 @@
 			]
 		},
 		{
+			"name"        : "Slow Cooker Chicken Alfredo",
+			"dish"        : "main",
+			"cuisines"    : [ "italian" ],
+			"cookware"    : [ "slow cooker" ],
+			"ingredients" : [
+				{ "val" :  2   , "units" : "lb"         , "name" : "Chicken Breast"       },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Penne Pasta"          },
+				{ "val" :  8   , "units" : "oz"         , "name" : "Cream Cheese"         },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Chicken Broth"        },
+				{ "val" :  5   , "units" : "cup"        , "name" : "Heavy Whipping Cream" },
+				{ "val" :  8   , "units" : "tablespoon" , "name" : "Butter"               },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 },
+				{ "val" :  1.5 , "units" : "cup"        , "name" : "Parmesan Cheese"       , "style" : "shredded" }
+			],
+			"steps": [
+				{ "action" : "Mix together"   , "desc" : "chicken, cream cheese, butter, garlic powder, salt, black pepper, chicken broth, and heavy whipping cream in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 6, "units" : "hour" }, "cook_range_end" : { "val" : 7, "units" : "hour" } },
+				{ "action" : "Shred"          , "desc" : "chicken and return to slow cooker with Parmesan cheese" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 1, "units" : "hour" } },
+				{ "action" : "Cook pasta according to directions on package" },
+				{ "action" : "Mix together"   , "desc" : "pasta with chicken mixture before serving" }
+			]
+		},
+		{
 			"name"        : "Slow Cooker Green Bean Casserole",
 			"dish"        : "side",
 			"cuisines"    : [ "comfort" ],
@@ -2085,7 +2107,7 @@
 				{ "val" :  6   ,                          "name" : "Chicken Breast"       , "style" : "skinless and boneless" },
 				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
 				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
-				{ "val" : 10   , "units" : "oz"         , "name" : "Spinach"              },
+				{ "val" : 10   , "units" : "oz"         , "name" : "Spinach"              , "style" : "fresh" },
 				{ "val" :  1   , "units" : "cup"        , "name" : "Milk"                 },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Butter"               },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Flour"                },
@@ -2226,7 +2248,7 @@
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"          },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Spaghetti"            },
 				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
-				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"                 , "style" : "drained" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"                 , "style" : "canned, drained" },
 				{ "val" :  8   , "units" : "oz"         , "name" : "Taco Sauce"           },
 				{ "val" : 11   , "units" : "oz"         , "name" : "Cream of Chicken"     },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cumin"                },
@@ -2255,7 +2277,7 @@
 				{ "val" : 32   , "units" : "oz"         , "name" : "Tater Tots"           },
 				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
 				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
-				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"                 },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"                 , "style" : "canned" },
 				{ "val" : 11   , "units" : "oz"         , "name" : "Cream of Chicken"     },
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Milk"                 },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Worcestershire Sauce" },
@@ -2270,6 +2292,32 @@
 				{ "action" : "Sprinkle"       , "desc" : "the remaining cheddar cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 35 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
+			]
+		},
+		{
+			"name"        : "Teriyaki Chicken",
+			"dish"        : "main",
+			"cuisines"    : [ "japanese" ],
+			"cookware"    : [ "stove" ],
+			"servings"    : 4,
+			"ingredients" : [			
+				{ "val" :  3   , "units" : "lb"         , "name" : "Chicken Breast"  , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "sliced" },
+				{ "val" :  1   , "units" : "lb"         , "name" : "Snap Peas"       },
+				{ "val" :  3   , "units" : "tablespoon" , "name" : "Butter"          },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Teriyaki Sauce"  },
+				{ "val" :  2   , "units" : "teaspoon"   , "name" : "Ginger"          },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"            },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"    }
+			],
+			"steps": [
+				{ "action" : "Melt the butter in a frying pan" , "desc" : "over medium heat" },
+				{ "action" : "Place"          , "desc" : "chicken in the frying pan" },
+				{ "action" : "Sprinkle"       , "desc" : "salt, black pepper, and ginger on the chicken" },
+				{ "action" : "Cook"           , "desc" : "the chicken in a quarter of the teriyaki sauce", "cook" : { "val" : 10 } },
+				{ "action" : "Place"          , "desc" : "onion and snap peas in the frying pan" },
+				{ "action" : "Cook"           , "desc" : "the chicken mixture", "cook" : { "val" : 10 } },
+				{ "action" : "Pour"           , "desc" : "remaining teriyaki sauce on the chicken" }
 			]
 		},
 		{
