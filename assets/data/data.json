@@ -1792,6 +1792,33 @@
 			]
 		},
 		{
+			"name"        : "Ronto Wraps",
+			"dish"        : "main",
+			"cuisines"    : [ "disney" ],
+			"cookware"    : [ "stove" ],
+			"ingredients" : [
+				{ "val" :  6   ,                          "name" : "Pork Chop"              , "style" : "thinly sliced" },
+				{ "val" :  6   ,                          "name" : "Andouille Sausage"     },
+				{ "val" :  6   , "units" : "slices"     , "name" : "Pita Bread"            },
+				{ "val" : 14   , "units" : "oz"         , "name" : "Coleslaw Cabbage"      },
+				{ "val" : 12   , "units" : "oz"         , "name" : "Olive Oil Vinaigrette" },
+				{ "val" :  6   , "units" : "oz"         , "name" : "Caesar Dressing"       },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"               },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"          },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                  }
+			],
+			"steps": [
+				{ "action" : "Place"          , "desc" : "the pork chops in a frying pan on medium heat" },
+				{ "action" : "Sprinkle"       , "desc" : "garlic powder, paprika, salt, and pepper on the pork chops" },
+				{ "action" : "Cook"           , "desc" : "the pork chops while flipping every few minutes", "cook" : { "val" : 20 } },
+				{ "action" : "Place"          , "desc" : "the andouille sausages in another frying pan on medium-low heat" },
+				{ "action" : "Cook"           , "desc" : "the sausages while rotating every few minutes", "cook" : { "val" : 15 } },
+				{ "action" : "Mix together"   , "desc" : "coleslaw cabbage and olive oil vinaigrette in a separate container" },
+				{ "action" : "Place"          , "desc" : "one pork chop, sausage, some coleslaw, and some caesar dressing in each pita bread right before serving" }
+			]
+		},
+		{
 			"name"        : "Sausage Alfredo",
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
