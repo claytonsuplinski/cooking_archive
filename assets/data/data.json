@@ -298,6 +298,35 @@
 			]
 		},
 		{
+			"name"        : "Bean Medley",
+			"dish"        : "side",
+			"cuisines"    : [ "comfort" ],
+			"cookware"    : [ "slow cooker" ],
+			"ingredients" : [
+				{ "val" :  1   ,                          "name" : "Green Pepper"        , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"               , "style" : "diced" },
+				{ "val" :  2   ,                          "name" : "Celery Stalk"        , "style" : "diced" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"                , "style" : "canned" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Black Beans"         , "style" : "canned" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Great Northern Beans", "style" : "canned" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Kidney Beans"        , "style" : "canned" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Lima Beans"          , "style" : "canned" },
+				{ "val" : 15   , "units" : "oz"         , "name" : "Pinto Beans"         , "style" : "canned" },
+				{ "val" :  1.5 , "units" : "cup"        , "name" : "Ketchup"            },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Mustard"             , "style" : "stone-ground" },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Salt"               },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Black Pepper"       },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Chili Powder"       },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Oregano"            },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Paprika"            },
+				{ "val" :  1   , "units" : "teaspoon"   , "name" : "Thyme"              }
+			],
+			"steps": [
+				{ "action" : "Mix together"   , "desc" : "all ingredients in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 6, "units" : "hour" } }
+			]
+		},
+		{
 			"name"        : "Beef and Bean Chimichangas",
 			"dish"        : "main",
 			"cuisines"    : [ "mexican" ],
@@ -660,7 +689,7 @@
 				{ "val" :  1   , "units" : "lb"         , "name" : "Chicken Breast"    , "style" : "pre-cooked and diced" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Penne Pasta"       },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Alfredo Sauce"     },
-				{ "val" : 12   , "units" : "oz"         , "name" : "Broccoli"          },
+				{ "val" : 12   , "units" : "oz"         , "name" : "Broccoli"          , "style" : "frozen" },
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Milk"              },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese" , "style" : "shredded" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"             },
@@ -833,7 +862,7 @@
 			"dish"        : "side",
 			"ingredients" : [				
 				{ "val" : 16   , "units" : "oz"         , "name" : "Coleslaw Cabbage"  },
-				{ "val" :  8   , "units" : "oz"         , "name" : "Coleslaw Dressing" }
+				{ "val" :  8   , "units" : "oz"         , "name" : "Coleslaw Dressing", "style" : "or Caesar" }
 			],
 			"steps": [
 				{ "action" : "Mix together", "desc" : "cabbage and dressing in a serving container" }
@@ -1900,6 +1929,38 @@
 			]
 		},
 		{
+			"name"        : "Scalloped Corn",
+			"dish"        : "side",
+			"cuisines"    : [ "comfort" ],
+			"cookware"    : [ "stove", "oven" ],
+			"ingredients" : [
+				{ "val" : 45   , "units" : "oz"         , "name" : "Corn"           , "style" : "(3 cans)" },
+				{ "val" :  1   ,                          "name" : "Onion"          , "style" : "small, diced" },
+				{ "val" :  2   ,                          "name" : "Egg"            },
+				{ "val" :  4   , "units" : "tablespoon" , "name" : "Flour"          },
+				{ "val" :  1.5 , "units" : "cup"        , "name" : "Milk"           },
+				{ "val" :  1   , "units" : "cup"        , "name" : "Crackers"       , "style" : "crumbled" },
+				{ "val" :  8   , "units" : "tablespoon" , "name" : "Butter"         , "style" : "4 Tsp melted" },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Thyme"          },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Tumeric"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"   },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"           }
+			],
+			"steps": [
+				{ "action" : "Place"          , "desc" : "half the butter in a frying pan (maybe try less butter next time?)" },
+				{ "action" : "Melt the butter in a frying pan" , "desc" : "over medium heat" },
+				{ "action" : "Mix together"   , "desc" : "onions into the melted butter" },
+				{ "action" : "Cook"           , "desc" : "until onions are somewhat soft", "cook" : { "val" : 5 } },
+				{ "action" : "Mix together"   , "desc" : "flour into the onion mixture" },
+				{ "action" : "Mix together"   , "desc" : "milk (added gradually) into the onion mixture" },
+				{ "action" : "Cook"           , "desc" : "until sauce has thickened, stirring often", "cook" : { "val" : 5 } },
+				{ "action" : "Mix together"   , "desc" : "corn, onion sauce, salt, pepper, thyme, and tumeric in a 9x9 baking dish" },
+				{ "action" : "Mix together"   , "desc" : "melted butter and cracker crumbs in a separate bowl" },
+				{ "action" : "Pour"           , "desc" : "the cracker crumb mixture onto the casserole" },
+				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 35 } }
+			]
+		},
+		{
 			"name"        : "Scalloped Potatoes",
 			"dish"        : "side",
 			"cuisines"    : [ "comfort" ],
@@ -2005,17 +2066,19 @@
 				{ "val" : 16   , "units" : "oz"         , "name" : "Penne Pasta"          },
 				{ "val" :  8   , "units" : "oz"         , "name" : "Cream Cheese"         },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Chicken Broth"        },
-				{ "val" :  5   , "units" : "cup"        , "name" : "Heavy Whipping Cream" },
+				{ "val" : 32   , "units" : "oz"         , "name" : "Heavy Whipping Cream" },
 				{ "val" :  8   , "units" : "tablespoon" , "name" : "Butter"               },
 				{ "val" :  2   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 },
+				{ "val" :  0.25, "units" : "cup"        , "name" : "Flour"                },
 				{ "val" :  1.5 , "units" : "cup"        , "name" : "Parmesan Cheese"       , "style" : "shredded" }
 			],
 			"steps": [
 				{ "action" : "Mix together"   , "desc" : "chicken, cream cheese, butter, garlic powder, salt, black pepper, chicken broth, and heavy whipping cream in the slow cooker" },
 				{ "action" : "Cook on low"    , "cook" : { "val" : 6, "units" : "hour" }, "cook_range_end" : { "val" : 7, "units" : "hour" } },
 				{ "action" : "Shred"          , "desc" : "chicken and return to slow cooker with Parmesan cheese" },
+				{ "action" : "Mix together"   , "desc" : "flour into the chicken mixture" },
 				{ "action" : "Cook on low"    , "cook" : { "val" : 1, "units" : "hour" } },
 				{ "action" : "Cook pasta according to directions on package" },
 				{ "action" : "Mix together"   , "desc" : "pasta with chicken mixture before serving" }
