@@ -7,6 +7,8 @@
 	width:100%;
 	z-index:999;
 	box-shadow:1px 1px 8px 2px rgba(0,0,0,0.75);
+	white-space:nowrap;
+	overflow:auto;
 }
 
 .header-navbar > *,
@@ -111,10 +113,4 @@
 	font-size:12px;
 	font-style:normal;
 	color:rgba(255,255,255,0.85);
-}
-
-@media (max-width: 700px){
-	.header-navbar .option{
-		display:none;
-	}
 }
