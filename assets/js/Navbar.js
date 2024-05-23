@@ -6,6 +6,23 @@ ARCH.navbar = {
 	]
 };
 
+ARCH.navbar.show_options = function( id ){
+	this.hide_options();
+	var pos = $( '#option-button-' + id ).offset();
+	$( '#dropdown-options-' + id ).css({ left : pos.left });
+	$( '#dropdown-options-' + id ).show();
+	event.stopPropagation();
+
+	$( document ).on( 'click.options', function(){
+		ARCH.navbar.hide_options();
+		$( document ).off( 'click.options' );
+	});
+};
+
+ARCH.navbar.hide_options = function(){
+	$( '.dropdown-options' ).hide();
+};
+
 ARCH.navbar.draw = function(){
 	$(".header").html(
 		'<div class="header-navbar">' +
@@ -15,7 +32,7 @@ ARCH.navbar.draw = function(){
 			this.groups.map(function( option ){
 				var id = ARCH.functions.str_to_id( option.name );
 				var data = ARCH.content.sub_categories[ option.name.toLowerCase() ];
-				return '<div class="option no-highlight">' +
+				return '<div id="option-button-' + id + '" class="option no-highlight" onclick="ARCH.navbar.show_options( \'' + id + '\' );">' +
 					option.name +
 					'<hr>' +
 					'<div id="dropdown-options-' + id + '" class="dropdown-options">' +
@@ -31,6 +48,7 @@ ARCH.navbar.draw = function(){
 					'</div>' +
 				'</div>';
 			}).join('') +
+			'<div style="width:50px;display:inline-block;"></div>' +
 		'</div>'
 	);
 };

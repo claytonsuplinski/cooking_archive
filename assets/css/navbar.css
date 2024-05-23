@@ -75,20 +75,21 @@
 	border-color:rgba(255,255,255,0.4);
 }
 
-.header-navbar .option .dropdown-options{
-	position:absolute;
+.dropdown-options{
+	position:fixed;
 	background:#598a54;
 	width:150px;
 	left:0;
 	top:47px;
 	display:none;
 }
-
+/*
 .header-navbar .option:hover .dropdown-options{
 	display:block;
 }
+*/
 
-.header-navbar .option .dropdown-options .dropdown-option{
+.dropdown-options .dropdown-option{
 	font-size:12px;
 	font-style:italic;
 	text-align:left;
@@ -98,11 +99,11 @@
 	color:#d9ffd6;
 }
 
-.header-navbar .option .dropdown-options .dropdown-option:hover{
+.dropdown-options .dropdown-option:hover{
 	background:rgba(0,0,0,0.4);
 }
 
-.header-navbar .option .dropdown-options .dropdown-option .num-recipes{
+.dropdown-options .dropdown-option .num-recipes{
 	float:right;
 	background:rgba(0,0,0,0.3);
 	border:1px solid rgba(255,255,255,0.4);

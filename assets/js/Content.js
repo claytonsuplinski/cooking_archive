@@ -67,7 +67,7 @@ ARCH.content.load_ingredient_categories = function( callback ){
 			ARCH.ingredient_categories = data;
 			if( callback ) callback();
 		},
-		error   : function(){
+		error   : function( e ){
 			console.log( 'Error loading ingredient categories' );
 			console.log( e );
 		}
