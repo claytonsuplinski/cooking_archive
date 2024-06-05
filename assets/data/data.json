@@ -174,17 +174,17 @@
 				{ "val" :  1   , "units" : "lb"         , "name" : "Ground Beef"          },
 				{ "val" : 25   , "units" : "oz"         , "name" : "Ravioli"              , "style" : "frozen" },
 				{ "val" : 24   , "units" : "oz"         , "name" : "Marinara Sauce"       },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
 				{ "val" :  1   ,                          "name" : "Green Pepper"         , "style" : "diced" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"                },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"         },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese"    , "style" : "shredded" },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Monterey Jack Cheese" , "style" : "shredded" }
 			],
 			"steps": [
-				{ "action" : "Brown"                                , "desc" : "the beef with green peppers" },
+				{ "action" : "Brown"                                , "desc" : "the beef with green peppers and onion" },
 				{ "action" : "Lightly grease"                       , "desc" : "a 9x13 baking dish" },
-				{ "action" : "Mix together"                         , "desc" : "spaghetti sauce, frozen ravioli, beef mixture, garlic powder, basil, onion powder, half of the mozzarella cheese, and half of the Monterey Jack cheese in the baking dish" },
+				{ "action" : "Mix together"                         , "desc" : "spaghetti sauce, frozen ravioli, beef mixture, garlic powder, basil, half of the mozzarella cheese, and half of the Monterey Jack cheese in the baking dish" },
 				{ "action" : "Sprinkle"                             , "desc" : "the remaining mozzarella and Monterey Jack cheeses top of the casserole" },
 				{ "action" : "Bake"                                 , "desc" : "at 450 degrees", "cook" : { "val" : 30 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
@@ -386,21 +386,21 @@
 			"ingredients" : [
 				{ "val" :  1.5 , "units" : "lb"         , "name" : "Ground Beef"     },
 				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Corn"            , "style" : "canned" },
 				{ "val" :  6   , "units" : "oz"         , "name" : "Black Olives"    },
 				{ "val" : 32   , "units" : "oz"         , "name" : "Refried Beans"   },
 				{ "val" :  1.5 , "units" : "cup"        , "name" : "Salsa"           , "style" : "chunky" },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Tortilla Chips"  , "style" : "crushed", "prep" : { "val" : 5 } },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cumin"           },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"    },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"         },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Colby Cheese"    , "style" : "shredded" },
 				{ "val" :  2   ,                          "name" : "Jalapeno Pepper" , "style" : "diced" }
 			],
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
-				{ "action" : "Brown"          , "desc" : "the beef with green peppers" },
-				{ "action" : "Mix together"   , "desc" : "the beef mixture, salsa, corn, black olives, refried beans, cumin, onion powder, and paprika in the baking dish" },
+				{ "action" : "Brown"          , "desc" : "the beef with green peppers and onion" },
+				{ "action" : "Mix together"   , "desc" : "the beef mixture, salsa, corn, black olives, refried beans, cumin, and paprika in the baking dish" },
 				{ "action" : "Sprinkle"       , "desc" : "crushed tortilla chips on top" },
 				{ "action" : "Sprinkle"       , "desc" : "cheese on top" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 20 } },
@@ -480,22 +480,23 @@
 			"cookware"    : [ "slow cooker" ],
 			"ingredients" : [			
 				{ "val" :  2   , "units" : "lb"         , "name" : "Chicken Breast"  , "style" : "skinless and boneless" },
+				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "diced" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Shell Pasta"     },
 				{ "val" : 11   , "units" : "oz"         , "name" : "Chicken Broth"   },
 				{ "val" :  3   , "units" : "tablespoon" , "name" : "Butter"          },
 				{ "val" :  1   , "units" : "cup"        , "name" : "Milk"            },
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Whipping Cream"  },
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Buffalo Sauce"   },
-				{ "val" :  8   , "units" : "oz"         , "name" : "American Cheese" , "style" : "diced" },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Flour"           },
+				{ "val" :  8   , "units" : "oz"         , "name" : "American Cheese" , "style" : "diced, (try Cheddar next time)" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"   },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"    },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"            }
 			],
 			"steps": [
-				{ "action" : "Mix together"   , "desc" : "chicken, broth, buffalo sauce, garlic powder, onion power, and salt in the slow cooker" },
+				{ "action" : "Mix together"   , "desc" : "chicken, onion, broth, buffalo sauce, garlic powder, and salt in the slow cooker" },
 				{ "action" : "Cook on low"    , "cook" : { "val" : 6, "units" : "hour" }, "cook_range_end" : { "val" : 7, "units" : "hour" } },
 				{ "action" : "Shred"          , "desc" : "chicken and return to slow cooker" },
-				{ "action" : "Mix together"   , "desc" : "butter, cheese, milk, and whipping cream in the slow cooker" },
+				{ "action" : "Mix together"   , "desc" : "butter, cheese, milk, flour, and whipping cream in the slow cooker" },
 				{ "action" : "Cook on low"    , "cook" : { "val" : 1, "units" : "hour" } },
 				{ "action" : "Cook pasta according to directions on package" },
 				{ "action" : "Mix together"   , "desc" : "pasta with chicken / cheese mixture before serving" }
@@ -690,18 +691,18 @@
 				{ "val" : 16   , "units" : "oz"         , "name" : "Penne Pasta"       },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Alfredo Sauce"     },
 				{ "val" : 12   , "units" : "oz"         , "name" : "Broccoli"          , "style" : "frozen" },
+				{ "val" :  1   ,                          "name" : "Onion"             , "style" : "diced" },
 				{ "val" :  0.5 , "units" : "cup"        , "name" : "Milk"              },
 				{ "val" :  2   , "units" : "cup"        , "name" : "Mozzarella Cheese" , "style" : "shredded" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Basil"             },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"     },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"      },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"      },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"              }
 			],
 			"steps": [
 				{ "action" : "Lightly grease" , "desc" : "a 9x13 baking dish" },
 				{ "action" : "Cook pasta according to directions on package" },
-				{ "action" : "Mix together"   , "desc" : "pasta, broccoli, milk, basil, garlic powder, onion powder, black pepper, and salt in the baking dish" },
+				{ "action" : "Mix together"   , "desc" : "pasta, broccoli, onion, milk, basil, garlic powder, black pepper, and salt in the baking dish" },
 				{ "action" : "Cook chicken according to directions on package" },
 				{ "action" : "Mix together"   , "desc" : "the chicken, alfredo sauce, and one cup of the mozzarella cheese in the baking dish" },
 				{ "action" : "Sprinkle"       , "desc" : "the remaining one cup of mozzarella cheese on top of the casserole" },
@@ -1064,14 +1065,13 @@
 				{ "val" :  6   ,                          "name" : "Red Potato"     , "style" : "diced" },
 				{ "val" :  2   , "units" : "tablespoon" , "name" : "Vegetable Oil"  },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"  },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"   },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"        },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Parsley"        }
 			],
 			"steps": [
 				{ "action" : "Heat the oil in a frying pan", "desc" : "over medium heat" },
 				{ "action" : "Cook"           , "desc" : "potatoes in the oil", "cook" : { "val" : 10 } },
-				{ "action" : "Mix together"   , "desc" : "garlic powder, onion powder, paprika, and parsley into the potatoes" },
+				{ "action" : "Mix together"   , "desc" : "garlic powder, paprika, and parsley into the potatoes" },
 				{ "action" : "Cook"           , "desc" : "potatoes", "cook" : { "val" :  5 } }
 			]
 		},
@@ -1727,17 +1727,17 @@
 			"servings"    : 12,
 			"ingredients" : [			
 				{ "val" :  3   , "units" : "lb"         , "name" : "Pork Roast"           , "style" : "tenderloin" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
 				{ "val" : 16   , "units" : "oz"         , "name" : "Barbeque Sauce"       },
 				{ "val" : 12   ,                          "name" : "Hamburger Bun"        },
 				{ "val" :  0.25, "units" : "cup"        , "name" : "Soy Sauce"            },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"         },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"              },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
-				{ "action" : "Place"          , "desc" : "the pork tenderloin in the slow cooker" },
+				{ "action" : "Place"          , "desc" : "the pork tenderloin and onion in the slow cooker" },
 				{ "action" : "Mix together"   , "desc" : "seasonings, soy sauce, and barbeque sauce in the slow cooker" },
 				{ "action" : "Cook on low"    , "cook" : { "val" : 6, "units" : "hour" }, "cook_range_end" : { "val" : 7, "units" : "hour" } },
 				{ "action" : "Shred"          , "desc" : "pork and return to slow cooker" },
@@ -1857,14 +1857,14 @@
 				{ "val" : 14   , "units" : "oz"         , "name" : "Smoked Sausage"       , "style" : "sliced" },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Alfredo Sauce"        },
 				{ "val" : 15   , "units" : "oz"         , "name" : "Tomato"               , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"                , "style" : "diced" },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"         },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
 			],
 			"steps": [
 				{ "action" : "Cook pasta according to directions on package" },
-				{ "action" : "Brown"          , "desc" : "the sausage with tomatoes, garlic powder, onion powder, black pepper, and salt" },
+				{ "action" : "Brown"          , "desc" : "the sausage with tomatoes, onion, garlic powder, black pepper, and salt" },
 				{ "action" : "Mix together"   , "desc" : "pasta, sausage mixture, and alfredo sauce in a serving container" }
 			]
 		},
@@ -2169,7 +2169,6 @@
 				{ "val" :  3   , "units" : "tablespoon" , "name" : "Lime Juice"       },
 				{ "val" :  3   , "units" : "tablespoon" , "name" : "Butter"           },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"    },
-				{ "val" :  1   , "units" : "tablespoon" , "name" : "Onion Powder"     },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Paprika"          },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Parsley"          },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Thyme"            },
@@ -2180,7 +2179,7 @@
 			"steps": [
 				{ "action" : "Melt the butter in a frying pan" , "desc" : "over medium heat" },
 				{ "action" : "Place"          , "desc" : "chicken in the frying pan" },
-				{ "action" : "Sprinkle"       , "desc" : "salt, black pepper, cayenne pepper, paprika, garlic powder, onion powder, thyme, and parsley on the chicken" },
+				{ "action" : "Sprinkle"       , "desc" : "salt, black pepper, cayenne pepper, paprika, garlic powder, thyme, and parsley on the chicken" },
 				{ "action" : "Cook"           , "desc" : "the chicken", "cook" : { "val" : 7 } },
 				{ "action" : "Flip"           , "desc" : "the chicken" },
 				{ "action" : "Cook"           , "desc" : "the chicken", "cook" : { "val" : 7 } },
