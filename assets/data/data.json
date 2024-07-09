@@ -907,6 +907,22 @@
 			]
 		},
 		{
+			"name"        : "Cucumber Sour Cream Salad",
+			"dish"        : "side",
+			"ingredients" : [				
+				{ "val" :  4   ,                          "name" : "Cucumber"       , "style" : "diced" },
+				{ "val" :  1   ,                          "name" : "Onion"          , "style" : "diced" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Sour Cream"     },
+				{ "val" :  3   , "units" : "tablespoon" , "name" : "Dill"           },
+				{ "val" :  3   , "units" : "tablespoon" , "name" : "Salt"           },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"   },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"  }
+			],
+			"steps": [
+				{ "action" : "Mix together"   , "desc" : "all ingredients in a serving container" }
+			]
+		},
+		{
 			"name"        : "Egg Scrambler",
 			"dish"        : "main",
 			"cuisines"    : [ "breakfast" ],
