@@ -682,6 +682,30 @@
 			]
 		},
 		{
+			"name"        : "Chicken Afritad",
+			"dish"        : "main",
+			"cuisines"    : [ "filipino" ],
+			"cookware"    : [ "slow cooker" ],
+			"servings"    : 8,
+			"ingredients" : [
+				{ "val" :  2   , "units" : "lb"         , "name" : "Chicken Breast"        , "style" : "diced"  },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Carrot"                , "style" : "sliced" },
+				{ "val" :  3   ,                          "name" : "Red Potato"            , "style" : "diced"  },
+				{ "val" :  1   ,                          "name" : "Green Pepper"          , "style" : "sliced" },
+				{ "val" :  1   ,                          "name" : "Onion"                 , "style" : "sliced" },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Soy Sauce"            },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Olive Oil"            },
+				{ "val" :  0.5 , "units" : "cup"        , "name" : "Lemon Juice"          },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Garlic Powder"        },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
+			],
+			"steps": [
+				{ "action" : "Mix together"   , "desc" : "all ingredients in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 7, "units" : "hour" }, "cook_range_end" : { "val" : 8, "units" : "hour" } }
+			]
+		},
+		{
 			"name"        : "Chicken Alfredo Casserole",
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
