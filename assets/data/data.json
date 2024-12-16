@@ -2144,6 +2144,26 @@
 			]
 		},
 		{
+			"name"        : "Slow Cooker Pork and Apples",
+			"dish"        : "main",
+			"cuisines"    : [ "comfort" ],
+			"cookware"    : [ "slow cooker" ],
+			"servings"    : 10,
+			"ingredients" : [			
+				{ "val" :  3   , "units" : "lb"         , "name" : "Pork Roast"           , "style" : "tenderloin" },
+				{ "val" :  4   ,                          "name" : "Apple"                , "style" : "chopped" },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Water"                },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Cinnamon"             },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"         },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"                 }
+			],
+			"steps": [
+				{ "action" : "Place"          , "desc" : "the pork tenderloin in the slow cooker" },
+				{ "action" : "Mix together"   , "desc" : "apple chunks, seasonings, and water in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 7, "units" : "hour" }, "cook_range_end" : { "val" : 8, "units" : "hour" } }
+			]
+		},
+		{
 			"name"        : "Smothered Burritos",
 			"dish"        : "main",
 			"cuisines"    : [ "mexican" ],
