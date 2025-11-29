@@ -1663,9 +1663,9 @@
 				{ "action" : "Make"           , "desc" : "small cuts in the beef roast" },
 				{ "action" : "Sprinkle"       , "desc" : "garlic powder on the beef roast" },
 				{ "action" : "Pour"           , "desc" : "pepperoncini peppers, including liquid, over the beef roast" },
-				{ "action" : "Cook on low"    , "cook" : { "val" : 5, "units" : "hour" }, "cook_range_end" : { "val" : 6, "units" : "hour" } },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 7, "units" : "hour" }, "cook_range_end" : { "val" : 8, "units" : "hour" } },
 				{ "action" : "Shred"          , "desc" : "beef roast and return to slow cooker" },
-				{ "action" : "Cook on low"    , "cook" : { "val" : 2, "units" : "hour" } },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 1, "units" : "hour" } },
 				{ "action" : "Place"          , "desc" : "equal amounts of the shredded beef and cheese in the hamburger buns" },
 				{ "action" : "Heat sandwiches in microwave for 30 seconds" , "cook" : { "val" : 1 } }
 			]
