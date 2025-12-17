@@ -947,6 +947,28 @@
 			]
 		},
 		{
+			"name"        : "Eggnog",
+			"dish"        : "dessert",
+			"ingredients" : [				
+				{ "val" :  6   ,                          "name" : "Egg"                   , "style" : "pasteurized" },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Milk"                 },
+				{ "val" :  2   , "units" : "cup"        , "name" : "Heavy Whipping Cream" },
+				{ "val" :  0.75, "units" : "cup"        , "name" : "Sugar"                },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Vanilla Extract"      },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Nutmeg"               },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cinnamon"             },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cloves"               }
+			],
+			"steps": [
+				{ "action" : "Whisk"          , "desc" : "eggs until frothy, in a large bowl" },
+				{ "action" : "Whisk"          , "desc" : "sugar, nutmeg, cinnamon, and cloves gradually into the egg mixture" },
+				{ "action" : "Heat"           , "desc" : "milk in microwave until steamy (1:30 -> stir -> 1:00 -> stir -> 0:40)", "cook" : { "val" : 5 } },
+				{ "action" : "Whisk"          , "desc" : "milk into the egg mixture very slowly (otherwise the egg will curdle if hot milk is added too fast)" },
+				{ "action" : "Whisk"          , "desc" : "whipping cream and vanilla extract gradually into the egg mixture" },
+				{ "action" : "Cool"           , "cook" : { "val" : 120 }, "desc" : "by placing in the refrigerator" }
+			]
+		},
+		{
 			"name"        : "Egg Scrambler",
 			"dish"        : "main",
 			"cuisines"    : [ "breakfast" ],
