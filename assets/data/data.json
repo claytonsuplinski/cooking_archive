@@ -955,7 +955,7 @@
 				{ "val" :  2   , "units" : "cup"        , "name" : "Heavy Whipping Cream" },
 				{ "val" :  0.75, "units" : "cup"        , "name" : "Sugar"                },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Vanilla Extract"      },
-				{ "val" :  2   , "units" : "tablespoon" , "name" : "Nutmeg"               },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Nutmeg"               },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cinnamon"             },
 				{ "val" :  1   , "units" : "tablespoon" , "name" : "Cloves"               }
 			],
@@ -2299,6 +2299,24 @@
 				{ "action" : "Place"          , "desc" : "an equal amount of the spinach mixture on each piece of chicken" },
 				{ "action" : "Sprinkle"       , "desc" : "Parmesan cheese on the chicken" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 35 } }
+			]
+		},
+		{
+			"name"        : "Sticky Rice",
+			"dish"        : "side",
+			"cuisines"    : [ "japanese" ],
+			"cookware"    : [ "instant pot" ],
+			"servings"    : 10,
+			"ingredients" : [			
+				{ "val" :  5   , "units" : "cup"        , "name" : "Rice"                 , "style" : "jasmine or basmati" },
+				{ "val" :  6.25, "units" : "cup"        , "name" : "Water"                , "style" : "(1.25x the amount of rice)" }
+			],
+			"steps": [
+				{ "action" : "Mix together"       , "desc" : "the rice and water in the instant pot" },
+				{ "action" : "Cook"               , "desc" : "on high pressure (same amount of time regardless of amount of rice)", "cook" : { "val" : 3 } },
+				{ "action" : "Use 'pressure' mode", "desc" : "not 'rice' mode. Also, turn off 'keep warm' mode" },
+				{ "action" : "Use natural release of steam", "cook" : { "val" : 20 } },
+				{ "action" : "Transfer"           , "desc" : "all rice immediately to a separate container. Otherwise, it'll stick to the pot" }
 			]
 		},
 		{
