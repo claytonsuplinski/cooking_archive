@@ -449,6 +449,26 @@
 			]
 		},
 		{
+			"name"        : "Bourbon Chicken",
+			"dish"        : "main",
+			"cuisines"    : [ "chinese" ],
+			"cookware"    : [ "instant pot" ],
+			"servings"    : 2,
+			"ingredients" : [
+				{ "val" :  1   , "units" : "lb"        , "name" : "Chicken Thighs"   , "style" : "skinless and boneless" },
+				{ "val" :  0.5 , "units" : "cup"       , "name" : "Soy Sauce"        },
+				{ "val" :  0.5 , "units" : "cup"       , "name" : "Water"            },
+				{ "val" :  0.33, "units" : "cup"       , "name" : "Brown Sugar"      },
+				{ "val" :  1   , "units" : "tablespoon", "name" : "Ginger"           },
+				{ "val" :  1   , "units" : "tablespoon", "name" : "Garlic Powder"    }
+			],
+			"steps": [
+				{ "action" : "Mix together"       , "desc" : "chicken, ginger, garlic powder, soy sauce, water, and brown sugar in the instant pot, in that order" },
+				{ "action" : "Cook"               , "desc" : "on high pressure", "cook" : { "val" : 12 } },
+				{ "action" : "Use quick release of steam", "cook" : { "val" : 5 } }
+			]
+		},
+		{
 			"name"        : "Bruschetta Chicken Bake",
 			"dish"        : "main",
 			"cuisines"    : [ "italian" ],
