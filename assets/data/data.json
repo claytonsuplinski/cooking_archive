@@ -148,6 +148,25 @@
 			]
 		},
 		{
+			"name"        : "Baked Apples",
+			"dish"        : "side",
+			"cuisines"    : [ "comfort" ],
+			"cookware"    : [ "instant pot" ],
+			"servings"    : 4,
+			"ingredients" : [
+				{ "val" :  5   ,                         "name" : "Apple"           , "style" : "diced" },
+				{ "val" :  1   , "units" : "cup"       , "name" : "Water"           },
+				{ "val" :  0.33, "units" : "cup"       , "name" : "Brown Sugar"     },
+				{ "val" :  1   , "units" : "tablespoon", "name" : "Cinnamon"        },
+				{ "val" :  0.5 , "units" : "tablespoon", "name" : "Vanilla Extract" }
+			],
+			"steps": [
+				{ "action" : "Mix together"       , "desc" : "apple pieces, water, cinnamon, vanilla extract, and brown sugar in the instant pot" },
+				{ "action" : "Cook"               , "desc" : "on high pressure", "cook" : { "val" : 3 } },
+				{ "action" : "Use quick release of steam", "cook" : { "val" : 5 } }
+			]
+		},
+		{
 			"name"        : "Baked Avocados",
 			"dish"        : "side",
 			"cookware"    : [ "oven" ],
