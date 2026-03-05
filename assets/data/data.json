@@ -986,6 +986,26 @@
 			]
 		},
 		{
+			"name"        : "Dijon Mayo Salmon",
+			"dish"        : "main",
+			"cookware"    : [ "instant pot" ],
+			"servings"    : 2,
+			"ingredients" : [
+				{ "val" :  1   , "units" : "lb"        , "name" : "Salmon"           },
+				{ "val" :  0.25, "units" : "cup"       , "name" : "Mayonnaise"       },
+				{ "val" :  1   , "units" : "tablespoon", "name" : "Dijon Mustard"    },
+				{ "val" :  1   , "units" : "cup"       , "name" : "Water"            },
+				{ "val" :  3   , "units" : "tablespoon", "name" : "Salt"             },
+				{ "val" :  1   , "units" : "tablespoon", "name" : "Black Pepper"     },
+				{ "val" :  1   , "units" : "tablespoon", "name" : "Garlic Powder"    }
+			],
+			"steps": [
+				{ "action" : "Mix together"       , "desc" : "water, salmon, mayo, mustard, and seasonings in the instant pot" },
+				{ "action" : "Cook"               , "desc" : "on high pressure", "cook" : { "val" : 4 } },
+				{ "action" : "Use quick release of steam", "cook" : { "val" : 5 } }
+			]
+		},
+		{
 			"name"        : "Eggnog",
 			"dish"        : "dessert",
 			"ingredients" : [				
@@ -2520,6 +2540,30 @@
 				{ "action" : "Sprinkle"       , "desc" : "the remaining cheddar cheese on top of the casserole" },
 				{ "action" : "Bake"           , "desc" : "at 350 degrees", "cook" : { "val" : 35 } },
 				{ "action" : "Let sit for 5 minutes before serving" }
+			]
+		},
+		{
+			"name"        : "Teriyaki Beef",
+			"dish"        : "main",
+			"cuisines"    : [ "japanese" ],
+			"cookware"    : [ "slow cooker" ],
+			"ingredients" : [			
+				{ "val" :  3   , "units" : "lb"         , "name" : "Beef Roast"      , "style" : "boneless; chuck or round roast" },
+				{ "val" :  1   ,                          "name" : "Green Pepper"    , "style" : "sliced" },
+				{ "val" :  1   ,                          "name" : "Onion"           , "style" : "sliced" },
+				{ "val" :  0.5 , "units" : "lb"         , "name" : "Snap Peas"       },
+				{ "val" : 16   , "units" : "oz"         , "name" : "Teriyaki Sauce"  },
+				{ "val" :  2   , "units" : "teaspoon"   , "name" : "Ginger"          },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Salt"            },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Black Pepper"    },
+				{ "val" :  1   , "units" : "tablespoon" , "name" : "Garlic Powder"   }
+			],
+			"steps": [
+				{ "action" : "Place"          , "desc" : "small cuts in the beef roast and set in the slow cooker" },
+				{ "action" : "Mix together"   , "desc" : "green pepper, onion, teriyaki sauce, and seasonings in the slow cooker" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 7, "units" : "hour" }, "cook_range_end" : { "val" : 9, "units" : "hour" } },
+				{ "action" : "Shred"          , "desc" : "beef and return to slow cooker with snap peas" },
+				{ "action" : "Cook on low"    , "cook" : { "val" : 1, "units" : "hour" } }
 			]
 		},
 		{
