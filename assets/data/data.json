@@ -2298,6 +2298,9 @@
 			"steps": [
 				{ "action" : "Cook rice according to directions on package", "desc" : "replacing water with chicken broth and tomato sauce" },
 				{ "action" : "Sprinkle"                                    , "desc" : "chili powder, cumin, and tumeric into the rice" }
+			],
+			"notes": [
+				{ "content" : "Don't try this approach in instant pot. It'll burn." }
 			]
 		},
 		{
@@ -2376,6 +2379,9 @@
 				{ "action" : "Use 'pressure' mode", "desc" : "not 'rice' mode. Also, turn off 'keep warm' mode" },
 				{ "action" : "Use natural release of steam", "cook" : { "val" : 20 } },
 				{ "action" : "Transfer"           , "desc" : "all rice immediately to a separate container. Otherwise, it'll stick to the pot" }
+			],
+			"notes": [
+				{ "content" : "Don't try this approach with spanish rice. It'll burn to the bottom of the instant pot." }
 			]
 		},
 		{

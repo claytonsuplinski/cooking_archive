@@ -176,6 +176,17 @@ ARCH.content.views.recipe.draw = function(){
 								'</div>' +
 							'</a>' +
 						'</td></tr>' +
+						( !this.curr_recipe.notes ? '' : 
+							'<tr><td class="steps">' +
+								'<div class="recipe-section-title">Notes<hr></div>' +
+								this.curr_recipe.notes.map(function( note, i ){
+									return '<div class="step">' + 
+										'<span class="number">&bull;</span>' + 
+										note.content +
+									'</div>';
+								}).join('<hr>') + 
+							'</td></tr>'
+						) +
 					'</table>' +
 				'</div>' +
 		'</div>'
