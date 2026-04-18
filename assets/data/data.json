@@ -1223,6 +1223,23 @@
 			]
 		},
 		{
+			"name"        : "Garlic Bread",
+			"dish"        : "side",
+			"cookware"    : [ "oven" ],
+			"ingredients" : [			
+				{ "val" :  4   , "units" : "slices"     , "name" : "White Bread"        },
+				{ "val" :  2   , "units" : "tablespoon" , "name" : "Butter"             },
+				{ "val" :  0.5 , "units" : "tablespoon" , "name" : "Salt"               },
+				{ "val" :  0.5 , "units" : "tablespoon" , "name" : "Garlic Powder"      }
+			],
+			"steps": [
+				{ "action" : "Spread"         , "desc" : "butter on one side of each piece of bread" },
+				{ "action" : "Place"          , "desc" : "bread slices in a baking dish" },
+				{ "action" : "Sprinkle"       , "desc" : "garlic powder and salt on the buttered-side of the bread slices" },
+				{ "action" : "Bake"           , "desc" : "at 425 degrees", "cook" : { "val" : 8 } }
+			]
+		},
+		{
 			"name"        : "Garlic Parmesan Zucchini",
 			"dish"        : "side",
 			"cookware"    : [ "stove" ],
